@@ -54,24 +54,15 @@ fastmcp run src/server.py
 
 ## Add to Cursor
 
-Create or edit `.cursor/mcp.json` in this repo (or your user MCP config):
+Copy the example config and adjust paths:
 
-```json
-{
-  "mcpServers": {
-    "office-leave": {
-      "command": "python",
-      "args": ["-m", "src.server"],
-      "cwd": "C:\\Users\\Admin\\Documents\\talentserv-ai-hackathon-group-11-backend-db",
-      "env": {
-        "DATABASE_PATH": "data/employees.db"
-      }
-    }
-  }
-}
+```bash
+copy .cursor\mcp.json.example .cursor\mcp.json
 ```
 
-Use the absolute path to your clone for `cwd`. Restart Cursor after saving.
+Or paste into Cursor MCP settings — use your venv Python and repo `cwd` (see [.cursor/mcp.json.example](.cursor/mcp.json.example)). Restart Cursor after saving.
+
+On Windows, if `python` is not on PATH, use `.venv\Scripts\python.exe` as the command.
 
 ## MCP tools
 
