@@ -1,16 +1,16 @@
 # Graph Report - talentserv-ai-hackathon-group-11-backend-db  (2026-05-25)
 
 ## Corpus Check
-- 32 files · ~4,324 words
+- 15 files · ~4,102 words
 - Verdict: corpus is large enough that graph structure adds value.
 
 ## Summary
-- 124 nodes · 175 edges · 13 communities
-- Extraction: 86% EXTRACTED · 14% INFERRED · 0% AMBIGUOUS · INFERRED: 24 edges (avg confidence: 0.8)
+- 147 nodes · 292 edges · 14 communities (12 shown, 2 thin omitted)
+- Extraction: 79% EXTRACTED · 21% INFERRED · 0% AMBIGUOUS · INFERRED: 62 edges (avg confidence: 0.63)
 - Token cost: 0 input · 0 output
 
 ## Graph Freshness
-- Built from commit: `69c59ebc`
+- Built from commit: `32c87e5c`
 - Run `git rev-parse HEAD` and compare to check if the graph is stale.
 - Run `graphify update .` after code changes (no API cost).
 
@@ -24,40 +24,42 @@
 - [[_COMMUNITY_Community 6|Community 6]]
 - [[_COMMUNITY_Community 7|Community 7]]
 - [[_COMMUNITY_Community 8|Community 8]]
+- [[_COMMUNITY_Community 10|Community 10]]
+- [[_COMMUNITY_Community 12|Community 12]]
 
 ## God Nodes (most connected - your core abstractions)
-1. `utc_now_iso()` - 12 edges
-2. `Office Leave MCP` - 11 edges
-3. `ToolResponse` - 10 edges
-4. `connect()` - 9 edges
-5. `get_employee()` - 8 edges
-6. `apply_leave()` - 8 edges
-7. `_json_response()` - 8 edges
-8. `resolve_slug()` - 7 edges
-9. `check_leave_status()` - 7 edges
-10. `get_employee_context_for_advice()` - 7 edges
+1. `ToolResponse` - 25 edges
+2. `utc_now_iso()` - 16 edges
+3. `str` - 15 edges
+4. `Employee` - 13 edges
+5. `LeaveRequest` - 13 edges
+6. `str` - 12 edges
+7. `generate_leave_advice_with_grok()` - 11 edges
+8. `apply_leave()` - 11 edges
+9. `Office Leave MCP` - 11 edges
+10. `_json_response()` - 10 edges
 
 ## Surprising Connections (you probably didn't know these)
 - `temp_db()` --calls--> `init_db()`  [INFERRED]
   tests/test_tools.py → scripts/init_db.py
-- `row_to_leave_request()` --calls--> `LeaveRequest`  [INFERRED]
-  src/db.py → src/models.py
+- `Any` --uses--> `ToolResponse`  [INFERRED]
+  src/server.py → src/models.py
+- `int` --uses--> `ToolResponse`  [INFERRED]
+  src/server.py → src/models.py
 - `generate_fallback_advice()` --calls--> `utc_now_iso()`  [INFERRED]
   src/grok_client.py → src/models.py
 - `generate_leave_advice_with_grok()` --calls--> `utc_now_iso()`  [INFERRED]
   src/grok_client.py → src/models.py
-- `advise_on_leave()` --calls--> `generate_leave_advice_with_grok()`  [INFERRED]
-  src/server.py → src/grok_client.py
 
-## Communities (13 total, 0 thin omitted)
+## Communities (14 total, 2 thin omitted)
 
 ### Community 0 - "Community 0"
-Cohesion: 0.21
-Nodes (22): apply_leave(), calendar_days_inclusive(), check_leave_status(), connect(), _fetch_requests(), get_db_path(), get_employee(), get_employee_context_for_advice() (+14 more)
+Cohesion: 0.25
+Nodes (31): date, Employee, float, LeaveRequest, Row, apply_leave(), calendar_days_inclusive(), check_leave_status() (+23 more)
 
 ### Community 1 - "Community 1"
-Cohesion: 0.17
-Nodes (3): init_db(), run_sql_file(), temp_db()
+Cohesion: 0.16
+Nodes (5): init_db(), Connection, Path, run_sql_file(), temp_db()
 
 ### Community 2 - "Community 2"
 Cohesion: 0.14
@@ -68,43 +70,44 @@ Cohesion: 0.18
 Nodes (11): 1. Create the database, 2. Environment, 3. Run tests, 4. Run the MCP server (stdio), code:bash (git clone https://github.com/devinraina258/talentserv-ai-hac), code:bash (python scripts/init_db.py), code:bash (copy .env.example .env), code:bash (pytest) (+3 more)
 
 ### Community 4 - "Community 4"
-Cohesion: 0.12
-Nodes (19): apply_leave(), check_leave_status(), employees_resource(), get_employee(), get_leave_balance(), _json_response(), leave_assistant(), list_employees() (+11 more)
+Cohesion: 0.13
+Nodes (24): advise_on_leave(), apply_leave(), check_leave_status(), employees_resource(), get_employee(), get_leave_balance(), _json_response(), leave_assistant() (+16 more)
 
 ### Community 5 - "Community 5"
 Cohesion: 0.67
-Nodes (5): default_next_steps(), generate_fallback_advice(), generate_leave_advice_with_grok(), parse_json_from_content(), LeaveAdvice
+Nodes (8): LeaveAdvice, default_next_steps(), generate_fallback_advice(), generate_leave_advice_with_grok(), parse_json_from_content(), Any, str, LeaveAdvice
 
 ### Community 6 - "Community 6"
 Cohesion: 0.17
 Nodes (11): DATABASE_PATH, args, command, cwd, mcpServers, graphify, office-leave, args (+3 more)
 
 ### Community 7 - "Community 7"
-Cohesion: 0.67
-Nodes (3): main(), Export graphify-out/graph.json as a compact JSONL tree for LLM context.  Each li, _walk_tree()
+Cohesion: 0.47
+Nodes (5): main(), int, str, Export graphify-out/graph.json as a compact JSONL tree for LLM context.  Each li, _walk_tree()
 
 ### Community 8 - "Community 8"
 Cohesion: 0.22
 Nodes (8): devDependencies, husky, name, private, scripts, graphify:sync, graphify:sync:unix, prepare
 
 ## Knowledge Gaps
-- **28 isolated node(s):** `name`, `private`, `prepare`, `graphify:sync`, `graphify:sync:unix` (+23 more)
+- **31 isolated node(s):** `name`, `private`, `prepare`, `graphify:sync`, `graphify:sync:unix` (+26 more)
   These have ≤1 connection - possible missing edges or undocumented components.
+- **2 thin communities (<3 nodes) omitted from report** — run `graphify query` to explore isolated nodes.
 
 ## Suggested Questions
 _Questions this graph is uniquely positioned to answer:_
 
-- **Why does `advise_on_leave()` connect `Community 0` to `Community 4`, `Community 5`?**
-  _High betweenness centrality (0.091) - this node is a cross-community bridge._
-- **Why does `utc_now_iso()` connect `Community 0` to `Community 5`?**
-  _High betweenness centrality (0.054) - this node is a cross-community bridge._
-- **Are the 10 inferred relationships involving `utc_now_iso()` (e.g. with `list_employees()` and `get_employee()`) actually correct?**
+- **Why does `ToolResponse` connect `Community 0` to `Community 12`, `Community 4`?**
+  _High betweenness centrality (0.088) - this node is a cross-community bridge._
+- **Why does `utc_now_iso()` connect `Community 0` to `Community 5`, `Community 12`, `Community 4`?**
+  _High betweenness centrality (0.039) - this node is a cross-community bridge._
+- **Why does `str` connect `Community 4` to `Community 0`?**
+  _High betweenness centrality (0.032) - this node is a cross-community bridge._
+- **Are the 21 inferred relationships involving `ToolResponse` (e.g. with `list_employees()` and `get_employee()`) actually correct?**
+  _`ToolResponse` has 21 INFERRED edges - model-reasoned connections that need verification._
+- **Are the 10 inferred relationships involving `utc_now_iso()` (e.g. with `generate_fallback_advice()` and `generate_leave_advice_with_grok()`) actually correct?**
   _`utc_now_iso()` has 10 INFERRED edges - model-reasoned connections that need verification._
-- **Are the 8 inferred relationships involving `ToolResponse` (e.g. with `list_employees()` and `get_employee()`) actually correct?**
-  _`ToolResponse` has 8 INFERRED edges - model-reasoned connections that need verification._
-- **Are the 2 inferred relationships involving `get_employee()` (e.g. with `ToolResponse` and `utc_now_iso()`) actually correct?**
-  _`get_employee()` has 2 INFERRED edges - model-reasoned connections that need verification._
-- **What connects `name`, `private`, `prepare` to the rest of the system?**
-  _39 weakly-connected nodes found - possible documentation gaps or missing edges._
-- **Should `Community 2` be split into smaller, more focused modules?**
-  _Cohesion score 0.14166666666666666 - nodes in this community are weakly interconnected._
+- **Are the 3 inferred relationships involving `str` (e.g. with `Employee` and `LeaveRequest`) actually correct?**
+  _`str` has 3 INFERRED edges - model-reasoned connections that need verification._
+- **Are the 11 inferred relationships involving `Employee` (e.g. with `row_to_employee()` and `Path`) actually correct?**
+  _`Employee` has 11 INFERRED edges - model-reasoned connections that need verification._
