@@ -1,7 +1,7 @@
 # Graph Report - talentserv-ai-hackathon-group-11-backend-db  (2026-05-25)
 
 ## Corpus Check
-- 54 files · ~8,304 words
+- 33 files · ~7,684 words
 - Verdict: corpus is large enough that graph structure adds value.
 
 ## Summary
@@ -10,7 +10,7 @@
 - Token cost: 0 input · 0 output
 
 ## Graph Freshness
-- Built from commit: `51531cbb`
+- Built from commit: `f98b15db`
 - Run `git rev-parse HEAD` and compare to check if the graph is stale.
 - Run `graphify update .` after code changes (no API cost).
 
@@ -45,21 +45,21 @@
 5. `Employee` - 13 edges
 6. `LeaveRequest` - 13 edges
 7. `str` - 12 edges
-8. `connect()` - 11 edges
-9. `apply_leave()` - 11 edges
-10. `generate_leave_advice_with_grok()` - 11 edges
+8. `generate_leave_advice_with_grok()` - 11 edges
+9. `connect()` - 11 edges
+10. `apply_leave()` - 11 edges
 
 ## Surprising Connections (you probably didn't know these)
-- `temp_db()` --calls--> `init_db()`  [INFERRED]
-  tests/test_tools.py → src/init_db.py
 - `Any` --uses--> `ToolResponse`  [INFERRED]
   src/server.py → src/models.py
 - `int` --uses--> `ToolResponse`  [INFERRED]
   src/server.py → src/models.py
 - `temp_db()` --calls--> `init_db()`  [INFERRED]
+  tests/test_tools.py → src/init_db.py
+- `temp_db()` --calls--> `init_db()`  [INFERRED]
   tests/test_tools.py → scripts/init_db.py
-- `init_db()` --calls--> `resolve_db_path()`  [INFERRED]
-  src/init_db.py → src/db.py
+- `generate_fallback_advice()` --calls--> `utc_now_iso()`  [INFERRED]
+  src/grok_client.py → src/models.py
 
 ## Communities (29 total, 10 thin omitted)
 
@@ -105,10 +105,10 @@ Nodes (8): LeaveAdvice, default_next_steps(), generate_fallback_advice(), genera
 
 ### Community 12 - "Community 12"
 Cohesion: 0.47
-Nodes (5): main(), int, str, Export graphify-out/graph.json as a compact JSONL tree for LLM context.  Each, _walk_tree()
+Nodes (5): main(), int, str, Export graphify-out/graph.json as a compact JSONL tree for LLM context.  Each li, _walk_tree()
 
 ## Knowledge Gaps
-- **57 isolated node(s):** `prepare`, `graphify:sync`, `graphify:sync:unix`, `husky`, `command` (+52 more)
+- **57 isolated node(s):** `prepare`, `graphify:sync`, `graphify:sync:unix`, `husky`, `Any` (+52 more)
   These have ≤1 connection - possible missing edges or undocumented components.
 - **10 thin communities (<3 nodes) omitted from report** — run `graphify query` to explore isolated nodes.
 
@@ -119,13 +119,13 @@ _Questions this graph is uniquely positioned to answer:_
   _High betweenness centrality (0.048) - this node is a cross-community bridge._
 - **Why does `ToolResponse` connect `Community 0` to `Community 1`?**
   _High betweenness centrality (0.044) - this node is a cross-community bridge._
-- **Why does `utc_now_iso()` connect `Community 0` to `Community 9`, `Community 1`?**
+- **Why does `utc_now_iso()` connect `Community 0` to `Community 1`, `Community 9`?**
   _High betweenness centrality (0.026) - this node is a cross-community bridge._
 - **Are the 21 inferred relationships involving `ToolResponse` (e.g. with `list_employees()` and `get_employee()`) actually correct?**
   _`ToolResponse` has 21 INFERRED edges - model-reasoned connections that need verification._
-- **Are the 10 inferred relationships involving `utc_now_iso()` (e.g. with `list_employees()` and `get_employee()`) actually correct?**
+- **Are the 10 inferred relationships involving `utc_now_iso()` (e.g. with `generate_fallback_advice()` and `generate_leave_advice_with_grok()`) actually correct?**
   _`utc_now_iso()` has 10 INFERRED edges - model-reasoned connections that need verification._
-- **Are the 3 inferred relationships involving `str` (e.g. with `ToolResponse` and `Employee`) actually correct?**
+- **Are the 3 inferred relationships involving `str` (e.g. with `Employee` and `LeaveRequest`) actually correct?**
   _`str` has 3 INFERRED edges - model-reasoned connections that need verification._
 - **Are the 11 inferred relationships involving `Employee` (e.g. with `row_to_employee()` and `Path`) actually correct?**
   _`Employee` has 11 INFERRED edges - model-reasoned connections that need verification._
