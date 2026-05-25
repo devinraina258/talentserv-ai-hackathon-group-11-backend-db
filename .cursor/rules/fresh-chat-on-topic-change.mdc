@@ -1,0 +1,44 @@
+---
+description: Start a new chat when the task is unrelated to prior context (saves tokens, reduces cache read)
+alwaysApply: true
+---
+
+# Fresh chat when context does not match
+
+## When to recommend a new chat
+
+If the user's **current request** is clearly unrelated to what this thread has been about (different feature, repo area, bug, or product), **before doing heavy work** (wide grep, many file reads, long plans):
+
+1. **Say briefly** that a new chat will work better (lower token use, less stale context, smaller cache reads).
+2. **Suggest** they open **New Chat** (or Composer) and paste a **short starter** with only what matters for the new task.
+3. **Still answer** simple one-off questions in-thread if they are quick and need no large context.
+
+## Signals the topic changed (start fresh)
+
+- New subject with no link to prior messages (e.g. was "MCP install", now "React dashboard styling").
+- User says "new task", "different project", "ignore above", or switches repo/product name.
+- Request needs a **different** stack or directory than the thread assumed.
+- Prior thread was long (merge, graphify, hackathon setup) and the new ask is a **narrow** code change elsewhere.
+
+## Signals to stay in this chat
+
+- Follow-ups on the same bug, PR, file, or feature ("also fix tests for that").
+- Clarifications on your last reply.
+- Same MCP/graphify/office-leave work as earlier in the thread.
+
+## Starter block to offer the user
+
+When recommending a new chat, give them something like:
+
+```text
+Project: <repo name>
+Task: <one sentence>
+Relevant paths: <e.g. src/db.py, .cursor/mcp.json>
+Constraints: <tests must pass, etc.>
+```
+
+## Token hygiene
+
+- Do not repeat long summaries from old turns in new answers.
+- Prefer **graphify query** / targeted reads over reloading whole threads or `GRAPH_REPORT.md` when exploring structure.
+- Do not claim you "reset" context—you only **advise** a new chat; the user must open it.
