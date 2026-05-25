@@ -49,7 +49,7 @@ Creates `data/employees.db` with three employees: **devin**, **nisha**, **gautam
 copy .env.example .env
 ```
 
-Edit `.env` and set `GROK_API_KEY` for live AI advice on `advise_on_leave`.
+Edit `.env` and set `GROK_API_KEY` for live Grok suggestions on every tool and resource response. Set `GROK_ENRICH_OUTPUTS=0` to disable enrichment (faster tests/CI).
 
 ### 3. Run tests
 
@@ -125,6 +125,8 @@ See the curl commands at the top of this README, or [docs/MCP_SETUP.md](docs/MCP
 
 ## MCP tools
 
+Every tool response includes a **`grok`** block (`recommendation`, `suggestions`, `next_steps`, etc.) when `GROK_ENRICH_OUTPUTS=1` (default). Rule-based fallbacks apply if `GROK_API_KEY` is unset.
+
 | Tool | Description |
 |------|-------------|
 | `list_employees` | All employees with balances |
@@ -133,9 +135,11 @@ See the curl commands at the top of this README, or [docs/MCP_SETUP.md](docs/MCP
 | `apply_leave` | Submit pending leave (ISO dates `YYYY-MM-DD`) |
 | `check_leave_status` | By `request_id` or latest for `employee` |
 | `list_leave_requests` | History with optional filters |
-| `advise_on_leave` | Grok guidance from DB context |
+| `advise_on_leave` | Dedicated Grok Q&A (same `grok` shape; no duplicate API call) |
 
 ## MCP resources
+
+Resources return wrapped JSON: `{ "resource", "content", "grok" }` with the same suggestion fields as tools.
 
 - `leave://employees` — employee directory
 - `leave://policy` — leave rules

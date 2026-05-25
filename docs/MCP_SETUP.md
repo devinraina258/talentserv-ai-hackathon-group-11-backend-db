@@ -96,7 +96,7 @@ flowchart TD
   McpJson --> Venv
 ```
 
-- **office-leave:** `uvx --from git+https://github.com/devinraina258/talentserv-ai-hackathon-group-11-backend-db@main office-leave-mcp`
+- **office-leave:** `uvx --from git+https://github.com/devinraina258/talentserv-ai-hackathon-group-11-backend-db@master office-leave-mcp`
 - **graphify:** `uvx --from graphifyy[mcp] python -m graphify.serve graphify-out/graph.json`
 
 `${workspaceFolder}` in `mcp.json` keeps paths portable (no `C:\` or `D:\` hardcoding).

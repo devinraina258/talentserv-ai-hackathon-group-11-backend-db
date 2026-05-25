@@ -18,12 +18,12 @@ GRAPH_JSON = ROOT / "graphify-out" / "graph.json"
 
 RAW = (
     "https://raw.githubusercontent.com/devinraina258/"
-    "talentserv-ai-hackathon-group-11-backend-db/main/scripts"
+    "talentserv-ai-hackathon-group-11-backend-db/master/scripts"
 )
 
 RAW_INSTALL = (
     "https://raw.githubusercontent.com/devinraina258/"
-    "talentserv-ai-hackathon-group-11-backend-db/main/scripts"
+    "talentserv-ai-hackathon-group-11-backend-db/master/scripts"
 )
 
 
