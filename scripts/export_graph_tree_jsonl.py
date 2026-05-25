@@ -1,4 +1,12 @@
-"""Export graphify-out/graph.json as a compact JSONL tree for LLM context."""
+"""Export graphify-out/graph.json as a compact JSONL tree for LLM context.
+
+Each line is one tree node (directory or symbol) with a stable path — cheaper
+than grepping the repo or loading the full graph.json.
+
+Usage:
+    python scripts/export_graph_tree_jsonl.py
+    python scripts/export_graph_tree_jsonl.py --graph graphify-out/graph.json -o graphify-out/graph_tree.jsonl
+"""
 from __future__ import annotations
 
 import argparse
@@ -7,6 +15,8 @@ import sys
 from pathlib import Path
 
 REPO_ROOT = Path(__file__).resolve().parents[1]
+if str(REPO_ROOT) not in sys.path:
+    sys.path.insert(0, str(REPO_ROOT))
 
 
 def _walk_tree(node: dict, path: list[str], depth: int, lines: list[str]) -> None:
@@ -22,7 +32,13 @@ def _walk_tree(node: dict, path: list[str], depth: int, lines: list[str]) -> Non
         "kind": (
             "truncation"
             if name.startswith("(+")
-            else ("symbol" if is_leaf and "." in name else "dir" if children else "leaf")
+            else (
+                "symbol"
+                if is_leaf and "/" not in name and "." in name
+                else "dir"
+                if children
+                else "leaf"
+            )
         ),
     }
     lines.append(json.dumps(record, ensure_ascii=False))
@@ -36,12 +52,14 @@ def main() -> int:
         "--graph",
         type=Path,
         default=REPO_ROOT / "graphify-out" / "graph.json",
+        help="Path to graphify graph.json",
     )
     parser.add_argument(
         "-o",
         "--output",
         type=Path,
         default=REPO_ROOT / "graphify-out" / "graph_tree.jsonl",
+        help="Output JSONL path",
     )
     args = parser.parse_args()
     if not args.graph.is_file():

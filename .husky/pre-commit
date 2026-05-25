@@ -1,0 +1,8 @@
+#!/usr/bin/env sh
+if command -v bash >/dev/null 2>&1; then
+  bash scripts/sync_graphify_out.sh
+elif command -v sh >/dev/null 2>&1; then
+  sh scripts/sync_graphify_out.sh
+else
+  powershell.exe -NoProfile -ExecutionPolicy Bypass -File scripts/sync_graphify_out.ps1
+fi
