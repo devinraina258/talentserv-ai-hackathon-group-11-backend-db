@@ -1,0 +1,21 @@
+---
+description: Token efficiency via cache-cow hooks (block redundant reads, filter test output)
+alwaysApply: true
+---
+
+# Token efficiency (cache-cow)
+
+Project hooks in `.cursor/hooks.json` reduce wasted tokens. See [docs/CACHE_COW.md](../docs/CACHE_COW.md).
+
+## Agent behavior
+
+1. Never re-read a file you already have in context. If Write/StrReplace succeeded, the change is applied.
+2. For files over 1000 lines, use `offset` and `limit` on Read — full reads are blocked.
+3. Run independent tool calls in parallel, not sequentially.
+4. Prefer `graphify query` over re-reading `graphify-out/graph.json` or `GRAPH_REPORT.md`.
+5. Use session context (git status, prior reads) before re-querying the same state.
+6. Run validation once after all code changes: lint → build → test (stop on first failure).
+
+## When a read is denied
+
+The hook returns a deny with a reason (unchanged file, duplicate range, or file too large). Follow the message: use existing context, Edit/Write, or a partial read with offset/limit.

@@ -45,6 +45,10 @@ OFFICE_LEAVE_MCP = {
     "env": {
         "DATABASE_PATH": "data/employees.db",
         "OFFICE_LEAVE_WORKSPACE": "${workspaceFolder}",
+        "GROK_PROVIDER": "puter",
+        "GROK_API_URL": "https://api.puter.com/puterai/openai/v1",
+        "GROK_MODEL": "x-ai/grok-4.3",
+        "GROK_ENRICH_OUTPUTS": "1",
     },
 }
 
@@ -67,28 +71,45 @@ def merge_mcp_json(workspace: Path, server_name: str, entry: dict) -> Path:
     return mcp_path
 
 
-OFFICE_LEAVE_RUN_SH = r'''#!/usr/bin/env sh
+_OFFICE_LEAVE_LOCAL_SH = r'''
+_run_local_office_leave() {
+  cd "$WS"
+  VENV="$WS/.cursor/mcp-venv"
+  if [ ! -x "$VENV/bin/python" ] && [ ! -x "$VENV/Scripts/python.exe" ]; then
+    python3 -m venv "$VENV" 2>/dev/null || python -m venv "$VENV"
+  fi
+  PY="$VENV/bin/python"; [ -x "$PY" ] || PY="$VENV/Scripts/python.exe"
+  if ! "$PY" -c "import src.server" 2>/dev/null; then
+''' + _OFFICE_LEAVE_VENV_INSTALL_SH + r'''
+  fi
+  exec "$PY" -m src.server
+}
+'''
+
+OFFICE_LEAVE_RUN_SH = (
+    r'''#!/usr/bin/env sh
 set -eu
 WS="$(cd "$(dirname "$0")/../../.." && pwd)"
 export OFFICE_LEAVE_WORKSPACE="$WS"
 export DATABASE_PATH="${DATABASE_PATH:-data/employees.db}"
-GIT_PKG="''' + GIT_PKG + r'''"
+GIT_PKG="'''
+    + GIT_PKG
+    + r'''"
+'''
+    + _OFFICE_LEAVE_LOCAL_SH
+    + r'''
+if [ -f "$WS/src/server.py" ]; then
+  _run_local_office_leave
+fi
 if command -v uvx >/dev/null 2>&1; then
   exec uvx --from "$GIT_PKG" office-leave-mcp
 fi
 if command -v pipx >/dev/null 2>&1; then
   exec pipx run --spec "$GIT_PKG" office-leave-mcp
 fi
-VENV="$WS/.cursor/mcp-venv"
-if [ ! -x "$VENV/bin/python" ] && [ ! -x "$VENV/Scripts/python.exe" ]; then
-  python3 -m venv "$VENV" 2>/dev/null || python -m venv "$VENV"
-fi
-PY="$VENV/bin/python"; [ -x "$PY" ] || PY="$VENV/Scripts/python.exe"
-if ! "$PY" -c "import src.server" 2>/dev/null; then
-''' + _OFFICE_LEAVE_VENV_INSTALL_SH + r'''
-fi
-exec "$PY" -m src.server
+_run_local_office_leave
 '''
+)
 
 OFFICE_LEAVE_INIT_SH = r'''#!/usr/bin/env sh
 set -eu
@@ -157,23 +178,34 @@ fi
 "$PY" -m graphify tree --graph graphify-out/graph.json --output graphify-out/GRAPH_TREE.html
 '''
 
-OFFICE_LEAVE_RUN_CMD = r'''@echo off
+OFFICE_LEAVE_RUN_CMD = (
+    r'''@echo off
 setlocal
 set "WS=%~dp0..\..\.."
 for %%I in ("%WS%") do set "WS=%%~fI"
 set OFFICE_LEAVE_WORKSPACE=%WS%
 if not defined DATABASE_PATH set DATABASE_PATH=data/employees.db
-where uvx >nul 2>&1 && (uvx --from "''' + GIT_PKG + r'''" office-leave-mcp & exit /b %ERRORLEVEL%)
-where pipx >nul 2>&1 && (pipx run --spec "''' + GIT_PKG + r'''" office-leave-mcp & exit /b %ERRORLEVEL%)
+if exist "%WS%\src\server.py" goto :local
+where uvx >nul 2>&1 && (uvx --from "'''
+    + GIT_PKG
+    + r'''" office-leave-mcp & exit /b %ERRORLEVEL%)
+where pipx >nul 2>&1 && (pipx run --spec "'''
+    + GIT_PKG
+    + r'''" office-leave-mcp & exit /b %ERRORLEVEL%)
+:local
+cd /d "%WS%"
 set "VENV=%WS%\.cursor\mcp-venv"
 if not exist "%VENV%\Scripts\python.exe" (
   python -m venv "%VENV%"
 )
 "%VENV%\Scripts\python.exe" -c "import src.server" 2>nul || (
-''' + _OFFICE_LEAVE_VENV_INSTALL_CMD + r'''
+'''
+    + _OFFICE_LEAVE_VENV_INSTALL_CMD
+    + r'''
 )
 "%VENV%\Scripts\python.exe" -m src.server
 '''
+)
 
 GRAPHIFY_RUN_CMD = r'''@echo off
 setlocal

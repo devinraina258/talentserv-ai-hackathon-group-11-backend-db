@@ -9,23 +9,53 @@ import httpx
 
 from src.models import GrokSuggestions, LeaveAdvice, utc_now_iso
 
-GROK_URL = os.environ.get("GROK_API_URL", "https://api.x.ai/v1")
-GROK_MODEL = os.environ.get("GROK_MODEL", "grok-2-1212")
+# puter: https://developer.puter.com/tutorials/free-unlimited-grok-api/
+#        https://developer.puter.com/tutorials/use-openai-sdk-with-puter/
+# xai:   direct x.ai API (requires credits)
 
 VALID_EMPLOYEES = ("devin", "nisha", "gautam")
 
 
 def grok_enrich_enabled() -> bool:
-    return os.environ.get("GROK_ENRICH_OUTPUTS", "1").strip().lower() not in (
-        "0",
-        "false",
-        "no",
-        "off",
-    )
+    """Grok enrichment is always on for MCP tools/resources."""
+    return True
+
+
+def _grok_provider() -> str:
+    provider = os.environ.get("GROK_PROVIDER", "puter").strip().lower()
+    return provider if provider in ("puter", "xai") else "puter"
+
+
+def _effective_model() -> str:
+    model = os.environ.get("GROK_MODEL", "").strip()
+    if not model:
+        return "x-ai/grok-4.3" if _grok_provider() == "puter" else "grok-4.3"
+    if _grok_provider() == "puter" and model.startswith("grok") and not model.startswith(
+        "x-ai/"
+    ):
+        return f"x-ai/{model}"
+    return model
+
+
+def _chat_completions_url() -> str:
+    base = os.environ.get(
+        "GROK_API_URL",
+        "https://api.puter.com/puterai/openai/v1"
+        if _grok_provider() == "puter"
+        else "https://api.x.ai/v1",
+    ).rstrip("/")
+    return f"{base}/chat/completions"
+
+
+def _live_source() -> str:
+    return "puter-api" if _grok_provider() == "puter" else "grok-api"
 
 
 def _api_key_configured() -> bool:
-    api_key = os.environ.get("GROK_API_KEY", "")
+    if _grok_provider() == "puter":
+        token = os.environ.get("PUTER_AUTH_TOKEN", "").strip()
+        return bool(token and token != "your_puter_auth_token_here")
+    api_key = os.environ.get("GROK_API_KEY", "").strip()
     return bool(api_key and api_key != "your_grok_api_key_here")
 
 
@@ -85,14 +115,17 @@ def _parse_next_steps_list(parsed: dict[str, Any], fallback: list[str]) -> list[
 async def _call_grok(prompt: str) -> str | None:
     if not _api_key_configured():
         return None
-    api_key = os.environ.get("GROK_API_KEY", "")
+    if _grok_provider() == "puter":
+        token = os.environ.get("PUTER_AUTH_TOKEN", "")
+    else:
+        token = os.environ.get("GROK_API_KEY", "")
     try:
-        async with httpx.AsyncClient(timeout=30.0) as client:
+        async with httpx.AsyncClient(timeout=60.0) as client:
             response = await client.post(
-                f"{GROK_URL}/chat/completions",
-                headers={"Authorization": f"Bearer {api_key}"},
+                _chat_completions_url(),
+                headers={"Authorization": f"Bearer {token}"},
                 json={
-                    "model": GROK_MODEL,
+                    "model": _effective_model(),
                     "messages": [{"role": "user", "content": prompt}],
                     "temperature": 0.7,
                 },
@@ -255,6 +288,29 @@ def generate_fallback_output_recommendations(
         ]
         steps = ["Use apply_leave after confirming balance with get_leave_balance"]
 
+    elif source == "advise_on_leave":
+        advice = (data or {}).get("advice", {}) if isinstance(data, dict) else {}
+        recommendation = advice.get(
+            "recommendation",
+            "Use the advice fields above and follow next_steps for actions.",
+        )
+        suggestions = [advice.get("explanation", "See explanation in advice block")]
+        steps = advice.get("next_steps") or default_next_steps(ctx)
+
+    elif source == "leave_assistant":
+        slug = args.get("employee", "employee")
+        recommendation = (
+            f"Prompt ready for {slug} — use MCP tools for balances, apply_leave, or status."
+        )
+        suggestions = [
+            "Call get_leave_balance before suggesting dates",
+            "Use advise_on_leave for policy-style questions",
+        ]
+        steps = default_next_steps(ctx) if ctx else [
+            f"Run get_employee for {slug}",
+            "Run apply_leave or check_leave_status as needed",
+        ]
+
     else:
         recommendation = "Operation completed successfully."
         steps = default_next_steps(ctx) if ctx else ["Continue with related leave tools"]
@@ -315,13 +371,14 @@ If success is false, focus on recovery. Do not invent employees outside: {', '.j
     if not parsed.get("recommendation"):
         return fallback
 
+    live = _live_source()
     return _grok_from_parsed(
         parsed,
         content=content,
         fallback_steps=fallback.next_steps or fallback_steps,
         used_grok=True,
-        source="grok-api",
-        default_explanation=f"AI-generated guidance for {source}.",
+        source=live,
+        default_explanation=f"AI-generated guidance for {source} ({live}).",
     )
 
 
@@ -339,10 +396,15 @@ def generate_fallback_advice(context: dict[str, Any], question: str) -> LeaveAdv
     if pending:
         recommendation += f" There are {len(pending)} pending request(s) to track."
 
+    provider_hint = (
+        "Puter auth token not set or call failed"
+        if _grok_provider() == "puter"
+        else "Grok API key not set or call failed"
+    )
     return LeaveAdvice(
         recommendation=recommendation,
         explanation=(
-            f'Rule-based advice (Grok API key not set or call failed). Question: "{question}".'
+            f'Rule-based advice ({provider_hint}). Question: "{question}".'
         ),
         confidence="medium",
         next_steps=default_next_steps(context),
@@ -392,7 +454,7 @@ Consider balances, pending requests, and policy. Do not invent employees outside
         ),
         confidence=_normalize_confidence(parsed.get("confidence")),
         next_steps=next_steps,
-        source="grok-api",
+        source=_live_source(),
         timestamp=utc_now_iso(),
         used_grok=True,
     )

@@ -1,0 +1,46 @@
+{
+  "version": 1,
+  "hooks": {
+    "sessionStart": [
+      {
+        "command": "python .cursor/hooks/session_start.py",
+        "timeout": 10
+      }
+    ],
+    "preToolUse": [
+      {
+        "command": "python .cursor/hooks/pre_read.py",
+        "matcher": "Read",
+        "timeout": 5
+      },
+      {
+        "command": "python .cursor/hooks/pre_shell.py",
+        "matcher": "Shell",
+        "timeout": 5
+      }
+    ],
+    "postToolUse": [
+      {
+        "command": "python .cursor/hooks/post_file_cache.py",
+        "matcher": "Read",
+        "timeout": 5
+      },
+      {
+        "command": "python .cursor/hooks/post_file_cache.py",
+        "matcher": "Write",
+        "timeout": 5
+      },
+      {
+        "command": "python .cursor/hooks/post_file_cache.py",
+        "matcher": "StrReplace",
+        "timeout": 5
+      }
+    ],
+    "preCompact": [
+      {
+        "command": "python .cursor/hooks/pre_compact.py",
+        "timeout": 5
+      }
+    ]
+  }
+}
