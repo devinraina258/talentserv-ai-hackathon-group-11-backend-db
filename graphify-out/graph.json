@@ -6,16 +6,16 @@
     {
       "label": "package.json",
       "file_type": "code",
-      "source_file": "package.json",
+      "source_file": "C:/Users/Admin/Documents/talentserv-ai-hackathon-group-11-backend-db/package.json",
       "source_location": "L1",
-      "id": "package_json",
+      "id": "c_users_admin_documents_talentserv_ai_hackathon_group_11_backend_db_package_json",
       "community": 8,
       "norm_label": "package.json"
     },
     {
       "label": "name",
       "file_type": "code",
-      "source_file": "package.json",
+      "source_file": "C:/Users/Admin/Documents/talentserv-ai-hackathon-group-11-backend-db/package.json",
       "source_location": "L2",
       "id": "talentserv_ai_hackathon_group_11_backend_db_package_name",
       "community": 8,
@@ -24,7 +24,7 @@
     {
       "label": "private",
       "file_type": "code",
-      "source_file": "package.json",
+      "source_file": "C:/Users/Admin/Documents/talentserv-ai-hackathon-group-11-backend-db/package.json",
       "source_location": "L3",
       "id": "talentserv_ai_hackathon_group_11_backend_db_package_private",
       "community": 8,
@@ -33,7 +33,7 @@
     {
       "label": "scripts",
       "file_type": "code",
-      "source_file": "package.json",
+      "source_file": "C:/Users/Admin/Documents/talentserv-ai-hackathon-group-11-backend-db/package.json",
       "source_location": "L4",
       "id": "talentserv_ai_hackathon_group_11_backend_db_package_scripts",
       "community": 8,
@@ -42,7 +42,7 @@
     {
       "label": "prepare",
       "file_type": "code",
-      "source_file": "package.json",
+      "source_file": "C:/Users/Admin/Documents/talentserv-ai-hackathon-group-11-backend-db/package.json",
       "source_location": "L5",
       "id": "talentserv_ai_hackathon_group_11_backend_db_package_scripts_prepare",
       "community": 8,
@@ -51,7 +51,7 @@
     {
       "label": "graphify:sync",
       "file_type": "code",
-      "source_file": "package.json",
+      "source_file": "C:/Users/Admin/Documents/talentserv-ai-hackathon-group-11-backend-db/package.json",
       "source_location": "L6",
       "id": "talentserv_ai_hackathon_group_11_backend_db_package_scripts_graphify_sync",
       "community": 8,
@@ -60,7 +60,7 @@
     {
       "label": "graphify:sync:unix",
       "file_type": "code",
-      "source_file": "package.json",
+      "source_file": "C:/Users/Admin/Documents/talentserv-ai-hackathon-group-11-backend-db/package.json",
       "source_location": "L7",
       "id": "talentserv_ai_hackathon_group_11_backend_db_package_scripts_graphify_sync_unix",
       "community": 8,
@@ -69,7 +69,7 @@
     {
       "label": "devDependencies",
       "file_type": "code",
-      "source_file": "package.json",
+      "source_file": "C:/Users/Admin/Documents/talentserv-ai-hackathon-group-11-backend-db/package.json",
       "source_location": "L9",
       "id": "talentserv_ai_hackathon_group_11_backend_db_package_devdependencies",
       "community": 8,
@@ -78,7 +78,7 @@
     {
       "label": "husky",
       "file_type": "code",
-      "source_file": "package.json",
+      "source_file": "C:/Users/Admin/Documents/talentserv-ai-hackathon-group-11-backend-db/package.json",
       "source_location": "L10",
       "id": "talentserv_ai_hackathon_group_11_backend_db_package_devdependencies_husky",
       "community": 8,
@@ -108,7 +108,7 @@
       "source_file": "src/models.py",
       "source_location": "L10",
       "id": "src_models_py_str",
-      "community": 12,
+      "community": 0,
       "norm_label": "str"
     },
     {
@@ -126,7 +126,7 @@
       "source_file": "src/models.py",
       "source_location": "L21",
       "id": "src_models_toolresponse_to_dict",
-      "community": 12,
+      "community": 0,
       "norm_label": ".to_dict()"
     },
     {
@@ -135,7 +135,7 @@
       "source_file": "src/models.py",
       "source_location": "L21",
       "id": "src_models_py_any",
-      "community": 12,
+      "community": 0,
       "norm_label": "any"
     },
     {
@@ -162,7 +162,7 @@
       "source_file": "src/models.py",
       "source_location": "L54",
       "id": "src_models_leaveadvice",
-      "community": 5,
+      "community": 1,
       "norm_label": "leaveadvice"
     },
     {
@@ -171,7 +171,7 @@
       "source_file": "src/server.py",
       "source_location": "L1",
       "id": "src_server_py",
-      "community": 4,
+      "community": 1,
       "norm_label": "server.py"
     },
     {
@@ -180,7 +180,7 @@
       "source_file": "src/server.py",
       "source_location": "L20",
       "id": "src_server_json_response",
-      "community": 4,
+      "community": 1,
       "norm_label": "_json_response()"
     },
     {
@@ -189,7 +189,7 @@
       "source_file": "src/server.py",
       "source_location": "L20",
       "id": "src_server_py_any",
-      "community": 4,
+      "community": 1,
       "norm_label": "any"
     },
     {
@@ -198,7 +198,7 @@
       "source_file": "src/server.py",
       "source_location": "L20",
       "id": "src_server_py_str",
-      "community": 4,
+      "community": 1,
       "norm_label": "str"
     },
     {
@@ -207,7 +207,7 @@
       "source_file": "src/server.py",
       "source_location": "L31",
       "id": "src_server_list_employees",
-      "community": 4,
+      "community": 1,
       "norm_label": "list_employees()"
     },
     {
@@ -216,7 +216,7 @@
       "source_file": "src/server.py",
       "source_location": "L37",
       "id": "src_server_get_employee",
-      "community": 4,
+      "community": 1,
       "norm_label": "get_employee()"
     },
     {
@@ -225,7 +225,7 @@
       "source_file": "src/server.py",
       "source_location": "L43",
       "id": "src_server_get_leave_balance",
-      "community": 4,
+      "community": 1,
       "norm_label": "get_leave_balance()"
     },
     {
@@ -234,7 +234,7 @@
       "source_file": "src/server.py",
       "source_location": "L49",
       "id": "src_server_apply_leave",
-      "community": 4,
+      "community": 1,
       "norm_label": "apply_leave()"
     },
     {
@@ -243,7 +243,7 @@
       "source_file": "src/server.py",
       "source_location": "L63",
       "id": "src_server_check_leave_status",
-      "community": 4,
+      "community": 1,
       "norm_label": "check_leave_status()"
     },
     {
@@ -252,7 +252,7 @@
       "source_file": "src/server.py",
       "source_location": "L63",
       "id": "src_server_py_int",
-      "community": 4,
+      "community": 1,
       "norm_label": "int"
     },
     {
@@ -261,7 +261,7 @@
       "source_file": "src/server.py",
       "source_location": "L72",
       "id": "src_server_list_leave_requests",
-      "community": 4,
+      "community": 1,
       "norm_label": "list_leave_requests()"
     },
     {
@@ -270,7 +270,7 @@
       "source_file": "src/server.py",
       "source_location": "L81",
       "id": "src_server_advise_on_leave",
-      "community": 4,
+      "community": 1,
       "norm_label": "advise_on_leave()"
     },
     {
@@ -279,7 +279,7 @@
       "source_file": "src/server.py",
       "source_location": "L110",
       "id": "src_server_employees_resource",
-      "community": 4,
+      "community": 1,
       "norm_label": "employees_resource()"
     },
     {
@@ -288,7 +288,7 @@
       "source_file": "src/server.py",
       "source_location": "L116",
       "id": "src_server_policy_resource",
-      "community": 4,
+      "community": 1,
       "norm_label": "policy_resource()"
     },
     {
@@ -297,7 +297,7 @@
       "source_file": "src/server.py",
       "source_location": "L122",
       "id": "src_server_leave_assistant",
-      "community": 4,
+      "community": 1,
       "norm_label": "leave_assistant()"
     },
     {
@@ -306,7 +306,7 @@
       "source_file": "src/server.py",
       "source_location": "L137",
       "id": "src_server_main",
-      "community": 4,
+      "community": 1,
       "norm_label": "main()"
     },
     {
@@ -315,7 +315,7 @@
       "source_file": "src/server.py",
       "source_location": "L32",
       "id": "src_server_rationale_32",
-      "community": 4,
+      "community": 1,
       "norm_label": "list all office employees with leave balances."
     },
     {
@@ -324,7 +324,7 @@
       "source_file": "src/server.py",
       "source_location": "L38",
       "id": "src_server_rationale_38",
-      "community": 4,
+      "community": 1,
       "norm_label": "get employee profile and leave balances. employee: slug or name (devin, nisha, g"
     },
     {
@@ -333,7 +333,7 @@
       "source_file": "src/server.py",
       "source_location": "L44",
       "id": "src_server_rationale_44",
-      "community": 4,
+      "community": 1,
       "norm_label": "get remaining annual and sick leave for an employee."
     },
     {
@@ -342,7 +342,7 @@
       "source_file": "src/server.py",
       "source_location": "L56",
       "id": "src_server_rationale_56",
-      "community": 4,
+      "community": 1,
       "norm_label": "submit a pending leave request. dates: yyyy-mm-dd. leave_type: annual or sick."
     },
     {
@@ -351,7 +351,7 @@
       "source_file": "src/server.py",
       "source_location": "L67",
       "id": "src_server_rationale_67",
-      "community": 4,
+      "community": 1,
       "norm_label": "check leave request status by request_id or latest request for employee."
     },
     {
@@ -360,7 +360,7 @@
       "source_file": "src/server.py",
       "source_location": "L76",
       "id": "src_server_rationale_76",
-      "community": 4,
+      "community": 1,
       "norm_label": "list leave requests, optionally filtered by employee slug and status."
     },
     {
@@ -369,7 +369,7 @@
       "source_file": "src/server.py",
       "source_location": "L82",
       "id": "src_server_rationale_82",
-      "community": 4,
+      "community": 1,
       "norm_label": "get ai leave guidance using grok from employee data and balances."
     },
     {
@@ -378,7 +378,7 @@
       "source_file": "src/server.py",
       "source_location": "L111",
       "id": "src_server_rationale_111",
-      "community": 4,
+      "community": 1,
       "norm_label": "directory of employees and departments."
     },
     {
@@ -387,7 +387,7 @@
       "source_file": "src/server.py",
       "source_location": "L117",
       "id": "src_server_rationale_117",
-      "community": 4,
+      "community": 1,
       "norm_label": "office leave policy rules."
     },
     {
@@ -396,7 +396,7 @@
       "source_file": "src/server.py",
       "source_location": "L123",
       "id": "src_server_rationale_123",
-      "community": 4,
+      "community": 1,
       "norm_label": "template prompt for leave questions using employee context."
     },
     {
@@ -405,7 +405,7 @@
       "source_file": "src/__init__.py",
       "source_location": "L1",
       "id": "src_init_py",
-      "community": 13,
+      "community": 23,
       "norm_label": "__init__.py"
     },
     {
@@ -414,7 +414,7 @@
       "source_file": "src/grok_client.py",
       "source_location": "L1",
       "id": "src_grok_client_py",
-      "community": 5,
+      "community": 1,
       "norm_label": "grok_client.py"
     },
     {
@@ -423,7 +423,7 @@
       "source_file": "src/grok_client.py",
       "source_location": "L16",
       "id": "src_grok_client_parse_json_from_content",
-      "community": 5,
+      "community": 1,
       "norm_label": "parse_json_from_content()"
     },
     {
@@ -432,7 +432,7 @@
       "source_file": "src/grok_client.py",
       "source_location": "L16",
       "id": "src_grok_client_py_str",
-      "community": 5,
+      "community": 1,
       "norm_label": "str"
     },
     {
@@ -441,7 +441,7 @@
       "source_file": "src/grok_client.py",
       "source_location": "L16",
       "id": "src_grok_client_py_any",
-      "community": 5,
+      "community": 1,
       "norm_label": "any"
     },
     {
@@ -450,7 +450,7 @@
       "source_file": "src/grok_client.py",
       "source_location": "L26",
       "id": "src_grok_client_default_next_steps",
-      "community": 5,
+      "community": 1,
       "norm_label": "default_next_steps()"
     },
     {
@@ -459,7 +459,7 @@
       "source_file": "src/grok_client.py",
       "source_location": "L43",
       "id": "src_grok_client_generate_fallback_advice",
-      "community": 5,
+      "community": 1,
       "norm_label": "generate_fallback_advice()"
     },
     {
@@ -468,7 +468,7 @@
       "source_file": "src/grok_client.py",
       "source_location": "L43",
       "id": "leaveadvice",
-      "community": 5,
+      "community": 1,
       "norm_label": "leaveadvice"
     },
     {
@@ -477,7 +477,7 @@
       "source_file": "src/grok_client.py",
       "source_location": "L70",
       "id": "src_grok_client_generate_leave_advice_with_grok",
-      "community": 5,
+      "community": 1,
       "norm_label": "generate_leave_advice_with_grok()"
     },
     {
@@ -738,7 +738,7 @@
       "source_file": "tests/test_tools.py",
       "source_location": "L1",
       "id": "tests_test_tools_py",
-      "community": 1,
+      "community": 4,
       "norm_label": "test_tools.py"
     },
     {
@@ -747,7 +747,7 @@
       "source_file": "tests/test_tools.py",
       "source_location": "L18",
       "id": "tests_test_tools_temp_db",
-      "community": 1,
+      "community": 4,
       "norm_label": "temp_db()"
     },
     {
@@ -756,7 +756,7 @@
       "source_file": "tests/test_tools.py",
       "source_location": "L25",
       "id": "tests_test_tools_test_list_employees",
-      "community": 1,
+      "community": 4,
       "norm_label": "test_list_employees()"
     },
     {
@@ -765,7 +765,7 @@
       "source_file": "tests/test_tools.py",
       "source_location": "L33",
       "id": "tests_test_tools_test_get_leave_balance",
-      "community": 1,
+      "community": 4,
       "norm_label": "test_get_leave_balance()"
     },
     {
@@ -774,7 +774,7 @@
       "source_file": "tests/test_tools.py",
       "source_location": "L40",
       "id": "tests_test_tools_test_apply_leave_pending",
-      "community": 1,
+      "community": 4,
       "norm_label": "test_apply_leave_pending()"
     },
     {
@@ -783,7 +783,7 @@
       "source_file": "tests/test_tools.py",
       "source_location": "L56",
       "id": "tests_test_tools_test_apply_leave_insufficient_balance",
-      "community": 1,
+      "community": 4,
       "norm_label": "test_apply_leave_insufficient_balance()"
     },
     {
@@ -792,7 +792,7 @@
       "source_file": "tests/test_tools.py",
       "source_location": "L68",
       "id": "tests_test_tools_test_check_leave_status_by_employee",
-      "community": 1,
+      "community": 4,
       "norm_label": "test_check_leave_status_by_employee()"
     },
     {
@@ -801,7 +801,7 @@
       "source_file": "tests/test_tools.py",
       "source_location": "L74",
       "id": "tests_test_tools_test_check_leave_status_by_id",
-      "community": 1,
+      "community": 4,
       "norm_label": "test_check_leave_status_by_id()"
     },
     {
@@ -810,7 +810,7 @@
       "source_file": "tests/test_tools.py",
       "source_location": "L84",
       "id": "tests_test_tools_test_unknown_employee",
-      "community": 1,
+      "community": 4,
       "norm_label": "test_unknown_employee()"
     },
     {
@@ -819,7 +819,7 @@
       "source_file": "tests/test_tools.py",
       "source_location": "L89",
       "id": "tests_test_tools_test_list_leave_requests_filter",
-      "community": 1,
+      "community": 4,
       "norm_label": "test_list_leave_requests_filter()"
     },
     {
@@ -828,43 +828,43 @@
       "source_file": "scripts/export_graph_tree_jsonl.py",
       "source_location": "L1",
       "id": "scripts_export_graph_tree_jsonl_py",
-      "community": 7,
+      "community": 12,
       "norm_label": "export_graph_tree_jsonl.py"
     },
     {
       "label": "_walk_tree()",
       "file_type": "code",
       "source_file": "scripts/export_graph_tree_jsonl.py",
-      "source_location": "L23",
+      "source_location": "L22",
       "id": "scripts_export_graph_tree_jsonl_walk_tree",
-      "community": 7,
+      "community": 12,
       "norm_label": "_walk_tree()"
     },
     {
       "label": "str",
       "file_type": "code",
       "source_file": "scripts/export_graph_tree_jsonl.py",
-      "source_location": "L23",
+      "source_location": "L22",
       "id": "scripts_export_graph_tree_jsonl_py_str",
-      "community": 7,
+      "community": 12,
       "norm_label": "str"
     },
     {
       "label": "int",
       "file_type": "code",
       "source_file": "scripts/export_graph_tree_jsonl.py",
-      "source_location": "L23",
+      "source_location": "L22",
       "id": "scripts_export_graph_tree_jsonl_py_int",
-      "community": 7,
+      "community": 12,
       "norm_label": "int"
     },
     {
       "label": "main()",
       "file_type": "code",
       "source_file": "scripts/export_graph_tree_jsonl.py",
-      "source_location": "L45",
+      "source_location": "L49",
       "id": "scripts_export_graph_tree_jsonl_main",
-      "community": 7,
+      "community": 12,
       "norm_label": "main()"
     },
     {
@@ -873,26 +873,61 @@
       "source_file": "scripts/export_graph_tree_jsonl.py",
       "source_location": "L1",
       "id": "scripts_export_graph_tree_jsonl_rationale_1",
-      "community": 7,
+      "community": 12,
       "norm_label": "export graphify-out/graph.json as a compact jsonl tree for llm context.  each li"
     },
     {
       "label": "sync_graphify_out.ps1",
       "file_type": "code",
-      "source_file": "scripts/sync_graphify_out.ps1",
+      "source_file": "C:/Users/Admin/Documents/talentserv-ai-hackathon-group-11-backend-db/scripts/sync_graphify_out.ps1",
       "source_location": "L1",
-      "id": "scripts_sync_graphify_out_ps1",
-      "community": 9,
+      "id": "c_users_admin_documents_talentserv_ai_hackathon_group_11_backend_db_scripts_sync_graphify_out_ps1",
+      "community": 14,
       "norm_label": "sync_graphify_out.ps1"
     },
     {
       "label": "Invoke-Graphify()",
       "file_type": "code",
-      "source_file": "scripts/sync_graphify_out.ps1",
+      "source_file": "C:/Users/Admin/Documents/talentserv-ai-hackathon-group-11-backend-db/scripts/sync_graphify_out.ps1",
       "source_location": "L5",
       "id": "scripts_sync_graphify_out_invoke_graphify",
-      "community": 9,
+      "community": 14,
       "norm_label": "invoke-graphify()"
+    },
+    {
+      "label": "bootstrap-graphify-mcp.ps1",
+      "file_type": "code",
+      "source_file": "scripts/bootstrap-graphify-mcp.ps1",
+      "source_location": "L1",
+      "id": "scripts_bootstrap_graphify_mcp_ps1",
+      "community": 17,
+      "norm_label": "bootstrap-graphify-mcp.ps1"
+    },
+    {
+      "label": "bootstrap-mcp.sh",
+      "file_type": "code",
+      "source_file": "scripts/bootstrap-mcp.sh",
+      "source_location": "L1",
+      "metadata": {
+        "language": "bash",
+        "kind": "file"
+      },
+      "id": "scripts_bootstrap_mcp_sh",
+      "community": 20,
+      "norm_label": "bootstrap-mcp.sh"
+    },
+    {
+      "label": "bootstrap-mcp.sh script",
+      "file_type": "code",
+      "source_file": "scripts/bootstrap-mcp.sh",
+      "source_location": "L1",
+      "metadata": {
+        "language": "bash",
+        "kind": "bash_entrypoint"
+      },
+      "id": "home_runner_work_talentserv_ai_hackathon_group_11_backend_db_talentserv_ai_hackathon_group_11_backend_db_scripts_bootstrap_mcp_sh__entry",
+      "community": 20,
+      "norm_label": "bootstrap-mcp.sh script"
     },
     {
       "label": "init_db.py",
@@ -900,7 +935,7 @@
       "source_file": "scripts/init_db.py",
       "source_location": "L1",
       "id": "scripts_init_db_py",
-      "community": 1,
+      "community": 4,
       "norm_label": "init_db.py"
     },
     {
@@ -909,7 +944,7 @@
       "source_file": "scripts/init_db.py",
       "source_location": "L14",
       "id": "scripts_init_db_run_sql_file",
-      "community": 1,
+      "community": 4,
       "norm_label": "run_sql_file()"
     },
     {
@@ -918,7 +953,7 @@
       "source_file": "scripts/init_db.py",
       "source_location": "L14",
       "id": "scripts_init_db_py_connection",
-      "community": 1,
+      "community": 4,
       "norm_label": "connection"
     },
     {
@@ -927,7 +962,7 @@
       "source_file": "scripts/init_db.py",
       "source_location": "L14",
       "id": "scripts_init_db_py_path",
-      "community": 1,
+      "community": 4,
       "norm_label": "path"
     },
     {
@@ -936,46 +971,248 @@
       "source_file": "scripts/init_db.py",
       "source_location": "L19",
       "id": "scripts_init_db_init_db",
-      "community": 1,
+      "community": 4,
       "norm_label": "init_db()"
     },
     {
-      "label": "sync_graphify_out.sh",
+      "label": "bootstrap-office-leave-mcp.ps1",
       "file_type": "code",
-      "source_file": "scripts/sync_graphify_out.sh",
+      "source_file": "scripts/bootstrap-office-leave-mcp.ps1",
+      "source_location": "L1",
+      "id": "scripts_bootstrap_office_leave_mcp_ps1",
+      "community": 21,
+      "norm_label": "bootstrap-office-leave-mcp.ps1"
+    },
+    {
+      "label": "bootstrap_mcp.py",
+      "file_type": "code",
+      "source_file": "scripts/bootstrap_mcp.py",
+      "source_location": "L1",
+      "id": "scripts_bootstrap_mcp_py",
+      "community": 7,
+      "norm_label": "bootstrap_mcp.py"
+    },
+    {
+      "label": "run()",
+      "file_type": "code",
+      "source_file": "scripts/bootstrap_mcp.py",
+      "source_location": "L47",
+      "id": "scripts_bootstrap_mcp_run",
+      "community": 7,
+      "norm_label": "run()"
+    },
+    {
+      "label": "str",
+      "file_type": "code",
+      "source_file": "scripts/bootstrap_mcp.py",
+      "source_location": "L47",
+      "id": "scripts_bootstrap_mcp_py_str",
+      "community": 7,
+      "norm_label": "str"
+    },
+    {
+      "label": "venv_python()",
+      "file_type": "code",
+      "source_file": "scripts/bootstrap_mcp.py",
+      "source_location": "L52",
+      "id": "scripts_bootstrap_mcp_venv_python",
+      "community": 7,
+      "norm_label": "venv_python()"
+    },
+    {
+      "label": "Path",
+      "file_type": "code",
+      "source_file": "scripts/bootstrap_mcp.py",
+      "source_location": "L52",
+      "id": "scripts_bootstrap_mcp_py_path",
+      "community": 7,
+      "norm_label": "path"
+    },
+    {
+      "label": "ensure_venv()",
+      "file_type": "code",
+      "source_file": "scripts/bootstrap_mcp.py",
+      "source_location": "L62",
+      "id": "scripts_bootstrap_mcp_ensure_venv",
+      "community": 7,
+      "norm_label": "ensure_venv()"
+    },
+    {
+      "label": "merge_mcp_server()",
+      "file_type": "code",
+      "source_file": "scripts/bootstrap_mcp.py",
+      "source_location": "L72",
+      "id": "scripts_bootstrap_mcp_merge_mcp_server",
+      "community": 7,
+      "norm_label": "merge_mcp_server()"
+    },
+    {
+      "label": "sync_graphify()",
+      "file_type": "code",
+      "source_file": "scripts/bootstrap_mcp.py",
+      "source_location": "L84",
+      "id": "scripts_bootstrap_mcp_sync_graphify",
+      "community": 7,
+      "norm_label": "sync_graphify()"
+    },
+    {
+      "label": "setup_office_leave()",
+      "file_type": "code",
+      "source_file": "scripts/bootstrap_mcp.py",
+      "source_location": "L118",
+      "id": "scripts_bootstrap_mcp_setup_office_leave",
+      "community": 7,
+      "norm_label": "setup_office_leave()"
+    },
+    {
+      "label": "setup_graphify()",
+      "file_type": "code",
+      "source_file": "scripts/bootstrap_mcp.py",
+      "source_location": "L132",
+      "id": "scripts_bootstrap_mcp_setup_graphify",
+      "community": 7,
+      "norm_label": "setup_graphify()"
+    },
+    {
+      "label": "bool",
+      "file_type": "code",
+      "source_file": "scripts/bootstrap_mcp.py",
+      "source_location": "L132",
+      "id": "bool",
+      "community": 7,
+      "norm_label": "bool"
+    },
+    {
+      "label": "print_done()",
+      "file_type": "code",
+      "source_file": "scripts/bootstrap_mcp.py",
+      "source_location": "L147",
+      "id": "scripts_bootstrap_mcp_print_done",
+      "community": 7,
+      "norm_label": "print_done()"
+    },
+    {
+      "label": "main()",
+      "file_type": "code",
+      "source_file": "scripts/bootstrap_mcp.py",
+      "source_location": "L160",
+      "id": "scripts_bootstrap_mcp_main",
+      "community": 7,
+      "norm_label": "main()"
+    },
+    {
+      "label": "int",
+      "file_type": "code",
+      "source_file": "scripts/bootstrap_mcp.py",
+      "source_location": "L160",
+      "id": "scripts_bootstrap_mcp_py_int",
+      "community": 7,
+      "norm_label": "int"
+    },
+    {
+      "label": "mcp_launcher.py",
+      "file_type": "code",
+      "source_file": "C:/Users/Admin/Documents/talentserv-ai-hackathon-group-11-backend-db/scripts/mcp_launcher.py",
+      "source_location": "L1",
+      "id": "c_users_admin_documents_talentserv_ai_hackathon_group_11_backend_db_scripts_mcp_launcher_py",
+      "community": 13,
+      "norm_label": "mcp_launcher.py"
+    },
+    {
+      "label": "venv_python()",
+      "file_type": "code",
+      "source_file": "C:/Users/Admin/Documents/talentserv-ai-hackathon-group-11-backend-db/scripts/mcp_launcher.py",
+      "source_location": "L17",
+      "id": "scripts_mcp_launcher_venv_python",
+      "community": 13,
+      "norm_label": "venv_python()"
+    },
+    {
+      "label": "main()",
+      "file_type": "code",
+      "source_file": "C:/Users/Admin/Documents/talentserv-ai-hackathon-group-11-backend-db/scripts/mcp_launcher.py",
+      "source_location": "L25",
+      "id": "scripts_mcp_launcher_main",
+      "community": 13,
+      "norm_label": "main()"
+    },
+    {
+      "label": "bootstrap-mcp.ps1",
+      "file_type": "code",
+      "source_file": "scripts/bootstrap-mcp.ps1",
+      "source_location": "L1",
+      "id": "scripts_bootstrap_mcp_ps1",
+      "community": 19,
+      "norm_label": "bootstrap-mcp.ps1"
+    },
+    {
+      "label": "bootstrap-office-leave-mcp.sh",
+      "file_type": "code",
+      "source_file": "scripts/bootstrap-office-leave-mcp.sh",
       "source_location": "L1",
       "metadata": {
         "language": "bash",
         "kind": "file"
       },
-      "id": "scripts_sync_graphify_out_sh",
-      "community": 10,
-      "norm_label": "sync_graphify_out.sh"
+      "id": "scripts_bootstrap_office_leave_mcp_sh",
+      "community": 22,
+      "norm_label": "bootstrap-office-leave-mcp.sh"
     },
     {
-      "label": "sync_graphify_out.sh script",
+      "label": "bootstrap-office-leave-mcp.sh script",
       "file_type": "code",
-      "source_file": "scripts/sync_graphify_out.sh",
+      "source_file": "scripts/bootstrap-office-leave-mcp.sh",
       "source_location": "L1",
       "metadata": {
         "language": "bash",
         "kind": "bash_entrypoint"
       },
-      "id": "home_runner_work_talentserv_ai_hackathon_group_11_backend_db_talentserv_ai_hackathon_group_11_backend_db_scripts_sync_graphify_out_sh__entry",
-      "community": 10,
-      "norm_label": "sync_graphify_out.sh script"
+      "id": "home_runner_work_talentserv_ai_hackathon_group_11_backend_db_talentserv_ai_hackathon_group_11_backend_db_scripts_bootstrap_office_leave_mcp_sh__entry",
+      "community": 22,
+      "norm_label": "bootstrap-office-leave-mcp.sh script"
+    },
+    {
+      "label": "bootstrap-graphify-mcp.sh",
+      "file_type": "code",
+      "source_file": "scripts/bootstrap-graphify-mcp.sh",
+      "source_location": "L1",
+      "metadata": {
+        "language": "bash",
+        "kind": "file"
+      },
+      "id": "scripts_bootstrap_graphify_mcp_sh",
+      "community": 18,
+      "norm_label": "bootstrap-graphify-mcp.sh"
+    },
+    {
+      "label": "bootstrap-graphify-mcp.sh script",
+      "file_type": "code",
+      "source_file": "scripts/bootstrap-graphify-mcp.sh",
+      "source_location": "L1",
+      "metadata": {
+        "language": "bash",
+        "kind": "bash_entrypoint"
+      },
+      "id": "home_runner_work_talentserv_ai_hackathon_group_11_backend_db_talentserv_ai_hackathon_group_11_backend_db_scripts_bootstrap_graphify_mcp_sh__entry",
+      "community": 18,
+      "norm_label": "bootstrap-graphify-mcp.sh script"
+    },
+    {
+      "label": "sync_graphify_out.sh",
+      "file_type": "code",
+      "source_file": "C:/Users/Admin/Documents/talentserv-ai-hackathon-group-11-backend-db/scripts/sync_graphify_out.sh",
+      "source_location": "L1",
+      "id": "c_users_admin_documents_talentserv_ai_hackathon_group_11_backend_db_scripts_sync_graphify_out_sh",
+      "community": 15,
+      "norm_label": "sync_graphify_out.sh"
     },
     {
       "label": "run_graphify()",
       "file_type": "code",
-      "source_file": "scripts/sync_graphify_out.sh",
+      "source_file": "C:/Users/Admin/Documents/talentserv-ai-hackathon-group-11-backend-db/scripts/sync_graphify_out.sh",
       "source_location": "L8",
-      "metadata": {
-        "language": "bash",
-        "kind": "bash_function"
-      },
       "id": "scripts_sync_graphify_out_run_graphify",
-      "community": 10,
+      "community": 15,
       "norm_label": "run_graphify()"
     },
     {
@@ -984,7 +1221,7 @@
       "source_file": "README.md",
       "source_location": "L1",
       "id": "readme_md",
-      "community": 2,
+      "community": 3,
       "norm_label": "readme.md"
     },
     {
@@ -993,240 +1230,546 @@
       "source_file": "README.md",
       "source_location": "L1",
       "id": "talentserv_ai_hackathon_group_11_backend_db_readme_office_leave_mcp",
-      "community": 2,
+      "community": 3,
       "norm_label": "office leave mcp"
+    },
+    {
+      "label": "code:bash (curl -fsSL https://raw.githubusercontent.com/devinraina258/t)",
+      "file_type": "document",
+      "source_file": "README.md",
+      "source_location": "L9",
+      "id": "talentserv_ai_hackathon_group_11_backend_db_readme_codeblock_1",
+      "community": 3,
+      "norm_label": "code:bash (curl -fssl https://raw.githubusercontent.com/devinraina258/t)"
+    },
+    {
+      "label": "code:bash (curl -fsSL https://raw.githubusercontent.com/devinraina258/t)",
+      "file_type": "document",
+      "source_file": "README.md",
+      "source_location": "L15",
+      "id": "talentserv_ai_hackathon_group_11_backend_db_readme_codeblock_2",
+      "community": 3,
+      "norm_label": "code:bash (curl -fssl https://raw.githubusercontent.com/devinraina258/t)"
     },
     {
       "label": "Prerequisites",
       "file_type": "document",
       "source_file": "README.md",
-      "source_location": "L5",
+      "source_location": "L21",
       "id": "talentserv_ai_hackathon_group_11_backend_db_readme_prerequisites",
-      "community": 2,
+      "community": 3,
       "norm_label": "prerequisites"
     },
     {
       "label": "Quick start",
       "file_type": "document",
       "source_file": "README.md",
-      "source_location": "L11",
+      "source_location": "L27",
       "id": "talentserv_ai_hackathon_group_11_backend_db_readme_quick_start",
-      "community": 3,
+      "community": 6,
       "norm_label": "quick start"
     },
     {
       "label": "code:bash (git clone https://github.com/devinraina258/talentserv-ai-hac)",
       "file_type": "document",
       "source_file": "README.md",
-      "source_location": "L13",
-      "id": "talentserv_ai_hackathon_group_11_backend_db_readme_codeblock_1",
-      "community": 3,
+      "source_location": "L29",
+      "id": "talentserv_ai_hackathon_group_11_backend_db_readme_codeblock_3",
+      "community": 6,
       "norm_label": "code:bash (git clone https://github.com/devinraina258/talentserv-ai-hac)"
     },
     {
       "label": "1. Create the database",
       "file_type": "document",
       "source_file": "README.md",
-      "source_location": "L21",
+      "source_location": "L37",
       "id": "talentserv_ai_hackathon_group_11_backend_db_readme_1_create_the_database",
-      "community": 3,
+      "community": 6,
       "norm_label": "1. create the database"
     },
     {
       "label": "code:bash (python scripts/init_db.py)",
       "file_type": "document",
       "source_file": "README.md",
-      "source_location": "L23",
-      "id": "talentserv_ai_hackathon_group_11_backend_db_readme_codeblock_2",
-      "community": 3,
+      "source_location": "L39",
+      "id": "talentserv_ai_hackathon_group_11_backend_db_readme_codeblock_4",
+      "community": 6,
       "norm_label": "code:bash (python scripts/init_db.py)"
     },
     {
       "label": "2. Environment",
       "file_type": "document",
       "source_file": "README.md",
-      "source_location": "L29",
+      "source_location": "L45",
       "id": "talentserv_ai_hackathon_group_11_backend_db_readme_2_environment",
-      "community": 3,
+      "community": 6,
       "norm_label": "2. environment"
     },
     {
       "label": "code:bash (copy .env.example .env)",
       "file_type": "document",
       "source_file": "README.md",
-      "source_location": "L31",
-      "id": "talentserv_ai_hackathon_group_11_backend_db_readme_codeblock_3",
-      "community": 3,
+      "source_location": "L47",
+      "id": "talentserv_ai_hackathon_group_11_backend_db_readme_codeblock_5",
+      "community": 6,
       "norm_label": "code:bash (copy .env.example .env)"
     },
     {
       "label": "3. Run tests",
       "file_type": "document",
       "source_file": "README.md",
-      "source_location": "L37",
+      "source_location": "L53",
       "id": "talentserv_ai_hackathon_group_11_backend_db_readme_3_run_tests",
-      "community": 3,
+      "community": 6,
       "norm_label": "3. run tests"
     },
     {
       "label": "code:bash (pytest)",
       "file_type": "document",
       "source_file": "README.md",
-      "source_location": "L39",
-      "id": "talentserv_ai_hackathon_group_11_backend_db_readme_codeblock_4",
-      "community": 3,
+      "source_location": "L55",
+      "id": "talentserv_ai_hackathon_group_11_backend_db_readme_codeblock_6",
+      "community": 6,
       "norm_label": "code:bash (pytest)"
     },
     {
       "label": "4. Run the MCP server (stdio)",
       "file_type": "document",
       "source_file": "README.md",
-      "source_location": "L43",
+      "source_location": "L59",
       "id": "talentserv_ai_hackathon_group_11_backend_db_readme_4_run_the_mcp_server_stdio",
-      "community": 3,
+      "community": 6,
       "norm_label": "4. run the mcp server (stdio)"
     },
     {
       "label": "code:bash (python -m src.server)",
       "file_type": "document",
       "source_file": "README.md",
-      "source_location": "L45",
-      "id": "talentserv_ai_hackathon_group_11_backend_db_readme_codeblock_5",
-      "community": 3,
+      "source_location": "L61",
+      "id": "talentserv_ai_hackathon_group_11_backend_db_readme_codeblock_7",
+      "community": 6,
       "norm_label": "code:bash (python -m src.server)"
     },
     {
       "label": "code:bash (fastmcp run src/server.py)",
       "file_type": "document",
       "source_file": "README.md",
-      "source_location": "L51",
-      "id": "talentserv_ai_hackathon_group_11_backend_db_readme_codeblock_6",
-      "community": 3,
+      "source_location": "L67",
+      "id": "talentserv_ai_hackathon_group_11_backend_db_readme_codeblock_8",
+      "community": 6,
       "norm_label": "code:bash (fastmcp run src/server.py)"
     },
     {
       "label": "Knowledge graph ([graphify](https://github.com/safishamsi/graphify))",
       "file_type": "document",
       "source_file": "README.md",
-      "source_location": "L55",
+      "source_location": "L71",
       "id": "talentserv_ai_hackathon_group_11_backend_db_readme_knowledge_graph_graphify_https_github_com_safishamsi_graphify",
-      "community": 2,
+      "community": 3,
       "norm_label": "knowledge graph ([graphify](https://github.com/safishamsi/graphify))"
     },
     {
       "label": "code:bash (pip install \"graphifyy[mcp]>=0.8.14\")",
       "file_type": "document",
       "source_file": "README.md",
-      "source_location": "L69",
-      "id": "talentserv_ai_hackathon_group_11_backend_db_readme_codeblock_7",
-      "community": 2,
+      "source_location": "L85",
+      "id": "talentserv_ai_hackathon_group_11_backend_db_readme_codeblock_9",
+      "community": 3,
       "norm_label": "code:bash (pip install \"graphifyy[mcp]>=0.8.14\")"
     },
     {
       "label": "code:bash (npm run graphify:sync)",
       "file_type": "document",
       "source_file": "README.md",
-      "source_location": "L87",
-      "id": "talentserv_ai_hackathon_group_11_backend_db_readme_codeblock_8",
-      "community": 2,
+      "source_location": "L103",
+      "id": "talentserv_ai_hackathon_group_11_backend_db_readme_codeblock_10",
+      "community": 3,
       "norm_label": "code:bash (npm run graphify:sync)"
     },
     {
       "label": "code:bash (graphify query \"how does apply_leave connect to the database)",
       "file_type": "document",
       "source_file": "README.md",
-      "source_location": "L93",
-      "id": "talentserv_ai_hackathon_group_11_backend_db_readme_codeblock_9",
-      "community": 2,
+      "source_location": "L109",
+      "id": "talentserv_ai_hackathon_group_11_backend_db_readme_codeblock_11",
+      "community": 3,
       "norm_label": "code:bash (graphify query \"how does apply_leave connect to the database)"
     },
     {
-      "label": "Add to Cursor",
+      "label": "Add to Cursor (one curl per MCP)",
       "file_type": "document",
       "source_file": "README.md",
-      "source_location": "L101",
-      "id": "talentserv_ai_hackathon_group_11_backend_db_readme_add_to_cursor",
-      "community": 2,
-      "norm_label": "add to cursor"
+      "source_location": "L115",
+      "id": "talentserv_ai_hackathon_group_11_backend_db_readme_add_to_cursor_one_curl_per_mcp",
+      "community": 3,
+      "norm_label": "add to cursor (one curl per mcp)"
     },
     {
-      "label": "code:bash (copy .cursor\\mcp.json.example .cursor\\mcp.json)",
+      "label": "office-leave only",
       "file_type": "document",
       "source_file": "README.md",
-      "source_location": "L105",
-      "id": "talentserv_ai_hackathon_group_11_backend_db_readme_codeblock_10",
-      "community": 2,
-      "norm_label": "code:bash (copy .cursor\\mcp.json.example .cursor\\mcp.json)"
+      "source_location": "L119",
+      "id": "talentserv_ai_hackathon_group_11_backend_db_readme_office_leave_only",
+      "community": 3,
+      "norm_label": "office-leave only"
+    },
+    {
+      "label": "code:bash (curl -fsSL https://raw.githubusercontent.com/devinraina258/t)",
+      "file_type": "document",
+      "source_file": "README.md",
+      "source_location": "L121",
+      "id": "talentserv_ai_hackathon_group_11_backend_db_readme_codeblock_12",
+      "community": 3,
+      "norm_label": "code:bash (curl -fssl https://raw.githubusercontent.com/devinraina258/t)"
+    },
+    {
+      "label": "code:powershell (irm https://raw.githubusercontent.com/devinraina258/talentse)",
+      "file_type": "document",
+      "source_file": "README.md",
+      "source_location": "L125",
+      "id": "talentserv_ai_hackathon_group_11_backend_db_readme_codeblock_13",
+      "community": 3,
+      "norm_label": "code:powershell (irm https://raw.githubusercontent.com/devinraina258/talentse)"
+    },
+    {
+      "label": "graphify only",
+      "file_type": "document",
+      "source_file": "README.md",
+      "source_location": "L129",
+      "id": "talentserv_ai_hackathon_group_11_backend_db_readme_graphify_only",
+      "community": 3,
+      "norm_label": "graphify only"
+    },
+    {
+      "label": "code:bash (curl -fsSL https://raw.githubusercontent.com/devinraina258/t)",
+      "file_type": "document",
+      "source_file": "README.md",
+      "source_location": "L131",
+      "id": "talentserv_ai_hackathon_group_11_backend_db_readme_codeblock_14",
+      "community": 3,
+      "norm_label": "code:bash (curl -fssl https://raw.githubusercontent.com/devinraina258/t)"
+    },
+    {
+      "label": "code:powershell (irm https://raw.githubusercontent.com/devinraina258/talentse)",
+      "file_type": "document",
+      "source_file": "README.md",
+      "source_location": "L135",
+      "id": "talentserv_ai_hackathon_group_11_backend_db_readme_codeblock_15",
+      "community": 3,
+      "norm_label": "code:powershell (irm https://raw.githubusercontent.com/devinraina258/talentse)"
+    },
+    {
+      "label": "Both MCPs",
+      "file_type": "document",
+      "source_file": "README.md",
+      "source_location": "L139",
+      "id": "talentserv_ai_hackathon_group_11_backend_db_readme_both_mcps",
+      "community": 3,
+      "norm_label": "both mcps"
+    },
+    {
+      "label": "code:bash (curl -fsSL https://raw.githubusercontent.com/devinraina258/t)",
+      "file_type": "document",
+      "source_file": "README.md",
+      "source_location": "L141",
+      "id": "talentserv_ai_hackathon_group_11_backend_db_readme_codeblock_16",
+      "community": 3,
+      "norm_label": "code:bash (curl -fssl https://raw.githubusercontent.com/devinraina258/t)"
     },
     {
       "label": "MCP tools",
       "file_type": "document",
       "source_file": "README.md",
-      "source_location": "L113",
+      "source_location": "L151",
       "id": "talentserv_ai_hackathon_group_11_backend_db_readme_mcp_tools",
-      "community": 2,
+      "community": 3,
       "norm_label": "mcp tools"
     },
     {
       "label": "MCP resources",
       "file_type": "document",
       "source_file": "README.md",
-      "source_location": "L125",
+      "source_location": "L163",
       "id": "talentserv_ai_hackathon_group_11_backend_db_readme_mcp_resources",
-      "community": 2,
+      "community": 3,
       "norm_label": "mcp resources"
     },
     {
       "label": "Example prompts in Cursor",
       "file_type": "document",
       "source_file": "README.md",
-      "source_location": "L130",
+      "source_location": "L168",
       "id": "talentserv_ai_hackathon_group_11_backend_db_readme_example_prompts_in_cursor",
-      "community": 2,
+      "community": 3,
       "norm_label": "example prompts in cursor"
     },
     {
       "label": "Employees (seed data)",
       "file_type": "document",
       "source_file": "README.md",
-      "source_location": "L137",
+      "source_location": "L175",
       "id": "talentserv_ai_hackathon_group_11_backend_db_readme_employees_seed_data",
-      "community": 2,
+      "community": 3,
       "norm_label": "employees (seed data)"
     },
     {
       "label": "Publish to GitHub",
       "file_type": "document",
       "source_file": "README.md",
-      "source_location": "L147",
+      "source_location": "L185",
       "id": "talentserv_ai_hackathon_group_11_backend_db_readme_publish_to_github",
-      "community": 2,
+      "community": 3,
       "norm_label": "publish to github"
     },
     {
       "label": "code:bash (gh auth login)",
       "file_type": "document",
       "source_file": "README.md",
-      "source_location": "L149",
-      "id": "talentserv_ai_hackathon_group_11_backend_db_readme_codeblock_11",
-      "community": 2,
+      "source_location": "L187",
+      "id": "talentserv_ai_hackathon_group_11_backend_db_readme_codeblock_17",
+      "community": 3,
       "norm_label": "code:bash (gh auth login)"
     },
     {
       "label": "License",
       "file_type": "document",
       "source_file": "README.md",
-      "source_location": "L154",
+      "source_location": "L192",
       "id": "talentserv_ai_hackathon_group_11_backend_db_readme_license",
-      "community": 2,
+      "community": 3,
       "norm_label": "license"
+    },
+    {
+      "label": "MCP_SETUP.md",
+      "file_type": "document",
+      "source_file": "docs/MCP_SETUP.md",
+      "source_location": "L1",
+      "id": "docs_mcp_setup_md",
+      "community": 2,
+      "norm_label": "mcp_setup.md"
+    },
+    {
+      "label": "MCP setup \u2014 one curl per server",
+      "file_type": "document",
+      "source_file": "docs/MCP_SETUP.md",
+      "source_location": "L1",
+      "id": "docs_mcp_setup_mcp_setup_one_curl_per_server",
+      "community": 2,
+      "norm_label": "mcp setup \u2014 one curl per server"
+    },
+    {
+      "label": "office-leave MCP (leave tools + SQLite)",
+      "file_type": "document",
+      "source_file": "docs/MCP_SETUP.md",
+      "source_location": "L9",
+      "id": "docs_mcp_setup_office_leave_mcp_leave_tools_sqlite",
+      "community": 2,
+      "norm_label": "office-leave mcp (leave tools + sqlite)"
+    },
+    {
+      "label": "curl (macOS / Linux / Git Bash)",
+      "file_type": "document",
+      "source_file": "docs/MCP_SETUP.md",
+      "source_location": "L13",
+      "id": "docs_mcp_setup_curl_macos_linux_git_bash",
+      "community": 2,
+      "norm_label": "curl (macos / linux / git bash)"
+    },
+    {
+      "label": "code:bash (curl -fsSL https://raw.githubusercontent.com/devinraina258/t)",
+      "file_type": "document",
+      "source_file": "docs/MCP_SETUP.md",
+      "source_location": "L15",
+      "id": "docs_mcp_setup_codeblock_1",
+      "community": 2,
+      "norm_label": "code:bash (curl -fssl https://raw.githubusercontent.com/devinraina258/t)"
+    },
+    {
+      "label": "PowerShell (Windows)",
+      "file_type": "document",
+      "source_file": "docs/MCP_SETUP.md",
+      "source_location": "L19",
+      "id": "docs_mcp_setup_powershell_windows",
+      "community": 2,
+      "norm_label": "powershell (windows)"
+    },
+    {
+      "label": "code:powershell (irm https://raw.githubusercontent.com/devinraina258/talentse)",
+      "file_type": "document",
+      "source_file": "docs/MCP_SETUP.md",
+      "source_location": "L21",
+      "id": "docs_mcp_setup_codeblock_2",
+      "community": 2,
+      "norm_label": "code:powershell (irm https://raw.githubusercontent.com/devinraina258/talentse)"
+    },
+    {
+      "label": "Local (no curl)",
+      "file_type": "document",
+      "source_file": "docs/MCP_SETUP.md",
+      "source_location": "L25",
+      "id": "docs_mcp_setup_local_no_curl",
+      "community": 2,
+      "norm_label": "local (no curl)"
+    },
+    {
+      "label": "code:bash (python scripts/bootstrap_mcp.py --office-leave)",
+      "file_type": "document",
+      "source_file": "docs/MCP_SETUP.md",
+      "source_location": "L27",
+      "id": "docs_mcp_setup_codeblock_3",
+      "community": 2,
+      "norm_label": "code:bash (python scripts/bootstrap_mcp.py --office-leave)"
+    },
+    {
+      "label": "graphify MCP (code graph queries)",
+      "file_type": "document",
+      "source_file": "docs/MCP_SETUP.md",
+      "source_location": "L33",
+      "id": "docs_mcp_setup_graphify_mcp_code_graph_queries",
+      "community": 2,
+      "norm_label": "graphify mcp (code graph queries)"
+    },
+    {
+      "label": "curl (macOS / Linux / Git Bash)",
+      "file_type": "document",
+      "source_file": "docs/MCP_SETUP.md",
+      "source_location": "L37",
+      "id": "docs_mcp_setup_curl_macos_linux_git_bash_37",
+      "community": 2,
+      "norm_label": "curl (macos / linux / git bash)"
+    },
+    {
+      "label": "code:bash (curl -fsSL https://raw.githubusercontent.com/devinraina258/t)",
+      "file_type": "document",
+      "source_file": "docs/MCP_SETUP.md",
+      "source_location": "L39",
+      "id": "docs_mcp_setup_codeblock_4",
+      "community": 2,
+      "norm_label": "code:bash (curl -fssl https://raw.githubusercontent.com/devinraina258/t)"
+    },
+    {
+      "label": "PowerShell (Windows)",
+      "file_type": "document",
+      "source_file": "docs/MCP_SETUP.md",
+      "source_location": "L43",
+      "id": "docs_mcp_setup_powershell_windows_43",
+      "community": 2,
+      "norm_label": "powershell (windows)"
+    },
+    {
+      "label": "code:powershell (irm https://raw.githubusercontent.com/devinraina258/talentse)",
+      "file_type": "document",
+      "source_file": "docs/MCP_SETUP.md",
+      "source_location": "L45",
+      "id": "docs_mcp_setup_codeblock_5",
+      "community": 2,
+      "norm_label": "code:powershell (irm https://raw.githubusercontent.com/devinraina258/talentse)"
+    },
+    {
+      "label": "Local (no curl)",
+      "file_type": "document",
+      "source_file": "docs/MCP_SETUP.md",
+      "source_location": "L49",
+      "id": "docs_mcp_setup_local_no_curl_49",
+      "community": 2,
+      "norm_label": "local (no curl)"
+    },
+    {
+      "label": "code:bash (python scripts/bootstrap_mcp.py --graphify)",
+      "file_type": "document",
+      "source_file": "docs/MCP_SETUP.md",
+      "source_location": "L51",
+      "id": "docs_mcp_setup_codeblock_6",
+      "community": 2,
+      "norm_label": "code:bash (python scripts/bootstrap_mcp.py --graphify)"
+    },
+    {
+      "label": "code:bash (python scripts/bootstrap_mcp.py --graphify --force-graph)",
+      "file_type": "document",
+      "source_file": "docs/MCP_SETUP.md",
+      "source_location": "L57",
+      "id": "docs_mcp_setup_codeblock_7",
+      "community": 2,
+      "norm_label": "code:bash (python scripts/bootstrap_mcp.py --graphify --force-graph)"
+    },
+    {
+      "label": "Both MCPs at once",
+      "file_type": "document",
+      "source_file": "docs/MCP_SETUP.md",
+      "source_location": "L63",
+      "id": "docs_mcp_setup_both_mcps_at_once",
+      "community": 2,
+      "norm_label": "both mcps at once"
+    },
+    {
+      "label": "code:bash (curl -fsSL https://raw.githubusercontent.com/devinraina258/t)",
+      "file_type": "document",
+      "source_file": "docs/MCP_SETUP.md",
+      "source_location": "L65",
+      "id": "docs_mcp_setup_codeblock_8",
+      "community": 2,
+      "norm_label": "code:bash (curl -fssl https://raw.githubusercontent.com/devinraina258/t)"
+    },
+    {
+      "label": "code:powershell (irm https://raw.githubusercontent.com/devinraina258/talentse)",
+      "file_type": "document",
+      "source_file": "docs/MCP_SETUP.md",
+      "source_location": "L69",
+      "id": "docs_mcp_setup_codeblock_9",
+      "community": 2,
+      "norm_label": "code:powershell (irm https://raw.githubusercontent.com/devinraina258/talentse)"
+    },
+    {
+      "label": "code:bash (python scripts/bootstrap_mcp.py --all)",
+      "file_type": "document",
+      "source_file": "docs/MCP_SETUP.md",
+      "source_location": "L73",
+      "id": "docs_mcp_setup_codeblock_10",
+      "community": 2,
+      "norm_label": "code:bash (python scripts/bootstrap_mcp.py --all)"
+    },
+    {
+      "label": "After any bootstrap",
+      "file_type": "document",
+      "source_file": "docs/MCP_SETUP.md",
+      "source_location": "L81",
+      "id": "docs_mcp_setup_after_any_bootstrap",
+      "community": 2,
+      "norm_label": "after any bootstrap"
+    },
+    {
+      "label": "What each bootstrap installs",
+      "file_type": "document",
+      "source_file": "docs/MCP_SETUP.md",
+      "source_location": "L89",
+      "id": "docs_mcp_setup_what_each_bootstrap_installs",
+      "community": 2,
+      "norm_label": "what each bootstrap installs"
+    },
+    {
+      "label": "Troubleshooting",
+      "file_type": "document",
+      "source_file": "docs/MCP_SETUP.md",
+      "source_location": "L103",
+      "id": "docs_mcp_setup_troubleshooting",
+      "community": 2,
+      "norm_label": "troubleshooting"
+    },
+    {
+      "label": "package.json",
+      "file_type": "code",
+      "source_file": "package.json",
+      "source_location": "L1",
+      "community": 8,
+      "norm_label": "package.json",
+      "id": "package_json"
     },
     {
       "label": "mcp.json",
       "file_type": "code",
       "source_file": ".cursor/mcp.json",
       "source_location": "L1",
-      "community": 6,
+      "community": 5,
       "norm_label": "mcp.json",
       "id": "cursor_mcp_json"
     },
@@ -1235,7 +1778,7 @@
       "file_type": "code",
       "source_file": ".cursor/mcp.json",
       "source_location": "L2",
-      "community": 6,
+      "community": 5,
       "norm_label": "mcpservers",
       "id": "cursor_mcp_mcpservers"
     },
@@ -1244,7 +1787,7 @@
       "file_type": "code",
       "source_file": ".cursor/mcp.json",
       "source_location": "L3",
-      "community": 6,
+      "community": 5,
       "norm_label": "office-leave",
       "id": "cursor_mcp_mcpservers_office_leave"
     },
@@ -1253,7 +1796,7 @@
       "file_type": "code",
       "source_file": ".cursor/mcp.json",
       "source_location": "L4",
-      "community": 6,
+      "community": 5,
       "norm_label": "command",
       "id": "cursor_mcp_office_leave_command"
     },
@@ -1262,7 +1805,7 @@
       "file_type": "code",
       "source_file": ".cursor/mcp.json",
       "source_location": "L5",
-      "community": 6,
+      "community": 5,
       "norm_label": "args",
       "id": "cursor_mcp_office_leave_args"
     },
@@ -1270,8 +1813,8 @@
       "label": "cwd",
       "file_type": "code",
       "source_file": ".cursor/mcp.json",
-      "source_location": "L6",
-      "community": 6,
+      "source_location": "L10",
+      "community": 5,
       "norm_label": "cwd",
       "id": "cursor_mcp_office_leave_cwd"
     },
@@ -1279,8 +1822,8 @@
       "label": "env",
       "file_type": "code",
       "source_file": ".cursor/mcp.json",
-      "source_location": "L7",
-      "community": 6,
+      "source_location": "L11",
+      "community": 5,
       "norm_label": "env",
       "id": "cursor_mcp_office_leave_env"
     },
@@ -1288,8 +1831,8 @@
       "label": "DATABASE_PATH",
       "file_type": "code",
       "source_file": ".cursor/mcp.json",
-      "source_location": "L8",
-      "community": 6,
+      "source_location": "L12",
+      "community": 5,
       "norm_label": "database_path",
       "id": "cursor_mcp_env_database_path"
     },
@@ -1297,8 +1840,8 @@
       "label": "graphify",
       "file_type": "code",
       "source_file": ".cursor/mcp.json",
-      "source_location": "L11",
-      "community": 6,
+      "source_location": "L15",
+      "community": 5,
       "norm_label": "graphify",
       "id": "cursor_mcp_mcpservers_graphify"
     },
@@ -1306,8 +1849,8 @@
       "label": "command",
       "file_type": "code",
       "source_file": ".cursor/mcp.json",
-      "source_location": "L12",
-      "community": 6,
+      "source_location": "L16",
+      "community": 5,
       "norm_label": "command",
       "id": "cursor_mcp_graphify_command"
     },
@@ -1315,8 +1858,8 @@
       "label": "args",
       "file_type": "code",
       "source_file": ".cursor/mcp.json",
-      "source_location": "L13",
-      "community": 6,
+      "source_location": "L17",
+      "community": 5,
       "norm_label": "args",
       "id": "cursor_mcp_graphify_args"
     },
@@ -1324,8 +1867,8 @@
       "label": "cwd",
       "file_type": "code",
       "source_file": ".cursor/mcp.json",
-      "source_location": "L18",
-      "community": 6,
+      "source_location": "L23",
+      "community": 5,
       "norm_label": "cwd",
       "id": "cursor_mcp_graphify_cwd"
     },
@@ -1334,12 +1877,79 @@
       "file_type": "code",
       "source_file": ".husky/_/husky.sh",
       "source_location": "L1",
-      "community": 11,
+      "community": 16,
       "norm_label": "husky.sh",
       "id": "husky_husky_sh"
+    },
+    {
+      "label": "mcp_launcher.py",
+      "file_type": "code",
+      "source_file": "scripts/mcp_launcher.py",
+      "source_location": "L1",
+      "community": 13,
+      "norm_label": "mcp_launcher.py",
+      "id": "scripts_mcp_launcher_py"
+    },
+    {
+      "label": "sync_graphify_out.ps1",
+      "file_type": "code",
+      "source_file": "scripts/sync_graphify_out.ps1",
+      "source_location": "L1",
+      "community": 14,
+      "norm_label": "sync_graphify_out.ps1",
+      "id": "scripts_sync_graphify_out_ps1"
+    },
+    {
+      "label": "sync_graphify_out.sh",
+      "file_type": "code",
+      "source_file": "scripts/sync_graphify_out.sh",
+      "source_location": "L1",
+      "community": 15,
+      "norm_label": "sync_graphify_out.sh",
+      "id": "scripts_sync_graphify_out_sh"
     }
   ],
   "links": [
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "C:/Users/Admin/Documents/talentserv-ai-hackathon-group-11-backend-db/package.json",
+      "source_location": "L2",
+      "weight": 1.0,
+      "source": "c_users_admin_documents_talentserv_ai_hackathon_group_11_backend_db_package_json",
+      "target": "talentserv_ai_hackathon_group_11_backend_db_package_name",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "C:/Users/Admin/Documents/talentserv-ai-hackathon-group-11-backend-db/package.json",
+      "source_location": "L3",
+      "weight": 1.0,
+      "source": "c_users_admin_documents_talentserv_ai_hackathon_group_11_backend_db_package_json",
+      "target": "talentserv_ai_hackathon_group_11_backend_db_package_private",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "C:/Users/Admin/Documents/talentserv-ai-hackathon-group-11-backend-db/package.json",
+      "source_location": "L4",
+      "weight": 1.0,
+      "source": "c_users_admin_documents_talentserv_ai_hackathon_group_11_backend_db_package_json",
+      "target": "talentserv_ai_hackathon_group_11_backend_db_package_scripts",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "C:/Users/Admin/Documents/talentserv-ai-hackathon-group-11-backend-db/package.json",
+      "source_location": "L9",
+      "weight": 1.0,
+      "source": "c_users_admin_documents_talentserv_ai_hackathon_group_11_backend_db_package_json",
+      "target": "talentserv_ai_hackathon_group_11_backend_db_package_devdependencies",
+      "confidence_score": 1.0
+    },
     {
       "relation": "contains",
       "confidence": "EXTRACTED",
@@ -1359,26 +1969,6 @@
       "confidence_score": 1.0,
       "source": "package_json",
       "target": "talentserv_ai_hackathon_group_11_backend_db_package_private"
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "package.json",
-      "source_location": "L4",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "package_json",
-      "target": "talentserv_ai_hackathon_group_11_backend_db_package_scripts"
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "package.json",
-      "source_location": "L8",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "package_json",
-      "target": "talentserv_ai_hackathon_group_11_backend_db_package_devdependencies"
     },
     {
       "relation": "contains",
@@ -1414,11 +2004,31 @@
       "relation": "contains",
       "confidence": "EXTRACTED",
       "source_file": "package.json",
-      "source_location": "L9",
+      "source_location": "L4",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "package_json",
+      "target": "talentserv_ai_hackathon_group_11_backend_db_package_scripts"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "package.json",
+      "source_location": "L10",
       "weight": 1.0,
       "confidence_score": 1.0,
       "source": "talentserv_ai_hackathon_group_11_backend_db_package_devdependencies",
       "target": "talentserv_ai_hackathon_group_11_backend_db_package_devdependencies_husky"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "package.json",
+      "source_location": "L9",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "package_json",
+      "target": "talentserv_ai_hackathon_group_11_backend_db_package_devdependencies"
     },
     {
       "relation": "contains",
@@ -3838,7 +4448,7 @@
       "relation": "contains",
       "confidence": "EXTRACTED",
       "source_file": "scripts/export_graph_tree_jsonl.py",
-      "source_location": "L23",
+      "source_location": "L22",
       "weight": 1.0,
       "confidence_score": 1.0,
       "source": "scripts_export_graph_tree_jsonl_py",
@@ -3848,7 +4458,7 @@
       "relation": "contains",
       "confidence": "EXTRACTED",
       "source_file": "scripts/export_graph_tree_jsonl.py",
-      "source_location": "L45",
+      "source_location": "L49",
       "weight": 1.0,
       "confidence_score": 1.0,
       "source": "scripts_export_graph_tree_jsonl_py",
@@ -3869,7 +4479,7 @@
       "context": "generic_arg",
       "confidence": "EXTRACTED",
       "source_file": "scripts/export_graph_tree_jsonl.py",
-      "source_location": "L23",
+      "source_location": "L22",
       "weight": 1.0,
       "source": "scripts_export_graph_tree_jsonl_walk_tree",
       "target": "scripts_export_graph_tree_jsonl_py_str",
@@ -3880,7 +4490,7 @@
       "context": "parameter_type",
       "confidence": "EXTRACTED",
       "source_file": "scripts/export_graph_tree_jsonl.py",
-      "source_location": "L23",
+      "source_location": "L22",
       "weight": 1.0,
       "source": "scripts_export_graph_tree_jsonl_walk_tree",
       "target": "scripts_export_graph_tree_jsonl_py_int",
@@ -3891,7 +4501,7 @@
       "context": "call",
       "confidence": "EXTRACTED",
       "source_file": "scripts/export_graph_tree_jsonl.py",
-      "source_location": "L77",
+      "source_location": "L74",
       "weight": 1.0,
       "confidence_score": 1.0,
       "source": "scripts_export_graph_tree_jsonl_main",
@@ -3902,10 +4512,20 @@
       "context": "return_type",
       "confidence": "EXTRACTED",
       "source_file": "scripts/export_graph_tree_jsonl.py",
-      "source_location": "L45",
+      "source_location": "L49",
       "weight": 1.0,
       "source": "scripts_export_graph_tree_jsonl_main",
       "target": "scripts_export_graph_tree_jsonl_py_int",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "C:/Users/Admin/Documents/talentserv-ai-hackathon-group-11-backend-db/scripts/sync_graphify_out.ps1",
+      "source_location": "L5",
+      "weight": 1.0,
+      "source": "c_users_admin_documents_talentserv_ai_hackathon_group_11_backend_db_scripts_sync_graphify_out_ps1",
+      "target": "scripts_sync_graphify_out_invoke_graphify",
       "confidence_score": 1.0
     },
     {
@@ -3917,6 +4537,16 @@
       "confidence_score": 1.0,
       "source": "scripts_sync_graphify_out_ps1",
       "target": "scripts_sync_graphify_out_invoke_graphify"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "scripts/bootstrap-mcp.sh",
+      "source_location": "L1",
+      "weight": 1.0,
+      "source": "scripts_bootstrap_mcp_sh",
+      "target": "home_runner_work_talentserv_ai_hackathon_group_11_backend_db_talentserv_ai_hackathon_group_11_backend_db_scripts_bootstrap_mcp_sh__entry",
+      "confidence_score": 1.0
     },
     {
       "relation": "contains",
@@ -3985,11 +4615,458 @@
     {
       "relation": "contains",
       "confidence": "EXTRACTED",
-      "source_file": "scripts/sync_graphify_out.sh",
+      "source_file": "scripts/bootstrap_mcp.py",
+      "source_location": "L47",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "scripts_bootstrap_mcp_py",
+      "target": "scripts_bootstrap_mcp_run"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "scripts/bootstrap_mcp.py",
+      "source_location": "L52",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "scripts_bootstrap_mcp_py",
+      "target": "scripts_bootstrap_mcp_venv_python"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "scripts/bootstrap_mcp.py",
+      "source_location": "L62",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "scripts_bootstrap_mcp_py",
+      "target": "scripts_bootstrap_mcp_ensure_venv"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "scripts/bootstrap_mcp.py",
+      "source_location": "L72",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "scripts_bootstrap_mcp_py",
+      "target": "scripts_bootstrap_mcp_merge_mcp_server"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "scripts/bootstrap_mcp.py",
+      "source_location": "L84",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "scripts_bootstrap_mcp_py",
+      "target": "scripts_bootstrap_mcp_sync_graphify"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "scripts/bootstrap_mcp.py",
+      "source_location": "L118",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "scripts_bootstrap_mcp_py",
+      "target": "scripts_bootstrap_mcp_setup_office_leave"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "scripts/bootstrap_mcp.py",
+      "source_location": "L132",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "scripts_bootstrap_mcp_py",
+      "target": "scripts_bootstrap_mcp_setup_graphify"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "scripts/bootstrap_mcp.py",
+      "source_location": "L147",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "scripts_bootstrap_mcp_py",
+      "target": "scripts_bootstrap_mcp_print_done"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "scripts/bootstrap_mcp.py",
+      "source_location": "L160",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "scripts_bootstrap_mcp_py",
+      "target": "scripts_bootstrap_mcp_main"
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "scripts/bootstrap_mcp.py",
+      "source_location": "L48",
+      "weight": 1.0,
+      "source": "scripts_bootstrap_mcp_run",
+      "target": "scripts_bootstrap_mcp_py_str",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "scripts/bootstrap_mcp.py",
+      "source_location": "L68",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "scripts_bootstrap_mcp_ensure_venv",
+      "target": "scripts_bootstrap_mcp_run"
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "scripts/bootstrap_mcp.py",
+      "source_location": "L86",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "scripts_bootstrap_mcp_sync_graphify",
+      "target": "scripts_bootstrap_mcp_run"
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "scripts/bootstrap_mcp.py",
+      "source_location": "L120",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "scripts_bootstrap_mcp_setup_office_leave",
+      "target": "scripts_bootstrap_mcp_run"
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "scripts/bootstrap_mcp.py",
+      "source_location": "L134",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "scripts_bootstrap_mcp_setup_graphify",
+      "target": "scripts_bootstrap_mcp_run"
+    },
+    {
+      "relation": "references",
+      "context": "parameter_type",
+      "confidence": "EXTRACTED",
+      "source_file": "scripts/bootstrap_mcp.py",
+      "source_location": "L72",
+      "weight": 1.0,
+      "source": "scripts_bootstrap_mcp_merge_mcp_server",
+      "target": "scripts_bootstrap_mcp_py_str",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "references",
+      "context": "generic_arg",
+      "confidence": "EXTRACTED",
+      "source_file": "scripts/bootstrap_mcp.py",
+      "source_location": "L147",
+      "weight": 1.0,
+      "source": "scripts_bootstrap_mcp_print_done",
+      "target": "scripts_bootstrap_mcp_py_str",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "scripts/bootstrap_mcp.py",
+      "source_location": "L68",
+      "weight": 1.0,
+      "source": "scripts_bootstrap_mcp_ensure_venv",
+      "target": "scripts_bootstrap_mcp_py_str",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "scripts/bootstrap_mcp.py",
+      "source_location": "L98",
+      "weight": 1.0,
+      "source": "scripts_bootstrap_mcp_sync_graphify",
+      "target": "scripts_bootstrap_mcp_py_str",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "scripts/bootstrap_mcp.py",
+      "source_location": "L120",
+      "weight": 1.0,
+      "source": "scripts_bootstrap_mcp_setup_office_leave",
+      "target": "scripts_bootstrap_mcp_py_str",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "scripts/bootstrap_mcp.py",
+      "source_location": "L134",
+      "weight": 1.0,
+      "source": "scripts_bootstrap_mcp_setup_graphify",
+      "target": "scripts_bootstrap_mcp_py_str",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "references",
+      "context": "return_type",
+      "confidence": "EXTRACTED",
+      "source_file": "scripts/bootstrap_mcp.py",
+      "source_location": "L52",
+      "weight": 1.0,
+      "source": "scripts_bootstrap_mcp_venv_python",
+      "target": "scripts_bootstrap_mcp_py_path",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "scripts/bootstrap_mcp.py",
+      "source_location": "L69",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "scripts_bootstrap_mcp_ensure_venv",
+      "target": "scripts_bootstrap_mcp_venv_python"
+    },
+    {
+      "relation": "references",
+      "context": "return_type",
+      "confidence": "EXTRACTED",
+      "source_file": "scripts/bootstrap_mcp.py",
+      "source_location": "L62",
+      "weight": 1.0,
+      "source": "scripts_bootstrap_mcp_ensure_venv",
+      "target": "scripts_bootstrap_mcp_py_path",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "references",
+      "context": "parameter_type",
+      "confidence": "EXTRACTED",
+      "source_file": "scripts/bootstrap_mcp.py",
+      "source_location": "L84",
+      "weight": 1.0,
+      "source": "scripts_bootstrap_mcp_sync_graphify",
+      "target": "scripts_bootstrap_mcp_py_path",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "references",
+      "context": "parameter_type",
+      "confidence": "EXTRACTED",
+      "source_file": "scripts/bootstrap_mcp.py",
+      "source_location": "L118",
+      "weight": 1.0,
+      "source": "scripts_bootstrap_mcp_setup_office_leave",
+      "target": "scripts_bootstrap_mcp_py_path",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "references",
+      "context": "parameter_type",
+      "confidence": "EXTRACTED",
+      "source_file": "scripts/bootstrap_mcp.py",
+      "source_location": "L132",
+      "weight": 1.0,
+      "source": "scripts_bootstrap_mcp_setup_graphify",
+      "target": "scripts_bootstrap_mcp_py_path",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "scripts/bootstrap_mcp.py",
+      "source_location": "L191",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "scripts_bootstrap_mcp_main",
+      "target": "scripts_bootstrap_mcp_ensure_venv"
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "scripts/bootstrap_mcp.py",
+      "source_location": "L128",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "scripts_bootstrap_mcp_setup_office_leave",
+      "target": "scripts_bootstrap_mcp_merge_mcp_server"
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "scripts/bootstrap_mcp.py",
+      "source_location": "L143",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "scripts_bootstrap_mcp_setup_graphify",
+      "target": "scripts_bootstrap_mcp_merge_mcp_server"
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "scripts/bootstrap_mcp.py",
+      "source_location": "L139",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "scripts_bootstrap_mcp_setup_graphify",
+      "target": "scripts_bootstrap_mcp_sync_graphify"
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "scripts/bootstrap_mcp.py",
+      "source_location": "L195",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "scripts_bootstrap_mcp_main",
+      "target": "scripts_bootstrap_mcp_setup_office_leave"
+    },
+    {
+      "relation": "references",
+      "context": "parameter_type",
+      "confidence": "EXTRACTED",
+      "source_file": "scripts/bootstrap_mcp.py",
+      "source_location": "L132",
+      "weight": 1.0,
+      "source": "scripts_bootstrap_mcp_setup_graphify",
+      "target": "bool",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "scripts/bootstrap_mcp.py",
+      "source_location": "L199",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "scripts_bootstrap_mcp_main",
+      "target": "scripts_bootstrap_mcp_setup_graphify"
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "scripts/bootstrap_mcp.py",
+      "source_location": "L202",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "scripts_bootstrap_mcp_main",
+      "target": "scripts_bootstrap_mcp_print_done"
+    },
+    {
+      "relation": "references",
+      "context": "return_type",
+      "confidence": "EXTRACTED",
+      "source_file": "scripts/bootstrap_mcp.py",
+      "source_location": "L160",
+      "weight": 1.0,
+      "source": "scripts_bootstrap_mcp_main",
+      "target": "scripts_bootstrap_mcp_py_int",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "C:/Users/Admin/Documents/talentserv-ai-hackathon-group-11-backend-db/scripts/mcp_launcher.py",
+      "source_location": "L17",
+      "weight": 1.0,
+      "source": "c_users_admin_documents_talentserv_ai_hackathon_group_11_backend_db_scripts_mcp_launcher_py",
+      "target": "scripts_mcp_launcher_venv_python",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "C:/Users/Admin/Documents/talentserv-ai-hackathon-group-11-backend-db/scripts/mcp_launcher.py",
+      "source_location": "L25",
+      "weight": 1.0,
+      "source": "c_users_admin_documents_talentserv_ai_hackathon_group_11_backend_db_scripts_mcp_launcher_py",
+      "target": "scripts_mcp_launcher_main",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "scripts/mcp_launcher.py",
+      "source_location": "L26",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "scripts_mcp_launcher_main",
+      "target": "scripts_mcp_launcher_venv_python"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "scripts/mcp_launcher.py",
+      "source_location": "L17",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "scripts_mcp_launcher_py",
+      "target": "scripts_mcp_launcher_venv_python"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "scripts/mcp_launcher.py",
+      "source_location": "L25",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "scripts_mcp_launcher_py",
+      "target": "scripts_mcp_launcher_main"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "scripts/bootstrap-office-leave-mcp.sh",
       "source_location": "L1",
       "weight": 1.0,
-      "source": "scripts_sync_graphify_out_sh",
-      "target": "home_runner_work_talentserv_ai_hackathon_group_11_backend_db_talentserv_ai_hackathon_group_11_backend_db_scripts_sync_graphify_out_sh__entry",
+      "source": "scripts_bootstrap_office_leave_mcp_sh",
+      "target": "home_runner_work_talentserv_ai_hackathon_group_11_backend_db_talentserv_ai_hackathon_group_11_backend_db_scripts_bootstrap_office_leave_mcp_sh__entry",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "scripts/bootstrap-graphify-mcp.sh",
+      "source_location": "L1",
+      "weight": 1.0,
+      "source": "scripts_bootstrap_graphify_mcp_sh",
+      "target": "home_runner_work_talentserv_ai_hackathon_group_11_backend_db_talentserv_ai_hackathon_group_11_backend_db_scripts_bootstrap_graphify_mcp_sh__entry",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "defines",
+      "confidence": "EXTRACTED",
+      "source_file": "C:/Users/Admin/Documents/talentserv-ai-hackathon-group-11-backend-db/scripts/sync_graphify_out.sh",
+      "source_location": "L8",
+      "weight": 1.0,
+      "source": "c_users_admin_documents_talentserv_ai_hackathon_group_11_backend_db_scripts_sync_graphify_out_sh",
+      "target": "scripts_sync_graphify_out_run_graphify",
       "confidence_score": 1.0
     },
     {
@@ -4001,17 +5078,6 @@
       "confidence_score": 1.0,
       "source": "scripts_sync_graphify_out_sh",
       "target": "scripts_sync_graphify_out_run_graphify"
-    },
-    {
-      "relation": "calls",
-      "confidence": "EXTRACTED",
-      "source_file": "scripts/sync_graphify_out.sh",
-      "source_location": "L32",
-      "weight": 1.0,
-      "context": "call",
-      "source": "home_runner_work_talentserv_ai_hackathon_group_11_backend_db_talentserv_ai_hackathon_group_11_backend_db_scripts_sync_graphify_out_sh__entry",
-      "target": "scripts_sync_graphify_out_run_graphify",
-      "confidence_score": 1.0
     },
     {
       "relation": "contains",
@@ -4027,7 +5093,27 @@
       "relation": "contains",
       "confidence": "EXTRACTED",
       "source_file": "README.md",
-      "source_location": "L5",
+      "source_location": "L9",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "talentserv_ai_hackathon_group_11_backend_db_readme_office_leave_mcp",
+      "target": "talentserv_ai_hackathon_group_11_backend_db_readme_codeblock_1"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "README.md",
+      "source_location": "L15",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "talentserv_ai_hackathon_group_11_backend_db_readme_office_leave_mcp",
+      "target": "talentserv_ai_hackathon_group_11_backend_db_readme_codeblock_2"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "README.md",
+      "source_location": "L21",
       "weight": 1.0,
       "confidence_score": 1.0,
       "source": "talentserv_ai_hackathon_group_11_backend_db_readme_office_leave_mcp",
@@ -4037,7 +5123,7 @@
       "relation": "contains",
       "confidence": "EXTRACTED",
       "source_file": "README.md",
-      "source_location": "L11",
+      "source_location": "L27",
       "weight": 1.0,
       "confidence_score": 1.0,
       "source": "talentserv_ai_hackathon_group_11_backend_db_readme_office_leave_mcp",
@@ -4047,7 +5133,7 @@
       "relation": "contains",
       "confidence": "EXTRACTED",
       "source_file": "README.md",
-      "source_location": "L55",
+      "source_location": "L71",
       "weight": 1.0,
       "confidence_score": 1.0,
       "source": "talentserv_ai_hackathon_group_11_backend_db_readme_office_leave_mcp",
@@ -4057,17 +5143,17 @@
       "relation": "contains",
       "confidence": "EXTRACTED",
       "source_file": "README.md",
-      "source_location": "L55",
+      "source_location": "L115",
       "weight": 1.0,
       "confidence_score": 1.0,
       "source": "talentserv_ai_hackathon_group_11_backend_db_readme_office_leave_mcp",
-      "target": "talentserv_ai_hackathon_group_11_backend_db_readme_add_to_cursor"
+      "target": "talentserv_ai_hackathon_group_11_backend_db_readme_add_to_cursor_one_curl_per_mcp"
     },
     {
       "relation": "contains",
       "confidence": "EXTRACTED",
       "source_file": "README.md",
-      "source_location": "L67",
+      "source_location": "L151",
       "weight": 1.0,
       "confidence_score": 1.0,
       "source": "talentserv_ai_hackathon_group_11_backend_db_readme_office_leave_mcp",
@@ -4077,7 +5163,7 @@
       "relation": "contains",
       "confidence": "EXTRACTED",
       "source_file": "README.md",
-      "source_location": "L79",
+      "source_location": "L163",
       "weight": 1.0,
       "confidence_score": 1.0,
       "source": "talentserv_ai_hackathon_group_11_backend_db_readme_office_leave_mcp",
@@ -4087,7 +5173,7 @@
       "relation": "contains",
       "confidence": "EXTRACTED",
       "source_file": "README.md",
-      "source_location": "L84",
+      "source_location": "L168",
       "weight": 1.0,
       "confidence_score": 1.0,
       "source": "talentserv_ai_hackathon_group_11_backend_db_readme_office_leave_mcp",
@@ -4097,7 +5183,7 @@
       "relation": "contains",
       "confidence": "EXTRACTED",
       "source_file": "README.md",
-      "source_location": "L91",
+      "source_location": "L175",
       "weight": 1.0,
       "confidence_score": 1.0,
       "source": "talentserv_ai_hackathon_group_11_backend_db_readme_office_leave_mcp",
@@ -4107,7 +5193,7 @@
       "relation": "contains",
       "confidence": "EXTRACTED",
       "source_file": "README.md",
-      "source_location": "L101",
+      "source_location": "L185",
       "weight": 1.0,
       "confidence_score": 1.0,
       "source": "talentserv_ai_hackathon_group_11_backend_db_readme_office_leave_mcp",
@@ -4117,7 +5203,7 @@
       "relation": "contains",
       "confidence": "EXTRACTED",
       "source_file": "README.md",
-      "source_location": "L108",
+      "source_location": "L192",
       "weight": 1.0,
       "confidence_score": 1.0,
       "source": "talentserv_ai_hackathon_group_11_backend_db_readme_office_leave_mcp",
@@ -4127,31 +5213,11 @@
       "relation": "contains",
       "confidence": "EXTRACTED",
       "source_file": "README.md",
-      "source_location": "L13",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "talentserv_ai_hackathon_group_11_backend_db_readme_quick_start",
-      "target": "talentserv_ai_hackathon_group_11_backend_db_readme_codeblock_1"
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "README.md",
-      "source_location": "L21",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "talentserv_ai_hackathon_group_11_backend_db_readme_quick_start",
-      "target": "talentserv_ai_hackathon_group_11_backend_db_readme_1_create_the_database"
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "README.md",
       "source_location": "L29",
       "weight": 1.0,
       "confidence_score": 1.0,
       "source": "talentserv_ai_hackathon_group_11_backend_db_readme_quick_start",
-      "target": "talentserv_ai_hackathon_group_11_backend_db_readme_2_environment"
+      "target": "talentserv_ai_hackathon_group_11_backend_db_readme_codeblock_3"
     },
     {
       "relation": "contains",
@@ -4161,13 +5227,33 @@
       "weight": 1.0,
       "confidence_score": 1.0,
       "source": "talentserv_ai_hackathon_group_11_backend_db_readme_quick_start",
+      "target": "talentserv_ai_hackathon_group_11_backend_db_readme_1_create_the_database"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "README.md",
+      "source_location": "L45",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "talentserv_ai_hackathon_group_11_backend_db_readme_quick_start",
+      "target": "talentserv_ai_hackathon_group_11_backend_db_readme_2_environment"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "README.md",
+      "source_location": "L53",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "talentserv_ai_hackathon_group_11_backend_db_readme_quick_start",
       "target": "talentserv_ai_hackathon_group_11_backend_db_readme_3_run_tests"
     },
     {
       "relation": "contains",
       "confidence": "EXTRACTED",
       "source_file": "README.md",
-      "source_location": "L43",
+      "source_location": "L59",
       "weight": 1.0,
       "confidence_score": 1.0,
       "source": "talentserv_ai_hackathon_group_11_backend_db_readme_quick_start",
@@ -4177,70 +5263,50 @@
       "relation": "contains",
       "confidence": "EXTRACTED",
       "source_file": "README.md",
-      "source_location": "L23",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "talentserv_ai_hackathon_group_11_backend_db_readme_1_create_the_database",
-      "target": "talentserv_ai_hackathon_group_11_backend_db_readme_codeblock_2"
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "README.md",
-      "source_location": "L31",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "talentserv_ai_hackathon_group_11_backend_db_readme_2_environment",
-      "target": "talentserv_ai_hackathon_group_11_backend_db_readme_codeblock_3"
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "README.md",
       "source_location": "L39",
       "weight": 1.0,
       "confidence_score": 1.0,
-      "source": "talentserv_ai_hackathon_group_11_backend_db_readme_3_run_tests",
+      "source": "talentserv_ai_hackathon_group_11_backend_db_readme_1_create_the_database",
       "target": "talentserv_ai_hackathon_group_11_backend_db_readme_codeblock_4"
     },
     {
       "relation": "contains",
       "confidence": "EXTRACTED",
       "source_file": "README.md",
-      "source_location": "L45",
+      "source_location": "L47",
       "weight": 1.0,
       "confidence_score": 1.0,
-      "source": "talentserv_ai_hackathon_group_11_backend_db_readme_4_run_the_mcp_server_stdio",
+      "source": "talentserv_ai_hackathon_group_11_backend_db_readme_2_environment",
       "target": "talentserv_ai_hackathon_group_11_backend_db_readme_codeblock_5"
     },
     {
       "relation": "contains",
       "confidence": "EXTRACTED",
       "source_file": "README.md",
-      "source_location": "L51",
+      "source_location": "L55",
       "weight": 1.0,
       "confidence_score": 1.0,
-      "source": "talentserv_ai_hackathon_group_11_backend_db_readme_4_run_the_mcp_server_stdio",
+      "source": "talentserv_ai_hackathon_group_11_backend_db_readme_3_run_tests",
       "target": "talentserv_ai_hackathon_group_11_backend_db_readme_codeblock_6"
     },
     {
       "relation": "contains",
       "confidence": "EXTRACTED",
       "source_file": "README.md",
-      "source_location": "L69",
+      "source_location": "L61",
       "weight": 1.0,
       "confidence_score": 1.0,
-      "source": "talentserv_ai_hackathon_group_11_backend_db_readme_knowledge_graph_graphify_https_github_com_safishamsi_graphify",
+      "source": "talentserv_ai_hackathon_group_11_backend_db_readme_4_run_the_mcp_server_stdio",
       "target": "talentserv_ai_hackathon_group_11_backend_db_readme_codeblock_7"
     },
     {
       "relation": "contains",
       "confidence": "EXTRACTED",
       "source_file": "README.md",
-      "source_location": "L78",
+      "source_location": "L67",
       "weight": 1.0,
       "confidence_score": 1.0,
-      "source": "talentserv_ai_hackathon_group_11_backend_db_readme_knowledge_graph_graphify_https_github_com_safishamsi_graphify",
+      "source": "talentserv_ai_hackathon_group_11_backend_db_readme_4_run_the_mcp_server_stdio",
       "target": "talentserv_ai_hackathon_group_11_backend_db_readme_codeblock_8"
     },
     {
@@ -4257,31 +5323,91 @@
       "relation": "contains",
       "confidence": "EXTRACTED",
       "source_file": "README.md",
-      "source_location": "L59",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "talentserv_ai_hackathon_group_11_backend_db_readme_add_to_cursor",
-      "target": "talentserv_ai_hackathon_group_11_backend_db_readme_codeblock_7"
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "README.md",
       "source_location": "L103",
       "weight": 1.0,
       "confidence_score": 1.0,
-      "source": "talentserv_ai_hackathon_group_11_backend_db_readme_publish_to_github",
-      "target": "talentserv_ai_hackathon_group_11_backend_db_readme_codeblock_8"
+      "source": "talentserv_ai_hackathon_group_11_backend_db_readme_knowledge_graph_graphify_https_github_com_safishamsi_graphify",
+      "target": "talentserv_ai_hackathon_group_11_backend_db_readme_codeblock_10"
     },
     {
       "relation": "contains",
       "confidence": "EXTRACTED",
       "source_file": "README.md",
-      "source_location": "L97",
+      "source_location": "L109",
       "weight": 1.0,
       "confidence_score": 1.0,
-      "source": "talentserv_ai_hackathon_group_11_backend_db_readme_add_to_cursor",
-      "target": "talentserv_ai_hackathon_group_11_backend_db_readme_codeblock_10"
+      "source": "talentserv_ai_hackathon_group_11_backend_db_readme_knowledge_graph_graphify_https_github_com_safishamsi_graphify",
+      "target": "talentserv_ai_hackathon_group_11_backend_db_readme_codeblock_11"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "README.md",
+      "source_location": "L119",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "talentserv_ai_hackathon_group_11_backend_db_readme_add_to_cursor_one_curl_per_mcp",
+      "target": "talentserv_ai_hackathon_group_11_backend_db_readme_office_leave_only"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "README.md",
+      "source_location": "L129",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "talentserv_ai_hackathon_group_11_backend_db_readme_add_to_cursor_one_curl_per_mcp",
+      "target": "talentserv_ai_hackathon_group_11_backend_db_readme_graphify_only"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "README.md",
+      "source_location": "L139",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "talentserv_ai_hackathon_group_11_backend_db_readme_add_to_cursor_one_curl_per_mcp",
+      "target": "talentserv_ai_hackathon_group_11_backend_db_readme_both_mcps"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "README.md",
+      "source_location": "L121",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "talentserv_ai_hackathon_group_11_backend_db_readme_office_leave_only",
+      "target": "talentserv_ai_hackathon_group_11_backend_db_readme_codeblock_12"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "README.md",
+      "source_location": "L125",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "talentserv_ai_hackathon_group_11_backend_db_readme_office_leave_only",
+      "target": "talentserv_ai_hackathon_group_11_backend_db_readme_codeblock_13"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "README.md",
+      "source_location": "L131",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "talentserv_ai_hackathon_group_11_backend_db_readme_graphify_only",
+      "target": "talentserv_ai_hackathon_group_11_backend_db_readme_codeblock_14"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "README.md",
+      "source_location": "L135",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "talentserv_ai_hackathon_group_11_backend_db_readme_graphify_only",
+      "target": "talentserv_ai_hackathon_group_11_backend_db_readme_codeblock_15"
     },
     {
       "relation": "contains",
@@ -4290,8 +5416,248 @@
       "source_location": "L141",
       "weight": 1.0,
       "confidence_score": 1.0,
+      "source": "talentserv_ai_hackathon_group_11_backend_db_readme_both_mcps",
+      "target": "talentserv_ai_hackathon_group_11_backend_db_readme_codeblock_16"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "README.md",
+      "source_location": "L187",
+      "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "talentserv_ai_hackathon_group_11_backend_db_readme_publish_to_github",
-      "target": "talentserv_ai_hackathon_group_11_backend_db_readme_codeblock_11"
+      "target": "talentserv_ai_hackathon_group_11_backend_db_readme_codeblock_17"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/MCP_SETUP.md",
+      "source_location": "L1",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "docs_mcp_setup_md",
+      "target": "docs_mcp_setup_mcp_setup_one_curl_per_server"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/MCP_SETUP.md",
+      "source_location": "L9",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "docs_mcp_setup_mcp_setup_one_curl_per_server",
+      "target": "docs_mcp_setup_office_leave_mcp_leave_tools_sqlite"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/MCP_SETUP.md",
+      "source_location": "L33",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "docs_mcp_setup_mcp_setup_one_curl_per_server",
+      "target": "docs_mcp_setup_graphify_mcp_code_graph_queries"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/MCP_SETUP.md",
+      "source_location": "L63",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "docs_mcp_setup_mcp_setup_one_curl_per_server",
+      "target": "docs_mcp_setup_both_mcps_at_once"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/MCP_SETUP.md",
+      "source_location": "L81",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "docs_mcp_setup_mcp_setup_one_curl_per_server",
+      "target": "docs_mcp_setup_after_any_bootstrap"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/MCP_SETUP.md",
+      "source_location": "L89",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "docs_mcp_setup_mcp_setup_one_curl_per_server",
+      "target": "docs_mcp_setup_what_each_bootstrap_installs"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/MCP_SETUP.md",
+      "source_location": "L103",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "docs_mcp_setup_mcp_setup_one_curl_per_server",
+      "target": "docs_mcp_setup_troubleshooting"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/MCP_SETUP.md",
+      "source_location": "L13",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "docs_mcp_setup_office_leave_mcp_leave_tools_sqlite",
+      "target": "docs_mcp_setup_curl_macos_linux_git_bash"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/MCP_SETUP.md",
+      "source_location": "L19",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "docs_mcp_setup_office_leave_mcp_leave_tools_sqlite",
+      "target": "docs_mcp_setup_powershell_windows"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/MCP_SETUP.md",
+      "source_location": "L25",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "docs_mcp_setup_office_leave_mcp_leave_tools_sqlite",
+      "target": "docs_mcp_setup_local_no_curl"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/MCP_SETUP.md",
+      "source_location": "L15",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "docs_mcp_setup_curl_macos_linux_git_bash",
+      "target": "docs_mcp_setup_codeblock_1"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/MCP_SETUP.md",
+      "source_location": "L21",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "docs_mcp_setup_powershell_windows",
+      "target": "docs_mcp_setup_codeblock_2"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/MCP_SETUP.md",
+      "source_location": "L27",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "docs_mcp_setup_local_no_curl",
+      "target": "docs_mcp_setup_codeblock_3"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/MCP_SETUP.md",
+      "source_location": "L37",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "docs_mcp_setup_graphify_mcp_code_graph_queries",
+      "target": "docs_mcp_setup_curl_macos_linux_git_bash_37"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/MCP_SETUP.md",
+      "source_location": "L43",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "docs_mcp_setup_graphify_mcp_code_graph_queries",
+      "target": "docs_mcp_setup_powershell_windows_43"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/MCP_SETUP.md",
+      "source_location": "L49",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "docs_mcp_setup_graphify_mcp_code_graph_queries",
+      "target": "docs_mcp_setup_local_no_curl_49"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/MCP_SETUP.md",
+      "source_location": "L39",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "docs_mcp_setup_curl_macos_linux_git_bash_37",
+      "target": "docs_mcp_setup_codeblock_4"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/MCP_SETUP.md",
+      "source_location": "L45",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "docs_mcp_setup_powershell_windows_43",
+      "target": "docs_mcp_setup_codeblock_5"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/MCP_SETUP.md",
+      "source_location": "L51",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "docs_mcp_setup_local_no_curl_49",
+      "target": "docs_mcp_setup_codeblock_6"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/MCP_SETUP.md",
+      "source_location": "L57",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "docs_mcp_setup_local_no_curl_49",
+      "target": "docs_mcp_setup_codeblock_7"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/MCP_SETUP.md",
+      "source_location": "L65",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "docs_mcp_setup_both_mcps_at_once",
+      "target": "docs_mcp_setup_codeblock_8"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/MCP_SETUP.md",
+      "source_location": "L69",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "docs_mcp_setup_both_mcps_at_once",
+      "target": "docs_mcp_setup_codeblock_9"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/MCP_SETUP.md",
+      "source_location": "L73",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "docs_mcp_setup_both_mcps_at_once",
+      "target": "docs_mcp_setup_codeblock_10"
     },
     {
       "relation": "contains",
@@ -4317,7 +5683,7 @@
       "relation": "contains",
       "confidence": "EXTRACTED",
       "source_file": ".cursor/mcp.json",
-      "source_location": "L11",
+      "source_location": "L15",
       "weight": 1.0,
       "confidence_score": 1.0,
       "source": "cursor_mcp_mcpservers",
@@ -4347,7 +5713,7 @@
       "relation": "contains",
       "confidence": "EXTRACTED",
       "source_file": ".cursor/mcp.json",
-      "source_location": "L6",
+      "source_location": "L10",
       "weight": 1.0,
       "confidence_score": 1.0,
       "source": "cursor_mcp_mcpservers_office_leave",
@@ -4357,7 +5723,7 @@
       "relation": "contains",
       "confidence": "EXTRACTED",
       "source_file": ".cursor/mcp.json",
-      "source_location": "L7",
+      "source_location": "L11",
       "weight": 1.0,
       "confidence_score": 1.0,
       "source": "cursor_mcp_mcpservers_office_leave",
@@ -4367,7 +5733,7 @@
       "relation": "contains",
       "confidence": "EXTRACTED",
       "source_file": ".cursor/mcp.json",
-      "source_location": "L8",
+      "source_location": "L12",
       "weight": 1.0,
       "confidence_score": 1.0,
       "source": "cursor_mcp_office_leave_env",
@@ -4377,7 +5743,7 @@
       "relation": "contains",
       "confidence": "EXTRACTED",
       "source_file": ".cursor/mcp.json",
-      "source_location": "L12",
+      "source_location": "L16",
       "weight": 1.0,
       "confidence_score": 1.0,
       "source": "cursor_mcp_mcpservers_graphify",
@@ -4387,7 +5753,7 @@
       "relation": "contains",
       "confidence": "EXTRACTED",
       "source_file": ".cursor/mcp.json",
-      "source_location": "L13",
+      "source_location": "L17",
       "weight": 1.0,
       "confidence_score": 1.0,
       "source": "cursor_mcp_mcpservers_graphify",
@@ -4397,7 +5763,7 @@
       "relation": "contains",
       "confidence": "EXTRACTED",
       "source_file": ".cursor/mcp.json",
-      "source_location": "L18",
+      "source_location": "L23",
       "weight": 1.0,
       "confidence_score": 1.0,
       "source": "cursor_mcp_mcpservers_graphify",
@@ -4405,5 +5771,5 @@
     }
   ],
   "hyperedges": [],
-  "built_at_commit": "32c87e5cc2fd3bdc73d2e206e4ac2519a3437604"
+  "built_at_commit": "96f90f118222337d53acf10659f30f93172ea950"
 }

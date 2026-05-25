@@ -7,7 +7,6 @@ Usage:
     python scripts/export_graph_tree_jsonl.py
     python scripts/export_graph_tree_jsonl.py --graph graphify-out/graph.json -o graphify-out/graph_tree.jsonl
 """
-
 from __future__ import annotations
 
 import argparse
@@ -20,12 +19,7 @@ if str(REPO_ROOT) not in sys.path:
     sys.path.insert(0, str(REPO_ROOT))
 
 
-def _walk_tree(
-    node: dict,
-    path: list[str],
-    depth: int,
-    out,
-) -> None:
+def _walk_tree(node: dict, path: list[str], depth: int, lines: list[str]) -> None:
     name = node.get("name", "")
     total = node.get("total_count", 0)
     children = node.get("children") or []
@@ -35,11 +29,21 @@ def _walk_tree(
         "name": name,
         "depth": depth,
         "total_count": total,
-        "kind": "truncation" if name.startswith("(+") else ("symbol" if is_leaf and "/" not in name and "." in name else "dir" if children else "leaf"),
+        "kind": (
+            "truncation"
+            if name.startswith("(+")
+            else (
+                "symbol"
+                if is_leaf and "/" not in name and "." in name
+                else "dir"
+                if children
+                else "leaf"
+            )
+        ),
     }
-    out.write(json.dumps(record, ensure_ascii=False) + "\n")
+    lines.append(json.dumps(record, ensure_ascii=False))
     for child in children:
-        _walk_tree(child, record["path"], depth + 1, out)
+        _walk_tree(child, record["path"], depth + 1, lines)
 
 
 def main() -> int:
@@ -66,16 +70,10 @@ def main() -> int:
 
     graph = json.loads(args.graph.read_text(encoding="utf-8"))
     tree = build_tree(graph, project_label=REPO_ROOT.name)
-    args.output.parent.mkdir(parents=True, exist_ok=True)
     lines: list[str] = []
-
-    class _Writer:
-        def write(self, s: str) -> int:
-            lines.append(s)
-            return len(s)
-
-    _walk_tree(tree, [], 0, _Writer())
-    args.output.write_text("".join(lines), encoding="utf-8")
+    _walk_tree(tree, [], 0, lines)
+    args.output.parent.mkdir(parents=True, exist_ok=True)
+    args.output.write_text("\n".join(lines) + "\n", encoding="utf-8")
     print(f"Wrote {args.output} ({len(lines)} lines)")
     return 0
 

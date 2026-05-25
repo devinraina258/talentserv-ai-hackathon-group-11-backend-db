@@ -1,6 +1,22 @@
 # Office Leave MCP
 
-TalentServ hackathon — FastMCP server for office leave (apply, status, balances) with a local SQLite database and Grok-powered advice.
+TalentServ hackathon — FastMCP server for office leave (apply, status, balances) with a local SQLite database, Grok-powered advice, and an optional **graphify** code graph for Cursor.
+
+**One curl per MCP** (run from repo root after clone; portable `.cursor/mcp.json`, no hardcoded paths):
+
+**office-leave**
+
+```bash
+curl -fsSL https://raw.githubusercontent.com/devinraina258/talentserv-ai-hackathon-group-11-backend-db/main/scripts/bootstrap-office-leave-mcp.sh | bash
+```
+
+**graphify**
+
+```bash
+curl -fsSL https://raw.githubusercontent.com/devinraina258/talentserv-ai-hackathon-group-11-backend-db/main/scripts/bootstrap-graphify-mcp.sh | bash
+```
+
+Windows: `irm .../bootstrap-office-leave-mcp.ps1 | iex` and `irm .../bootstrap-graphify-mcp.ps1 | iex` — [docs/MCP_SETUP.md](docs/MCP_SETUP.md).
 
 ## Prerequisites
 
@@ -96,19 +112,41 @@ graphify path "apply_leave" "connect"
 graphify explain "advise_on_leave"
 ```
 
-**MCP:** Copy [.cursor/mcp.json.example](.cursor/mcp.json.example) to `.cursor/mcp.json` — it includes an optional `graphify` server (`query_graph`, `get_neighbors`, `shortest_path`, etc.) alongside `office-leave`.
+## Add to Cursor (one curl per MCP)
 
-## Add to Cursor
+From the **repository root** (after `git clone`). Each command creates `.venv`, installs what that server needs, and **merges** into `.cursor/mcp.json` (portable paths, no `D:\...` hardcoding).
 
-Copy the example config and adjust paths:
+### office-leave only
 
 ```bash
-copy .cursor\mcp.json.example .cursor\mcp.json
+curl -fsSL https://raw.githubusercontent.com/devinraina258/talentserv-ai-hackathon-group-11-backend-db/main/scripts/bootstrap-office-leave-mcp.sh | bash
 ```
 
-Or paste into Cursor MCP settings — use your venv Python and repo `cwd` (see [.cursor/mcp.json.example](.cursor/mcp.json.example)). Restart Cursor after saving.
+```powershell
+irm https://raw.githubusercontent.com/devinraina258/talentserv-ai-hackathon-group-11-backend-db/main/scripts/bootstrap-office-leave-mcp.ps1 | iex
+```
 
-On Windows, if `python` is not on PATH, use `.venv\Scripts\python.exe` as the command.
+### graphify only
+
+```bash
+curl -fsSL https://raw.githubusercontent.com/devinraina258/talentserv-ai-hackathon-group-11-backend-db/main/scripts/bootstrap-graphify-mcp.sh | bash
+```
+
+```powershell
+irm https://raw.githubusercontent.com/devinraina258/talentserv-ai-hackathon-group-11-backend-db/main/scripts/bootstrap-graphify-mcp.ps1 | iex
+```
+
+### Both MCPs
+
+```bash
+curl -fsSL https://raw.githubusercontent.com/devinraina258/talentserv-ai-hackathon-group-11-backend-db/main/scripts/bootstrap-mcp.sh | bash
+```
+
+Then **Developer → Reload Window** and enable the server(s) you installed.
+
+Details: [docs/MCP_SETUP.md](docs/MCP_SETUP.md) · Local: `python scripts/bootstrap_mcp.py --office-leave` / `--graphify` / `--all`
+
+Copy [.cursor/mcp.json.example](.cursor/mcp.json.example) to `.cursor/mcp.json` if you prefer manual setup (both **office-leave** and **graphify** use `scripts/mcp_launcher.py`).
 
 ## MCP tools
 
