@@ -59,35 +59,3 @@ class LeaveAdvice:
     source: str
     timestamp: str
     used_grok: bool
-
-
-@dataclass
-class GrokSuggestions:
-    recommendation: str
-    suggestions: list[str]
-    explanation: str
-    next_steps: list[str]
-    confidence: str
-    source: str
-    timestamp: str
-    used_grok: bool
-
-    def to_dict(self) -> dict[str, Any]:
-        return asdict(self)
-
-
-def leave_advice_to_grok(advice: LeaveAdvice) -> dict[str, Any]:
-    """Map LeaveAdvice from advise_on_leave to the standard grok block shape."""
-    suggestions = [
-        s for s in advice.next_steps[:2] if s
-    ] or [advice.recommendation]
-    return GrokSuggestions(
-        recommendation=advice.recommendation,
-        suggestions=suggestions,
-        explanation=advice.explanation,
-        next_steps=advice.next_steps,
-        confidence=advice.confidence,
-        source=advice.source,
-        timestamp=advice.timestamp,
-        used_grok=advice.used_grok,
-    ).to_dict()
