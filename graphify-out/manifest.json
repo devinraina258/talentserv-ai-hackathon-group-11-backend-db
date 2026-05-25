@@ -45,28 +45,13 @@
     "semantic_hash": ""
   },
   "C:\\Users\\Admin\\Documents\\talentserv-ai-hackathon-group-11-backend-db\\README.md": {
-    "mtime": 1779694282.1486535,
-    "ast_hash": "71ed6dd42aa214cf1bba3ff19baa2fe1",
+    "mtime": 1779697086.519914,
+    "ast_hash": "490d3378175435b97fef78c5394a88f8",
     "semantic_hash": ""
   },
   "C:\\Users\\Admin\\Documents\\talentserv-ai-hackathon-group-11-backend-db\\.cursor\\mcp.json": {
     "mtime": 1779693026.009869,
     "ast_hash": "45f6b28e99bc6670c53cf830b51888c3",
-    "semantic_hash": ""
-  },
-  "C:\\Users\\Admin\\Documents\\talentserv-ai-hackathon-group-11-backend-db\\scripts\\export_graph_tree_jsonl.py": {
-    "mtime": 1779693033.6582403,
-    "ast_hash": "edca62f5419be698e20f98d639d70307",
-    "semantic_hash": ""
-  },
-  "C:\\Users\\Admin\\Documents\\talentserv-ai-hackathon-group-11-backend-db\\package.json": {
-    "mtime": 1779694398.4837377,
-    "ast_hash": "64f8f48e7585b0aaa36799c657428ac6",
-    "semantic_hash": ""
-  },
-  "C:\\Users\\Admin\\Documents\\talentserv-ai-hackathon-group-11-backend-db\\.husky\\pre-commit": {
-    "mtime": 1779694355.530111,
-    "ast_hash": "401e46050393a6a71aa7a12238299a9b",
     "semantic_hash": ""
   },
   "C:\\Users\\Admin\\Documents\\talentserv-ai-hackathon-group-11-backend-db\\.husky\\_\\applypatch-msg": {
@@ -149,19 +134,29 @@
     "ast_hash": "0b71c2e7d39daa010985d529f1320b37",
     "semantic_hash": ""
   },
-  "C:\\Users\\Admin\\Documents\\talentserv-ai-hackathon-group-11-backend-db\\scripts\\sync_graphify_out.ps1": {
-    "mtime": 1779694354.9167392,
-    "ast_hash": "85b51ee624df154f042ea9a642b6118c",
+  "C:\\Users\\Admin\\Documents\\talentserv-ai-hackathon-group-11-backend-db\\scripts\\bootstrap-mcp.ps1": {
+    "mtime": 1779697057.8073635,
+    "ast_hash": "4e93abc63be0424b421919b0259a2c4a",
     "semantic_hash": ""
   },
-  "C:\\Users\\Admin\\Documents\\talentserv-ai-hackathon-group-11-backend-db\\scripts\\sync_graphify_out.sh": {
-    "mtime": 1779694267.206806,
-    "ast_hash": "d5b432f01cfc9d31b235a54dec777b08",
+  "C:\\Users\\Admin\\Documents\\talentserv-ai-hackathon-group-11-backend-db\\scripts\\bootstrap-mcp.sh": {
+    "mtime": 1779697053.7080066,
+    "ast_hash": "7184f91cfc4ade65113919a9629713c9",
     "semantic_hash": ""
   },
-  "C:\\Users\\Admin\\Documents\\talentserv-ai-hackathon-group-11-backend-db\\.github\\workflows\\graphify.yml": {
-    "mtime": 1779694269.0162976,
-    "ast_hash": "c95e54e9a1b791b466937dfed2b5fe5b",
+  "C:\\Users\\Admin\\Documents\\talentserv-ai-hackathon-group-11-backend-db\\scripts\\bootstrap_mcp.py": {
+    "mtime": 1779697046.0740013,
+    "ast_hash": "baa0cfc298eddff938de8f163c23f778",
+    "semantic_hash": ""
+  },
+  "C:\\Users\\Admin\\Documents\\talentserv-ai-hackathon-group-11-backend-db\\scripts\\mcp_launcher.py": {
+    "mtime": 1779697038.1744678,
+    "ast_hash": "555e1dd583be4f3c38367d38599729a8",
+    "semantic_hash": ""
+  },
+  "C:\\Users\\Admin\\Documents\\talentserv-ai-hackathon-group-11-backend-db\\docs\\MCP_SETUP.md": {
+    "mtime": 1779697069.6676514,
+    "ast_hash": "0dda01ba58d16daaed639d08ea1bc90d",
     "semantic_hash": ""
   }
 }

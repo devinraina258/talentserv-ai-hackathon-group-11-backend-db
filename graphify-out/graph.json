@@ -1,0 +1,2978 @@
+{
+  "directed": false,
+  "multigraph": false,
+  "graph": {},
+  "nodes": [
+    {
+      "label": "husky.sh",
+      "file_type": "code",
+      "source_file": ".husky/_/husky.sh",
+      "source_location": "L1",
+      "id": "husky_husky_sh",
+      "community": 9,
+      "norm_label": "husky.sh"
+    },
+    {
+      "label": "bootstrap-mcp.ps1",
+      "file_type": "code",
+      "source_file": "scripts/bootstrap-mcp.ps1",
+      "source_location": "L1",
+      "id": "scripts_bootstrap_mcp_ps1",
+      "community": 10,
+      "norm_label": "bootstrap-mcp.ps1"
+    },
+    {
+      "label": "bootstrap-mcp.sh",
+      "file_type": "code",
+      "source_file": "scripts/bootstrap-mcp.sh",
+      "source_location": "L1",
+      "id": "scripts_bootstrap_mcp_sh",
+      "community": 11,
+      "norm_label": "bootstrap-mcp.sh"
+    },
+    {
+      "label": "bootstrap_mcp.py",
+      "file_type": "code",
+      "source_file": "scripts/bootstrap_mcp.py",
+      "source_location": "L1",
+      "id": "scripts_bootstrap_mcp_py",
+      "community": 6,
+      "norm_label": "bootstrap_mcp.py"
+    },
+    {
+      "label": "run()",
+      "file_type": "code",
+      "source_file": "scripts/bootstrap_mcp.py",
+      "source_location": "L19",
+      "id": "scripts_bootstrap_mcp_run",
+      "community": 6,
+      "norm_label": "run()"
+    },
+    {
+      "label": "venv_python()",
+      "file_type": "code",
+      "source_file": "scripts/bootstrap_mcp.py",
+      "source_location": "L24",
+      "id": "scripts_bootstrap_mcp_venv_python",
+      "community": 6,
+      "norm_label": "venv_python()"
+    },
+    {
+      "label": "ensure_venv()",
+      "file_type": "code",
+      "source_file": "scripts/bootstrap_mcp.py",
+      "source_location": "L34",
+      "id": "scripts_bootstrap_mcp_ensure_venv",
+      "community": 6,
+      "norm_label": "ensure_venv()"
+    },
+    {
+      "label": "write_mcp_json()",
+      "file_type": "code",
+      "source_file": "scripts/bootstrap_mcp.py",
+      "source_location": "L42",
+      "id": "scripts_bootstrap_mcp_write_mcp_json",
+      "community": 6,
+      "norm_label": "write_mcp_json()"
+    },
+    {
+      "label": "sync_graphify()",
+      "file_type": "code",
+      "source_file": "scripts/bootstrap_mcp.py",
+      "source_location": "L72",
+      "id": "scripts_bootstrap_mcp_sync_graphify",
+      "community": 6,
+      "norm_label": "sync_graphify()"
+    },
+    {
+      "label": "main()",
+      "file_type": "code",
+      "source_file": "scripts/bootstrap_mcp.py",
+      "source_location": "L93",
+      "id": "scripts_bootstrap_mcp_main",
+      "community": 6,
+      "norm_label": "main()"
+    },
+    {
+      "label": "init_db.py",
+      "file_type": "code",
+      "source_file": "scripts/init_db.py",
+      "source_location": "L1",
+      "id": "scripts_init_db_py",
+      "community": 4,
+      "norm_label": "init_db.py"
+    },
+    {
+      "label": "run_sql_file()",
+      "file_type": "code",
+      "source_file": "scripts/init_db.py",
+      "source_location": "L14",
+      "id": "scripts_init_db_run_sql_file",
+      "community": 4,
+      "norm_label": "run_sql_file()"
+    },
+    {
+      "label": "init_db()",
+      "file_type": "code",
+      "source_file": "scripts/init_db.py",
+      "source_location": "L19",
+      "id": "scripts_init_db_init_db",
+      "community": 4,
+      "norm_label": "init_db()"
+    },
+    {
+      "label": "mcp_launcher.py",
+      "file_type": "code",
+      "source_file": "scripts/mcp_launcher.py",
+      "source_location": "L1",
+      "id": "scripts_mcp_launcher_py",
+      "community": 8,
+      "norm_label": "mcp_launcher.py"
+    },
+    {
+      "label": "venv_python()",
+      "file_type": "code",
+      "source_file": "scripts/mcp_launcher.py",
+      "source_location": "L17",
+      "id": "scripts_mcp_launcher_venv_python",
+      "community": 8,
+      "norm_label": "venv_python()"
+    },
+    {
+      "label": "main()",
+      "file_type": "code",
+      "source_file": "scripts/mcp_launcher.py",
+      "source_location": "L25",
+      "id": "scripts_mcp_launcher_main",
+      "community": 8,
+      "norm_label": "main()"
+    },
+    {
+      "label": "db.py",
+      "file_type": "code",
+      "source_file": "src/db.py",
+      "source_location": "L1",
+      "id": "src_db_py",
+      "community": 0,
+      "norm_label": "db.py"
+    },
+    {
+      "label": "get_db_path()",
+      "file_type": "code",
+      "source_file": "src/db.py",
+      "source_location": "L26",
+      "id": "src_db_get_db_path",
+      "community": 0,
+      "norm_label": "get_db_path()"
+    },
+    {
+      "label": "connect()",
+      "file_type": "code",
+      "source_file": "src/db.py",
+      "source_location": "L32",
+      "id": "src_db_connect",
+      "community": 0,
+      "norm_label": "connect()"
+    },
+    {
+      "label": "resolve_slug()",
+      "file_type": "code",
+      "source_file": "src/db.py",
+      "source_location": "L44",
+      "id": "src_db_resolve_slug",
+      "community": 0,
+      "norm_label": "resolve_slug()"
+    },
+    {
+      "label": "parse_iso_date()",
+      "file_type": "code",
+      "source_file": "src/db.py",
+      "source_location": "L69",
+      "id": "src_db_parse_iso_date",
+      "community": 0,
+      "norm_label": "parse_iso_date()"
+    },
+    {
+      "label": "calendar_days_inclusive()",
+      "file_type": "code",
+      "source_file": "src/db.py",
+      "source_location": "L76",
+      "id": "src_db_calendar_days_inclusive",
+      "community": 0,
+      "norm_label": "calendar_days_inclusive()"
+    },
+    {
+      "label": "row_to_employee()",
+      "file_type": "code",
+      "source_file": "src/db.py",
+      "source_location": "L80",
+      "id": "src_db_row_to_employee",
+      "community": 0,
+      "norm_label": "row_to_employee()"
+    },
+    {
+      "label": "row_to_leave_request()",
+      "file_type": "code",
+      "source_file": "src/db.py",
+      "source_location": "L92",
+      "id": "src_db_row_to_leave_request",
+      "community": 0,
+      "norm_label": "row_to_leave_request()"
+    },
+    {
+      "label": "list_employees()",
+      "file_type": "code",
+      "source_file": "src/db.py",
+      "source_location": "L108",
+      "id": "src_db_list_employees",
+      "community": 0,
+      "norm_label": "list_employees()"
+    },
+    {
+      "label": "get_employee()",
+      "file_type": "code",
+      "source_file": "src/db.py",
+      "source_location": "L123",
+      "id": "src_db_get_employee",
+      "community": 0,
+      "norm_label": "get_employee()"
+    },
+    {
+      "label": "get_leave_balance()",
+      "file_type": "code",
+      "source_file": "src/db.py",
+      "source_location": "L159",
+      "id": "src_db_get_leave_balance",
+      "community": 0,
+      "norm_label": "get_leave_balance()"
+    },
+    {
+      "label": "_fetch_requests()",
+      "file_type": "code",
+      "source_file": "src/db.py",
+      "source_location": "L176",
+      "id": "src_db_fetch_requests",
+      "community": 0,
+      "norm_label": "_fetch_requests()"
+    },
+    {
+      "label": "list_leave_requests()",
+      "file_type": "code",
+      "source_file": "src/db.py",
+      "source_location": "L203",
+      "id": "src_db_list_leave_requests",
+      "community": 0,
+      "norm_label": "list_leave_requests()"
+    },
+    {
+      "label": "apply_leave()",
+      "file_type": "code",
+      "source_file": "src/db.py",
+      "source_location": "L231",
+      "id": "src_db_apply_leave",
+      "community": 0,
+      "norm_label": "apply_leave()"
+    },
+    {
+      "label": "check_leave_status()",
+      "file_type": "code",
+      "source_file": "src/db.py",
+      "source_location": "L337",
+      "id": "src_db_check_leave_status",
+      "community": 0,
+      "norm_label": "check_leave_status()"
+    },
+    {
+      "label": "get_employee_context_for_advice()",
+      "file_type": "code",
+      "source_file": "src/db.py",
+      "source_location": "L398",
+      "id": "src_db_get_employee_context_for_advice",
+      "community": 0,
+      "norm_label": "get_employee_context_for_advice()"
+    },
+    {
+      "label": "get_employees_resource()",
+      "file_type": "code",
+      "source_file": "src/db.py",
+      "source_location": "L426",
+      "id": "src_db_get_employees_resource",
+      "community": 0,
+      "norm_label": "get_employees_resource()"
+    },
+    {
+      "label": "get_policy_resource()",
+      "file_type": "code",
+      "source_file": "src/db.py",
+      "source_location": "L433",
+      "id": "src_db_get_policy_resource",
+      "community": 0,
+      "norm_label": "get_policy_resource()"
+    },
+    {
+      "label": "grok_client.py",
+      "file_type": "code",
+      "source_file": "src/grok_client.py",
+      "source_location": "L1",
+      "id": "src_grok_client_py",
+      "community": 7,
+      "norm_label": "grok_client.py"
+    },
+    {
+      "label": "parse_json_from_content()",
+      "file_type": "code",
+      "source_file": "src/grok_client.py",
+      "source_location": "L16",
+      "id": "src_grok_client_parse_json_from_content",
+      "community": 7,
+      "norm_label": "parse_json_from_content()"
+    },
+    {
+      "label": "default_next_steps()",
+      "file_type": "code",
+      "source_file": "src/grok_client.py",
+      "source_location": "L26",
+      "id": "src_grok_client_default_next_steps",
+      "community": 7,
+      "norm_label": "default_next_steps()"
+    },
+    {
+      "label": "generate_fallback_advice()",
+      "file_type": "code",
+      "source_file": "src/grok_client.py",
+      "source_location": "L43",
+      "id": "src_grok_client_generate_fallback_advice",
+      "community": 7,
+      "norm_label": "generate_fallback_advice()"
+    },
+    {
+      "label": "generate_leave_advice_with_grok()",
+      "file_type": "code",
+      "source_file": "src/grok_client.py",
+      "source_location": "L70",
+      "id": "src_grok_client_generate_leave_advice_with_grok",
+      "community": 7,
+      "norm_label": "generate_leave_advice_with_grok()"
+    },
+    {
+      "label": "models.py",
+      "file_type": "code",
+      "source_file": "src/models.py",
+      "source_location": "L1",
+      "id": "src_models_py",
+      "community": 0,
+      "norm_label": "models.py"
+    },
+    {
+      "label": "utc_now_iso()",
+      "file_type": "code",
+      "source_file": "src/models.py",
+      "source_location": "L10",
+      "id": "src_models_utc_now_iso",
+      "community": 0,
+      "norm_label": "utc_now_iso()"
+    },
+    {
+      "label": "ToolResponse",
+      "file_type": "code",
+      "source_file": "src/models.py",
+      "source_location": "L15",
+      "id": "src_models_toolresponse",
+      "community": 0,
+      "norm_label": "toolresponse"
+    },
+    {
+      "label": ".to_dict()",
+      "file_type": "code",
+      "source_file": "src/models.py",
+      "source_location": "L21",
+      "id": "src_models_toolresponse_to_dict",
+      "community": 0,
+      "norm_label": ".to_dict()"
+    },
+    {
+      "label": "Employee",
+      "file_type": "code",
+      "source_file": "src/models.py",
+      "source_location": "L28",
+      "id": "src_models_employee",
+      "community": 0,
+      "norm_label": "employee"
+    },
+    {
+      "label": "LeaveRequest",
+      "file_type": "code",
+      "source_file": "src/models.py",
+      "source_location": "L39",
+      "id": "src_models_leaverequest",
+      "community": 0,
+      "norm_label": "leaverequest"
+    },
+    {
+      "label": "LeaveAdvice",
+      "file_type": "code",
+      "source_file": "src/models.py",
+      "source_location": "L54",
+      "id": "src_models_leaveadvice",
+      "community": 7,
+      "norm_label": "leaveadvice"
+    },
+    {
+      "label": "server.py",
+      "file_type": "code",
+      "source_file": "src/server.py",
+      "source_location": "L1",
+      "id": "src_server_py",
+      "community": 1,
+      "norm_label": "server.py"
+    },
+    {
+      "label": "_json_response()",
+      "file_type": "code",
+      "source_file": "src/server.py",
+      "source_location": "L20",
+      "id": "src_server_json_response",
+      "community": 1,
+      "norm_label": "_json_response()"
+    },
+    {
+      "label": "list_employees()",
+      "file_type": "code",
+      "source_file": "src/server.py",
+      "source_location": "L31",
+      "id": "src_server_list_employees",
+      "community": 1,
+      "norm_label": "list_employees()"
+    },
+    {
+      "label": "get_employee()",
+      "file_type": "code",
+      "source_file": "src/server.py",
+      "source_location": "L37",
+      "id": "src_server_get_employee",
+      "community": 1,
+      "norm_label": "get_employee()"
+    },
+    {
+      "label": "get_leave_balance()",
+      "file_type": "code",
+      "source_file": "src/server.py",
+      "source_location": "L43",
+      "id": "src_server_get_leave_balance",
+      "community": 1,
+      "norm_label": "get_leave_balance()"
+    },
+    {
+      "label": "apply_leave()",
+      "file_type": "code",
+      "source_file": "src/server.py",
+      "source_location": "L49",
+      "id": "src_server_apply_leave",
+      "community": 1,
+      "norm_label": "apply_leave()"
+    },
+    {
+      "label": "check_leave_status()",
+      "file_type": "code",
+      "source_file": "src/server.py",
+      "source_location": "L63",
+      "id": "src_server_check_leave_status",
+      "community": 1,
+      "norm_label": "check_leave_status()"
+    },
+    {
+      "label": "list_leave_requests()",
+      "file_type": "code",
+      "source_file": "src/server.py",
+      "source_location": "L72",
+      "id": "src_server_list_leave_requests",
+      "community": 1,
+      "norm_label": "list_leave_requests()"
+    },
+    {
+      "label": "advise_on_leave()",
+      "file_type": "code",
+      "source_file": "src/server.py",
+      "source_location": "L81",
+      "id": "src_server_advise_on_leave",
+      "community": 1,
+      "norm_label": "advise_on_leave()"
+    },
+    {
+      "label": "employees_resource()",
+      "file_type": "code",
+      "source_file": "src/server.py",
+      "source_location": "L110",
+      "id": "src_server_employees_resource",
+      "community": 1,
+      "norm_label": "employees_resource()"
+    },
+    {
+      "label": "policy_resource()",
+      "file_type": "code",
+      "source_file": "src/server.py",
+      "source_location": "L116",
+      "id": "src_server_policy_resource",
+      "community": 1,
+      "norm_label": "policy_resource()"
+    },
+    {
+      "label": "leave_assistant()",
+      "file_type": "code",
+      "source_file": "src/server.py",
+      "source_location": "L122",
+      "id": "src_server_leave_assistant",
+      "community": 1,
+      "norm_label": "leave_assistant()"
+    },
+    {
+      "label": "main()",
+      "file_type": "code",
+      "source_file": "src/server.py",
+      "source_location": "L137",
+      "id": "src_server_main",
+      "community": 1,
+      "norm_label": "main()"
+    },
+    {
+      "label": "List all office employees with leave balances.",
+      "file_type": "rationale",
+      "source_file": "src/server.py",
+      "source_location": "L32",
+      "id": "src_server_rationale_32",
+      "community": 1,
+      "norm_label": "list all office employees with leave balances."
+    },
+    {
+      "label": "Get employee profile and leave balances. employee: slug or name (devin, nisha, g",
+      "file_type": "rationale",
+      "source_file": "src/server.py",
+      "source_location": "L38",
+      "id": "src_server_rationale_38",
+      "community": 1,
+      "norm_label": "get employee profile and leave balances. employee: slug or name (devin, nisha, g"
+    },
+    {
+      "label": "Get remaining annual and sick leave for an employee.",
+      "file_type": "rationale",
+      "source_file": "src/server.py",
+      "source_location": "L44",
+      "id": "src_server_rationale_44",
+      "community": 1,
+      "norm_label": "get remaining annual and sick leave for an employee."
+    },
+    {
+      "label": "Submit a pending leave request. Dates: YYYY-MM-DD. leave_type: annual or sick.",
+      "file_type": "rationale",
+      "source_file": "src/server.py",
+      "source_location": "L56",
+      "id": "src_server_rationale_56",
+      "community": 1,
+      "norm_label": "submit a pending leave request. dates: yyyy-mm-dd. leave_type: annual or sick."
+    },
+    {
+      "label": "Check leave request status by request_id or latest request for employee.",
+      "file_type": "rationale",
+      "source_file": "src/server.py",
+      "source_location": "L67",
+      "id": "src_server_rationale_67",
+      "community": 1,
+      "norm_label": "check leave request status by request_id or latest request for employee."
+    },
+    {
+      "label": "List leave requests, optionally filtered by employee slug and status.",
+      "file_type": "rationale",
+      "source_file": "src/server.py",
+      "source_location": "L76",
+      "id": "src_server_rationale_76",
+      "community": 1,
+      "norm_label": "list leave requests, optionally filtered by employee slug and status."
+    },
+    {
+      "label": "Get AI leave guidance using Grok from employee data and balances.",
+      "file_type": "rationale",
+      "source_file": "src/server.py",
+      "source_location": "L82",
+      "id": "src_server_rationale_82",
+      "community": 1,
+      "norm_label": "get ai leave guidance using grok from employee data and balances."
+    },
+    {
+      "label": "Directory of employees and departments.",
+      "file_type": "rationale",
+      "source_file": "src/server.py",
+      "source_location": "L111",
+      "id": "src_server_rationale_111",
+      "community": 1,
+      "norm_label": "directory of employees and departments."
+    },
+    {
+      "label": "Office leave policy rules.",
+      "file_type": "rationale",
+      "source_file": "src/server.py",
+      "source_location": "L117",
+      "id": "src_server_rationale_117",
+      "community": 1,
+      "norm_label": "office leave policy rules."
+    },
+    {
+      "label": "Template prompt for leave questions using employee context.",
+      "file_type": "rationale",
+      "source_file": "src/server.py",
+      "source_location": "L123",
+      "id": "src_server_rationale_123",
+      "community": 1,
+      "norm_label": "template prompt for leave questions using employee context."
+    },
+    {
+      "label": "__init__.py",
+      "file_type": "code",
+      "source_file": "src/__init__.py",
+      "source_location": "L1",
+      "id": "src_init_py",
+      "community": 12,
+      "norm_label": "__init__.py"
+    },
+    {
+      "label": "test_tools.py",
+      "file_type": "code",
+      "source_file": "tests/test_tools.py",
+      "source_location": "L1",
+      "id": "tests_test_tools_py",
+      "community": 4,
+      "norm_label": "test_tools.py"
+    },
+    {
+      "label": "temp_db()",
+      "file_type": "code",
+      "source_file": "tests/test_tools.py",
+      "source_location": "L18",
+      "id": "tests_test_tools_temp_db",
+      "community": 4,
+      "norm_label": "temp_db()"
+    },
+    {
+      "label": "test_list_employees()",
+      "file_type": "code",
+      "source_file": "tests/test_tools.py",
+      "source_location": "L25",
+      "id": "tests_test_tools_test_list_employees",
+      "community": 4,
+      "norm_label": "test_list_employees()"
+    },
+    {
+      "label": "test_get_leave_balance()",
+      "file_type": "code",
+      "source_file": "tests/test_tools.py",
+      "source_location": "L33",
+      "id": "tests_test_tools_test_get_leave_balance",
+      "community": 4,
+      "norm_label": "test_get_leave_balance()"
+    },
+    {
+      "label": "test_apply_leave_pending()",
+      "file_type": "code",
+      "source_file": "tests/test_tools.py",
+      "source_location": "L40",
+      "id": "tests_test_tools_test_apply_leave_pending",
+      "community": 4,
+      "norm_label": "test_apply_leave_pending()"
+    },
+    {
+      "label": "test_apply_leave_insufficient_balance()",
+      "file_type": "code",
+      "source_file": "tests/test_tools.py",
+      "source_location": "L56",
+      "id": "tests_test_tools_test_apply_leave_insufficient_balance",
+      "community": 4,
+      "norm_label": "test_apply_leave_insufficient_balance()"
+    },
+    {
+      "label": "test_check_leave_status_by_employee()",
+      "file_type": "code",
+      "source_file": "tests/test_tools.py",
+      "source_location": "L68",
+      "id": "tests_test_tools_test_check_leave_status_by_employee",
+      "community": 4,
+      "norm_label": "test_check_leave_status_by_employee()"
+    },
+    {
+      "label": "test_check_leave_status_by_id()",
+      "file_type": "code",
+      "source_file": "tests/test_tools.py",
+      "source_location": "L74",
+      "id": "tests_test_tools_test_check_leave_status_by_id",
+      "community": 4,
+      "norm_label": "test_check_leave_status_by_id()"
+    },
+    {
+      "label": "test_unknown_employee()",
+      "file_type": "code",
+      "source_file": "tests/test_tools.py",
+      "source_location": "L84",
+      "id": "tests_test_tools_test_unknown_employee",
+      "community": 4,
+      "norm_label": "test_unknown_employee()"
+    },
+    {
+      "label": "test_list_leave_requests_filter()",
+      "file_type": "code",
+      "source_file": "tests/test_tools.py",
+      "source_location": "L89",
+      "id": "tests_test_tools_test_list_leave_requests_filter",
+      "community": 4,
+      "norm_label": "test_list_leave_requests_filter()"
+    },
+    {
+      "label": "README.md",
+      "file_type": "document",
+      "source_file": "README.md",
+      "source_location": "L1",
+      "id": "readme_md",
+      "community": 3,
+      "norm_label": "readme.md"
+    },
+    {
+      "label": "Office Leave MCP",
+      "file_type": "document",
+      "source_file": "README.md",
+      "source_location": "L1",
+      "id": "talentserv_ai_hackathon_group_11_backend_db_readme_office_leave_mcp",
+      "community": 3,
+      "norm_label": "office leave mcp"
+    },
+    {
+      "label": "Prerequisites",
+      "file_type": "document",
+      "source_file": "README.md",
+      "source_location": "L5",
+      "id": "talentserv_ai_hackathon_group_11_backend_db_readme_prerequisites",
+      "community": 3,
+      "norm_label": "prerequisites"
+    },
+    {
+      "label": "Quick start",
+      "file_type": "document",
+      "source_file": "README.md",
+      "source_location": "L11",
+      "id": "talentserv_ai_hackathon_group_11_backend_db_readme_quick_start",
+      "community": 5,
+      "norm_label": "quick start"
+    },
+    {
+      "label": "code:bash (git clone https://github.com/devinraina258/talentserv-ai-hac)",
+      "file_type": "document",
+      "source_file": "README.md",
+      "source_location": "L13",
+      "id": "talentserv_ai_hackathon_group_11_backend_db_readme_codeblock_1",
+      "community": 5,
+      "norm_label": "code:bash (git clone https://github.com/devinraina258/talentserv-ai-hac)"
+    },
+    {
+      "label": "1. Create the database",
+      "file_type": "document",
+      "source_file": "README.md",
+      "source_location": "L21",
+      "id": "talentserv_ai_hackathon_group_11_backend_db_readme_1_create_the_database",
+      "community": 5,
+      "norm_label": "1. create the database"
+    },
+    {
+      "label": "code:bash (python scripts/init_db.py)",
+      "file_type": "document",
+      "source_file": "README.md",
+      "source_location": "L23",
+      "id": "talentserv_ai_hackathon_group_11_backend_db_readme_codeblock_2",
+      "community": 5,
+      "norm_label": "code:bash (python scripts/init_db.py)"
+    },
+    {
+      "label": "2. Environment",
+      "file_type": "document",
+      "source_file": "README.md",
+      "source_location": "L29",
+      "id": "talentserv_ai_hackathon_group_11_backend_db_readme_2_environment",
+      "community": 5,
+      "norm_label": "2. environment"
+    },
+    {
+      "label": "code:bash (copy .env.example .env)",
+      "file_type": "document",
+      "source_file": "README.md",
+      "source_location": "L31",
+      "id": "talentserv_ai_hackathon_group_11_backend_db_readme_codeblock_3",
+      "community": 5,
+      "norm_label": "code:bash (copy .env.example .env)"
+    },
+    {
+      "label": "3. Run tests",
+      "file_type": "document",
+      "source_file": "README.md",
+      "source_location": "L37",
+      "id": "talentserv_ai_hackathon_group_11_backend_db_readme_3_run_tests",
+      "community": 5,
+      "norm_label": "3. run tests"
+    },
+    {
+      "label": "code:bash (pytest)",
+      "file_type": "document",
+      "source_file": "README.md",
+      "source_location": "L39",
+      "id": "talentserv_ai_hackathon_group_11_backend_db_readme_codeblock_4",
+      "community": 5,
+      "norm_label": "code:bash (pytest)"
+    },
+    {
+      "label": "4. Run the MCP server (stdio)",
+      "file_type": "document",
+      "source_file": "README.md",
+      "source_location": "L43",
+      "id": "talentserv_ai_hackathon_group_11_backend_db_readme_4_run_the_mcp_server_stdio",
+      "community": 5,
+      "norm_label": "4. run the mcp server (stdio)"
+    },
+    {
+      "label": "code:bash (python -m src.server)",
+      "file_type": "document",
+      "source_file": "README.md",
+      "source_location": "L45",
+      "id": "talentserv_ai_hackathon_group_11_backend_db_readme_codeblock_5",
+      "community": 5,
+      "norm_label": "code:bash (python -m src.server)"
+    },
+    {
+      "label": "code:bash (fastmcp run src/server.py)",
+      "file_type": "document",
+      "source_file": "README.md",
+      "source_location": "L51",
+      "id": "talentserv_ai_hackathon_group_11_backend_db_readme_codeblock_6",
+      "community": 5,
+      "norm_label": "code:bash (fastmcp run src/server.py)"
+    },
+    {
+      "label": "Add to Cursor (one command)",
+      "file_type": "document",
+      "source_file": "README.md",
+      "source_location": "L55",
+      "id": "talentserv_ai_hackathon_group_11_backend_db_readme_add_to_cursor_one_command",
+      "community": 3,
+      "norm_label": "add to cursor (one command)"
+    },
+    {
+      "label": "code:bash (curl -fsSL https://raw.githubusercontent.com/devinraina258/t)",
+      "file_type": "document",
+      "source_file": "README.md",
+      "source_location": "L61",
+      "id": "talentserv_ai_hackathon_group_11_backend_db_readme_codeblock_7",
+      "community": 3,
+      "norm_label": "code:bash (curl -fssl https://raw.githubusercontent.com/devinraina258/t)"
+    },
+    {
+      "label": "code:powershell (irm https://raw.githubusercontent.com/devinraina258/talentse)",
+      "file_type": "document",
+      "source_file": "README.md",
+      "source_location": "L67",
+      "id": "talentserv_ai_hackathon_group_11_backend_db_readme_codeblock_8",
+      "community": 3,
+      "norm_label": "code:powershell (irm https://raw.githubusercontent.com/devinraina258/talentse)"
+    },
+    {
+      "label": "code:bash (curl -fsSL https://raw.githubusercontent.com/devinraina258/t)",
+      "file_type": "document",
+      "source_file": "README.md",
+      "source_location": "L73",
+      "id": "talentserv_ai_hackathon_group_11_backend_db_readme_codeblock_9",
+      "community": 3,
+      "norm_label": "code:bash (curl -fssl https://raw.githubusercontent.com/devinraina258/t)"
+    },
+    {
+      "label": "MCP tools",
+      "file_type": "document",
+      "source_file": "README.md",
+      "source_location": "L83",
+      "id": "talentserv_ai_hackathon_group_11_backend_db_readme_mcp_tools",
+      "community": 3,
+      "norm_label": "mcp tools"
+    },
+    {
+      "label": "MCP resources",
+      "file_type": "document",
+      "source_file": "README.md",
+      "source_location": "L95",
+      "id": "talentserv_ai_hackathon_group_11_backend_db_readme_mcp_resources",
+      "community": 3,
+      "norm_label": "mcp resources"
+    },
+    {
+      "label": "Example prompts in Cursor",
+      "file_type": "document",
+      "source_file": "README.md",
+      "source_location": "L100",
+      "id": "talentserv_ai_hackathon_group_11_backend_db_readme_example_prompts_in_cursor",
+      "community": 3,
+      "norm_label": "example prompts in cursor"
+    },
+    {
+      "label": "Employees (seed data)",
+      "file_type": "document",
+      "source_file": "README.md",
+      "source_location": "L107",
+      "id": "talentserv_ai_hackathon_group_11_backend_db_readme_employees_seed_data",
+      "community": 3,
+      "norm_label": "employees (seed data)"
+    },
+    {
+      "label": "Publish to GitHub",
+      "file_type": "document",
+      "source_file": "README.md",
+      "source_location": "L117",
+      "id": "talentserv_ai_hackathon_group_11_backend_db_readme_publish_to_github",
+      "community": 3,
+      "norm_label": "publish to github"
+    },
+    {
+      "label": "code:bash (gh auth login)",
+      "file_type": "document",
+      "source_file": "README.md",
+      "source_location": "L119",
+      "id": "talentserv_ai_hackathon_group_11_backend_db_readme_codeblock_10",
+      "community": 3,
+      "norm_label": "code:bash (gh auth login)"
+    },
+    {
+      "label": "License",
+      "file_type": "document",
+      "source_file": "README.md",
+      "source_location": "L124",
+      "id": "talentserv_ai_hackathon_group_11_backend_db_readme_license",
+      "community": 3,
+      "norm_label": "license"
+    },
+    {
+      "label": "MCP_SETUP.md",
+      "file_type": "document",
+      "source_file": "docs/MCP_SETUP.md",
+      "source_location": "L1",
+      "id": "docs_mcp_setup_md",
+      "community": 2,
+      "norm_label": "mcp_setup.md"
+    },
+    {
+      "label": "MCP setup (one command)",
+      "file_type": "document",
+      "source_file": "docs/MCP_SETUP.md",
+      "source_location": "L1",
+      "id": "docs_mcp_setup_mcp_setup_one_command",
+      "community": 2,
+      "norm_label": "mcp setup (one command)"
+    },
+    {
+      "label": "Prerequisites",
+      "file_type": "document",
+      "source_file": "docs/MCP_SETUP.md",
+      "source_location": "L5",
+      "id": "docs_mcp_setup_prerequisites",
+      "community": 2,
+      "norm_label": "prerequisites"
+    },
+    {
+      "label": "One-liner (recommended)",
+      "file_type": "document",
+      "source_file": "docs/MCP_SETUP.md",
+      "source_location": "L13",
+      "id": "docs_mcp_setup_one_liner_recommended",
+      "community": 2,
+      "norm_label": "one-liner (recommended)"
+    },
+    {
+      "label": "macOS / Linux / Git Bash on Windows",
+      "file_type": "document",
+      "source_file": "docs/MCP_SETUP.md",
+      "source_location": "L15",
+      "id": "docs_mcp_setup_macos_linux_git_bash_on_windows",
+      "community": 2,
+      "norm_label": "macos / linux / git bash on windows"
+    },
+    {
+      "label": "code:bash (curl -fsSL https://raw.githubusercontent.com/devinraina258/t)",
+      "file_type": "document",
+      "source_file": "docs/MCP_SETUP.md",
+      "source_location": "L19",
+      "id": "docs_mcp_setup_codeblock_1",
+      "community": 2,
+      "norm_label": "code:bash (curl -fssl https://raw.githubusercontent.com/devinraina258/t)"
+    },
+    {
+      "label": "code:bash (curl -fsSL https://raw.githubusercontent.com/devinraina258/t)",
+      "file_type": "document",
+      "source_file": "docs/MCP_SETUP.md",
+      "source_location": "L25",
+      "id": "docs_mcp_setup_codeblock_2",
+      "community": 2,
+      "norm_label": "code:bash (curl -fssl https://raw.githubusercontent.com/devinraina258/t)"
+    },
+    {
+      "label": "Windows PowerShell",
+      "file_type": "document",
+      "source_file": "docs/MCP_SETUP.md",
+      "source_location": "L29",
+      "id": "docs_mcp_setup_windows_powershell",
+      "community": 2,
+      "norm_label": "windows powershell"
+    },
+    {
+      "label": "code:powershell (irm https://raw.githubusercontent.com/devinraina258/talentse)",
+      "file_type": "document",
+      "source_file": "docs/MCP_SETUP.md",
+      "source_location": "L33",
+      "id": "docs_mcp_setup_codeblock_3",
+      "community": 2,
+      "norm_label": "code:powershell (irm https://raw.githubusercontent.com/devinraina258/talentse)"
+    },
+    {
+      "label": "code:powershell (irm https://raw.githubusercontent.com/devinraina258/talentse)",
+      "file_type": "document",
+      "source_file": "docs/MCP_SETUP.md",
+      "source_location": "L39",
+      "id": "docs_mcp_setup_codeblock_4",
+      "community": 2,
+      "norm_label": "code:powershell (irm https://raw.githubusercontent.com/devinraina258/talentse)"
+    },
+    {
+      "label": "code:powershell (powershell -NoProfile -ExecutionPolicy Bypass -File scripts/)",
+      "file_type": "document",
+      "source_file": "docs/MCP_SETUP.md",
+      "source_location": "L45",
+      "id": "docs_mcp_setup_codeblock_5",
+      "community": 2,
+      "norm_label": "code:powershell (powershell -noprofile -executionpolicy bypass -file scripts/)"
+    },
+    {
+      "label": "Any OS (Python only)",
+      "file_type": "document",
+      "source_file": "docs/MCP_SETUP.md",
+      "source_location": "L49",
+      "id": "docs_mcp_setup_any_os_python_only",
+      "community": 2,
+      "norm_label": "any os (python only)"
+    },
+    {
+      "label": "code:bash (python scripts/bootstrap_mcp.py)",
+      "file_type": "document",
+      "source_file": "docs/MCP_SETUP.md",
+      "source_location": "L51",
+      "id": "docs_mcp_setup_codeblock_6",
+      "community": 2,
+      "norm_label": "code:bash (python scripts/bootstrap_mcp.py)"
+    },
+    {
+      "label": "What the bootstrap does",
+      "file_type": "document",
+      "source_file": "docs/MCP_SETUP.md",
+      "source_location": "L57",
+      "id": "docs_mcp_setup_what_the_bootstrap_does",
+      "community": 2,
+      "norm_label": "what the bootstrap does"
+    },
+    {
+      "label": "Why this fixes \u201cpath not found\u201d",
+      "file_type": "document",
+      "source_file": "docs/MCP_SETUP.md",
+      "source_location": "L71",
+      "id": "docs_mcp_setup_why_this_fixes_path_not_found",
+      "community": 2,
+      "norm_label": "why this fixes \u201cpath not found\u201d"
+    },
+    {
+      "label": "npm / Husky (optional)",
+      "file_type": "document",
+      "source_file": "docs/MCP_SETUP.md",
+      "source_location": "L84",
+      "id": "docs_mcp_setup_npm_husky_optional",
+      "community": 2,
+      "norm_label": "npm / husky (optional)"
+    },
+    {
+      "label": "code:powershell (npm.cmd install)",
+      "file_type": "document",
+      "source_file": "docs/MCP_SETUP.md",
+      "source_location": "L88",
+      "id": "docs_mcp_setup_codeblock_7",
+      "community": 2,
+      "norm_label": "code:powershell (npm.cmd install)"
+    },
+    {
+      "label": "Troubleshooting",
+      "file_type": "document",
+      "source_file": "docs/MCP_SETUP.md",
+      "source_location": "L96",
+      "id": "docs_mcp_setup_troubleshooting",
+      "community": 2,
+      "norm_label": "troubleshooting"
+    }
+  ],
+  "links": [
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "scripts/bootstrap_mcp.py",
+      "source_location": "L19",
+      "weight": 1.0,
+      "source": "scripts_bootstrap_mcp_py",
+      "target": "scripts_bootstrap_mcp_run",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "scripts/bootstrap_mcp.py",
+      "source_location": "L24",
+      "weight": 1.0,
+      "source": "scripts_bootstrap_mcp_py",
+      "target": "scripts_bootstrap_mcp_venv_python",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "scripts/bootstrap_mcp.py",
+      "source_location": "L34",
+      "weight": 1.0,
+      "source": "scripts_bootstrap_mcp_py",
+      "target": "scripts_bootstrap_mcp_ensure_venv",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "scripts/bootstrap_mcp.py",
+      "source_location": "L42",
+      "weight": 1.0,
+      "source": "scripts_bootstrap_mcp_py",
+      "target": "scripts_bootstrap_mcp_write_mcp_json",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "scripts/bootstrap_mcp.py",
+      "source_location": "L72",
+      "weight": 1.0,
+      "source": "scripts_bootstrap_mcp_py",
+      "target": "scripts_bootstrap_mcp_sync_graphify",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "scripts/bootstrap_mcp.py",
+      "source_location": "L93",
+      "weight": 1.0,
+      "source": "scripts_bootstrap_mcp_py",
+      "target": "scripts_bootstrap_mcp_main",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "scripts/bootstrap_mcp.py",
+      "source_location": "L38",
+      "weight": 1.0,
+      "source": "scripts_bootstrap_mcp_ensure_venv",
+      "target": "scripts_bootstrap_mcp_run",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "scripts/bootstrap_mcp.py",
+      "source_location": "L74",
+      "weight": 1.0,
+      "source": "scripts_bootstrap_mcp_sync_graphify",
+      "target": "scripts_bootstrap_mcp_run",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "scripts/bootstrap_mcp.py",
+      "source_location": "L98",
+      "weight": 1.0,
+      "source": "scripts_bootstrap_mcp_main",
+      "target": "scripts_bootstrap_mcp_run",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "scripts/bootstrap_mcp.py",
+      "source_location": "L39",
+      "weight": 1.0,
+      "source": "scripts_bootstrap_mcp_ensure_venv",
+      "target": "scripts_bootstrap_mcp_venv_python",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "scripts/bootstrap_mcp.py",
+      "source_location": "L97",
+      "weight": 1.0,
+      "source": "scripts_bootstrap_mcp_main",
+      "target": "scripts_bootstrap_mcp_ensure_venv",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "scripts/bootstrap_mcp.py",
+      "source_location": "L113",
+      "weight": 1.0,
+      "source": "scripts_bootstrap_mcp_main",
+      "target": "scripts_bootstrap_mcp_write_mcp_json",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "scripts/bootstrap_mcp.py",
+      "source_location": "L109",
+      "weight": 1.0,
+      "source": "scripts_bootstrap_mcp_main",
+      "target": "scripts_bootstrap_mcp_sync_graphify",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "scripts/init_db.py",
+      "source_location": "L14",
+      "weight": 1.0,
+      "source": "scripts_init_db_py",
+      "target": "scripts_init_db_run_sql_file",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "scripts/init_db.py",
+      "source_location": "L19",
+      "weight": 1.0,
+      "source": "scripts_init_db_py",
+      "target": "scripts_init_db_init_db",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "scripts/init_db.py",
+      "source_location": "L30",
+      "weight": 1.0,
+      "source": "scripts_init_db_init_db",
+      "target": "scripts_init_db_run_sql_file",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "INFERRED",
+      "confidence_score": 0.8,
+      "source_file": "tests/test_tools.py",
+      "source_location": "L21",
+      "weight": 1.0,
+      "source": "tests_test_tools_temp_db",
+      "target": "scripts_init_db_init_db"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "scripts/mcp_launcher.py",
+      "source_location": "L17",
+      "weight": 1.0,
+      "source": "scripts_mcp_launcher_py",
+      "target": "scripts_mcp_launcher_venv_python",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "scripts/mcp_launcher.py",
+      "source_location": "L25",
+      "weight": 1.0,
+      "source": "scripts_mcp_launcher_py",
+      "target": "scripts_mcp_launcher_main",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "scripts/mcp_launcher.py",
+      "source_location": "L26",
+      "weight": 1.0,
+      "source": "scripts_mcp_launcher_main",
+      "target": "scripts_mcp_launcher_venv_python",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/db.py",
+      "source_location": "L26",
+      "weight": 1.0,
+      "source": "src_db_py",
+      "target": "src_db_get_db_path",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/db.py",
+      "source_location": "L32",
+      "weight": 1.0,
+      "source": "src_db_py",
+      "target": "src_db_connect",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/db.py",
+      "source_location": "L44",
+      "weight": 1.0,
+      "source": "src_db_py",
+      "target": "src_db_resolve_slug",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/db.py",
+      "source_location": "L69",
+      "weight": 1.0,
+      "source": "src_db_py",
+      "target": "src_db_parse_iso_date",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/db.py",
+      "source_location": "L76",
+      "weight": 1.0,
+      "source": "src_db_py",
+      "target": "src_db_calendar_days_inclusive",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/db.py",
+      "source_location": "L80",
+      "weight": 1.0,
+      "source": "src_db_py",
+      "target": "src_db_row_to_employee",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/db.py",
+      "source_location": "L92",
+      "weight": 1.0,
+      "source": "src_db_py",
+      "target": "src_db_row_to_leave_request",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/db.py",
+      "source_location": "L108",
+      "weight": 1.0,
+      "source": "src_db_py",
+      "target": "src_db_list_employees",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/db.py",
+      "source_location": "L123",
+      "weight": 1.0,
+      "source": "src_db_py",
+      "target": "src_db_get_employee",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/db.py",
+      "source_location": "L159",
+      "weight": 1.0,
+      "source": "src_db_py",
+      "target": "src_db_get_leave_balance",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/db.py",
+      "source_location": "L176",
+      "weight": 1.0,
+      "source": "src_db_py",
+      "target": "src_db_fetch_requests",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/db.py",
+      "source_location": "L203",
+      "weight": 1.0,
+      "source": "src_db_py",
+      "target": "src_db_list_leave_requests",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/db.py",
+      "source_location": "L231",
+      "weight": 1.0,
+      "source": "src_db_py",
+      "target": "src_db_apply_leave",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/db.py",
+      "source_location": "L337",
+      "weight": 1.0,
+      "source": "src_db_py",
+      "target": "src_db_check_leave_status",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/db.py",
+      "source_location": "L398",
+      "weight": 1.0,
+      "source": "src_db_py",
+      "target": "src_db_get_employee_context_for_advice",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/db.py",
+      "source_location": "L426",
+      "weight": 1.0,
+      "source": "src_db_py",
+      "target": "src_db_get_employees_resource",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/db.py",
+      "source_location": "L433",
+      "weight": 1.0,
+      "source": "src_db_py",
+      "target": "src_db_get_policy_resource",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "src/db.py",
+      "source_location": "L33",
+      "weight": 1.0,
+      "source": "src_db_connect",
+      "target": "src_db_get_db_path",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "src/db.py",
+      "source_location": "L58",
+      "weight": 1.0,
+      "source": "src_db_resolve_slug",
+      "target": "src_db_connect",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "src/db.py",
+      "source_location": "L109",
+      "weight": 1.0,
+      "source": "src_db_list_employees",
+      "target": "src_db_connect",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "src/db.py",
+      "source_location": "L131",
+      "weight": 1.0,
+      "source": "src_db_get_employee",
+      "target": "src_db_connect",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "src/db.py",
+      "source_location": "L222",
+      "weight": 1.0,
+      "source": "src_db_list_leave_requests",
+      "target": "src_db_connect",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "src/db.py",
+      "source_location": "L281",
+      "weight": 1.0,
+      "source": "src_db_apply_leave",
+      "target": "src_db_connect",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "src/db.py",
+      "source_location": "L342",
+      "weight": 1.0,
+      "source": "src_db_check_leave_status",
+      "target": "src_db_connect",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "src/db.py",
+      "source_location": "L410",
+      "weight": 1.0,
+      "source": "src_db_get_employee_context_for_advice",
+      "target": "src_db_connect",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "src/db.py",
+      "source_location": "L124",
+      "weight": 1.0,
+      "source": "src_db_get_employee",
+      "target": "src_db_resolve_slug",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "src/db.py",
+      "source_location": "L209",
+      "weight": 1.0,
+      "source": "src_db_list_leave_requests",
+      "target": "src_db_resolve_slug",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "src/db.py",
+      "source_location": "L238",
+      "weight": 1.0,
+      "source": "src_db_apply_leave",
+      "target": "src_db_resolve_slug",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "src/db.py",
+      "source_location": "L373",
+      "weight": 1.0,
+      "source": "src_db_check_leave_status",
+      "target": "src_db_resolve_slug",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "src/db.py",
+      "source_location": "L399",
+      "weight": 1.0,
+      "source": "src_db_get_employee_context_for_advice",
+      "target": "src_db_resolve_slug",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "src/db.py",
+      "source_location": "L254",
+      "weight": 1.0,
+      "source": "src_db_apply_leave",
+      "target": "src_db_parse_iso_date",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "src/db.py",
+      "source_location": "L269",
+      "weight": 1.0,
+      "source": "src_db_apply_leave",
+      "target": "src_db_calendar_days_inclusive",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "src/db.py",
+      "source_location": "L144",
+      "weight": 1.0,
+      "source": "src_db_get_employee",
+      "target": "src_db_row_to_employee",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "INFERRED",
+      "confidence_score": 0.8,
+      "source_file": "src/db.py",
+      "source_location": "L81",
+      "weight": 1.0,
+      "source": "src_db_row_to_employee",
+      "target": "src_models_employee"
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "src/db.py",
+      "source_location": "L200",
+      "weight": 1.0,
+      "source": "src_db_fetch_requests",
+      "target": "src_db_row_to_leave_request",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "src/db.py",
+      "source_location": "L326",
+      "weight": 1.0,
+      "source": "src_db_apply_leave",
+      "target": "src_db_row_to_leave_request",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "src/db.py",
+      "source_location": "L362",
+      "weight": 1.0,
+      "source": "src_db_check_leave_status",
+      "target": "src_db_row_to_leave_request",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "INFERRED",
+      "confidence_score": 0.8,
+      "source_file": "src/db.py",
+      "source_location": "L93",
+      "weight": 1.0,
+      "source": "src_db_row_to_leave_request",
+      "target": "src_models_leaverequest"
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "src/db.py",
+      "source_location": "L427",
+      "weight": 1.0,
+      "source": "src_db_get_employees_resource",
+      "target": "src_db_list_employees",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "INFERRED",
+      "confidence_score": 0.8,
+      "source_file": "src/db.py",
+      "source_location": "L120",
+      "weight": 1.0,
+      "source": "src_db_list_employees",
+      "target": "src_models_toolresponse"
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "INFERRED",
+      "confidence_score": 0.8,
+      "source_file": "src/db.py",
+      "source_location": "L120",
+      "weight": 1.0,
+      "source": "src_db_list_employees",
+      "target": "src_models_utc_now_iso"
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "src/db.py",
+      "source_location": "L160",
+      "weight": 1.0,
+      "source": "src_db_get_leave_balance",
+      "target": "src_db_get_employee",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "src/db.py",
+      "source_location": "L406",
+      "weight": 1.0,
+      "source": "src_db_get_employee_context_for_advice",
+      "target": "src_db_get_employee",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "INFERRED",
+      "confidence_score": 0.8,
+      "source_file": "src/db.py",
+      "source_location": "L126",
+      "weight": 1.0,
+      "source": "src_db_get_employee",
+      "target": "src_models_toolresponse"
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "INFERRED",
+      "confidence_score": 0.8,
+      "source_file": "src/db.py",
+      "source_location": "L129",
+      "weight": 1.0,
+      "source": "src_db_get_employee",
+      "target": "src_models_utc_now_iso"
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "INFERRED",
+      "confidence_score": 0.8,
+      "source_file": "src/db.py",
+      "source_location": "L164",
+      "weight": 1.0,
+      "source": "src_db_get_leave_balance",
+      "target": "src_models_toolresponse"
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "INFERRED",
+      "confidence_score": 0.8,
+      "source_file": "src/db.py",
+      "source_location": "L172",
+      "weight": 1.0,
+      "source": "src_db_get_leave_balance",
+      "target": "src_models_utc_now_iso"
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "src/db.py",
+      "source_location": "L223",
+      "weight": 1.0,
+      "source": "src_db_list_leave_requests",
+      "target": "src_db_fetch_requests",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "src/db.py",
+      "source_location": "L382",
+      "weight": 1.0,
+      "source": "src_db_check_leave_status",
+      "target": "src_db_fetch_requests",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "src/db.py",
+      "source_location": "L411",
+      "weight": 1.0,
+      "source": "src_db_get_employee_context_for_advice",
+      "target": "src_db_fetch_requests",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "INFERRED",
+      "confidence_score": 0.8,
+      "source_file": "src/db.py",
+      "source_location": "L211",
+      "weight": 1.0,
+      "source": "src_db_list_leave_requests",
+      "target": "src_models_toolresponse"
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "INFERRED",
+      "confidence_score": 0.8,
+      "source_file": "src/db.py",
+      "source_location": "L214",
+      "weight": 1.0,
+      "source": "src_db_list_leave_requests",
+      "target": "src_models_utc_now_iso"
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "INFERRED",
+      "confidence_score": 0.8,
+      "source_file": "src/db.py",
+      "source_location": "L240",
+      "weight": 1.0,
+      "source": "src_db_apply_leave",
+      "target": "src_models_toolresponse"
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "INFERRED",
+      "confidence_score": 0.8,
+      "source_file": "src/db.py",
+      "source_location": "L243",
+      "weight": 1.0,
+      "source": "src_db_apply_leave",
+      "target": "src_models_utc_now_iso"
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "INFERRED",
+      "confidence_score": 0.8,
+      "source_file": "src/db.py",
+      "source_location": "L355",
+      "weight": 1.0,
+      "source": "src_db_check_leave_status",
+      "target": "src_models_toolresponse"
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "INFERRED",
+      "confidence_score": 0.8,
+      "source_file": "src/db.py",
+      "source_location": "L358",
+      "weight": 1.0,
+      "source": "src_db_check_leave_status",
+      "target": "src_models_utc_now_iso"
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "INFERRED",
+      "confidence_score": 0.8,
+      "source_file": "src/db.py",
+      "source_location": "L401",
+      "weight": 1.0,
+      "source": "src_db_get_employee_context_for_advice",
+      "target": "src_models_toolresponse"
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "INFERRED",
+      "confidence_score": 0.8,
+      "source_file": "src/db.py",
+      "source_location": "L404",
+      "weight": 1.0,
+      "source": "src_db_get_employee_context_for_advice",
+      "target": "src_models_utc_now_iso"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/grok_client.py",
+      "source_location": "L16",
+      "weight": 1.0,
+      "source": "src_grok_client_py",
+      "target": "src_grok_client_parse_json_from_content",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/grok_client.py",
+      "source_location": "L26",
+      "weight": 1.0,
+      "source": "src_grok_client_py",
+      "target": "src_grok_client_default_next_steps",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/grok_client.py",
+      "source_location": "L43",
+      "weight": 1.0,
+      "source": "src_grok_client_py",
+      "target": "src_grok_client_generate_fallback_advice",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/grok_client.py",
+      "source_location": "L70",
+      "weight": 1.0,
+      "source": "src_grok_client_py",
+      "target": "src_grok_client_generate_leave_advice_with_grok",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "src/grok_client.py",
+      "source_location": "L105",
+      "weight": 1.0,
+      "source": "src_grok_client_generate_leave_advice_with_grok",
+      "target": "src_grok_client_parse_json_from_content",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "src/grok_client.py",
+      "source_location": "L63",
+      "weight": 1.0,
+      "source": "src_grok_client_generate_fallback_advice",
+      "target": "src_grok_client_default_next_steps",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "src/grok_client.py",
+      "source_location": "L111",
+      "weight": 1.0,
+      "source": "src_grok_client_generate_leave_advice_with_grok",
+      "target": "src_grok_client_default_next_steps",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "src/grok_client.py",
+      "source_location": "L76",
+      "weight": 1.0,
+      "source": "src_grok_client_generate_leave_advice_with_grok",
+      "target": "src_grok_client_generate_fallback_advice",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "INFERRED",
+      "confidence_score": 0.8,
+      "source_file": "src/grok_client.py",
+      "source_location": "L57",
+      "weight": 1.0,
+      "source": "src_grok_client_generate_fallback_advice",
+      "target": "src_models_leaveadvice"
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "INFERRED",
+      "confidence_score": 0.8,
+      "source_file": "src/grok_client.py",
+      "source_location": "L65",
+      "weight": 1.0,
+      "source": "src_grok_client_generate_fallback_advice",
+      "target": "src_models_utc_now_iso"
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "INFERRED",
+      "confidence_score": 0.8,
+      "source_file": "src/grok_client.py",
+      "source_location": "L115",
+      "weight": 1.0,
+      "source": "src_grok_client_generate_leave_advice_with_grok",
+      "target": "src_models_leaveadvice"
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "INFERRED",
+      "confidence_score": 0.8,
+      "source_file": "src/grok_client.py",
+      "source_location": "L125",
+      "weight": 1.0,
+      "source": "src_grok_client_generate_leave_advice_with_grok",
+      "target": "src_models_utc_now_iso"
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "INFERRED",
+      "confidence_score": 0.8,
+      "source_file": "src/server.py",
+      "source_location": "L86",
+      "weight": 1.0,
+      "source": "src_server_advise_on_leave",
+      "target": "src_grok_client_generate_leave_advice_with_grok"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/models.py",
+      "source_location": "L10",
+      "weight": 1.0,
+      "source": "src_models_py",
+      "target": "src_models_utc_now_iso",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/models.py",
+      "source_location": "L15",
+      "weight": 1.0,
+      "source": "src_models_py",
+      "target": "src_models_toolresponse",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/models.py",
+      "source_location": "L28",
+      "weight": 1.0,
+      "source": "src_models_py",
+      "target": "src_models_employee",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/models.py",
+      "source_location": "L39",
+      "weight": 1.0,
+      "source": "src_models_py",
+      "target": "src_models_leaverequest",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/models.py",
+      "source_location": "L54",
+      "weight": 1.0,
+      "source": "src_models_py",
+      "target": "src_models_leaveadvice",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "src/models.py",
+      "source_location": "L23",
+      "weight": 1.0,
+      "source": "src_models_toolresponse_to_dict",
+      "target": "src_models_utc_now_iso",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "INFERRED",
+      "confidence_score": 0.8,
+      "source_file": "src/server.py",
+      "source_location": "L104",
+      "weight": 1.0,
+      "source": "src_server_advise_on_leave",
+      "target": "src_models_utc_now_iso"
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "src/models.py",
+      "source_location": "L21",
+      "weight": 1.0,
+      "source": "src_models_toolresponse",
+      "target": "src_models_toolresponse_to_dict",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "INFERRED",
+      "confidence_score": 0.8,
+      "source_file": "src/server.py",
+      "source_location": "L90",
+      "weight": 1.0,
+      "source": "src_server_advise_on_leave",
+      "target": "src_models_toolresponse"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/server.py",
+      "source_location": "L20",
+      "weight": 1.0,
+      "source": "src_server_py",
+      "target": "src_server_json_response",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/server.py",
+      "source_location": "L31",
+      "weight": 1.0,
+      "source": "src_server_py",
+      "target": "src_server_list_employees",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/server.py",
+      "source_location": "L37",
+      "weight": 1.0,
+      "source": "src_server_py",
+      "target": "src_server_get_employee",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/server.py",
+      "source_location": "L43",
+      "weight": 1.0,
+      "source": "src_server_py",
+      "target": "src_server_get_leave_balance",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/server.py",
+      "source_location": "L49",
+      "weight": 1.0,
+      "source": "src_server_py",
+      "target": "src_server_apply_leave",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/server.py",
+      "source_location": "L63",
+      "weight": 1.0,
+      "source": "src_server_py",
+      "target": "src_server_check_leave_status",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/server.py",
+      "source_location": "L72",
+      "weight": 1.0,
+      "source": "src_server_py",
+      "target": "src_server_list_leave_requests",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/server.py",
+      "source_location": "L81",
+      "weight": 1.0,
+      "source": "src_server_py",
+      "target": "src_server_advise_on_leave",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/server.py",
+      "source_location": "L110",
+      "weight": 1.0,
+      "source": "src_server_py",
+      "target": "src_server_employees_resource",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/server.py",
+      "source_location": "L116",
+      "weight": 1.0,
+      "source": "src_server_py",
+      "target": "src_server_policy_resource",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/server.py",
+      "source_location": "L122",
+      "weight": 1.0,
+      "source": "src_server_py",
+      "target": "src_server_leave_assistant",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/server.py",
+      "source_location": "L137",
+      "weight": 1.0,
+      "source": "src_server_py",
+      "target": "src_server_main",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "src/server.py",
+      "source_location": "L33",
+      "weight": 1.0,
+      "source": "src_server_list_employees",
+      "target": "src_server_json_response",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "src/server.py",
+      "source_location": "L39",
+      "weight": 1.0,
+      "source": "src_server_get_employee",
+      "target": "src_server_json_response",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "src/server.py",
+      "source_location": "L45",
+      "weight": 1.0,
+      "source": "src_server_get_leave_balance",
+      "target": "src_server_json_response",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "src/server.py",
+      "source_location": "L57",
+      "weight": 1.0,
+      "source": "src_server_apply_leave",
+      "target": "src_server_json_response",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "src/server.py",
+      "source_location": "L68",
+      "weight": 1.0,
+      "source": "src_server_check_leave_status",
+      "target": "src_server_json_response",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "src/server.py",
+      "source_location": "L77",
+      "weight": 1.0,
+      "source": "src_server_list_leave_requests",
+      "target": "src_server_json_response",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "src/server.py",
+      "source_location": "L85",
+      "weight": 1.0,
+      "source": "src_server_advise_on_leave",
+      "target": "src_server_json_response",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "rationale_for",
+      "confidence": "EXTRACTED",
+      "source_file": "src/server.py",
+      "source_location": "L32",
+      "weight": 1.0,
+      "source": "src_server_rationale_32",
+      "target": "src_server_list_employees",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "rationale_for",
+      "confidence": "EXTRACTED",
+      "source_file": "src/server.py",
+      "source_location": "L38",
+      "weight": 1.0,
+      "source": "src_server_rationale_38",
+      "target": "src_server_get_employee",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "rationale_for",
+      "confidence": "EXTRACTED",
+      "source_file": "src/server.py",
+      "source_location": "L44",
+      "weight": 1.0,
+      "source": "src_server_rationale_44",
+      "target": "src_server_get_leave_balance",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "rationale_for",
+      "confidence": "EXTRACTED",
+      "source_file": "src/server.py",
+      "source_location": "L56",
+      "weight": 1.0,
+      "source": "src_server_rationale_56",
+      "target": "src_server_apply_leave",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "rationale_for",
+      "confidence": "EXTRACTED",
+      "source_file": "src/server.py",
+      "source_location": "L67",
+      "weight": 1.0,
+      "source": "src_server_rationale_67",
+      "target": "src_server_check_leave_status",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "rationale_for",
+      "confidence": "EXTRACTED",
+      "source_file": "src/server.py",
+      "source_location": "L76",
+      "weight": 1.0,
+      "source": "src_server_rationale_76",
+      "target": "src_server_list_leave_requests",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "rationale_for",
+      "confidence": "EXTRACTED",
+      "source_file": "src/server.py",
+      "source_location": "L82",
+      "weight": 1.0,
+      "source": "src_server_rationale_82",
+      "target": "src_server_advise_on_leave",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "rationale_for",
+      "confidence": "EXTRACTED",
+      "source_file": "src/server.py",
+      "source_location": "L111",
+      "weight": 1.0,
+      "source": "src_server_rationale_111",
+      "target": "src_server_employees_resource",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "rationale_for",
+      "confidence": "EXTRACTED",
+      "source_file": "src/server.py",
+      "source_location": "L117",
+      "weight": 1.0,
+      "source": "src_server_rationale_117",
+      "target": "src_server_policy_resource",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "rationale_for",
+      "confidence": "EXTRACTED",
+      "source_file": "src/server.py",
+      "source_location": "L123",
+      "weight": 1.0,
+      "source": "src_server_rationale_123",
+      "target": "src_server_leave_assistant",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "tests/test_tools.py",
+      "source_location": "L18",
+      "weight": 1.0,
+      "source": "tests_test_tools_py",
+      "target": "tests_test_tools_temp_db",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "tests/test_tools.py",
+      "source_location": "L25",
+      "weight": 1.0,
+      "source": "tests_test_tools_py",
+      "target": "tests_test_tools_test_list_employees",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "tests/test_tools.py",
+      "source_location": "L33",
+      "weight": 1.0,
+      "source": "tests_test_tools_py",
+      "target": "tests_test_tools_test_get_leave_balance",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "tests/test_tools.py",
+      "source_location": "L40",
+      "weight": 1.0,
+      "source": "tests_test_tools_py",
+      "target": "tests_test_tools_test_apply_leave_pending",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "tests/test_tools.py",
+      "source_location": "L56",
+      "weight": 1.0,
+      "source": "tests_test_tools_py",
+      "target": "tests_test_tools_test_apply_leave_insufficient_balance",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "tests/test_tools.py",
+      "source_location": "L68",
+      "weight": 1.0,
+      "source": "tests_test_tools_py",
+      "target": "tests_test_tools_test_check_leave_status_by_employee",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "tests/test_tools.py",
+      "source_location": "L74",
+      "weight": 1.0,
+      "source": "tests_test_tools_py",
+      "target": "tests_test_tools_test_check_leave_status_by_id",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "tests/test_tools.py",
+      "source_location": "L84",
+      "weight": 1.0,
+      "source": "tests_test_tools_py",
+      "target": "tests_test_tools_test_unknown_employee",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "tests/test_tools.py",
+      "source_location": "L89",
+      "weight": 1.0,
+      "source": "tests_test_tools_py",
+      "target": "tests_test_tools_test_list_leave_requests_filter",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "README.md",
+      "source_location": "L1",
+      "weight": 1.0,
+      "source": "readme_md",
+      "target": "talentserv_ai_hackathon_group_11_backend_db_readme_office_leave_mcp",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "README.md",
+      "source_location": "L5",
+      "weight": 1.0,
+      "source": "talentserv_ai_hackathon_group_11_backend_db_readme_office_leave_mcp",
+      "target": "talentserv_ai_hackathon_group_11_backend_db_readme_prerequisites",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "README.md",
+      "source_location": "L11",
+      "weight": 1.0,
+      "source": "talentserv_ai_hackathon_group_11_backend_db_readme_office_leave_mcp",
+      "target": "talentserv_ai_hackathon_group_11_backend_db_readme_quick_start",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "README.md",
+      "source_location": "L55",
+      "weight": 1.0,
+      "source": "talentserv_ai_hackathon_group_11_backend_db_readme_office_leave_mcp",
+      "target": "talentserv_ai_hackathon_group_11_backend_db_readme_add_to_cursor_one_command",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "README.md",
+      "source_location": "L83",
+      "weight": 1.0,
+      "source": "talentserv_ai_hackathon_group_11_backend_db_readme_office_leave_mcp",
+      "target": "talentserv_ai_hackathon_group_11_backend_db_readme_mcp_tools",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "README.md",
+      "source_location": "L95",
+      "weight": 1.0,
+      "source": "talentserv_ai_hackathon_group_11_backend_db_readme_office_leave_mcp",
+      "target": "talentserv_ai_hackathon_group_11_backend_db_readme_mcp_resources",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "README.md",
+      "source_location": "L100",
+      "weight": 1.0,
+      "source": "talentserv_ai_hackathon_group_11_backend_db_readme_office_leave_mcp",
+      "target": "talentserv_ai_hackathon_group_11_backend_db_readme_example_prompts_in_cursor",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "README.md",
+      "source_location": "L107",
+      "weight": 1.0,
+      "source": "talentserv_ai_hackathon_group_11_backend_db_readme_office_leave_mcp",
+      "target": "talentserv_ai_hackathon_group_11_backend_db_readme_employees_seed_data",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "README.md",
+      "source_location": "L117",
+      "weight": 1.0,
+      "source": "talentserv_ai_hackathon_group_11_backend_db_readme_office_leave_mcp",
+      "target": "talentserv_ai_hackathon_group_11_backend_db_readme_publish_to_github",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "README.md",
+      "source_location": "L124",
+      "weight": 1.0,
+      "source": "talentserv_ai_hackathon_group_11_backend_db_readme_office_leave_mcp",
+      "target": "talentserv_ai_hackathon_group_11_backend_db_readme_license",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "README.md",
+      "source_location": "L13",
+      "weight": 1.0,
+      "source": "talentserv_ai_hackathon_group_11_backend_db_readme_quick_start",
+      "target": "talentserv_ai_hackathon_group_11_backend_db_readme_codeblock_1",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "README.md",
+      "source_location": "L21",
+      "weight": 1.0,
+      "source": "talentserv_ai_hackathon_group_11_backend_db_readme_quick_start",
+      "target": "talentserv_ai_hackathon_group_11_backend_db_readme_1_create_the_database",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "README.md",
+      "source_location": "L29",
+      "weight": 1.0,
+      "source": "talentserv_ai_hackathon_group_11_backend_db_readme_quick_start",
+      "target": "talentserv_ai_hackathon_group_11_backend_db_readme_2_environment",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "README.md",
+      "source_location": "L37",
+      "weight": 1.0,
+      "source": "talentserv_ai_hackathon_group_11_backend_db_readme_quick_start",
+      "target": "talentserv_ai_hackathon_group_11_backend_db_readme_3_run_tests",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "README.md",
+      "source_location": "L43",
+      "weight": 1.0,
+      "source": "talentserv_ai_hackathon_group_11_backend_db_readme_quick_start",
+      "target": "talentserv_ai_hackathon_group_11_backend_db_readme_4_run_the_mcp_server_stdio",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "README.md",
+      "source_location": "L23",
+      "weight": 1.0,
+      "source": "talentserv_ai_hackathon_group_11_backend_db_readme_1_create_the_database",
+      "target": "talentserv_ai_hackathon_group_11_backend_db_readme_codeblock_2",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "README.md",
+      "source_location": "L31",
+      "weight": 1.0,
+      "source": "talentserv_ai_hackathon_group_11_backend_db_readme_2_environment",
+      "target": "talentserv_ai_hackathon_group_11_backend_db_readme_codeblock_3",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "README.md",
+      "source_location": "L39",
+      "weight": 1.0,
+      "source": "talentserv_ai_hackathon_group_11_backend_db_readme_3_run_tests",
+      "target": "talentserv_ai_hackathon_group_11_backend_db_readme_codeblock_4",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "README.md",
+      "source_location": "L45",
+      "weight": 1.0,
+      "source": "talentserv_ai_hackathon_group_11_backend_db_readme_4_run_the_mcp_server_stdio",
+      "target": "talentserv_ai_hackathon_group_11_backend_db_readme_codeblock_5",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "README.md",
+      "source_location": "L51",
+      "weight": 1.0,
+      "source": "talentserv_ai_hackathon_group_11_backend_db_readme_4_run_the_mcp_server_stdio",
+      "target": "talentserv_ai_hackathon_group_11_backend_db_readme_codeblock_6",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "README.md",
+      "source_location": "L61",
+      "weight": 1.0,
+      "source": "talentserv_ai_hackathon_group_11_backend_db_readme_add_to_cursor_one_command",
+      "target": "talentserv_ai_hackathon_group_11_backend_db_readme_codeblock_7",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "README.md",
+      "source_location": "L67",
+      "weight": 1.0,
+      "source": "talentserv_ai_hackathon_group_11_backend_db_readme_add_to_cursor_one_command",
+      "target": "talentserv_ai_hackathon_group_11_backend_db_readme_codeblock_8",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "README.md",
+      "source_location": "L73",
+      "weight": 1.0,
+      "source": "talentserv_ai_hackathon_group_11_backend_db_readme_add_to_cursor_one_command",
+      "target": "talentserv_ai_hackathon_group_11_backend_db_readme_codeblock_9",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "README.md",
+      "source_location": "L119",
+      "weight": 1.0,
+      "source": "talentserv_ai_hackathon_group_11_backend_db_readme_publish_to_github",
+      "target": "talentserv_ai_hackathon_group_11_backend_db_readme_codeblock_10",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/MCP_SETUP.md",
+      "source_location": "L1",
+      "weight": 1.0,
+      "source": "docs_mcp_setup_md",
+      "target": "docs_mcp_setup_mcp_setup_one_command",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/MCP_SETUP.md",
+      "source_location": "L5",
+      "weight": 1.0,
+      "source": "docs_mcp_setup_mcp_setup_one_command",
+      "target": "docs_mcp_setup_prerequisites",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/MCP_SETUP.md",
+      "source_location": "L13",
+      "weight": 1.0,
+      "source": "docs_mcp_setup_mcp_setup_one_command",
+      "target": "docs_mcp_setup_one_liner_recommended",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/MCP_SETUP.md",
+      "source_location": "L57",
+      "weight": 1.0,
+      "source": "docs_mcp_setup_mcp_setup_one_command",
+      "target": "docs_mcp_setup_what_the_bootstrap_does",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/MCP_SETUP.md",
+      "source_location": "L71",
+      "weight": 1.0,
+      "source": "docs_mcp_setup_mcp_setup_one_command",
+      "target": "docs_mcp_setup_why_this_fixes_path_not_found",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/MCP_SETUP.md",
+      "source_location": "L84",
+      "weight": 1.0,
+      "source": "docs_mcp_setup_mcp_setup_one_command",
+      "target": "docs_mcp_setup_npm_husky_optional",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/MCP_SETUP.md",
+      "source_location": "L96",
+      "weight": 1.0,
+      "source": "docs_mcp_setup_mcp_setup_one_command",
+      "target": "docs_mcp_setup_troubleshooting",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/MCP_SETUP.md",
+      "source_location": "L15",
+      "weight": 1.0,
+      "source": "docs_mcp_setup_one_liner_recommended",
+      "target": "docs_mcp_setup_macos_linux_git_bash_on_windows",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/MCP_SETUP.md",
+      "source_location": "L29",
+      "weight": 1.0,
+      "source": "docs_mcp_setup_one_liner_recommended",
+      "target": "docs_mcp_setup_windows_powershell",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/MCP_SETUP.md",
+      "source_location": "L49",
+      "weight": 1.0,
+      "source": "docs_mcp_setup_one_liner_recommended",
+      "target": "docs_mcp_setup_any_os_python_only",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/MCP_SETUP.md",
+      "source_location": "L19",
+      "weight": 1.0,
+      "source": "docs_mcp_setup_macos_linux_git_bash_on_windows",
+      "target": "docs_mcp_setup_codeblock_1",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/MCP_SETUP.md",
+      "source_location": "L25",
+      "weight": 1.0,
+      "source": "docs_mcp_setup_macos_linux_git_bash_on_windows",
+      "target": "docs_mcp_setup_codeblock_2",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/MCP_SETUP.md",
+      "source_location": "L33",
+      "weight": 1.0,
+      "source": "docs_mcp_setup_windows_powershell",
+      "target": "docs_mcp_setup_codeblock_3",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/MCP_SETUP.md",
+      "source_location": "L39",
+      "weight": 1.0,
+      "source": "docs_mcp_setup_windows_powershell",
+      "target": "docs_mcp_setup_codeblock_4",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/MCP_SETUP.md",
+      "source_location": "L45",
+      "weight": 1.0,
+      "source": "docs_mcp_setup_windows_powershell",
+      "target": "docs_mcp_setup_codeblock_5",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/MCP_SETUP.md",
+      "source_location": "L51",
+      "weight": 1.0,
+      "source": "docs_mcp_setup_any_os_python_only",
+      "target": "docs_mcp_setup_codeblock_6",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/MCP_SETUP.md",
+      "source_location": "L88",
+      "weight": 1.0,
+      "source": "docs_mcp_setup_npm_husky_optional",
+      "target": "docs_mcp_setup_codeblock_7",
+      "confidence_score": 1.0
+    }
+  ],
+  "hyperedges": [],
+  "built_at_commit": "03c9a311c94bc50e4a37186c8515f61dd4baec07"
+}

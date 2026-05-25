@@ -1,12 +1,26 @@
 {
   "mcpServers": {
     "office-leave": {
-      "command": "C:\\Users\\Admin\\Documents\\talentserv-ai-hackathon-group-11-backend-db\\.venv\\Scripts\\python.exe",
-      "args": ["-m", "src.server"],
-      "cwd": "C:\\Users\\Admin\\Documents\\talentserv-ai-hackathon-group-11-backend-db",
+      "command": "python",
+      "args": [
+        "${workspaceFolder}${/}scripts${/}mcp_launcher.py",
+        "-m",
+        "src.server"
+      ],
+      "cwd": "${workspaceFolder}",
       "env": {
         "DATABASE_PATH": "data/employees.db"
       }
+    },
+    "graphify": {
+      "command": "python",
+      "args": [
+        "${workspaceFolder}${/}scripts${/}mcp_launcher.py",
+        "-m",
+        "graphify.serve",
+        "${workspaceFolder}${/}graphify-out${/}graph.json"
+      ],
+      "cwd": "${workspaceFolder}"
     }
   }
 }
