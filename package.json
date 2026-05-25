@@ -1,0 +1,12 @@
+{
+  "name": "talentserv-ai-hackathon-group-11-backend-db",
+  "private": true,
+  "scripts": {
+    "prepare": "husky",
+    "graphify:sync": "powershell -NoProfile -ExecutionPolicy Bypass -File scripts/sync_graphify_out.ps1",
+    "graphify:sync:unix": "sh scripts/sync_graphify_out.sh"
+  },
+  "devDependencies": {
+    "husky": "^9.1.7"
+  }
+}

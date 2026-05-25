@@ -7,6 +7,15 @@
       "env": {
         "DATABASE_PATH": "data/employees.db"
       }
+    },
+    "graphify": {
+      "command": "C:\\Users\\Admin\\Documents\\talentserv-ai-hackathon-group-11-backend-db\\.venv\\Scripts\\python.exe",
+      "args": [
+        "-m",
+        "graphify.serve",
+        "C:\\Users\\Admin\\Documents\\talentserv-ai-hackathon-group-11-backend-db\\graphify-out\\graph.json"
+      ],
+      "cwd": "C:\\Users\\Admin\\Documents\\talentserv-ai-hackathon-group-11-backend-db"
     }
   }
 }
