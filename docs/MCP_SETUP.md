@@ -1,102 +1,124 @@
-# MCP setup — one curl per server
+# MCP setup — clone-free (curl → mcp.json only)
 
-Each MCP has its **own** bootstrap command. Run from the **repository root** after `git clone`. Config uses `${workspaceFolder}` + `scripts/mcp_launcher.py` (no hardcoded `C:\` or `D:\` paths).
+Configure **office-leave** and/or **graphify** like Jira/Figma MCP: one curl per server, run from **whatever folder Cursor has open**. No `git clone` of this repo required.
 
-**Prerequisites:** Python 3.10+ on PATH, Cursor opened on this repo folder.
+**Prerequisites:** Python 3.10+ on PATH. Optional but recommended: [uv](https://docs.astral.sh/uv/) (`uvx`) or `pipx`.
 
 ---
 
-## office-leave MCP (leave tools + SQLite)
+## office-leave MCP
 
-Sets up: `.venv`, `pip install -e ".[dev]"`, `.env`, `data/employees.db`, merges `office-leave` into `.cursor/mcp.json`.
+Sets up `.cursor/mcp.json`, `.cursor/bin/office-leave-mcp/run`, and `data/employees.db` in **the current directory only**.
 
-### curl (macOS / Linux / Git Bash)
+### curl (bash — any directory)
 
 ```bash
-curl -fsSL https://raw.githubusercontent.com/devinraina258/talentserv-ai-hackathon-group-11-backend-db/main/scripts/bootstrap-office-leave-mcp.sh | bash
+curl -fsSL https://raw.githubusercontent.com/devinraina258/talentserv-ai-hackathon-group-11-backend-db/main/scripts/install-office-leave-mcp.sh | bash
 ```
 
 ### PowerShell (Windows)
 
 ```powershell
-irm https://raw.githubusercontent.com/devinraina258/talentserv-ai-hackathon-group-11-backend-db/main/scripts/bootstrap-office-leave-mcp.ps1 | iex
+irm https://raw.githubusercontent.com/devinraina258/talentserv-ai-hackathon-group-11-backend-db/main/scripts/install-office-leave-mcp.ps1 | iex
 ```
 
-### Local (no curl)
+### Local (repo checkout)
 
 ```bash
-python scripts/bootstrap_mcp.py --office-leave
+python scripts/mcp_install_lib.py office-leave
 ```
 
 ---
 
-## graphify MCP (code graph queries)
+## graphify MCP
 
-Sets up: `.venv`, `pip install -e ".[graphify]"`, `graphify-out/graph.json` (+ HTML/JSONL if scripts present), merges `graphify` into `.cursor/mcp.json`.
+Sets up `.cursor/mcp.json`, `.cursor/bin/graphify-mcp/run`, and builds `graphify-out/graph.json` in **the current directory** (AST-only, no API key).
 
-### curl (macOS / Linux / Git Bash)
+### curl (bash)
 
 ```bash
-curl -fsSL https://raw.githubusercontent.com/devinraina258/talentserv-ai-hackathon-group-11-backend-db/main/scripts/bootstrap-graphify-mcp.sh | bash
+curl -fsSL https://raw.githubusercontent.com/devinraina258/talentserv-ai-hackathon-group-11-backend-db/main/scripts/install-graphify-mcp.sh | bash
 ```
 
-### PowerShell (Windows)
+### PowerShell
 
 ```powershell
-irm https://raw.githubusercontent.com/devinraina258/talentserv-ai-hackathon-group-11-backend-db/main/scripts/bootstrap-graphify-mcp.ps1 | iex
+irm https://raw.githubusercontent.com/devinraina258/talentserv-ai-hackathon-group-11-backend-db/main/scripts/install-graphify-mcp.ps1 | iex
 ```
 
-### Local (no curl)
+### Local
 
 ```bash
-python scripts/bootstrap_mcp.py --graphify
-```
-
-Force rebuild the graph:
-
-```bash
-python scripts/bootstrap_mcp.py --graphify --force-graph
+python scripts/mcp_install_lib.py graphify
 ```
 
 ---
 
-## Both MCPs at once
+## Both servers
 
 ```bash
-curl -fsSL https://raw.githubusercontent.com/devinraina258/talentserv-ai-hackathon-group-11-backend-db/main/scripts/bootstrap-mcp.sh | bash
+curl -fsSL .../install-office-leave-mcp.sh | bash
+curl -fsSL .../install-graphify-mcp.sh | bash
 ```
 
-```powershell
-irm https://raw.githubusercontent.com/devinraina258/talentserv-ai-hackathon-group-11-backend-db/main/scripts/bootstrap-mcp.ps1 | iex
+Or: `python scripts/mcp_install_lib.py all`
+
+Running them in either order **merges** entries; it does not remove Jira/other MCPs.
+
+---
+
+## What gets written (per machine)
+
+| Path | Purpose |
+|------|---------|
+| `.cursor/mcp.json` | Cursor MCP config (gitignored) |
+| `.cursor/bin/*/run` | Launcher: uvx → pipx → `.cursor/mcp-venv` |
+| `.cursor/mcp-venv/` | Fallback Python env (gitignored) |
+| `data/employees.db` | office-leave only |
+| `graphify-out/graph.json` | graphify only |
+
+Template committed: [.cursor/mcp.json.example](../.cursor/mcp.json.example)
+
+---
+
+## Runtime (how the server runs)
+
+```mermaid
+flowchart TD
+  Cursor[Cursor MCP client]
+  McpJson[mcp.json launcher path]
+  Uvx[uvx git+https package]
+  Pipx[pipx run]
+  Venv[.cursor/mcp-venv]
+  Cursor --> McpJson
+  McpJson --> Uvx
+  McpJson --> Pipx
+  McpJson --> Venv
 ```
+
+- **office-leave:** `uvx --from git+https://github.com/devinraina258/talentserv-ai-hackathon-group-11-backend-db@main office-leave-mcp`
+- **graphify:** `uvx --from graphifyy[mcp] python -m graphify.serve graphify-out/graph.json`
+
+`${workspaceFolder}` in `mcp.json` keeps paths portable (no `C:\` or `D:\` hardcoding).
+
+---
+
+## After install
+
+1. **Developer → Reload Window**
+2. **Settings → MCP** → enable **office-leave** / **graphify**
+
+---
+
+## Developers (full repo clone)
 
 ```bash
+pip install -e ".[dev,graphify]"
 python scripts/bootstrap_mcp.py --all
+office-leave-init-db
 ```
 
-Running **office-leave** then **graphify** (or the reverse) is safe — each command **merges** into `.cursor/mcp.json` without removing the other server.
-
----
-
-## After any bootstrap
-
-1. **Developer → Reload Window** in Cursor  
-2. **Settings → MCP** → enable the server(s) you installed  
-3. Confirm green status for **office-leave** and/or **graphify**
-
----
-
-## What each bootstrap installs
-
-| Step | office-leave | graphify |
-|------|:------------:|:--------:|
-| Create `.venv` | yes | yes |
-| `init_db.py` → `data/employees.db` | yes | no |
-| `.env` from `.env.example` | yes | no |
-| `graphify update .` | no | yes |
-| MCP entry in `.cursor/mcp.json` | `office-leave` | `graphify` |
-
-Shared: `scripts/mcp_launcher.py` picks `.venv` Python on Windows and Unix.
+Legacy bootstrap scripts (`bootstrap-office-leave-mcp.sh`) still work inside a clone.
 
 ---
 
@@ -104,11 +126,10 @@ Shared: `scripts/mcp_launcher.py` picks `.venv` Python on Windows and Unix.
 
 | Symptom | Fix |
 |---------|-----|
-| `path not found` / Connection closed | Re-run the curl for that MCP from repo root |
-| curl 404 | Push scripts to GitHub `main`, or use `python scripts/bootstrap_mcp.py --…` locally |
-| office-leave tools empty | Re-run office-leave bootstrap (creates DB) |
-| graphify empty graph | `python scripts/bootstrap_mcp.py --graphify --force-graph` |
-| `npm.ps1` blocked (Husky only) | Use `npm.cmd install` — not required for MCP |
+| `path not found` / Connection closed | Re-run the install curl from the folder Cursor has open |
+| curl 404 | Push to GitHub `main`, or run `python scripts/mcp_install_lib.py …` from a clone |
+| No `uvx` / `pipx` | Installer creates `.cursor/mcp-venv` automatically |
+| graphify empty graph | Run `.cursor/bin/graphify-mcp/build-graph.sh` or `graphify update .` in workspace |
 
 ---
 

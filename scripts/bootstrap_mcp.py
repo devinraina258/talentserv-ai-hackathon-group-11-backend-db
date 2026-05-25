@@ -21,27 +21,10 @@ RAW = (
     "talentserv-ai-hackathon-group-11-backend-db/main/scripts"
 )
 
-OFFICE_LEAVE_ENTRY = {
-    "command": "python",
-    "args": [
-        "${workspaceFolder}${/}scripts${/}mcp_launcher.py",
-        "-m",
-        "src.server",
-    ],
-    "cwd": "${workspaceFolder}",
-    "env": {"DATABASE_PATH": "data/employees.db"},
-}
-
-GRAPHIFY_ENTRY = {
-    "command": "python",
-    "args": [
-        "${workspaceFolder}${/}scripts${/}mcp_launcher.py",
-        "-m",
-        "graphify.serve",
-        "${workspaceFolder}${/}graphify-out${/}graph.json",
-    ],
-    "cwd": "${workspaceFolder}",
-}
+RAW_INSTALL = (
+    "https://raw.githubusercontent.com/devinraina258/"
+    "talentserv-ai-hackathon-group-11-backend-db/main/scripts"
+)
 
 
 def run(cmd: list[str], **kwargs) -> None:
@@ -116,20 +99,18 @@ def sync_graphify(py: Path) -> None:
 
 
 def setup_office_leave(py: Path) -> None:
+    from scripts.mcp_install_lib import install_office_leave
+
     print("[bootstrap:office-leave] installing package + dev deps ...")
     run([str(py), "-m", "pip", "install", "--upgrade", "pip"])
     run([str(py), "-m", "pip", "install", "-e", ".[dev]"])
-
-    if not ENV_FILE.exists() and ENV_EXAMPLE.exists():
-        shutil.copy(ENV_EXAMPLE, ENV_FILE)
-        print(f"[bootstrap:office-leave] created {ENV_FILE}")
-
-    run([str(py), "scripts/init_db.py"])
-    merge_mcp_server("office-leave", OFFICE_LEAVE_ENTRY)
+    install_office_leave(ROOT)
     run([str(py), "-c", "import src.server; print('office-leave ok')"])
 
 
 def setup_graphify(py: Path, *, force_graph: bool) -> None:
+    from scripts.mcp_install_lib import install_graphify
+
     print("[bootstrap:graphify] installing graphifyy[mcp] ...")
     run([str(py), "-m", "pip", "install", "--upgrade", "pip"])
     run([str(py), "-m", "pip", "install", "-e", ".[graphify]"])
@@ -137,10 +118,7 @@ def setup_graphify(py: Path, *, force_graph: bool) -> None:
     if force_graph or not GRAPH_JSON.is_file():
         print("[bootstrap:graphify] building graphify-out ...")
         sync_graphify(py)
-    else:
-        print("[bootstrap:graphify] graphify-out/graph.json exists (skip rebuild)")
-
-    merge_mcp_server("graphify", GRAPHIFY_ENTRY)
+    install_graphify(ROOT)
     run([str(py), "-c", "import graphify.serve; print('graphify ok')"])
 
 
@@ -151,9 +129,9 @@ def print_done(servers: list[str]) -> None:
         "  1. Reload Cursor (Developer: Reload Window)\n"
         f"  2. Settings -> MCP -> enable: {names}\n"
         f"  3. Config: {MCP_JSON}\n"
-        "\nOther MCP one-liners:\n"
-        f"  office-leave: curl -fsSL {RAW}/bootstrap-office-leave-mcp.sh | bash\n"
-        f"  graphify:     curl -fsSL {RAW}/bootstrap-graphify-mcp.sh | bash\n"
+        "\nClone-free install (any folder, no git clone):\n"
+        f"  office-leave: curl -fsSL {RAW_INSTALL}/install-office-leave-mcp.sh | bash\n"
+        f"  graphify:     curl -fsSL {RAW_INSTALL}/install-graphify-mcp.sh | bash\n"
     )
 
 

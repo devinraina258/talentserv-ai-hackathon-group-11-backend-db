@@ -2,21 +2,21 @@
 
 TalentServ hackathon — FastMCP server for office leave (apply, status, balances) with a local SQLite database, Grok-powered advice, and an optional **graphify** code graph for Cursor.
 
-**One curl per MCP** (run from repo root after clone; portable `.cursor/mcp.json`, no hardcoded paths):
+**One curl per MCP** — run from **any folder** (no `git clone` first). Writes `.cursor/mcp.json` + launchers only for that directory (like Jira/Figma MCP):
 
 **office-leave**
 
 ```bash
-curl -fsSL https://raw.githubusercontent.com/devinraina258/talentserv-ai-hackathon-group-11-backend-db/main/scripts/bootstrap-office-leave-mcp.sh | bash
+curl -fsSL https://raw.githubusercontent.com/devinraina258/talentserv-ai-hackathon-group-11-backend-db/main/scripts/install-office-leave-mcp.sh | bash
 ```
 
 **graphify**
 
 ```bash
-curl -fsSL https://raw.githubusercontent.com/devinraina258/talentserv-ai-hackathon-group-11-backend-db/main/scripts/bootstrap-graphify-mcp.sh | bash
+curl -fsSL https://raw.githubusercontent.com/devinraina258/talentserv-ai-hackathon-group-11-backend-db/main/scripts/install-graphify-mcp.sh | bash
 ```
 
-Windows: `irm .../bootstrap-office-leave-mcp.ps1 | iex` and `irm .../bootstrap-graphify-mcp.ps1 | iex` — [docs/MCP_SETUP.md](docs/MCP_SETUP.md).
+Windows: `irm .../install-office-leave-mcp.ps1 | iex` and `irm .../install-graphify-mcp.ps1 | iex` — [docs/MCP_SETUP.md](docs/MCP_SETUP.md).
 
 ## Prerequisites
 
@@ -37,7 +37,8 @@ pip install -e ".[dev,graphify]"
 ### 1. Create the database
 
 ```bash
-python scripts/init_db.py
+office-leave-init-db
+# or: python -m src.init_db
 ```
 
 Creates `data/employees.db` with three employees: **devin**, **nisha**, **gautam**.
@@ -112,41 +113,15 @@ graphify path "apply_leave" "connect"
 graphify explain "advise_on_leave"
 ```
 
-## Add to Cursor (one curl per MCP)
+## Add to Cursor
 
-From the **repository root** (after `git clone`). Each command creates `.venv`, installs what that server needs, and **merges** into `.cursor/mcp.json` (portable paths, no `D:\...` hardcoding).
+See the curl commands at the top of this README, or [docs/MCP_SETUP.md](docs/MCP_SETUP.md).
 
-### office-leave only
+- Installs via **uvx** → **pipx** → `.cursor/mcp-venv` (auto-detect)
+- **Merges** into `.cursor/mcp.json` (keeps your other MCP servers)
+- Reload Cursor after install
 
-```bash
-curl -fsSL https://raw.githubusercontent.com/devinraina258/talentserv-ai-hackathon-group-11-backend-db/main/scripts/bootstrap-office-leave-mcp.sh | bash
-```
-
-```powershell
-irm https://raw.githubusercontent.com/devinraina258/talentserv-ai-hackathon-group-11-backend-db/main/scripts/bootstrap-office-leave-mcp.ps1 | iex
-```
-
-### graphify only
-
-```bash
-curl -fsSL https://raw.githubusercontent.com/devinraina258/talentserv-ai-hackathon-group-11-backend-db/main/scripts/bootstrap-graphify-mcp.sh | bash
-```
-
-```powershell
-irm https://raw.githubusercontent.com/devinraina258/talentserv-ai-hackathon-group-11-backend-db/main/scripts/bootstrap-graphify-mcp.ps1 | iex
-```
-
-### Both MCPs
-
-```bash
-curl -fsSL https://raw.githubusercontent.com/devinraina258/talentserv-ai-hackathon-group-11-backend-db/main/scripts/bootstrap-mcp.sh | bash
-```
-
-Then **Developer → Reload Window** and enable the server(s) you installed.
-
-Details: [docs/MCP_SETUP.md](docs/MCP_SETUP.md) · Local: `python scripts/bootstrap_mcp.py --office-leave` / `--graphify` / `--all`
-
-Copy [.cursor/mcp.json.example](.cursor/mcp.json.example) to `.cursor/mcp.json` if you prefer manual setup (both **office-leave** and **graphify** use `scripts/mcp_launcher.py`).
+**Developers** with a full git checkout: `python scripts/bootstrap_mcp.py --all` or `pip install -e ".[dev,graphify]"`.
 
 ## MCP tools
 
