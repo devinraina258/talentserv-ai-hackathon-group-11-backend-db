@@ -64,20 +64,28 @@ This repo includes a pre-built code graph so Cursor can query structure instead 
 | `graphify-out/graph.html` | Interactive graph in a browser |
 | `graphify-out/GRAPH_TREE.html` | Collapsible module tree |
 
-**Install graphify (once):**
+**Install graphify + Husky (once per machine):**
 
 ```bash
 pip install "graphifyy[mcp]>=0.8.14"
 # or: uv tool install graphifyy
 graphify cursor install   # writes .cursor/rules/graphify.mdc (query-first for agents)
-graphify hook install     # auto-rebuild graph on git commit (AST only, no API key)
+npm install               # installs Husky; prepare script wires git pre-commit
 ```
 
-**Refresh after code changes:**
+Optional: `graphify hook uninstall` if you previously ran `graphify hook install` — Husky pre-commit replaces the post-commit rebuild and keeps `graphify-out/` in the **same** commit as your code.
+
+**Automatic updates (no manual refresh):**
+
+| When | What runs |
+|------|-----------|
+| Every `git commit` | Husky **pre-commit** → `scripts/sync_graphify_out.sh` → stages `graphify-out/` |
+| Every **PR** (and pushes to `main`/`master`) | GitHub Action [`.github/workflows/graphify.yml`](.github/workflows/graphify.yml) rebuilds and pushes `graphify-out` to the branch |
+
+Manual sync only if hooks are skipped (`git commit --no-verify`):
 
 ```bash
-graphify update .
-python scripts/export_graph_tree_jsonl.py
+npm run graphify:sync
 ```
 
 **Query from the terminal (scoped subgraph, not full-repo grep):**

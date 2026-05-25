@@ -1,0 +1,53 @@
+name: graphify-out
+
+on:
+  pull_request:
+  push:
+    branches: [main, master]
+
+permissions:
+  contents: write
+
+concurrency:
+  group: graphify-${{ github.workflow }}-${{ github.event.pull_request.number || github.ref }}
+  cancel-in-progress: true
+
+jobs:
+  update-graphify-out:
+    # Skip bot commits to avoid an infinite push loop on main.
+    if: >-
+      github.event_name == 'pull_request' ||
+      (github.event_name == 'push' &&
+       !contains(github.event.head_commit.message, 'chore: update graphify-out'))
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+        with:
+          ref: ${{ github.event_name == 'pull_request' && github.head_ref || github.ref_name }}
+          fetch-depth: 0
+          token: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Install graphify
+        run: pip install "graphifyy>=0.8.14"
+
+      - name: Sync graphify-out
+        run: sh scripts/sync_graphify_out.sh
+
+      - name: Commit and push graphify-out
+        env:
+          BRANCH: ${{ github.event_name == 'pull_request' && github.head_ref || github.ref_name }}
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          if git diff --staged --quiet; then
+            echo "graphify-out is already up to date."
+            exit 0
+          fi
+          git commit -m "chore: update graphify-out [skip ci]"
+          git push origin "HEAD:refs/heads/${BRANCH}"
