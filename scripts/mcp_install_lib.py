@@ -11,32 +11,12 @@ from pathlib import Path
 
 RAW_BASE = (
     "https://raw.githubusercontent.com/devinraina258/"
-    "talentserv-ai-hackathon-group-11-backend-db/master"
+    "talentserv-ai-hackathon-group-11-backend-db/main"
 )
 GIT_PKG = (
     "git+https://github.com/devinraina258/"
-    "talentserv-ai-hackathon-group-11-backend-db@master"
+    "talentserv-ai-hackathon-group-11-backend-db@main"
 )
-
-# Runtime deps for `python -m src.server` from workspace (no wheel build; avoids file locks).
-OFFICE_LEAVE_RUNTIME_DEPS = "fastmcp>=2.0.0 httpx>=0.27.0 python-dotenv>=1.0.0"
-
-# Venv fallback: deps-only in a clone; full package from git otherwise.
-_OFFICE_LEAVE_VENV_INSTALL_SH = r'''
-if [ -f "$WS/pyproject.toml" ]; then
-  "$PY" -m pip install -q -U pip ''' + OFFICE_LEAVE_RUNTIME_DEPS + r'''
-else
-  "$PY" -m pip install -q -U pip "$GIT_PKG"
-fi
-'''
-
-_OFFICE_LEAVE_VENV_INSTALL_CMD = r'''
-if exist "%WS%\pyproject.toml" (
-  "%VENV%\Scripts\python.exe" -m pip install -q -U pip ''' + OFFICE_LEAVE_RUNTIME_DEPS + r'''
-) else (
-  "%VENV%\Scripts\python.exe" -m pip install -q -U pip "''' + GIT_PKG + r'''"
-)
-'''
 
 OFFICE_LEAVE_MCP = {
     "command": "${workspaceFolder}${/}.cursor${/}bin${/}office-leave-mcp${/}run",
@@ -82,11 +62,11 @@ fi
 VENV="$WS/.cursor/mcp-venv"
 if [ ! -x "$VENV/bin/python" ] && [ ! -x "$VENV/Scripts/python.exe" ]; then
   python3 -m venv "$VENV" 2>/dev/null || python -m venv "$VENV"
+  "$VENV/bin/python" -m pip install -q -U pip 2>/dev/null || "$VENV/Scripts/python.exe" -m pip install -q -U pip
+  PY="$VENV/bin/python"; [ -x "$PY" ] || PY="$VENV/Scripts/python.exe"
+  "$PY" -m pip install -q "$GIT_PKG"
 fi
 PY="$VENV/bin/python"; [ -x "$PY" ] || PY="$VENV/Scripts/python.exe"
-if ! "$PY" -c "import src.server" 2>/dev/null; then
-''' + _OFFICE_LEAVE_VENV_INSTALL_SH + r'''
-fi
 exec "$PY" -m src.server
 '''
 
@@ -125,9 +105,10 @@ fi
 VENV="$WS/.cursor/mcp-venv"
 if [ ! -x "$VENV/bin/python" ] && [ ! -x "$VENV/Scripts/python.exe" ]; then
   python3 -m venv "$VENV" 2>/dev/null || python -m venv "$VENV"
+  PY="$VENV/bin/python"; [ -x "$PY" ] || PY="$VENV/Scripts/python.exe"
+  "$PY" -m pip install -q -U pip 'graphifyy[mcp]'
 fi
 PY="$VENV/bin/python"; [ -x "$PY" ] || PY="$VENV/Scripts/python.exe"
-"$PY" -c "import graphify" 2>/dev/null || "$PY" -m pip install -q -U 'graphifyy[mcp]'
 exec "$PY" -m graphify.serve "$GRAPH"
 '''
 
@@ -168,9 +149,7 @@ where pipx >nul 2>&1 && (pipx run --spec "''' + GIT_PKG + r'''" office-leave-mcp
 set "VENV=%WS%\.cursor\mcp-venv"
 if not exist "%VENV%\Scripts\python.exe" (
   python -m venv "%VENV%"
-)
-"%VENV%\Scripts\python.exe" -c "import src.server" 2>nul || (
-''' + _OFFICE_LEAVE_VENV_INSTALL_CMD + r'''
+  "%VENV%\Scripts\python.exe" -m pip install -q -U pip "''' + GIT_PKG + r'''"
 )
 "%VENV%\Scripts\python.exe" -m src.server
 '''
@@ -185,8 +164,8 @@ where pipx >nul 2>&1 && (pipx run --spec graphifyy[mcp] python -m graphify.serve
 set "VENV=%WS%\.cursor\mcp-venv"
 if not exist "%VENV%\Scripts\python.exe" (
   python -m venv "%VENV%"
+  "%VENV%\Scripts\python.exe" -m pip install -q graphifyy[mcp]
 )
-"%VENV%\Scripts\python.exe" -c "import graphify" 2>nul || "%VENV%\Scripts\python.exe" -m pip install -q -U "graphifyy[mcp]"
 "%VENV%\Scripts\python.exe" -m graphify.serve "%GRAPH%"
 '''
 
@@ -215,24 +194,13 @@ def _venv_python(venv: Path) -> Path | None:
     return None
 
 
-def _install_office_leave_into_venv(py: Path, workspace: Path) -> None:
-    subprocess.run([str(py), "-m", "pip", "install", "-q", "-U", "pip"], check=True)
-    if (workspace / "pyproject.toml").is_file():
-        subprocess.run(
-            [str(py), "-m", "pip", "install", "-q", *OFFICE_LEAVE_RUNTIME_DEPS.split()],
-            check=True,
-        )
-    else:
-        subprocess.run([str(py), "-m", "pip", "install", "-q", GIT_PKG], check=True)
-
-
-def _create_venv_python(workspace: Path, venv: Path) -> Path:
+def _create_venv_python(workspace: Path, venv: Path, pkg: str) -> Path:
     venv.parent.mkdir(parents=True, exist_ok=True)
     subprocess.run([sys.executable, "-m", "venv", str(venv)], check=True)
     py = _venv_python(venv)
     if not py:
         raise RuntimeError(f"Failed to create venv at {venv}")
-    _install_office_leave_into_venv(py, workspace)
+    subprocess.run([str(py), "-m", "pip", "install", "-q", "-U", "pip", pkg], check=True)
     return py
 
 
@@ -263,7 +231,7 @@ def install_office_leave(workspace: Path) -> None:
             except (FileNotFoundError, subprocess.CalledProcessError):
                 continue
         else:
-            py = _create_venv_python(workspace, workspace / ".cursor" / "mcp-venv")
+            py = _create_venv_python(workspace, workspace / ".cursor" / "mcp-venv", GIT_PKG)
             subprocess.run([str(py), "-m", "src.init_db"], cwd=workspace, check=True, env=env)
     env_example = workspace / ".env.example"
     env_file = workspace / ".env"
