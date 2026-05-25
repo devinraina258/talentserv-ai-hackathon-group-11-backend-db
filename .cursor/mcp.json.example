@@ -1,25 +1,17 @@
 {
   "mcpServers": {
     "office-leave": {
-      "command": "python",
-      "args": [
-        "${workspaceFolder}${/}scripts${/}mcp_launcher.py",
-        "-m",
-        "src.server"
-      ],
+      "command": "${workspaceFolder}${/}.cursor${/}bin${/}office-leave-mcp${/}run",
+      "args": [],
       "cwd": "${workspaceFolder}",
       "env": {
-        "DATABASE_PATH": "data/employees.db"
+        "DATABASE_PATH": "data/employees.db",
+        "OFFICE_LEAVE_WORKSPACE": "${workspaceFolder}"
       }
     },
     "graphify": {
-      "command": "python",
-      "args": [
-        "${workspaceFolder}${/}scripts${/}mcp_launcher.py",
-        "-m",
-        "graphify.serve",
-        "${workspaceFolder}${/}graphify-out${/}graph.json"
-      ],
+      "command": "${workspaceFolder}${/}.cursor${/}bin${/}graphify-mcp${/}run",
+      "args": [],
       "cwd": "${workspaceFolder}"
     }
   }

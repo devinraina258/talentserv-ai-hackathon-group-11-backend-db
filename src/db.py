@@ -7,8 +7,25 @@ from pathlib import Path
 
 from src.models import Employee, LeaveRequest, ToolResponse, utc_now_iso
 
-ROOT = Path(__file__).resolve().parent.parent
-DEFAULT_DB = ROOT / "data" / "employees.db"
+DEFAULT_DB_REL = "data/employees.db"
+
+
+def get_workspace_root() -> Path:
+    raw = os.environ.get("OFFICE_LEAVE_WORKSPACE", "").strip()
+    if raw:
+        return Path(raw)
+    return Path.cwd()
+
+
+def resolve_db_path(db_path: Path | str | None = None) -> Path:
+    if db_path is None:
+        raw = os.environ.get("DATABASE_PATH", DEFAULT_DB_REL)
+        path = Path(raw)
+    else:
+        path = Path(db_path)
+    if path.is_absolute():
+        return path
+    return get_workspace_root() / path
 
 LEAVE_POLICY = {
     "notice_days": 2,
@@ -24,17 +41,15 @@ LEAVE_POLICY = {
 
 
 def get_db_path() -> Path:
-    raw = os.environ.get("DATABASE_PATH", str(DEFAULT_DB))
-    path = Path(raw)
-    return path if path.is_absolute() else ROOT / path
+    return resolve_db_path(None)
 
 
 def connect() -> sqlite3.Connection:
     path = get_db_path()
     if not path.exists():
-        raise FileNotFoundError(
-            f"Database not found at {path}. Run: python scripts/init_db.py"
-        )
+        from src.init_db import init_db
+
+        init_db(path)
     conn = sqlite3.connect(path)
     conn.row_factory = sqlite3.Row
     conn.execute("PRAGMA foreign_keys = ON")

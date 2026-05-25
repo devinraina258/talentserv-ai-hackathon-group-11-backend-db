@@ -9,6 +9,8 @@ build/
 data/*.db
 .pytest_cache/
 .cursor/mcp.json
+.cursor/bin/
+.cursor/mcp-venv/
 graphify-out/manifest.json
 graphify-out/cost.json
 graphify-out/cache/
