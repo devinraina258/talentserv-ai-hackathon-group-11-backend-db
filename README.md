@@ -15,7 +15,7 @@ git clone https://github.com/devinraina258/talentserv-ai-hackathon-group-11-back
 cd talentserv-ai-hackathon-group-11-backend-db
 python -m venv .venv
 .venv\Scripts\activate
-pip install -e ".[dev]"
+pip install -e ".[dev,graphify]"
 ```
 
 ### 1. Create the database
@@ -51,6 +51,44 @@ Or:
 ```bash
 fastmcp run src/server.py
 ```
+
+## Knowledge graph ([graphify](https://github.com/safishamsi/graphify))
+
+This repo includes a pre-built code graph so Cursor can query structure instead of grepping files (fewer tokens, faster answers).
+
+| Artifact | Purpose |
+|----------|---------|
+| `graphify-out/graph.json` | Full graph (nodes, edges, communities) |
+| `graphify-out/GRAPH_REPORT.md` | God nodes, surprising links, suggested questions |
+| `graphify-out/graph_tree.jsonl` | Compact directory/symbol tree (one JSON object per line) |
+| `graphify-out/graph.html` | Interactive graph in a browser |
+| `graphify-out/GRAPH_TREE.html` | Collapsible module tree |
+
+**Install graphify (once):**
+
+```bash
+pip install "graphifyy[mcp]>=0.8.14"
+# or: uv tool install graphifyy
+graphify cursor install   # writes .cursor/rules/graphify.mdc (query-first for agents)
+graphify hook install     # auto-rebuild graph on git commit (AST only, no API key)
+```
+
+**Refresh after code changes:**
+
+```bash
+graphify update .
+python scripts/export_graph_tree_jsonl.py
+```
+
+**Query from the terminal (scoped subgraph, not full-repo grep):**
+
+```bash
+graphify query "how does apply_leave connect to the database?"
+graphify path "apply_leave" "connect"
+graphify explain "advise_on_leave"
+```
+
+**MCP:** Copy [.cursor/mcp.json.example](.cursor/mcp.json.example) to `.cursor/mcp.json` — it includes an optional `graphify` server (`query_graph`, `get_neighbors`, `shortest_path`, etc.) alongside `office-leave`.
 
 ## Add to Cursor
 
