@@ -1,4 +1,4 @@
-{"path": ["talentserv-ai-hackathon-group-11-backend-db"], "name": "talentserv-ai-hackathon-group-11-backend-db", "depth": 0, "total_count": 564, "kind": "dir"}
+{"path": ["talentserv-ai-hackathon-group-11-backend-db"], "name": "talentserv-ai-hackathon-group-11-backend-db", "depth": 0, "total_count": 583, "kind": "dir"}
 {"path": ["talentserv-ai-hackathon-group-11-backend-db", ".cursor"], "name": ".cursor", "depth": 1, "total_count": 106, "kind": "dir"}
 {"path": ["talentserv-ai-hackathon-group-11-backend-db", ".cursor", "bin"], "name": "bin", "depth": 2, "total_count": 3, "kind": "dir"}
 {"path": ["talentserv-ai-hackathon-group-11-backend-db", ".cursor", "bin", "graphify-mcp"], "name": "graphify-mcp", "depth": 3, "total_count": 1, "kind": "dir"}
@@ -138,6 +138,28 @@
 {"path": ["talentserv-ai-hackathon-group-11-backend-db", ".husky"], "name": ".husky", "depth": 1, "total_count": 1, "kind": "dir"}
 {"path": ["talentserv-ai-hackathon-group-11-backend-db", ".husky", "_"], "name": "_", "depth": 2, "total_count": 1, "kind": "dir"}
 {"path": ["talentserv-ai-hackathon-group-11-backend-db", ".husky", "_", "husky.sh"], "name": "husky.sh", "depth": 3, "total_count": 1, "kind": "symbol"}
+{"path": ["talentserv-ai-hackathon-group-11-backend-db", "C:"], "name": "C:", "depth": 1, "total_count": 12, "kind": "dir"}
+{"path": ["talentserv-ai-hackathon-group-11-backend-db", "C:", "Users"], "name": "Users", "depth": 2, "total_count": 12, "kind": "dir"}
+{"path": ["talentserv-ai-hackathon-group-11-backend-db", "C:", "Users", "Admin"], "name": "Admin", "depth": 3, "total_count": 12, "kind": "dir"}
+{"path": ["talentserv-ai-hackathon-group-11-backend-db", "C:", "Users", "Admin", "Documents"], "name": "Documents", "depth": 4, "total_count": 12, "kind": "dir"}
+{"path": ["talentserv-ai-hackathon-group-11-backend-db", "C:", "Users", "Admin", "Documents", "talentserv-ai-hackathon-group-11-backend-db"], "name": "talentserv-ai-hackathon-group-11-backend-db", "depth": 5, "total_count": 12, "kind": "dir"}
+{"path": ["talentserv-ai-hackathon-group-11-backend-db", "C:", "Users", "Admin", "Documents", "talentserv-ai-hackathon-group-11-backend-db", "package.json"], "name": "package.json", "depth": 6, "total_count": 8, "kind": "dir"}
+{"path": ["talentserv-ai-hackathon-group-11-backend-db", "C:", "Users", "Admin", "Documents", "talentserv-ai-hackathon-group-11-backend-db", "package.json", "devDependencies"], "name": "devDependencies", "depth": 7, "total_count": 1, "kind": "leaf"}
+{"path": ["talentserv-ai-hackathon-group-11-backend-db", "C:", "Users", "Admin", "Documents", "talentserv-ai-hackathon-group-11-backend-db", "package.json", "graphify:sync"], "name": "graphify:sync", "depth": 7, "total_count": 1, "kind": "leaf"}
+{"path": ["talentserv-ai-hackathon-group-11-backend-db", "C:", "Users", "Admin", "Documents", "talentserv-ai-hackathon-group-11-backend-db", "package.json", "graphify:sync:unix"], "name": "graphify:sync:unix", "depth": 7, "total_count": 1, "kind": "leaf"}
+{"path": ["talentserv-ai-hackathon-group-11-backend-db", "C:", "Users", "Admin", "Documents", "talentserv-ai-hackathon-group-11-backend-db", "package.json", "husky"], "name": "husky", "depth": 7, "total_count": 1, "kind": "leaf"}
+{"path": ["talentserv-ai-hackathon-group-11-backend-db", "C:", "Users", "Admin", "Documents", "talentserv-ai-hackathon-group-11-backend-db", "package.json", "name"], "name": "name", "depth": 7, "total_count": 1, "kind": "leaf"}
+{"path": ["talentserv-ai-hackathon-group-11-backend-db", "C:", "Users", "Admin", "Documents", "talentserv-ai-hackathon-group-11-backend-db", "package.json", "prepare"], "name": "prepare", "depth": 7, "total_count": 1, "kind": "leaf"}
+{"path": ["talentserv-ai-hackathon-group-11-backend-db", "C:", "Users", "Admin", "Documents", "talentserv-ai-hackathon-group-11-backend-db", "package.json", "private"], "name": "private", "depth": 7, "total_count": 1, "kind": "leaf"}
+{"path": ["talentserv-ai-hackathon-group-11-backend-db", "C:", "Users", "Admin", "Documents", "talentserv-ai-hackathon-group-11-backend-db", "package.json", "scripts"], "name": "scripts", "depth": 7, "total_count": 1, "kind": "leaf"}
+{"path": ["talentserv-ai-hackathon-group-11-backend-db", "C:", "Users", "Admin", "Documents", "talentserv-ai-hackathon-group-11-backend-db", "scripts"], "name": "scripts", "depth": 6, "total_count": 4, "kind": "dir"}
+{"path": ["talentserv-ai-hackathon-group-11-backend-db", "C:", "Users", "Admin", "Documents", "talentserv-ai-hackathon-group-11-backend-db", "scripts", "mcp_launcher.py"], "name": "mcp_launcher.py", "depth": 7, "total_count": 2, "kind": "dir"}
+{"path": ["talentserv-ai-hackathon-group-11-backend-db", "C:", "Users", "Admin", "Documents", "talentserv-ai-hackathon-group-11-backend-db", "scripts", "mcp_launcher.py", "main()"], "name": "main()", "depth": 8, "total_count": 1, "kind": "leaf"}
+{"path": ["talentserv-ai-hackathon-group-11-backend-db", "C:", "Users", "Admin", "Documents", "talentserv-ai-hackathon-group-11-backend-db", "scripts", "mcp_launcher.py", "venv_python()"], "name": "venv_python()", "depth": 8, "total_count": 1, "kind": "leaf"}
+{"path": ["talentserv-ai-hackathon-group-11-backend-db", "C:", "Users", "Admin", "Documents", "talentserv-ai-hackathon-group-11-backend-db", "scripts", "sync_graphify_out.ps1"], "name": "sync_graphify_out.ps1", "depth": 7, "total_count": 1, "kind": "dir"}
+{"path": ["talentserv-ai-hackathon-group-11-backend-db", "C:", "Users", "Admin", "Documents", "talentserv-ai-hackathon-group-11-backend-db", "scripts", "sync_graphify_out.ps1", "Invoke-Graphify()"], "name": "Invoke-Graphify()", "depth": 8, "total_count": 1, "kind": "leaf"}
+{"path": ["talentserv-ai-hackathon-group-11-backend-db", "C:", "Users", "Admin", "Documents", "talentserv-ai-hackathon-group-11-backend-db", "scripts", "sync_graphify_out.sh"], "name": "sync_graphify_out.sh", "depth": 7, "total_count": 1, "kind": "dir"}
+{"path": ["talentserv-ai-hackathon-group-11-backend-db", "C:", "Users", "Admin", "Documents", "talentserv-ai-hackathon-group-11-backend-db", "scripts", "sync_graphify_out.sh", "run_graphify()"], "name": "run_graphify()", "depth": 8, "total_count": 1, "kind": "leaf"}
 {"path": ["talentserv-ai-hackathon-group-11-backend-db", "docs"], "name": "docs", "depth": 1, "total_count": 118, "kind": "dir"}
 {"path": ["talentserv-ai-hackathon-group-11-backend-db", "docs", "CACHE_COW.md"], "name": "CACHE_COW.md", "depth": 2, "total_count": 11, "kind": "dir"}
 {"path": ["talentserv-ai-hackathon-group-11-backend-db", "docs", "CACHE_COW.md", "cache-cow hooks (Cursor)"], "name": "cache-cow hooks (Cursor)", "depth": 3, "total_count": 1, "kind": "leaf"}
@@ -274,15 +296,6 @@
 {"path": ["talentserv-ai-hackathon-group-11-backend-db", "graphify-out", "memory", "query_20260525_115519_is_grok_giving_recommendations_for_mcp_office_leav.md", "Q: Is grok giving recommendations for MCP office-leave?"], "name": "Q: Is grok giving recommendations for MCP office-leave?", "depth": 4, "total_count": 1, "kind": "leaf"}
 {"path": ["talentserv-ai-hackathon-group-11-backend-db", "graphify-out", "memory", "query_20260525_115519_is_grok_giving_recommendations_for_mcp_office_leav.md", "query_20260525_115519_is_grok_giving_recommendations_for_mcp_office_leav.md"], "name": "query_20260525_115519_is_grok_giving_recommendations_for_mcp_office_leav.md", "depth": 4, "total_count": 1, "kind": "symbol"}
 {"path": ["talentserv-ai-hackathon-group-11-backend-db", "graphify-out", "memory", "query_20260525_115519_is_grok_giving_recommendations_for_mcp_office_leav.md", "Source Nodes"], "name": "Source Nodes", "depth": 4, "total_count": 1, "kind": "leaf"}
-{"path": ["talentserv-ai-hackathon-group-11-backend-db", "package.json"], "name": "package.json", "depth": 1, "total_count": 8, "kind": "dir"}
-{"path": ["talentserv-ai-hackathon-group-11-backend-db", "package.json", "devDependencies"], "name": "devDependencies", "depth": 2, "total_count": 1, "kind": "leaf"}
-{"path": ["talentserv-ai-hackathon-group-11-backend-db", "package.json", "graphify:sync"], "name": "graphify:sync", "depth": 2, "total_count": 1, "kind": "leaf"}
-{"path": ["talentserv-ai-hackathon-group-11-backend-db", "package.json", "graphify:sync:unix"], "name": "graphify:sync:unix", "depth": 2, "total_count": 1, "kind": "leaf"}
-{"path": ["talentserv-ai-hackathon-group-11-backend-db", "package.json", "husky"], "name": "husky", "depth": 2, "total_count": 1, "kind": "leaf"}
-{"path": ["talentserv-ai-hackathon-group-11-backend-db", "package.json", "name"], "name": "name", "depth": 2, "total_count": 1, "kind": "leaf"}
-{"path": ["talentserv-ai-hackathon-group-11-backend-db", "package.json", "prepare"], "name": "prepare", "depth": 2, "total_count": 1, "kind": "leaf"}
-{"path": ["talentserv-ai-hackathon-group-11-backend-db", "package.json", "private"], "name": "private", "depth": 2, "total_count": 1, "kind": "leaf"}
-{"path": ["talentserv-ai-hackathon-group-11-backend-db", "package.json", "scripts"], "name": "scripts", "depth": 2, "total_count": 1, "kind": "leaf"}
 {"path": ["talentserv-ai-hackathon-group-11-backend-db", "README.md"], "name": "README.md", "depth": 1, "total_count": 35, "kind": "dir"}
 {"path": ["talentserv-ai-hackathon-group-11-backend-db", "README.md", "1. Create the database"], "name": "1. Create the database", "depth": 2, "total_count": 1, "kind": "symbol"}
 {"path": ["talentserv-ai-hackathon-group-11-backend-db", "README.md", "2. Environment"], "name": "2. Environment", "depth": 2, "total_count": 1, "kind": "symbol"}
@@ -347,7 +360,7 @@
 {"path": ["talentserv-ai-hackathon-group-11-backend-db", "scripts", "demo.ps1", "Write-Warn()"], "name": "Write-Warn()", "depth": 3, "total_count": 1, "kind": "leaf"}
 {"path": ["talentserv-ai-hackathon-group-11-backend-db", "scripts", "export_graph_tree_jsonl.py"], "name": "export_graph_tree_jsonl.py", "depth": 2, "total_count": 5, "kind": "dir"}
 {"path": ["talentserv-ai-hackathon-group-11-backend-db", "scripts", "export_graph_tree_jsonl.py", "_walk_tree()"], "name": "_walk_tree()", "depth": 3, "total_count": 1, "kind": "leaf"}
-{"path": ["talentserv-ai-hackathon-group-11-backend-db", "scripts", "export_graph_tree_jsonl.py", "Export graphify-out/graph.json as a compact JSONL tree for LLM context.  Each"], "name": "Export graphify-out/graph.json as a compact JSONL tree for LLM context.  Each", "depth": 3, "total_count": 1, "kind": "leaf"}
+{"path": ["talentserv-ai-hackathon-group-11-backend-db", "scripts", "export_graph_tree_jsonl.py", "Export graphify-out/graph.json as a compact JSONL tree for LLM context.  Each li"], "name": "Export graphify-out/graph.json as a compact JSONL tree for LLM context.  Each li", "depth": 3, "total_count": 1, "kind": "leaf"}
 {"path": ["talentserv-ai-hackathon-group-11-backend-db", "scripts", "export_graph_tree_jsonl.py", "int"], "name": "int", "depth": 3, "total_count": 1, "kind": "leaf"}
 {"path": ["talentserv-ai-hackathon-group-11-backend-db", "scripts", "export_graph_tree_jsonl.py", "main()"], "name": "main()", "depth": 3, "total_count": 1, "kind": "leaf"}
 {"path": ["talentserv-ai-hackathon-group-11-backend-db", "scripts", "export_graph_tree_jsonl.py", "str"], "name": "str", "depth": 3, "total_count": 1, "kind": "leaf"}
@@ -371,23 +384,20 @@
 {"path": ["talentserv-ai-hackathon-group-11-backend-db", "scripts", "mcp_install_lib.py", "Path"], "name": "Path", "depth": 3, "total_count": 1, "kind": "leaf"}
 {"path": ["talentserv-ai-hackathon-group-11-backend-db", "scripts", "mcp_install_lib.py", "str"], "name": "str", "depth": 3, "total_count": 1, "kind": "leaf"}
 {"path": ["talentserv-ai-hackathon-group-11-backend-db", "scripts", "mcp_install_lib.py", "write_launcher()"], "name": "write_launcher()", "depth": 3, "total_count": 1, "kind": "leaf"}
-{"path": ["talentserv-ai-hackathon-group-11-backend-db", "scripts", "mcp_launcher.py"], "name": "mcp_launcher.py", "depth": 2, "total_count": 2, "kind": "dir"}
-{"path": ["talentserv-ai-hackathon-group-11-backend-db", "scripts", "mcp_launcher.py", "main()"], "name": "main()", "depth": 3, "total_count": 1, "kind": "leaf"}
-{"path": ["talentserv-ai-hackathon-group-11-backend-db", "scripts", "mcp_launcher.py", "venv_python()"], "name": "venv_python()", "depth": 3, "total_count": 1, "kind": "leaf"}
-{"path": ["talentserv-ai-hackathon-group-11-backend-db", "scripts", "md_to_pdf.py"], "name": "md_to_pdf.py", "depth": 2, "total_count": 1, "kind": "dir"}
+{"path": ["talentserv-ai-hackathon-group-11-backend-db", "scripts", "md_to_pdf.py"], "name": "md_to_pdf.py", "depth": 2, "total_count": 2, "kind": "dir"}
+{"path": ["talentserv-ai-hackathon-group-11-backend-db", "scripts", "md_to_pdf.py", "int"], "name": "int", "depth": 3, "total_count": 1, "kind": "leaf"}
 {"path": ["talentserv-ai-hackathon-group-11-backend-db", "scripts", "md_to_pdf.py", "main()"], "name": "main()", "depth": 3, "total_count": 1, "kind": "leaf"}
-{"path": ["talentserv-ai-hackathon-group-11-backend-db", "scripts", "sync_graphify_out.ps1"], "name": "sync_graphify_out.ps1", "depth": 2, "total_count": 1, "kind": "dir"}
-{"path": ["talentserv-ai-hackathon-group-11-backend-db", "scripts", "sync_graphify_out.ps1", "Invoke-Graphify()"], "name": "Invoke-Graphify()", "depth": 3, "total_count": 1, "kind": "leaf"}
-{"path": ["talentserv-ai-hackathon-group-11-backend-db", "scripts", "sync_graphify_out.sh"], "name": "sync_graphify_out.sh", "depth": 2, "total_count": 1, "kind": "dir"}
-{"path": ["talentserv-ai-hackathon-group-11-backend-db", "scripts", "sync_graphify_out.sh", "run_graphify()"], "name": "run_graphify()", "depth": 3, "total_count": 1, "kind": "leaf"}
 {"path": ["talentserv-ai-hackathon-group-11-backend-db", "scripts", "bootstrap-graphify-mcp.ps1"], "name": "bootstrap-graphify-mcp.ps1", "depth": 2, "total_count": 1, "kind": "symbol"}
 {"path": ["talentserv-ai-hackathon-group-11-backend-db", "scripts", "bootstrap-mcp.ps1"], "name": "bootstrap-mcp.ps1", "depth": 2, "total_count": 1, "kind": "symbol"}
 {"path": ["talentserv-ai-hackathon-group-11-backend-db", "scripts", "bootstrap-office-leave-mcp.ps1"], "name": "bootstrap-office-leave-mcp.ps1", "depth": 2, "total_count": 1, "kind": "symbol"}
 {"path": ["talentserv-ai-hackathon-group-11-backend-db", "scripts", "init_db.py"], "name": "init_db.py", "depth": 2, "total_count": 1, "kind": "symbol"}
 {"path": ["talentserv-ai-hackathon-group-11-backend-db", "scripts", "install-graphify-mcp.ps1"], "name": "install-graphify-mcp.ps1", "depth": 2, "total_count": 1, "kind": "symbol"}
 {"path": ["talentserv-ai-hackathon-group-11-backend-db", "scripts", "install-office-leave-mcp.ps1"], "name": "install-office-leave-mcp.ps1", "depth": 2, "total_count": 1, "kind": "symbol"}
-{"path": ["talentserv-ai-hackathon-group-11-backend-db", "src"], "name": "src", "depth": 1, "total_count": 198, "kind": "dir"}
-{"path": ["talentserv-ai-hackathon-group-11-backend-db", "src", "db.py"], "name": "db.py", "depth": 2, "total_count": 29, "kind": "dir"}
+{"path": ["talentserv-ai-hackathon-group-11-backend-db", "scripts", "mcp_launcher.py"], "name": "mcp_launcher.py", "depth": 2, "total_count": 1, "kind": "symbol"}
+{"path": ["talentserv-ai-hackathon-group-11-backend-db", "scripts", "sync_graphify_out.ps1"], "name": "sync_graphify_out.ps1", "depth": 2, "total_count": 1, "kind": "symbol"}
+{"path": ["talentserv-ai-hackathon-group-11-backend-db", "scripts", "sync_graphify_out.sh"], "name": "sync_graphify_out.sh", "depth": 2, "total_count": 1, "kind": "symbol"}
+{"path": ["talentserv-ai-hackathon-group-11-backend-db", "src"], "name": "src", "depth": 1, "total_count": 212, "kind": "dir"}
+{"path": ["talentserv-ai-hackathon-group-11-backend-db", "src", "db.py"], "name": "db.py", "depth": 2, "total_count": 30, "kind": "dir"}
 {"path": ["talentserv-ai-hackathon-group-11-backend-db", "src", "db.py", "_fetch_requests()"], "name": "_fetch_requests()", "depth": 3, "total_count": 1, "kind": "leaf"}
 {"path": ["talentserv-ai-hackathon-group-11-backend-db", "src", "db.py", "apply_leave()"], "name": "apply_leave()", "depth": 3, "total_count": 1, "kind": "leaf"}
 {"path": ["talentserv-ai-hackathon-group-11-backend-db", "src", "db.py", "calendar_days_inclusive()"], "name": "calendar_days_inclusive()", "depth": 3, "total_count": 1, "kind": "leaf"}
@@ -417,11 +427,12 @@
 {"path": ["talentserv-ai-hackathon-group-11-backend-db", "src", "db.py", "row_to_leave_request()"], "name": "row_to_leave_request()", "depth": 3, "total_count": 1, "kind": "leaf"}
 {"path": ["talentserv-ai-hackathon-group-11-backend-db", "src", "db.py", "str"], "name": "str", "depth": 3, "total_count": 1, "kind": "leaf"}
 {"path": ["talentserv-ai-hackathon-group-11-backend-db", "src", "db.py", "ToolResponse"], "name": "ToolResponse", "depth": 3, "total_count": 1, "kind": "leaf"}
+{"path": ["talentserv-ai-hackathon-group-11-backend-db", "src", "db.py", "ToolResponse"], "name": "ToolResponse", "depth": 3, "total_count": 1, "kind": "leaf"}
 {"path": ["talentserv-ai-hackathon-group-11-backend-db", "src", "env.py"], "name": "env.py", "depth": 2, "total_count": 3, "kind": "dir"}
 {"path": ["talentserv-ai-hackathon-group-11-backend-db", "src", "env.py", "Load .env from Cursor workspace before other modules read os.environ."], "name": "Load .env from Cursor workspace before other modules read os.environ.", "depth": 3, "total_count": 1, "kind": "symbol"}
 {"path": ["talentserv-ai-hackathon-group-11-backend-db", "src", "env.py", "Load .env from cwd, repo root, and OFFICE_LEAVE_WORKSPACE (MCP sets this)."], "name": "Load .env from cwd, repo root, and OFFICE_LEAVE_WORKSPACE (MCP sets this).", "depth": 3, "total_count": 1, "kind": "symbol"}
 {"path": ["talentserv-ai-hackathon-group-11-backend-db", "src", "env.py", "load_workspace_env()"], "name": "load_workspace_env()", "depth": 3, "total_count": 1, "kind": "leaf"}
-{"path": ["talentserv-ai-hackathon-group-11-backend-db", "src", "grok_client.py"], "name": "grok_client.py", "depth": 2, "total_count": 23, "kind": "dir"}
+{"path": ["talentserv-ai-hackathon-group-11-backend-db", "src", "grok_client.py"], "name": "grok_client.py", "depth": 2, "total_count": 24, "kind": "dir"}
 {"path": ["talentserv-ai-hackathon-group-11-backend-db", "src", "grok_client.py", "_api_key_configured()"], "name": "_api_key_configured()", "depth": 3, "total_count": 1, "kind": "leaf"}
 {"path": ["talentserv-ai-hackathon-group-11-backend-db", "src", "grok_client.py", "_call_grok()"], "name": "_call_grok()", "depth": 3, "total_count": 1, "kind": "leaf"}
 {"path": ["talentserv-ai-hackathon-group-11-backend-db", "src", "grok_client.py", "_chat_completions_url()"], "name": "_chat_completions_url()", "depth": 3, "total_count": 1, "kind": "leaf"}
@@ -442,6 +453,7 @@
 {"path": ["talentserv-ai-hackathon-group-11-backend-db", "src", "grok_client.py", "Grok enrichment is always on for MCP tools/resources."], "name": "Grok enrichment is always on for MCP tools/resources.", "depth": 3, "total_count": 1, "kind": "leaf"}
 {"path": ["talentserv-ai-hackathon-group-11-backend-db", "src", "grok_client.py", "grok_enrich_enabled()"], "name": "grok_enrich_enabled()", "depth": 3, "total_count": 1, "kind": "leaf"}
 {"path": ["talentserv-ai-hackathon-group-11-backend-db", "src", "grok_client.py", "GrokSuggestions"], "name": "GrokSuggestions", "depth": 3, "total_count": 1, "kind": "leaf"}
+{"path": ["talentserv-ai-hackathon-group-11-backend-db", "src", "grok_client.py", "LeaveAdvice"], "name": "LeaveAdvice", "depth": 3, "total_count": 1, "kind": "leaf"}
 {"path": ["talentserv-ai-hackathon-group-11-backend-db", "src", "grok_client.py", "LeaveAdvice"], "name": "LeaveAdvice", "depth": 3, "total_count": 1, "kind": "leaf"}
 {"path": ["talentserv-ai-hackathon-group-11-backend-db", "src", "grok_client.py", "parse_json_from_content()"], "name": "parse_json_from_content()", "depth": 3, "total_count": 1, "kind": "leaf"}
 {"path": ["talentserv-ai-hackathon-group-11-backend-db", "src", "grok_client.py", "str"], "name": "str", "depth": 3, "total_count": 1, "kind": "leaf"}
@@ -564,20 +576,22 @@
 {"path": ["talentserv-ai-hackathon-group-11-backend-db", "src", "server.py", "Template prompt for leave questions using employee context."], "name": "Template prompt for leave questions using employee context.", "depth": 3, "total_count": 1, "kind": "symbol"}
 {"path": ["talentserv-ai-hackathon-group-11-backend-db", "src", "server.py", "Template prompt for leave questions using employee context."], "name": "Template prompt for leave questions using employee context.", "depth": 3, "total_count": 1, "kind": "symbol"}
 {"path": ["talentserv-ai-hackathon-group-11-backend-db", "src", "server.py", "Template prompt for leave questions using employee context."], "name": "Template prompt for leave questions using employee context.", "depth": 3, "total_count": 1, "kind": "symbol"}
-{"path": ["talentserv-ai-hackathon-group-11-backend-db", "src", "whatsapp"], "name": "whatsapp", "depth": 2, "total_count": 27, "kind": "dir"}
+{"path": ["talentserv-ai-hackathon-group-11-backend-db", "src", "whatsapp"], "name": "whatsapp", "depth": 2, "total_count": 39, "kind": "dir"}
 {"path": ["talentserv-ai-hackathon-group-11-backend-db", "src", "whatsapp", "__init__.py"], "name": "__init__.py", "depth": 3, "total_count": 1, "kind": "dir"}
 {"path": ["talentserv-ai-hackathon-group-11-backend-db", "src", "whatsapp", "__init__.py", "Twilio WhatsApp sandbox integration for office leave demo."], "name": "Twilio WhatsApp sandbox integration for office leave demo.", "depth": 4, "total_count": 1, "kind": "symbol"}
-{"path": ["talentserv-ai-hackathon-group-11-backend-db", "src", "whatsapp", "auth.py"], "name": "auth.py", "depth": 3, "total_count": 4, "kind": "dir"}
+{"path": ["talentserv-ai-hackathon-group-11-backend-db", "src", "whatsapp", "auth.py"], "name": "auth.py", "depth": 3, "total_count": 5, "kind": "dir"}
 {"path": ["talentserv-ai-hackathon-group-11-backend-db", "src", "whatsapp", "auth.py", "load_phone_map()"], "name": "load_phone_map()", "depth": 4, "total_count": 1, "kind": "leaf"}
 {"path": ["talentserv-ai-hackathon-group-11-backend-db", "src", "whatsapp", "auth.py", "Normalize Twilio From (e.g. whatsapp:+14155550100) to E.164."], "name": "Normalize Twilio From (e.g. whatsapp:+14155550100) to E.164.", "depth": 4, "total_count": 1, "kind": "symbol"}
 {"path": ["talentserv-ai-hackathon-group-11-backend-db", "src", "whatsapp", "auth.py", "normalize_phone()"], "name": "normalize_phone()", "depth": 4, "total_count": 1, "kind": "leaf"}
 {"path": ["talentserv-ai-hackathon-group-11-backend-db", "src", "whatsapp", "auth.py", "resolve_slug_from_phone()"], "name": "resolve_slug_from_phone()", "depth": 4, "total_count": 1, "kind": "leaf"}
-{"path": ["talentserv-ai-hackathon-group-11-backend-db", "src", "whatsapp", "commands.py"], "name": "commands.py", "depth": 3, "total_count": 4, "kind": "dir"}
+{"path": ["talentserv-ai-hackathon-group-11-backend-db", "src", "whatsapp", "auth.py", "str"], "name": "str", "depth": 4, "total_count": 1, "kind": "leaf"}
+{"path": ["talentserv-ai-hackathon-group-11-backend-db", "src", "whatsapp", "commands.py"], "name": "commands.py", "depth": 3, "total_count": 5, "kind": "dir"}
 {"path": ["talentserv-ai-hackathon-group-11-backend-db", "src", "whatsapp", "commands.py", "_parse_apply()"], "name": "_parse_apply()", "depth": 4, "total_count": 1, "kind": "leaf"}
 {"path": ["talentserv-ai-hackathon-group-11-backend-db", "src", "whatsapp", "commands.py", "parse_command()"], "name": "parse_command()", "depth": 4, "total_count": 1, "kind": "leaf"}
 {"path": ["talentserv-ai-hackathon-group-11-backend-db", "src", "whatsapp", "commands.py", "ParsedCommand"], "name": "ParsedCommand", "depth": 4, "total_count": 1, "kind": "leaf"}
 {"path": ["talentserv-ai-hackathon-group-11-backend-db", "src", "whatsapp", "commands.py", "ParseError"], "name": "ParseError", "depth": 4, "total_count": 1, "kind": "leaf"}
-{"path": ["talentserv-ai-hackathon-group-11-backend-db", "src", "whatsapp", "formatters.py"], "name": "formatters.py", "depth": 3, "total_count": 8, "kind": "dir"}
+{"path": ["talentserv-ai-hackathon-group-11-backend-db", "src", "whatsapp", "commands.py", "str"], "name": "str", "depth": 4, "total_count": 1, "kind": "leaf"}
+{"path": ["talentserv-ai-hackathon-group-11-backend-db", "src", "whatsapp", "formatters.py"], "name": "formatters.py", "depth": 3, "total_count": 11, "kind": "dir"}
 {"path": ["talentserv-ai-hackathon-group-11-backend-db", "src", "whatsapp", "formatters.py", "format_advice()"], "name": "format_advice()", "depth": 4, "total_count": 1, "kind": "leaf"}
 {"path": ["talentserv-ai-hackathon-group-11-backend-db", "src", "whatsapp", "formatters.py", "format_apply()"], "name": "format_apply()", "depth": 4, "total_count": 1, "kind": "leaf"}
 {"path": ["talentserv-ai-hackathon-group-11-backend-db", "src", "whatsapp", "formatters.py", "format_balance()"], "name": "format_balance()", "depth": 4, "total_count": 1, "kind": "leaf"}
@@ -586,16 +600,26 @@
 {"path": ["talentserv-ai-hackathon-group-11-backend-db", "src", "whatsapp", "formatters.py", "format_help()"], "name": "format_help()", "depth": 4, "total_count": 1, "kind": "leaf"}
 {"path": ["talentserv-ai-hackathon-group-11-backend-db", "src", "whatsapp", "formatters.py", "format_requests()"], "name": "format_requests()", "depth": 4, "total_count": 1, "kind": "leaf"}
 {"path": ["talentserv-ai-hackathon-group-11-backend-db", "src", "whatsapp", "formatters.py", "format_status()"], "name": "format_status()", "depth": 4, "total_count": 1, "kind": "leaf"}
-{"path": ["talentserv-ai-hackathon-group-11-backend-db", "src", "whatsapp", "handlers.py"], "name": "handlers.py", "depth": 3, "total_count": 3, "kind": "dir"}
+{"path": ["talentserv-ai-hackathon-group-11-backend-db", "src", "whatsapp", "formatters.py", "LeaveAdvice"], "name": "LeaveAdvice", "depth": 4, "total_count": 1, "kind": "leaf"}
+{"path": ["talentserv-ai-hackathon-group-11-backend-db", "src", "whatsapp", "formatters.py", "str"], "name": "str", "depth": 4, "total_count": 1, "kind": "leaf"}
+{"path": ["talentserv-ai-hackathon-group-11-backend-db", "src", "whatsapp", "formatters.py", "ToolResponse"], "name": "ToolResponse", "depth": 4, "total_count": 1, "kind": "leaf"}
+{"path": ["talentserv-ai-hackathon-group-11-backend-db", "src", "whatsapp", "handlers.py"], "name": "handlers.py", "depth": 3, "total_count": 6, "kind": "dir"}
 {"path": ["talentserv-ai-hackathon-group-11-backend-db", "src", "whatsapp", "handlers.py", "_rate_limited()"], "name": "_rate_limited()", "depth": 4, "total_count": 1, "kind": "leaf"}
+{"path": ["talentserv-ai-hackathon-group-11-backend-db", "src", "whatsapp", "handlers.py", "bool"], "name": "bool", "depth": 4, "total_count": 1, "kind": "leaf"}
 {"path": ["talentserv-ai-hackathon-group-11-backend-db", "src", "whatsapp", "handlers.py", "handle_command()"], "name": "handle_command()", "depth": 4, "total_count": 1, "kind": "leaf"}
 {"path": ["talentserv-ai-hackathon-group-11-backend-db", "src", "whatsapp", "handlers.py", "handle_incoming()"], "name": "handle_incoming()", "depth": 4, "total_count": 1, "kind": "leaf"}
-{"path": ["talentserv-ai-hackathon-group-11-backend-db", "src", "whatsapp", "twilio_webhook.py"], "name": "twilio_webhook.py", "depth": 3, "total_count": 7, "kind": "dir"}
+{"path": ["talentserv-ai-hackathon-group-11-backend-db", "src", "whatsapp", "handlers.py", "ParsedCommand"], "name": "ParsedCommand", "depth": 4, "total_count": 1, "kind": "leaf"}
+{"path": ["talentserv-ai-hackathon-group-11-backend-db", "src", "whatsapp", "handlers.py", "str"], "name": "str", "depth": 4, "total_count": 1, "kind": "leaf"}
+{"path": ["talentserv-ai-hackathon-group-11-backend-db", "src", "whatsapp", "twilio_webhook.py"], "name": "twilio_webhook.py", "depth": 3, "total_count": 11, "kind": "dir"}
 {"path": ["talentserv-ai-hackathon-group-11-backend-db", "src", "whatsapp", "twilio_webhook.py", "_twilio_auth_token()"], "name": "_twilio_auth_token()", "depth": 4, "total_count": 1, "kind": "leaf"}
 {"path": ["talentserv-ai-hackathon-group-11-backend-db", "src", "whatsapp", "twilio_webhook.py", "_twiml_message()"], "name": "_twiml_message()", "depth": 4, "total_count": 1, "kind": "leaf"}
 {"path": ["talentserv-ai-hackathon-group-11-backend-db", "src", "whatsapp", "twilio_webhook.py", "_validate_twilio_request()"], "name": "_validate_twilio_request()", "depth": 4, "total_count": 1, "kind": "leaf"}
+{"path": ["talentserv-ai-hackathon-group-11-backend-db", "src", "whatsapp", "twilio_webhook.py", "bool"], "name": "bool", "depth": 4, "total_count": 1, "kind": "leaf"}
 {"path": ["talentserv-ai-hackathon-group-11-backend-db", "src", "whatsapp", "twilio_webhook.py", "health()"], "name": "health()", "depth": 4, "total_count": 1, "kind": "leaf"}
 {"path": ["talentserv-ai-hackathon-group-11-backend-db", "src", "whatsapp", "twilio_webhook.py", "main()"], "name": "main()", "depth": 4, "total_count": 1, "kind": "leaf"}
+{"path": ["talentserv-ai-hackathon-group-11-backend-db", "src", "whatsapp", "twilio_webhook.py", "Request"], "name": "Request", "depth": 4, "total_count": 1, "kind": "leaf"}
+{"path": ["talentserv-ai-hackathon-group-11-backend-db", "src", "whatsapp", "twilio_webhook.py", "Response"], "name": "Response", "depth": 4, "total_count": 1, "kind": "leaf"}
+{"path": ["talentserv-ai-hackathon-group-11-backend-db", "src", "whatsapp", "twilio_webhook.py", "str"], "name": "str", "depth": 4, "total_count": 1, "kind": "leaf"}
 {"path": ["talentserv-ai-hackathon-group-11-backend-db", "src", "whatsapp", "twilio_webhook.py", "webhook_health()"], "name": "webhook_health()", "depth": 4, "total_count": 1, "kind": "leaf"}
 {"path": ["talentserv-ai-hackathon-group-11-backend-db", "src", "whatsapp", "twilio_webhook.py", "whatsapp_webhook()"], "name": "whatsapp_webhook()", "depth": 4, "total_count": 1, "kind": "leaf"}
 {"path": ["talentserv-ai-hackathon-group-11-backend-db", "src", "__init__.py"], "name": "__init__.py", "depth": 2, "total_count": 1, "kind": "symbol"}
@@ -641,3 +665,4 @@
 {"path": ["talentserv-ai-hackathon-group-11-backend-db", "tests", "test_whatsapp_commands.py", "test_resolve_slug_from_env()"], "name": "test_resolve_slug_from_env()", "depth": 3, "total_count": 1, "kind": "leaf"}
 {"path": ["talentserv-ai-hackathon-group-11-backend-db", "tests", "test_whatsapp_commands.py", "test_unregistered_phone()"], "name": "test_unregistered_phone()", "depth": 3, "total_count": 1, "kind": "leaf"}
 {"path": ["talentserv-ai-hackathon-group-11-backend-db", "tests", "test_whatsapp_commands.py", "whatsapp_test_env()"], "name": "whatsapp_test_env()", "depth": 3, "total_count": 1, "kind": "leaf"}
+{"path": ["talentserv-ai-hackathon-group-11-backend-db", "package.json"], "name": "package.json", "depth": 1, "total_count": 1, "kind": "symbol"}
