@@ -141,11 +141,9 @@ Every **tool** (all 7), **resource** (`leave://employees`, `leave://policy`), an
 | `apply_leave` | Submit pending leave (ISO dates `YYYY-MM-DD`) |
 | `check_leave_status` | By `request_id` or latest for `employee` |
 | `list_leave_requests` | History with optional filters |
-| `advise_on_leave` | Dedicated Grok Q&A (same `grok` shape; no duplicate API call) |
+| `advise_on_leave` | Grok guidance from DB context |
 
 ## MCP resources
-
-Resources return wrapped JSON: `{ "resource", "content", "grok" }` with the same suggestion fields as tools.
 
 - `leave://employees` — employee directory
 - `leave://policy` — leave rules

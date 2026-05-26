@@ -18,7 +18,6 @@ from src import db
 def temp_db(tmp_path, monkeypatch):
     db_path = tmp_path / "test.db"
     monkeypatch.setenv("DATABASE_PATH", str(db_path))
-    monkeypatch.setenv("GROK_ENRICH_OUTPUTS", "0")
     init_db(db_path)
     yield db_path
 

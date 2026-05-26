@@ -2217,42 +2217,6 @@
       "norm_label": "leaveadvice"
     },
     {
-      "label": "GrokSuggestions",
-      "file_type": "code",
-      "source_file": "src/models.py",
-      "source_location": "L65",
-      "id": "src_models_groksuggestions",
-      "community": 2,
-      "norm_label": "groksuggestions"
-    },
-    {
-      "label": ".to_dict()",
-      "file_type": "code",
-      "source_file": "src/models.py",
-      "source_location": "L75",
-      "id": "src_models_groksuggestions_to_dict",
-      "community": 2,
-      "norm_label": ".to_dict()"
-    },
-    {
-      "label": "leave_advice_to_grok()",
-      "file_type": "code",
-      "source_file": "src/models.py",
-      "source_location": "L79",
-      "id": "src_models_leave_advice_to_grok",
-      "community": 2,
-      "norm_label": "leave_advice_to_grok()"
-    },
-    {
-      "label": "Map LeaveAdvice from advise_on_leave to the standard grok block shape.",
-      "file_type": "rationale",
-      "source_file": "src/models.py",
-      "source_location": "L80",
-      "id": "src_models_rationale_80",
-      "community": 2,
-      "norm_label": "map leaveadvice from advise_on_leave to the standard grok block shape."
-    },
-    {
       "label": "server.py",
       "file_type": "code",
       "source_file": "src/server.py",
@@ -2625,7 +2589,7 @@
       "label": "test_list_employees()",
       "file_type": "code",
       "source_file": "tests/test_tools.py",
-      "source_location": "L26",
+      "source_location": "L25",
       "id": "tests_test_tools_test_list_employees",
       "community": 6,
       "norm_label": "test_list_employees()"
@@ -2634,7 +2598,7 @@
       "label": "test_get_leave_balance()",
       "file_type": "code",
       "source_file": "tests/test_tools.py",
-      "source_location": "L34",
+      "source_location": "L33",
       "id": "tests_test_tools_test_get_leave_balance",
       "community": 6,
       "norm_label": "test_get_leave_balance()"
@@ -2643,7 +2607,7 @@
       "label": "test_apply_leave_pending()",
       "file_type": "code",
       "source_file": "tests/test_tools.py",
-      "source_location": "L41",
+      "source_location": "L40",
       "id": "tests_test_tools_test_apply_leave_pending",
       "community": 6,
       "norm_label": "test_apply_leave_pending()"
@@ -2652,7 +2616,7 @@
       "label": "test_apply_leave_insufficient_balance()",
       "file_type": "code",
       "source_file": "tests/test_tools.py",
-      "source_location": "L57",
+      "source_location": "L56",
       "id": "tests_test_tools_test_apply_leave_insufficient_balance",
       "community": 6,
       "norm_label": "test_apply_leave_insufficient_balance()"
@@ -2661,7 +2625,7 @@
       "label": "test_check_leave_status_by_employee()",
       "file_type": "code",
       "source_file": "tests/test_tools.py",
-      "source_location": "L69",
+      "source_location": "L68",
       "id": "tests_test_tools_test_check_leave_status_by_employee",
       "community": 6,
       "norm_label": "test_check_leave_status_by_employee()"
@@ -2670,7 +2634,7 @@
       "label": "test_check_leave_status_by_id()",
       "file_type": "code",
       "source_file": "tests/test_tools.py",
-      "source_location": "L75",
+      "source_location": "L74",
       "id": "tests_test_tools_test_check_leave_status_by_id",
       "community": 6,
       "norm_label": "test_check_leave_status_by_id()"
@@ -2679,7 +2643,7 @@
       "label": "test_unknown_employee()",
       "file_type": "code",
       "source_file": "tests/test_tools.py",
-      "source_location": "L85",
+      "source_location": "L84",
       "id": "tests_test_tools_test_unknown_employee",
       "community": 6,
       "norm_label": "test_unknown_employee()"
@@ -2688,7 +2652,7 @@
       "label": "test_list_leave_requests_filter()",
       "file_type": "code",
       "source_file": "tests/test_tools.py",
-      "source_location": "L90",
+      "source_location": "L89",
       "id": "tests_test_tools_test_list_leave_requests_filter",
       "community": 6,
       "norm_label": "test_list_leave_requests_filter()"
@@ -2913,7 +2877,7 @@
       "label": "Example prompts in Cursor",
       "file_type": "document",
       "source_file": "README.md",
-      "source_location": "L153",
+      "source_location": "L151",
       "id": "talentserv_ai_hackathon_group_11_backend_db_readme_example_prompts_in_cursor",
       "community": 32,
       "norm_label": "example prompts in cursor"
@@ -2922,7 +2886,7 @@
       "label": "Employees (seed data)",
       "file_type": "document",
       "source_file": "README.md",
-      "source_location": "L160",
+      "source_location": "L158",
       "id": "talentserv_ai_hackathon_group_11_backend_db_readme_employees_seed_data",
       "community": 32,
       "norm_label": "employees (seed data)"
@@ -2931,7 +2895,7 @@
       "label": "Publish to GitHub",
       "file_type": "document",
       "source_file": "README.md",
-      "source_location": "L170",
+      "source_location": "L168",
       "id": "talentserv_ai_hackathon_group_11_backend_db_readme_publish_to_github",
       "community": 32,
       "norm_label": "publish to github"
@@ -2940,7 +2904,7 @@
       "label": "code:bash (gh auth login)",
       "file_type": "document",
       "source_file": "README.md",
-      "source_location": "L172",
+      "source_location": "L170",
       "id": "talentserv_ai_hackathon_group_11_backend_db_readme_codeblock_12",
       "community": 32,
       "norm_label": "code:bash (gh auth login)"
@@ -2949,7 +2913,7 @@
       "label": "License",
       "file_type": "document",
       "source_file": "README.md",
-      "source_location": "L177",
+      "source_location": "L175",
       "id": "talentserv_ai_hackathon_group_11_backend_db_readme_license",
       "community": 32,
       "norm_label": "license"
@@ -3349,6 +3313,42 @@
       "id": "memory_query_20260525_115519_is_grok_giving_recommendations_for_mcp_office_leav_source_nodes",
       "community": 36,
       "norm_label": "source nodes"
+    },
+    {
+      "label": "GrokSuggestions",
+      "file_type": "code",
+      "source_file": "src/models.py",
+      "source_location": "L65",
+      "community": 2,
+      "norm_label": "groksuggestions",
+      "id": "src_models_groksuggestions"
+    },
+    {
+      "label": ".to_dict()",
+      "file_type": "code",
+      "source_file": "src/models.py",
+      "source_location": "L75",
+      "community": 2,
+      "norm_label": ".to_dict()",
+      "id": "src_models_groksuggestions_to_dict"
+    },
+    {
+      "label": "leave_advice_to_grok()",
+      "file_type": "code",
+      "source_file": "src/models.py",
+      "source_location": "L79",
+      "community": 2,
+      "norm_label": "leave_advice_to_grok()",
+      "id": "src_models_leave_advice_to_grok"
+    },
+    {
+      "label": "Map LeaveAdvice from advise_on_leave to the standard grok block shape.",
+      "file_type": "rationale",
+      "source_file": "src/models.py",
+      "source_location": "L80",
+      "community": 2,
+      "norm_label": "map leaveadvice from advise_on_leave to the standard grok block shape.",
+      "id": "src_models_rationale_80"
     },
     {
       "label": "_employee_slug_from_args()",
@@ -7340,10 +7340,10 @@
       "confidence": "INFERRED",
       "confidence_score": 0.8,
       "source_file": "src/grok_client.py",
-      "source_location": "L118",
+      "source_location": "L127",
       "weight": 1.0,
       "source": "src_grok_client_grok_from_parsed",
-      "target": "src_models_groksuggestions"
+      "target": "src_models_utc_now_iso"
     },
     {
       "relation": "calls",
@@ -7351,10 +7351,10 @@
       "confidence": "INFERRED",
       "confidence_score": 0.8,
       "source_file": "src/grok_client.py",
-      "source_location": "L127",
+      "source_location": "L118",
       "weight": 1.0,
       "source": "src_grok_client_grok_from_parsed",
-      "target": "src_models_utc_now_iso"
+      "target": "src_models_groksuggestions"
     },
     {
       "relation": "calls",
@@ -7366,17 +7366,6 @@
       "confidence_score": 1.0,
       "source": "src_grok_client_generate_output_recommendations",
       "target": "src_grok_client_generate_fallback_output_recommendations"
-    },
-    {
-      "relation": "calls",
-      "context": "call",
-      "confidence": "INFERRED",
-      "confidence_score": 0.8,
-      "source_file": "src/grok_client.py",
-      "source_location": "L172",
-      "weight": 1.0,
-      "source": "src_grok_client_generate_fallback_output_recommendations",
-      "target": "src_models_groksuggestions"
     },
     {
       "relation": "calls",
@@ -7399,6 +7388,17 @@
       "weight": 1.0,
       "source": "tests_test_grok_enrichment_test_fallback_unknown_employee",
       "target": "src_grok_client_generate_fallback_output_recommendations"
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "INFERRED",
+      "confidence_score": 0.8,
+      "source_file": "src/grok_client.py",
+      "source_location": "L172",
+      "weight": 1.0,
+      "source": "src_grok_client_generate_fallback_output_recommendations",
+      "target": "src_models_groksuggestions"
     },
     {
       "relation": "calls",
@@ -7600,9 +7600,9 @@
       "source_file": "src/mcp_enrichment.py",
       "source_location": "L39",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "src_mcp_enrichment_py",
-      "target": "src_mcp_enrichment_grok_text_header",
-      "confidence_score": 1.0
+      "target": "src_mcp_enrichment_grok_text_header"
     },
     {
       "relation": "contains",
@@ -7610,9 +7610,9 @@
       "source_file": "src/mcp_enrichment.py",
       "source_location": "L50",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "src_mcp_enrichment_py",
-      "target": "src_mcp_enrichment_grok_text_footer",
-      "confidence_score": 1.0
+      "target": "src_mcp_enrichment_grok_text_footer"
     },
     {
       "relation": "contains",
@@ -7620,9 +7620,9 @@
       "source_file": "src/mcp_enrichment.py",
       "source_location": "L63",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "src_mcp_enrichment_py",
-      "target": "src_mcp_enrichment_ordered_payload_with_grok",
-      "confidence_score": 1.0
+      "target": "src_mcp_enrichment_ordered_payload_with_grok"
     },
     {
       "relation": "contains",
@@ -7630,9 +7630,9 @@
       "source_file": "src/mcp_enrichment.py",
       "source_location": "L68",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "src_mcp_enrichment_py",
-      "target": "src_mcp_enrichment_format_enriched_response",
-      "confidence_score": 1.0
+      "target": "src_mcp_enrichment_format_enriched_response"
     },
     {
       "relation": "contains",
@@ -7640,9 +7640,9 @@
       "source_file": "src/mcp_enrichment.py",
       "source_location": "L74",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "src_mcp_enrichment_py",
-      "target": "src_mcp_enrichment_parse_enriched_mcp_response",
-      "confidence_score": 1.0
+      "target": "src_mcp_enrichment_parse_enriched_mcp_response"
     },
     {
       "relation": "contains",
@@ -7650,9 +7650,9 @@
       "source_file": "src/mcp_enrichment.py",
       "source_location": "L83",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "src_mcp_enrichment_py",
-      "target": "src_mcp_enrichment_is_enriched_response",
-      "confidence_score": 1.0
+      "target": "src_mcp_enrichment_is_enriched_response"
     },
     {
       "relation": "contains",
@@ -7660,9 +7660,9 @@
       "source_file": "src/mcp_enrichment.py",
       "source_location": "L87",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "src_mcp_enrichment_py",
-      "target": "src_mcp_enrichment_payload_from_parsed",
-      "confidence_score": 1.0
+      "target": "src_mcp_enrichment_payload_from_parsed"
     },
     {
       "relation": "contains",
@@ -7670,9 +7670,9 @@
       "source_file": "src/mcp_enrichment.py",
       "source_location": "L97",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "src_mcp_enrichment_py",
-      "target": "src_mcp_enrichment_employee_context_for_args",
-      "confidence_score": 1.0
+      "target": "src_mcp_enrichment_employee_context_for_args"
     },
     {
       "relation": "contains",
@@ -7680,9 +7680,9 @@
       "source_file": "src/mcp_enrichment.py",
       "source_location": "L107",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "src_mcp_enrichment_py",
-      "target": "src_mcp_enrichment_resolve_grok_block",
-      "confidence_score": 1.0
+      "target": "src_mcp_enrichment_resolve_grok_block"
     },
     {
       "relation": "contains",
@@ -7690,9 +7690,9 @@
       "source_file": "src/mcp_enrichment.py",
       "source_location": "L129",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "src_mcp_enrichment_py",
-      "target": "src_mcp_enrichment_ensure_enriched_text",
-      "confidence_score": 1.0
+      "target": "src_mcp_enrichment_ensure_enriched_text"
     },
     {
       "relation": "contains",
@@ -7700,9 +7700,9 @@
       "source_file": "src/mcp_enrichment.py",
       "source_location": "L154",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "src_mcp_enrichment_py",
-      "target": "src_mcp_enrichment_text_from_content",
-      "confidence_score": 1.0
+      "target": "src_mcp_enrichment_text_from_content"
     },
     {
       "relation": "contains",
@@ -7710,9 +7710,9 @@
       "source_file": "src/mcp_enrichment.py",
       "source_location": "L166",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "src_mcp_enrichment_py",
-      "target": "src_mcp_enrichment_replace_text_content",
-      "confidence_score": 1.0
+      "target": "src_mcp_enrichment_replace_text_content"
     },
     {
       "relation": "contains",
@@ -7720,9 +7720,9 @@
       "source_file": "src/mcp_enrichment.py",
       "source_location": "L170",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "src_mcp_enrichment_py",
-      "target": "src_mcp_enrichment_grokenrichmentmiddleware",
-      "confidence_score": 1.0
+      "target": "src_mcp_enrichment_grokenrichmentmiddleware"
     },
     {
       "relation": "rationale_for",
@@ -7730,9 +7730,9 @@
       "source_file": "src/mcp_enrichment.py",
       "source_location": "L1",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "src_mcp_enrichment_rationale_1",
-      "target": "src_mcp_enrichment_py",
-      "confidence_score": 1.0
+      "target": "src_mcp_enrichment_py"
     },
     {
       "relation": "calls",
@@ -7741,9 +7741,9 @@
       "source_file": "src/mcp_enrichment.py",
       "source_location": "L71",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "src_mcp_enrichment_format_enriched_response",
-      "target": "src_mcp_enrichment_grok_text_header",
-      "confidence_score": 1.0
+      "target": "src_mcp_enrichment_grok_text_header"
     },
     {
       "relation": "calls",
@@ -7752,9 +7752,9 @@
       "source_file": "src/mcp_enrichment.py",
       "source_location": "L71",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "src_mcp_enrichment_format_enriched_response",
-      "target": "src_mcp_enrichment_grok_text_footer",
-      "confidence_score": 1.0
+      "target": "src_mcp_enrichment_grok_text_footer"
     },
     {
       "relation": "calls",
@@ -7763,9 +7763,9 @@
       "source_file": "src/mcp_enrichment.py",
       "source_location": "L151",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "src_mcp_enrichment_ensure_enriched_text",
-      "target": "src_mcp_enrichment_ordered_payload_with_grok",
-      "confidence_score": 1.0
+      "target": "src_mcp_enrichment_ordered_payload_with_grok"
     },
     {
       "relation": "calls",
@@ -7796,9 +7796,9 @@
       "source_file": "src/mcp_enrichment.py",
       "source_location": "L151",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "src_mcp_enrichment_ensure_enriched_text",
-      "target": "src_mcp_enrichment_format_enriched_response",
-      "confidence_score": 1.0
+      "target": "src_mcp_enrichment_format_enriched_response"
     },
     {
       "relation": "calls",
@@ -7829,9 +7829,9 @@
       "source_file": "src/mcp_enrichment.py",
       "source_location": "L146",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "src_mcp_enrichment_ensure_enriched_text",
-      "target": "src_mcp_enrichment_parse_enriched_mcp_response",
-      "confidence_score": 1.0
+      "target": "src_mcp_enrichment_parse_enriched_mcp_response"
     },
     {
       "relation": "rationale_for",
@@ -7839,9 +7839,9 @@
       "source_file": "src/mcp_enrichment.py",
       "source_location": "L75",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "src_mcp_enrichment_rationale_75",
-      "target": "src_mcp_enrichment_parse_enriched_mcp_response",
-      "confidence_score": 1.0
+      "target": "src_mcp_enrichment_parse_enriched_mcp_response"
     },
     {
       "relation": "calls",
@@ -7861,9 +7861,9 @@
       "source_file": "src/mcp_enrichment.py",
       "source_location": "L137",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "src_mcp_enrichment_ensure_enriched_text",
-      "target": "src_mcp_enrichment_is_enriched_response",
-      "confidence_score": 1.0
+      "target": "src_mcp_enrichment_is_enriched_response"
     },
     {
       "relation": "calls",
@@ -7872,9 +7872,9 @@
       "source_file": "src/mcp_enrichment.py",
       "source_location": "L143",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "src_mcp_enrichment_ensure_enriched_text",
-      "target": "src_mcp_enrichment_payload_from_parsed",
-      "confidence_score": 1.0
+      "target": "src_mcp_enrichment_payload_from_parsed"
     },
     {
       "relation": "calls",
@@ -7883,9 +7883,9 @@
       "source_file": "src/mcp_enrichment.py",
       "source_location": "L119",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "src_mcp_enrichment_resolve_grok_block",
-      "target": "src_mcp_enrichment_employee_context_for_args",
-      "confidence_score": 1.0
+      "target": "src_mcp_enrichment_employee_context_for_args"
     },
     {
       "relation": "calls",
@@ -7894,9 +7894,9 @@
       "source_file": "src/mcp_enrichment.py",
       "source_location": "L150",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "src_mcp_enrichment_ensure_enriched_text",
-      "target": "src_mcp_enrichment_resolve_grok_block",
-      "confidence_score": 1.0
+      "target": "src_mcp_enrichment_resolve_grok_block"
     },
     {
       "relation": "calls",
@@ -7927,9 +7927,9 @@
       "source_file": "src/mcp_enrichment.py",
       "source_location": "L185",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "src_mcp_enrichment_grokenrichmentmiddleware_on_call_tool",
-      "target": "src_mcp_enrichment_ensure_enriched_text",
-      "confidence_score": 1.0
+      "target": "src_mcp_enrichment_ensure_enriched_text"
     },
     {
       "relation": "calls",
@@ -7938,9 +7938,9 @@
       "source_file": "src/mcp_enrichment.py",
       "source_location": "L205",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "src_mcp_enrichment_grokenrichmentmiddleware_on_read_resource",
-      "target": "src_mcp_enrichment_ensure_enriched_text",
-      "confidence_score": 1.0
+      "target": "src_mcp_enrichment_ensure_enriched_text"
     },
     {
       "relation": "calls",
@@ -7949,9 +7949,9 @@
       "source_file": "src/mcp_enrichment.py",
       "source_location": "L227",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "src_mcp_enrichment_grokenrichmentmiddleware_on_get_prompt",
-      "target": "src_mcp_enrichment_ensure_enriched_text",
-      "confidence_score": 1.0
+      "target": "src_mcp_enrichment_ensure_enriched_text"
     },
     {
       "relation": "rationale_for",
@@ -7959,9 +7959,9 @@
       "source_file": "src/mcp_enrichment.py",
       "source_location": "L136",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "src_mcp_enrichment_rationale_136",
-      "target": "src_mcp_enrichment_ensure_enriched_text",
-      "confidence_score": 1.0
+      "target": "src_mcp_enrichment_ensure_enriched_text"
     },
     {
       "relation": "calls",
@@ -7981,9 +7981,9 @@
       "source_file": "src/mcp_enrichment.py",
       "source_location": "L181",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "src_mcp_enrichment_grokenrichmentmiddleware_on_call_tool",
-      "target": "src_mcp_enrichment_text_from_content",
-      "confidence_score": 1.0
+      "target": "src_mcp_enrichment_text_from_content"
     },
     {
       "relation": "calls",
@@ -7992,9 +7992,9 @@
       "source_file": "src/mcp_enrichment.py",
       "source_location": "L201",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "src_mcp_enrichment_grokenrichmentmiddleware_on_read_resource",
-      "target": "src_mcp_enrichment_text_from_content",
-      "confidence_score": 1.0
+      "target": "src_mcp_enrichment_text_from_content"
     },
     {
       "relation": "calls",
@@ -8003,9 +8003,9 @@
       "source_file": "src/mcp_enrichment.py",
       "source_location": "L192",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "src_mcp_enrichment_grokenrichmentmiddleware_on_call_tool",
-      "target": "src_mcp_enrichment_replace_text_content",
-      "confidence_score": 1.0
+      "target": "src_mcp_enrichment_replace_text_content"
     },
     {
       "relation": "calls",
@@ -8014,9 +8014,9 @@
       "source_file": "src/mcp_enrichment.py",
       "source_location": "L208",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "src_mcp_enrichment_grokenrichmentmiddleware_on_read_resource",
-      "target": "src_mcp_enrichment_replace_text_content",
-      "confidence_score": 1.0
+      "target": "src_mcp_enrichment_replace_text_content"
     },
     {
       "relation": "inherits",
@@ -8024,9 +8024,9 @@
       "source_file": "src/mcp_enrichment.py",
       "source_location": "L170",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "src_mcp_enrichment_grokenrichmentmiddleware",
-      "target": "middleware",
-      "confidence_score": 1.0
+      "target": "middleware"
     },
     {
       "relation": "method",
@@ -8034,9 +8034,9 @@
       "source_file": "src/mcp_enrichment.py",
       "source_location": "L173",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "src_mcp_enrichment_grokenrichmentmiddleware",
-      "target": "src_mcp_enrichment_grokenrichmentmiddleware_on_call_tool",
-      "confidence_score": 1.0
+      "target": "src_mcp_enrichment_grokenrichmentmiddleware_on_call_tool"
     },
     {
       "relation": "method",
@@ -8044,9 +8044,9 @@
       "source_file": "src/mcp_enrichment.py",
       "source_location": "L194",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "src_mcp_enrichment_grokenrichmentmiddleware",
-      "target": "src_mcp_enrichment_grokenrichmentmiddleware_on_read_resource",
-      "confidence_score": 1.0
+      "target": "src_mcp_enrichment_grokenrichmentmiddleware_on_read_resource"
     },
     {
       "relation": "method",
@@ -8054,9 +8054,9 @@
       "source_file": "src/mcp_enrichment.py",
       "source_location": "L210",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "src_mcp_enrichment_grokenrichmentmiddleware",
-      "target": "src_mcp_enrichment_grokenrichmentmiddleware_on_get_prompt",
-      "confidence_score": 1.0
+      "target": "src_mcp_enrichment_grokenrichmentmiddleware_on_get_prompt"
     },
     {
       "relation": "rationale_for",
@@ -8064,9 +8064,9 @@
       "source_file": "src/mcp_enrichment.py",
       "source_location": "L171",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "src_mcp_enrichment_rationale_171",
-      "target": "src_mcp_enrichment_grokenrichmentmiddleware",
-      "confidence_score": 1.0
+      "target": "src_mcp_enrichment_grokenrichmentmiddleware"
     },
     {
       "relation": "contains",
@@ -8180,59 +8180,6 @@
       "weight": 1.0,
       "source": "src_server_advise_on_leave",
       "target": "src_models_toolresponse"
-    },
-    {
-      "relation": "method",
-      "confidence": "EXTRACTED",
-      "source_file": "src/models.py",
-      "source_location": "L75",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "src_models_groksuggestions",
-      "target": "src_models_groksuggestions_to_dict"
-    },
-    {
-      "relation": "calls",
-      "context": "call",
-      "confidence": "EXTRACTED",
-      "source_file": "src/models.py",
-      "source_location": "L84",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "src_models_leave_advice_to_grok",
-      "target": "src_models_groksuggestions"
-    },
-    {
-      "relation": "calls",
-      "context": "call",
-      "confidence": "EXTRACTED",
-      "source_file": "src/models.py",
-      "source_location": "L84",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "src_models_leave_advice_to_grok",
-      "target": "src_models_groksuggestions_to_dict"
-    },
-    {
-      "relation": "rationale_for",
-      "confidence": "EXTRACTED",
-      "source_file": "src/models.py",
-      "source_location": "L80",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "src_models_rationale_80",
-      "target": "src_models_leave_advice_to_grok"
-    },
-    {
-      "relation": "calls",
-      "context": "call",
-      "confidence": "INFERRED",
-      "confidence_score": 0.8,
-      "source_file": "src/server.py",
-      "source_location": "L213",
-      "weight": 1.0,
-      "source": "src_server_advise_on_leave",
-      "target": "src_models_leave_advice_to_grok"
     },
     {
       "relation": "contains",
@@ -8647,9 +8594,9 @@
       "source_file": "src/server.py",
       "source_location": "L157",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "src_server_rationale_157",
-      "target": "src_server_list_employees",
-      "confidence_score": 1.0
+      "target": "src_server_list_employees"
     },
     {
       "relation": "rationale_for",
@@ -8687,9 +8634,9 @@
       "source_file": "src/server.py",
       "source_location": "L173",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "src_server_rationale_173",
-      "target": "src_server_get_employee",
-      "confidence_score": 1.0
+      "target": "src_server_get_employee"
     },
     {
       "relation": "rationale_for",
@@ -8727,9 +8674,9 @@
       "source_file": "src/server.py",
       "source_location": "L193",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "src_server_rationale_193",
-      "target": "src_server_get_leave_balance",
-      "confidence_score": 1.0
+      "target": "src_server_get_leave_balance"
     },
     {
       "relation": "rationale_for",
@@ -8767,9 +8714,9 @@
       "source_file": "src/server.py",
       "source_location": "L225",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "src_server_rationale_225",
-      "target": "src_server_apply_leave",
-      "confidence_score": 1.0
+      "target": "src_server_apply_leave"
     },
     {
       "relation": "rationale_for",
@@ -8807,9 +8754,9 @@
       "source_file": "src/server.py",
       "source_location": "L265",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "src_server_rationale_265",
-      "target": "src_server_check_leave_status",
-      "confidence_score": 1.0
+      "target": "src_server_check_leave_status"
     },
     {
       "relation": "rationale_for",
@@ -8847,9 +8794,9 @@
       "source_file": "src/server.py",
       "source_location": "L301",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "src_server_rationale_301",
-      "target": "src_server_list_leave_requests",
-      "confidence_score": 1.0
+      "target": "src_server_list_leave_requests"
     },
     {
       "relation": "rationale_for",
@@ -8887,9 +8834,20 @@
       "source_file": "src/server.py",
       "source_location": "L331",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "src_server_rationale_331",
-      "target": "src_server_advise_on_leave",
-      "confidence_score": 1.0
+      "target": "src_server_advise_on_leave"
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "INFERRED",
+      "confidence_score": 0.8,
+      "source_file": "src/server.py",
+      "source_location": "L213",
+      "weight": 1.0,
+      "source": "src_server_advise_on_leave",
+      "target": "src_models_leave_advice_to_grok"
     },
     {
       "relation": "rationale_for",
@@ -8927,9 +8885,9 @@
       "source_file": "src/server.py",
       "source_location": "L395",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "src_server_rationale_395",
-      "target": "src_server_employees_resource",
-      "confidence_score": 1.0
+      "target": "src_server_employees_resource"
     },
     {
       "relation": "rationale_for",
@@ -8967,9 +8925,9 @@
       "source_file": "src/server.py",
       "source_location": "L413",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "src_server_rationale_413",
-      "target": "src_server_policy_resource",
-      "confidence_score": 1.0
+      "target": "src_server_policy_resource"
     },
     {
       "relation": "rationale_for",
@@ -9007,9 +8965,9 @@
       "source_file": "src/server.py",
       "source_location": "L431",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "src_server_rationale_431",
-      "target": "src_server_leave_assistant",
-      "confidence_score": 1.0
+      "target": "src_server_leave_assistant"
     },
     {
       "relation": "rationale_for",
@@ -9137,9 +9095,9 @@
       "source_file": "tests/test_grok_enrichment.py",
       "source_location": "L212",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "tests_test_grok_enrichment_py",
-      "target": "tests_test_grok_enrichment_test_every_tool_response_has_grok_header_footer",
-      "confidence_score": 1.0
+      "target": "tests_test_grok_enrichment_test_every_tool_response_has_grok_header_footer"
     },
     {
       "relation": "contains",
@@ -9147,9 +9105,9 @@
       "source_file": "tests/test_grok_enrichment.py",
       "source_location": "L258",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "tests_test_grok_enrichment_py",
-      "target": "tests_test_grok_enrichment_test_middleware_enriches_plain_json",
-      "confidence_score": 1.0
+      "target": "tests_test_grok_enrichment_test_middleware_enriches_plain_json"
     },
     {
       "relation": "contains",
@@ -9952,6 +9910,48 @@
       "target": "memory_query_20260525_115519_is_grok_giving_recommendations_for_mcp_office_leav_source_nodes"
     },
     {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "src/models.py",
+      "source_location": "L75",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "src_models_groksuggestions",
+      "target": "src_models_groksuggestions_to_dict"
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "src/models.py",
+      "source_location": "L84",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "src_models_leave_advice_to_grok",
+      "target": "src_models_groksuggestions"
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "src/models.py",
+      "source_location": "L84",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "src_models_leave_advice_to_grok",
+      "target": "src_models_groksuggestions_to_dict"
+    },
+    {
+      "relation": "rationale_for",
+      "confidence": "EXTRACTED",
+      "source_file": "src/models.py",
+      "source_location": "L80",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "src_models_rationale_80",
+      "target": "src_models_leave_advice_to_grok"
+    },
+    {
       "relation": "calls",
       "context": "call",
       "confidence": "EXTRACTED",
@@ -10112,5 +10112,5 @@
       "source_file": "docs/MCP_SETUP.md"
     }
   ],
-  "built_at_commit": "2d23d1fc5622c01ac5c6edb10b9c9c2366eae16f"
+  "built_at_commit": "99d066d7ae5b8e390386ddf83a00a150e7f65b6c"
 }
