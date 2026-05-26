@@ -6,7 +6,11 @@
       "cwd": "${workspaceFolder}",
       "env": {
         "DATABASE_PATH": "data/employees.db",
-        "OFFICE_LEAVE_WORKSPACE": "${workspaceFolder}"
+        "OFFICE_LEAVE_WORKSPACE": "${workspaceFolder}",
+        "GROK_PROVIDER": "puter",
+        "GROK_API_URL": "https://api.puter.com/puterai/openai/v1",
+        "GROK_MODEL": "x-ai/grok-4.3",
+        "GROK_ENRICH_OUTPUTS": "1"
       }
     },
     "graphify": {

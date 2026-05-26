@@ -18,10 +18,16 @@ curl -fsSL https://raw.githubusercontent.com/devinraina258/talentserv-ai-hackath
 
 Windows: `irm .../install-office-leave-mcp.ps1 | iex` and `irm .../install-graphify-mcp.ps1 | iex` — [docs/MCP_SETUP.md](docs/MCP_SETUP.md).
 
+## Token-saving hooks ([cache-cow](https://github.com/soonswan-study/cache-cow))
+
+This repo ships **cache-cow**-style Cursor hooks in `.cursor/hooks.json` (Python, Windows-friendly). They block redundant file reads, cap large full reads, filter verbose test output, and clear caches on session start / compaction.
+
+After clone: open the project in Cursor and **Developer → Reload Window**. See [docs/CACHE_COW.md](docs/CACHE_COW.md). Monitor: `Get-Content $env:TEMP\cursor-hooks.log -Wait -Tail 20`.
+
 ## Prerequisites
 
 - Python 3.10+
-- [Grok API key](https://console.x.ai) (optional; fallback rules work without it)
+- [Puter auth token](https://puter.com/dashboard) for Grok via Puter (default; see [tutorial](https://developer.puter.com/tutorials/free-unlimited-grok-api/)). Or x.ai API key with `GROK_PROVIDER=xai`. Fallback rules work without either.
 - [Cursor](https://cursor.com) or another MCP host
 
 ## Quick start
@@ -49,7 +55,7 @@ Creates `data/employees.db` with three employees: **devin**, **nisha**, **gautam
 copy .env.example .env
 ```
 
-Edit `.env` and set `GROK_API_KEY` for live AI advice on `advise_on_leave`.
+Edit `.env` and set `PUTER_AUTH_TOKEN` (from [puter.com/dashboard](https://puter.com/dashboard)) for live Grok via Puter on every tool and resource response. MCP loads `.env` from the workspace via `OFFICE_LEAVE_WORKSPACE` (see `src/env.py`). After changing `.env`, reload Cursor (Developer → Reload Window).
 
 ### 3. Run tests
 
@@ -124,6 +130,8 @@ See the curl commands at the top of this README, or [docs/MCP_SETUP.md](docs/MCP
 **Developers** with a full git checkout: `python scripts/bootstrap_mcp.py --all` or `pip install -e ".[dev,graphify]"`.
 
 ## MCP tools
+
+Every **tool** (all 7), **resource** (`leave://employees`, `leave://policy`), and **`leave_assistant` prompt** include Grok in three places: a **text header** (recommendation + suggestions), JSON with **`grok`** first and **`grok_footer`** last (same fields), and a **text footer** (next steps + explanation). `GrokEnrichmentMiddleware` re-wraps any handler that returns plain JSON so nothing is missed. Live AI uses Puter (`GROK_PROVIDER=puter`, `source: puter-api`) or x.ai (`GROK_PROVIDER=xai`) when `PUTER_AUTH_TOKEN` or `GROK_API_KEY` is set; otherwise `source: fallback-rules`.
 
 | Tool | Description |
 |------|-------------|

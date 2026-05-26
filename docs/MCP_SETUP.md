@@ -10,6 +10,8 @@ Configure **office-leave** and/or **graphify** like Jira/Figma MCP: one curl per
 
 Sets up `.cursor/mcp.json`, `.cursor/bin/office-leave-mcp/run`, and `data/employees.db` in **the current directory only**.
 
+For live Grok suggestions, copy `.env.example` → `.env` and set `PUTER_AUTH_TOKEN` from [puter.com/dashboard](https://puter.com/dashboard) (default provider: Puter — [free Grok tutorial](https://developer.puter.com/tutorials/free-unlimited-grok-api/)). Or set `GROK_PROVIDER=xai` and `GROK_API_KEY` for direct x.ai. The launcher loads `.env` from the workspace (never commit `.env`). Reload Cursor after changing tokens.
+
 ### curl (bash — any directory)
 
 ```bash
@@ -130,6 +132,7 @@ Legacy bootstrap scripts (`bootstrap-office-leave-mcp.sh`) still work inside a c
 | curl 404 | Push to GitHub `main`, or run `python scripts/mcp_install_lib.py …` from a clone |
 | No `uvx` / `pipx` | Installer creates `.cursor/mcp-venv` automatically |
 | graphify empty graph | Run `.cursor/bin/graphify-mcp/build-graph.sh` or `graphify update .` in workspace |
+| `grok.used_grok` is false | Set `PUTER_AUTH_TOKEN` (Puter) or `GROK_API_KEY` (x.ai) in `.env`, reload MCP; check `grok.source` is `puter-api` / `grok-api` not `fallback-rules` |
 
 ---
 
