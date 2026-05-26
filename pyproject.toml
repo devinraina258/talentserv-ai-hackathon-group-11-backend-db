@@ -13,10 +13,17 @@ dependencies = [
 [project.optional-dependencies]
 dev = ["pytest>=8.0.0"]
 graphify = ["graphifyy[mcp]>=0.8.14"]
+whatsapp = [
+  "fastapi>=0.115.0",
+  "uvicorn[standard]>=0.32.0",
+  "twilio>=9.0.0",
+  "python-multipart>=0.0.9",
+]
 
 [project.scripts]
 office-leave-mcp = "src.server:main"
 office-leave-init-db = "src.init_db:main"
+office-leave-whatsapp = "src.whatsapp.twilio_webhook:main"
 
 [build-system]
 requires = ["setuptools>=68.0"]

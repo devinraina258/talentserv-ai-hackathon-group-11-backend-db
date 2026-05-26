@@ -129,6 +129,17 @@ See the curl commands at the top of this README, or [docs/MCP_SETUP.md](docs/MCP
 
 **Developers** with a full git checkout: `python scripts/bootstrap_mcp.py --all` or `pip install -e ".[dev,graphify]"`.
 
+## WhatsApp demo (Twilio Sandbox)
+
+Message leave balances and apply leave from WhatsApp (free Twilio sandbox + ngrok). Same SQLite DB as MCP; phone number maps to employee slug.
+
+```bash
+pip install -e ".[whatsapp]"
+office-leave-whatsapp
+```
+
+Setup: [docs/WHATSAPP_DEMO.md](docs/WHATSAPP_DEMO.md). **One-command demo:** `powershell -ExecutionPolicy Bypass -File .\scripts\demo.ps1` ([docs/DEMO_QUICKSTART.md](docs/DEMO_QUICKSTART.md)).
+
 ## MCP tools
 
 Every **tool** (all 7), **resource** (`leave://employees`, `leave://policy`), and **`leave_assistant` prompt** include Grok in three places: a **text header** (recommendation + suggestions), JSON with **`grok`** first and **`grok_footer`** last (same fields), and a **text footer** (next steps + explanation). `GrokEnrichmentMiddleware` re-wraps any handler that returns plain JSON so nothing is missed. Live AI uses Puter (`GROK_PROVIDER=puter`, `source: puter-api`) or x.ai (`GROK_PROVIDER=xai`) when `PUTER_AUTH_TOKEN` or `GROK_API_KEY` is set; otherwise `source: fallback-rules`.
