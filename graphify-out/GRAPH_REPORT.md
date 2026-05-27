@@ -1,7 +1,7 @@
 # Graph Report - talentserv-ai-hackathon-group-11-backend-db  (2026-05-27)
 
 ## Corpus Check
-- 89 files · ~24,470 words
+- 65 files · ~19,483 words
 - Verdict: corpus is large enough that graph structure adds value.
 
 ## Summary
@@ -10,7 +10,7 @@
 - Token cost: 0 input · 0 output
 
 ## Graph Freshness
-- Built from commit: `05928a7c`
+- Built from commit: `24a95928`
 - Run `git rev-parse HEAD` and compare to check if the graph is stale.
 - Run `graphify update .` after code changes (no API cost).
 
@@ -70,14 +70,14 @@
 ## God Nodes (most connected - your core abstractions)
 1. `ToolResponse` - 30 edges
 2. `_json_response_enriched()` - 23 edges
-3. `generate_output_recommendations()` - 18 edges
-4. `generate_leave_advice_with_grok()` - 18 edges
-5. `utc_now_iso()` - 18 edges
+3. `utc_now_iso()` - 18 edges
+4. `generate_output_recommendations()` - 18 edges
+5. `generate_leave_advice_with_grok()` - 18 edges
 6. `ensure_enriched_text()` - 17 edges
 7. `str` - 17 edges
-8. `run()` - 15 edges
-9. `LeaveAdvice` - 15 edges
-10. `Office Leave MCP` - 15 edges
+8. `LeaveAdvice` - 15 edges
+9. `str` - 15 edges
+10. `str` - 15 edges
 
 ## Surprising Connections (you probably didn't know these)
 - `test_puter_model_prefix()` --calls--> `_effective_model()`  [INFERRED]
@@ -88,8 +88,8 @@
   docs/MCP_SETUP.md → README.md
 - `graphify MCP launcher` --semantically_similar_to--> `graphify knowledge graph`  [INFERRED] [semantically similar]
   docs/MCP_SETUP.md → README.md
-- `test_every_tool_response_has_grok_header_footer()` --calls--> `run()`  [INFERRED]
-  tests/test_grok_enrichment.py → scripts/bootstrap_mcp.py
+- `temp_db()` --calls--> `init_db()`  [INFERRED]
+  tests/test_whatsapp_commands.py → src/init_db.py
 
 ## Hyperedges (group relationships)
 - **Dual MCP hackathon stack** — readme_office_leave_mcp, readme_graphify_knowledge_graph, mcp_setup_office_leave_launcher, mcp_setup_graphify_launcher [INFERRED 0.85]
@@ -138,7 +138,7 @@ Nodes (4): find_and_run(), main(), A test runner for pywin32, run_test()
 
 ### Community 11 - "Community 11"
 Cohesion: 0.47
-Nodes (5): main(), int, str, Export graphify-out/graph.json as a compact JSONL tree for LLM context.  Each, _walk_tree()
+Nodes (5): main(), int, str, Export graphify-out/graph.json as a compact JSONL tree for LLM context.  Each li, _walk_tree()
 
 ### Community 12 - "Community 12"
 Cohesion: 0.21
@@ -225,7 +225,7 @@ Cohesion: 0.40
 Nodes (5): list_employees(), List all office employees with leave balances., List all office employees with leave balances., List all office employees with leave balances., List all office employees with leave balances.
 
 ## Knowledge Gaps
-- **149 isolated node(s):** `prepare`, `graphify:sync`, `graphify:sync:unix`, `husky`, `version` (+144 more)
+- **149 isolated node(s):** `prepare`, `graphify:sync`, `graphify:sync:unix`, `husky`, `Connection` (+144 more)
   These have ≤1 connection - possible missing edges or undocumented components.
 - **19 thin communities (<3 nodes) omitted from report** — run `graphify query` to explore isolated nodes.
 
@@ -242,7 +242,7 @@ _Questions this graph is uniquely positioned to answer:_
   _`ToolResponse` has 25 INFERRED edges - model-reasoned connections that need verification._
 - **Are the 5 inferred relationships involving `_json_response_enriched()` (e.g. with `resolve_grok_block()` and `format_enriched_response()`) actually correct?**
   _`_json_response_enriched()` has 5 INFERRED edges - model-reasoned connections that need verification._
+- **Are the 12 inferred relationships involving `utc_now_iso()` (e.g. with `_grok_from_parsed()` and `generate_fallback_output_recommendations()`) actually correct?**
+  _`utc_now_iso()` has 12 INFERRED edges - model-reasoned connections that need verification._
 - **Are the 4 inferred relationships involving `generate_output_recommendations()` (e.g. with `resolve_grok_block()` and `_json_response_enriched()`) actually correct?**
   _`generate_output_recommendations()` has 4 INFERRED edges - model-reasoned connections that need verification._
-- **Are the 4 inferred relationships involving `generate_leave_advice_with_grok()` (e.g. with `LeaveAdvice` and `utc_now_iso()`) actually correct?**
-  _`generate_leave_advice_with_grok()` has 4 INFERRED edges - model-reasoned connections that need verification._
