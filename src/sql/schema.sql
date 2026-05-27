@@ -31,3 +31,14 @@ CREATE TABLE IF NOT EXISTS leave_requests (
 
 CREATE INDEX IF NOT EXISTS idx_leave_requests_employee ON leave_requests(employee_id);
 CREATE INDEX IF NOT EXISTS idx_leave_requests_status ON leave_requests(status);
+
+-- Demo persistence for holiday announcements so we can send Teams notifications
+-- from an MCP tool (and optionally display history later).
+CREATE TABLE IF NOT EXISTS holiday_announcements (
+  id INTEGER PRIMARY KEY AUTOINCREMENT,
+  holiday_date TEXT NOT NULL,
+  description TEXT NOT NULL,
+  created_at TEXT NOT NULL DEFAULT (datetime('now'))
+);
+
+CREATE UNIQUE INDEX IF NOT EXISTS idx_holiday_announcements_date ON holiday_announcements(holiday_date);

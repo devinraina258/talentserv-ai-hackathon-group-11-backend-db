@@ -349,6 +349,190 @@ def apply_leave(
     )
 
 
+def approve_leave(request_id: int) -> ToolResponse[dict]:
+    """
+    Approve a pending leave request and apply it to balances.
+
+    Pending requests do not reduce balances until approved (demo/local behavior).
+    """
+
+    try:
+        request_id_int = int(request_id)
+    except (TypeError, ValueError):
+        return ToolResponse(success=False, error="request_id must be an integer", timestamp=utc_now_iso())
+
+    with connect() as conn:
+        row = conn.execute(
+            """
+            SELECT lr.id, e.slug AS employee_slug, e.display_name AS employee_name,
+                   e.department, e.email,
+                   lr.leave_type, lr.start_date, lr.end_date, lr.days, lr.reason,
+                   lr.status, lr.created_at, lr.updated_at,
+                   b.annual_remaining, b.sick_remaining, e.id AS employee_id
+            FROM leave_requests lr
+            JOIN employees e ON e.id = lr.employee_id
+            JOIN leave_balances b ON b.employee_id = e.id
+            WHERE lr.id = ?
+            """,
+            (request_id_int,),
+        ).fetchone()
+
+        if not row:
+            return ToolResponse(success=False, error=f"No request with id {request_id_int}", timestamp=utc_now_iso())
+
+        if row["status"] != "pending":
+            return ToolResponse(
+                success=False,
+                error=f"Only pending requests can be approved (current status: {row['status']})",
+                timestamp=utc_now_iso(),
+            )
+
+        leave_type = row["leave_type"]
+        days = float(row["days"])
+        balance_key = "annual_remaining" if leave_type == "annual" else "sick_remaining"
+        remaining = float(row[balance_key])
+        if days > remaining:
+            return ToolResponse(
+                success=False,
+                error=f"Insufficient {leave_type} balance: {remaining} days remaining, requested {days}",
+                timestamp=utc_now_iso(),
+            )
+
+        new_remaining = remaining - days
+        conn.execute(
+            f"UPDATE leave_balances SET {balance_key} = ? WHERE employee_id = ?",
+            (new_remaining, row["employee_id"]),
+        )
+        conn.execute(
+            """
+            UPDATE leave_requests
+            SET status = 'approved', updated_at = datetime('now')
+            WHERE id = ?
+            """,
+            (request_id_int,),
+        )
+        conn.commit()
+
+        req_row = conn.execute(
+            """
+            SELECT lr.id, e.slug AS employee_slug, e.display_name AS employee_name,
+                   lr.leave_type, lr.start_date, lr.end_date, lr.days, lr.reason,
+                   lr.status, lr.created_at, lr.updated_at
+            FROM leave_requests lr
+            JOIN employees e ON e.id = lr.employee_id
+            WHERE lr.id = ?
+            """,
+            (request_id_int,),
+        ).fetchone()
+
+    req = row_to_leave_request(req_row)
+    return ToolResponse(
+        success=True,
+        data={"message": "Leave request approved", "request": vars(req)},
+        timestamp=utc_now_iso(),
+    )
+
+
+def reject_leave(request_id: int) -> ToolResponse[dict]:
+    """Reject a pending leave request (does not change balances)."""
+
+    try:
+        request_id_int = int(request_id)
+    except (TypeError, ValueError):
+        return ToolResponse(success=False, error="request_id must be an integer", timestamp=utc_now_iso())
+
+    with connect() as conn:
+        row = conn.execute(
+            """
+            SELECT lr.id, e.slug AS employee_slug, e.display_name AS employee_name,
+                   lr.leave_type, lr.start_date, lr.end_date, lr.days, lr.reason,
+                   lr.status, lr.created_at, lr.updated_at
+            FROM leave_requests lr
+            JOIN employees e ON e.id = lr.employee_id
+            WHERE lr.id = ?
+            """,
+            (request_id_int,),
+        ).fetchone()
+
+        if not row:
+            return ToolResponse(success=False, error=f"No request with id {request_id_int}", timestamp=utc_now_iso())
+
+        if row["status"] != "pending":
+            return ToolResponse(
+                success=False,
+                error=f"Only pending requests can be rejected (current status: {row['status']})",
+                timestamp=utc_now_iso(),
+            )
+
+        conn.execute(
+            """
+            UPDATE leave_requests
+            SET status = 'rejected', updated_at = datetime('now')
+            WHERE id = ?
+            """,
+            (request_id_int,),
+        )
+        conn.commit()
+
+        req_row = conn.execute(
+            """
+            SELECT lr.id, e.slug AS employee_slug, e.display_name AS employee_name,
+                   lr.leave_type, lr.start_date, lr.end_date, lr.days, lr.reason,
+                   lr.status, lr.created_at, lr.updated_at
+            FROM leave_requests lr
+            JOIN employees e ON e.id = lr.employee_id
+            WHERE lr.id = ?
+            """,
+            (request_id_int,),
+        ).fetchone()
+
+    req = row_to_leave_request(req_row)
+    return ToolResponse(
+        success=True,
+        data={"message": "Leave request rejected", "request": vars(req)},
+        timestamp=utc_now_iso(),
+    )
+
+
+def announce_holiday(holiday_date: str, description: str) -> ToolResponse[dict]:
+    """Create a holiday announcement and return it (demo/local persistence)."""
+
+    d = parse_iso_date(holiday_date)
+    if not d:
+        return ToolResponse(success=False, error="holiday_date must be YYYY-MM-DD", timestamp=utc_now_iso())
+
+    desc = (description or "").strip()
+    if not desc:
+        return ToolResponse(success=False, error="description is required", timestamp=utc_now_iso())
+
+    with connect() as conn:
+        cur = conn.execute(
+            """
+            INSERT INTO holiday_announcements (holiday_date, description)
+            VALUES (?, ?)
+            """,
+            (d.isoformat(), desc),
+        )
+        announcement_id = cur.lastrowid
+        row = conn.execute(
+            """
+            SELECT id, holiday_date, description, created_at
+            FROM holiday_announcements
+            WHERE id = ?
+            """,
+            (announcement_id,),
+        ).fetchone()
+
+    return ToolResponse(
+        success=True,
+        data={
+            "message": "Holiday announcement created",
+            "announcement": dict(row) if row else {"id": announcement_id, "holiday_date": d.isoformat(), "description": desc},
+        },
+        timestamp=utc_now_iso(),
+    )
+
+
 def check_leave_status(
     request_id: int | None = None,
     employee: str | None = None,

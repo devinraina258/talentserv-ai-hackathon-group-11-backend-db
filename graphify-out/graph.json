@@ -233,7 +233,7 @@
       "source_file": "src/init_db.py",
       "source_location": "L13",
       "id": "src_init_db_run_sql_file",
-      "community": 6,
+      "community": 2,
       "norm_label": "run_sql_file()"
     },
     {
@@ -242,7 +242,7 @@
       "source_file": "src/init_db.py",
       "source_location": "L13",
       "id": "src_init_db_py_connection",
-      "community": 6,
+      "community": 2,
       "norm_label": "connection"
     },
     {
@@ -251,7 +251,7 @@
       "source_file": "src/init_db.py",
       "source_location": "L13",
       "id": "src_init_db_py_path",
-      "community": 6,
+      "community": 2,
       "norm_label": "path"
     },
     {
@@ -260,7 +260,7 @@
       "source_file": "src/init_db.py",
       "source_location": "L17",
       "id": "src_init_db_init_db",
-      "community": 6,
+      "community": 2,
       "norm_label": "init_db()"
     },
     {
@@ -269,7 +269,7 @@
       "source_file": "src/init_db.py",
       "source_location": "L17",
       "id": "src_init_db_py_str",
-      "community": 6,
+      "community": 2,
       "norm_label": "str"
     },
     {
@@ -278,7 +278,7 @@
       "source_file": "src/init_db.py",
       "source_location": "L44",
       "id": "src_init_db_main",
-      "community": 6,
+      "community": 2,
       "norm_label": "main()"
     },
     {
@@ -303,43 +303,43 @@
       "label": "_payload_from_result()",
       "file_type": "code",
       "source_file": "src/server.py",
-      "source_location": "L65",
+      "source_location": "L66",
       "id": "src_server_payload_from_result",
-      "community": 48,
+      "community": 63,
       "norm_label": "_payload_from_result()"
     },
     {
       "label": "Any",
       "file_type": "code",
       "source_file": "src/server.py",
-      "source_location": "L65",
+      "source_location": "L66",
       "id": "src_server_py_any",
-      "community": 48,
+      "community": 63,
       "norm_label": "any"
     },
     {
       "label": "str",
       "file_type": "code",
       "source_file": "src/server.py",
-      "source_location": "L65",
+      "source_location": "L66",
       "id": "src_server_py_str",
-      "community": 48,
+      "community": 63,
       "norm_label": "str"
     },
     {
       "label": "_json_response_enriched()",
       "file_type": "code",
       "source_file": "src/server.py",
-      "source_location": "L81",
+      "source_location": "L82",
       "id": "src_server_json_response_enriched",
-      "community": 0,
+      "community": 63,
       "norm_label": "_json_response_enriched()"
     },
     {
       "label": "_resource_response_enriched()",
       "file_type": "code",
       "source_file": "src/server.py",
-      "source_location": "L109",
+      "source_location": "L110",
       "id": "src_server_resource_response_enriched",
       "community": 0,
       "norm_label": "_resource_response_enriched()"
@@ -348,7 +348,7 @@
       "label": "list_employees()",
       "file_type": "code",
       "source_file": "src/server.py",
-      "source_location": "L155",
+      "source_location": "L156",
       "id": "src_server_list_employees",
       "community": 61,
       "norm_label": "list_employees()"
@@ -357,7 +357,7 @@
       "label": "get_employee()",
       "file_type": "code",
       "source_file": "src/server.py",
-      "source_location": "L171",
+      "source_location": "L172",
       "id": "src_server_get_employee",
       "community": 26,
       "norm_label": "get_employee()"
@@ -366,7 +366,7 @@
       "label": "get_leave_balance()",
       "file_type": "code",
       "source_file": "src/server.py",
-      "source_location": "L191",
+      "source_location": "L192",
       "id": "src_server_get_leave_balance",
       "community": 26,
       "norm_label": "get_leave_balance()"
@@ -375,7 +375,7 @@
       "label": "apply_leave()",
       "file_type": "code",
       "source_file": "src/server.py",
-      "source_location": "L211",
+      "source_location": "L212",
       "id": "src_server_apply_leave",
       "community": 50,
       "norm_label": "apply_leave()"
@@ -384,34 +384,61 @@
       "label": "check_leave_status()",
       "file_type": "code",
       "source_file": "src/server.py",
-      "source_location": "L257",
+      "source_location": "L253",
       "id": "src_server_check_leave_status",
-      "community": 48,
+      "community": 54,
       "norm_label": "check_leave_status()"
     },
     {
       "label": "int",
       "file_type": "code",
       "source_file": "src/server.py",
-      "source_location": "L257",
+      "source_location": "L253",
       "id": "src_server_py_int",
-      "community": 48,
+      "community": 63,
       "norm_label": "int"
     },
     {
       "label": "list_leave_requests()",
       "file_type": "code",
       "source_file": "src/server.py",
-      "source_location": "L293",
+      "source_location": "L289",
       "id": "src_server_list_leave_requests",
-      "community": 48,
+      "community": 69,
       "norm_label": "list_leave_requests()"
+    },
+    {
+      "label": "approve_leave()",
+      "file_type": "code",
+      "source_file": "src/server.py",
+      "source_location": "L324",
+      "id": "src_server_approve_leave",
+      "community": 63,
+      "norm_label": "approve_leave()"
+    },
+    {
+      "label": "reject_leave()",
+      "file_type": "code",
+      "source_file": "src/server.py",
+      "source_location": "L332",
+      "id": "src_server_reject_leave",
+      "community": 63,
+      "norm_label": "reject_leave()"
+    },
+    {
+      "label": "announce_holiday()",
+      "file_type": "code",
+      "source_file": "src/server.py",
+      "source_location": "L340",
+      "id": "src_server_announce_holiday",
+      "community": 63,
+      "norm_label": "announce_holiday()"
     },
     {
       "label": "advise_on_leave()",
       "file_type": "code",
       "source_file": "src/server.py",
-      "source_location": "L329",
+      "source_location": "L349",
       "id": "src_server_advise_on_leave",
       "community": 52,
       "norm_label": "advise_on_leave()"
@@ -420,34 +447,34 @@
       "label": "employees_resource()",
       "file_type": "code",
       "source_file": "src/server.py",
-      "source_location": "L393",
+      "source_location": "L413",
       "id": "src_server_employees_resource",
-      "community": 48,
+      "community": 51,
       "norm_label": "employees_resource()"
     },
     {
       "label": "policy_resource()",
       "file_type": "code",
       "source_file": "src/server.py",
-      "source_location": "L411",
+      "source_location": "L431",
       "id": "src_server_policy_resource",
-      "community": 0,
+      "community": 50,
       "norm_label": "policy_resource()"
     },
     {
       "label": "leave_assistant()",
       "file_type": "code",
       "source_file": "src/server.py",
-      "source_location": "L429",
+      "source_location": "L449",
       "id": "src_server_leave_assistant",
-      "community": 51,
+      "community": 64,
       "norm_label": "leave_assistant()"
     },
     {
       "label": "main()",
       "file_type": "code",
       "source_file": "src/server.py",
-      "source_location": "L479",
+      "source_location": "L499",
       "id": "src_server_main",
       "community": 0,
       "norm_label": "main()"
@@ -456,8 +483,8 @@
       "label": "List all office employees with leave balances.",
       "file_type": "rationale",
       "source_file": "src/server.py",
-      "source_location": "L157",
-      "id": "src_server_rationale_157",
+      "source_location": "L158",
+      "id": "src_server_rationale_158",
       "community": 61,
       "norm_label": "list all office employees with leave balances."
     },
@@ -465,8 +492,8 @@
       "label": "Get employee profile and leave balances. employee: slug or name (devin, nisha, g",
       "file_type": "rationale",
       "source_file": "src/server.py",
-      "source_location": "L173",
-      "id": "src_server_rationale_173",
+      "source_location": "L174",
+      "id": "src_server_rationale_174",
       "community": 26,
       "norm_label": "get employee profile and leave balances. employee: slug or name (devin, nisha, g"
     },
@@ -474,8 +501,8 @@
       "label": "Get remaining annual and sick leave for an employee.",
       "file_type": "rationale",
       "source_file": "src/server.py",
-      "source_location": "L193",
-      "id": "src_server_rationale_193",
+      "source_location": "L194",
+      "id": "src_server_rationale_194",
       "community": 26,
       "norm_label": "get remaining annual and sick leave for an employee."
     },
@@ -483,8 +510,8 @@
       "label": "Submit a pending leave request. Dates: YYYY-MM-DD. leave_type: annual or sick.",
       "file_type": "rationale",
       "source_file": "src/server.py",
-      "source_location": "L225",
-      "id": "src_server_rationale_225",
+      "source_location": "L226",
+      "id": "src_server_rationale_226",
       "community": 50,
       "norm_label": "submit a pending leave request. dates: yyyy-mm-dd. leave_type: annual or sick."
     },
@@ -492,26 +519,53 @@
       "label": "Check leave request status by request_id or latest request for employee.",
       "file_type": "rationale",
       "source_file": "src/server.py",
-      "source_location": "L265",
-      "id": "src_server_rationale_265",
-      "community": 48,
+      "source_location": "L261",
+      "id": "src_server_rationale_261",
+      "community": 54,
       "norm_label": "check leave request status by request_id or latest request for employee."
     },
     {
       "label": "List leave requests, optionally filtered by employee slug and status.",
       "file_type": "rationale",
       "source_file": "src/server.py",
-      "source_location": "L301",
-      "id": "src_server_rationale_301",
-      "community": 48,
+      "source_location": "L297",
+      "id": "src_server_rationale_297",
+      "community": 69,
       "norm_label": "list leave requests, optionally filtered by employee slug and status."
+    },
+    {
+      "label": "Approve a pending leave request by id.",
+      "file_type": "rationale",
+      "source_file": "src/server.py",
+      "source_location": "L325",
+      "id": "src_server_rationale_325",
+      "community": 63,
+      "norm_label": "approve a pending leave request by id."
+    },
+    {
+      "label": "Reject a pending leave request by id.",
+      "file_type": "rationale",
+      "source_file": "src/server.py",
+      "source_location": "L333",
+      "id": "src_server_rationale_333",
+      "community": 63,
+      "norm_label": "reject a pending leave request by id."
+    },
+    {
+      "label": "Create a holiday announcement (YYYY-MM-DD) and notify Teams.",
+      "file_type": "rationale",
+      "source_file": "src/server.py",
+      "source_location": "L341",
+      "id": "src_server_rationale_341",
+      "community": 63,
+      "norm_label": "create a holiday announcement (yyyy-mm-dd) and notify teams."
     },
     {
       "label": "Get AI leave guidance using Grok from employee data and balances.",
       "file_type": "rationale",
       "source_file": "src/server.py",
-      "source_location": "L331",
-      "id": "src_server_rationale_331",
+      "source_location": "L351",
+      "id": "src_server_rationale_351",
       "community": 52,
       "norm_label": "get ai leave guidance using grok from employee data and balances."
     },
@@ -519,27 +573,27 @@
       "label": "Directory of employees and departments.",
       "file_type": "rationale",
       "source_file": "src/server.py",
-      "source_location": "L395",
-      "id": "src_server_rationale_395",
-      "community": 48,
+      "source_location": "L415",
+      "id": "src_server_rationale_415",
+      "community": 51,
       "norm_label": "directory of employees and departments."
     },
     {
       "label": "Office leave policy rules.",
       "file_type": "rationale",
       "source_file": "src/server.py",
-      "source_location": "L413",
-      "id": "src_server_rationale_413",
-      "community": 0,
+      "source_location": "L433",
+      "id": "src_server_rationale_433",
+      "community": 50,
       "norm_label": "office leave policy rules."
     },
     {
       "label": "Template prompt for leave questions using employee context.",
       "file_type": "rationale",
       "source_file": "src/server.py",
-      "source_location": "L431",
-      "id": "src_server_rationale_431",
-      "community": 51,
+      "source_location": "L451",
+      "id": "src_server_rationale_451",
+      "community": 64,
       "norm_label": "template prompt for leave questions using employee context."
     },
     {
@@ -611,7 +665,7 @@
       "source_file": "src/mcp_enrichment.py",
       "source_location": "L74",
       "id": "src_mcp_enrichment_parse_enriched_mcp_response",
-      "community": 52,
+      "community": 47,
       "norm_label": "parse_enriched_mcp_response()"
     },
     {
@@ -692,7 +746,7 @@
       "source_file": "src/mcp_enrichment.py",
       "source_location": "L166",
       "id": "textcontent",
-      "community": 57,
+      "community": 34,
       "norm_label": "textcontent"
     },
     {
@@ -701,7 +755,7 @@
       "source_file": "src/mcp_enrichment.py",
       "source_location": "L170",
       "id": "src_mcp_enrichment_grokenrichmentmiddleware",
-      "community": 48,
+      "community": 34,
       "norm_label": "grokenrichmentmiddleware"
     },
     {
@@ -710,7 +764,7 @@
       "source_file": "",
       "source_location": "",
       "id": "middleware",
-      "community": 48,
+      "community": 34,
       "norm_label": "middleware"
     },
     {
@@ -719,7 +773,7 @@
       "source_file": "src/mcp_enrichment.py",
       "source_location": "L173",
       "id": "src_mcp_enrichment_grokenrichmentmiddleware_on_call_tool",
-      "community": 57,
+      "community": 34,
       "norm_label": ".on_call_tool()"
     },
     {
@@ -728,7 +782,7 @@
       "source_file": "src/mcp_enrichment.py",
       "source_location": "L173",
       "id": "middlewarecontext",
-      "community": 57,
+      "community": 34,
       "norm_label": "middlewarecontext"
     },
     {
@@ -737,7 +791,7 @@
       "source_file": "src/mcp_enrichment.py",
       "source_location": "L173",
       "id": "calltoolrequestparams",
-      "community": 57,
+      "community": 34,
       "norm_label": "calltoolrequestparams"
     },
     {
@@ -746,7 +800,7 @@
       "source_file": "src/mcp_enrichment.py",
       "source_location": "L173",
       "id": "toolresult",
-      "community": 57,
+      "community": 34,
       "norm_label": "toolresult"
     },
     {
@@ -782,7 +836,7 @@
       "source_file": "src/mcp_enrichment.py",
       "source_location": "L210",
       "id": "src_mcp_enrichment_grokenrichmentmiddleware_on_get_prompt",
-      "community": 57,
+      "community": 34,
       "norm_label": ".on_get_prompt()"
     },
     {
@@ -791,7 +845,7 @@
       "source_file": "src/mcp_enrichment.py",
       "source_location": "L210",
       "id": "getpromptrequestparams",
-      "community": 57,
+      "community": 34,
       "norm_label": "getpromptrequestparams"
     },
     {
@@ -800,7 +854,7 @@
       "source_file": "src/mcp_enrichment.py",
       "source_location": "L210",
       "id": "promptresult",
-      "community": 57,
+      "community": 34,
       "norm_label": "promptresult"
     },
     {
@@ -818,7 +872,7 @@
       "source_file": "src/mcp_enrichment.py",
       "source_location": "L75",
       "id": "src_mcp_enrichment_rationale_75",
-      "community": 52,
+      "community": 47,
       "norm_label": "extract the json object from a header/footer-wrapped mcp tool string."
     },
     {
@@ -836,7 +890,7 @@
       "source_file": "src/mcp_enrichment.py",
       "source_location": "L171",
       "id": "src_mcp_enrichment_rationale_171",
-      "community": 48,
+      "community": 34,
       "norm_label": "guarantee grok header/footer on every tool call, resource read, and prompt."
     },
     {
@@ -863,7 +917,7 @@
       "source_file": "src/grok_client.py",
       "source_location": "L19",
       "id": "src_grok_client_grok_enrich_enabled",
-      "community": 52,
+      "community": 47,
       "norm_label": "grok_enrich_enabled()"
     },
     {
@@ -1061,7 +1115,7 @@
       "source_file": "src/grok_client.py",
       "source_location": "L20",
       "id": "src_grok_client_rationale_20",
-      "community": 52,
+      "community": 47,
       "norm_label": "grok enrichment is always on for mcp tools/resources."
     },
     {
@@ -1070,7 +1124,7 @@
       "source_file": "src/env.py",
       "source_location": "L1",
       "id": "src_env_py",
-      "community": 12,
+      "community": 57,
       "norm_label": "env.py"
     },
     {
@@ -1079,7 +1133,7 @@
       "source_file": "src/env.py",
       "source_location": "L12",
       "id": "src_env_load_workspace_env",
-      "community": 12,
+      "community": 57,
       "norm_label": "load_workspace_env()"
     },
     {
@@ -1088,7 +1142,7 @@
       "source_file": "src/env.py",
       "source_location": "L1",
       "id": "src_env_rationale_1",
-      "community": 12,
+      "community": 57,
       "norm_label": "load .env from cursor workspace before other modules read os.environ."
     },
     {
@@ -1097,7 +1151,7 @@
       "source_file": "src/env.py",
       "source_location": "L13",
       "id": "src_env_rationale_13",
-      "community": 12,
+      "community": 57,
       "norm_label": "load .env from cwd, repo root, and office_leave_workspace (mcp sets this)."
     },
     {
@@ -1213,7 +1267,7 @@
       "file_type": "code",
       "source_file": "src/db.py",
       "source_location": "L91",
-      "id": "float",
+      "id": "src_db_py_float",
       "community": 2,
       "norm_label": "float"
     },
@@ -1335,10 +1389,37 @@
       "norm_label": "apply_leave()"
     },
     {
-      "label": "check_leave_status()",
+      "label": "approve_leave()",
       "file_type": "code",
       "source_file": "src/db.py",
       "source_location": "L352",
+      "id": "src_db_approve_leave",
+      "community": 2,
+      "norm_label": "approve_leave()"
+    },
+    {
+      "label": "reject_leave()",
+      "file_type": "code",
+      "source_file": "src/db.py",
+      "source_location": "L436",
+      "id": "src_db_reject_leave",
+      "community": 2,
+      "norm_label": "reject_leave()"
+    },
+    {
+      "label": "announce_holiday()",
+      "file_type": "code",
+      "source_file": "src/db.py",
+      "source_location": "L497",
+      "id": "src_db_announce_holiday",
+      "community": 2,
+      "norm_label": "announce_holiday()"
+    },
+    {
+      "label": "check_leave_status()",
+      "file_type": "code",
+      "source_file": "src/db.py",
+      "source_location": "L536",
       "id": "src_db_check_leave_status",
       "community": 2,
       "norm_label": "check_leave_status()"
@@ -1347,7 +1428,7 @@
       "label": "get_employee_context_for_advice()",
       "file_type": "code",
       "source_file": "src/db.py",
-      "source_location": "L413",
+      "source_location": "L597",
       "id": "src_db_get_employee_context_for_advice",
       "community": 2,
       "norm_label": "get_employee_context_for_advice()"
@@ -1356,7 +1437,7 @@
       "label": "get_employees_resource()",
       "file_type": "code",
       "source_file": "src/db.py",
-      "source_location": "L441",
+      "source_location": "L625",
       "id": "src_db_get_employees_resource",
       "community": 2,
       "norm_label": "get_employees_resource()"
@@ -1365,10 +1446,451 @@
       "label": "get_policy_resource()",
       "file_type": "code",
       "source_file": "src/db.py",
-      "source_location": "L448",
+      "source_location": "L632",
       "id": "src_db_get_policy_resource",
       "community": 2,
       "norm_label": "get_policy_resource()"
+    },
+    {
+      "label": "Approve a pending leave request and apply it to balances.      Pending requests",
+      "file_type": "rationale",
+      "source_file": "src/db.py",
+      "source_location": "L353",
+      "id": "src_db_rationale_353",
+      "community": 2,
+      "norm_label": "approve a pending leave request and apply it to balances.      pending requests"
+    },
+    {
+      "label": "Reject a pending leave request (does not change balances).",
+      "file_type": "rationale",
+      "source_file": "src/db.py",
+      "source_location": "L437",
+      "id": "src_db_rationale_437",
+      "community": 2,
+      "norm_label": "reject a pending leave request (does not change balances)."
+    },
+    {
+      "label": "Create a holiday announcement and return it (demo/local persistence).",
+      "file_type": "rationale",
+      "source_file": "src/db.py",
+      "source_location": "L498",
+      "id": "src_db_rationale_498",
+      "community": 2,
+      "norm_label": "create a holiday announcement and return it (demo/local persistence)."
+    },
+    {
+      "label": "api_client.py",
+      "file_type": "code",
+      "source_file": "src/services/api_client.py",
+      "source_location": "L1",
+      "id": "src_services_api_client_py",
+      "community": 57,
+      "norm_label": "api_client.py"
+    },
+    {
+      "label": "post_json()",
+      "file_type": "code",
+      "source_file": "src/services/api_client.py",
+      "source_location": "L13",
+      "id": "services_api_client_post_json",
+      "community": 57,
+      "norm_label": "post_json()"
+    },
+    {
+      "label": "str",
+      "file_type": "code",
+      "source_file": "src/services/api_client.py",
+      "source_location": "L13",
+      "id": "src_services_api_client_py_str",
+      "community": 57,
+      "norm_label": "str"
+    },
+    {
+      "label": "Any",
+      "file_type": "code",
+      "source_file": "src/services/api_client.py",
+      "source_location": "L13",
+      "id": "src_services_api_client_py_any",
+      "community": 57,
+      "norm_label": "any"
+    },
+    {
+      "label": "float",
+      "file_type": "code",
+      "source_file": "src/services/api_client.py",
+      "source_location": "L13",
+      "id": "src_services_api_client_py_float",
+      "community": 57,
+      "norm_label": "float"
+    },
+    {
+      "label": "Thin wrapper around `requests.post` so we can centralize:     - timeouts     - b",
+      "file_type": "rationale",
+      "source_file": "src/services/api_client.py",
+      "source_location": "L14",
+      "id": "services_api_client_rationale_14",
+      "community": 57,
+      "norm_label": "thin wrapper around `requests.post` so we can centralize:     - timeouts     - b"
+    },
+    {
+      "label": "teams_service.py",
+      "file_type": "code",
+      "source_file": "src/services/teams_service.py",
+      "source_location": "L1",
+      "id": "src_services_teams_service_py",
+      "community": 57,
+      "norm_label": "teams_service.py"
+    },
+    {
+      "label": "_is_truthy()",
+      "file_type": "code",
+      "source_file": "src/services/teams_service.py",
+      "source_location": "L13",
+      "id": "services_teams_service_is_truthy",
+      "community": 57,
+      "norm_label": "_is_truthy()"
+    },
+    {
+      "label": "str",
+      "file_type": "code",
+      "source_file": "src/services/teams_service.py",
+      "source_location": "L13",
+      "id": "src_services_teams_service_py_str",
+      "community": 57,
+      "norm_label": "str"
+    },
+    {
+      "label": "bool",
+      "file_type": "code",
+      "source_file": "src/services/teams_service.py",
+      "source_location": "L13",
+      "id": "src_services_teams_service_py_bool",
+      "community": 57,
+      "norm_label": "bool"
+    },
+    {
+      "label": "_teams_webhook_url()",
+      "file_type": "code",
+      "source_file": "src/services/teams_service.py",
+      "source_location": "L17",
+      "id": "services_teams_service_teams_webhook_url",
+      "community": 57,
+      "norm_label": "_teams_webhook_url()"
+    },
+    {
+      "label": "_teams_timeout_seconds()",
+      "file_type": "code",
+      "source_file": "src/services/teams_service.py",
+      "source_location": "L30",
+      "id": "services_teams_service_teams_timeout_seconds",
+      "community": 57,
+      "norm_label": "_teams_timeout_seconds()"
+    },
+    {
+      "label": "float",
+      "file_type": "code",
+      "source_file": "src/services/teams_service.py",
+      "source_location": "L30",
+      "id": "src_services_teams_service_py_float",
+      "community": 57,
+      "norm_label": "float"
+    },
+    {
+      "label": "format_teams_connection_test_message()",
+      "file_type": "code",
+      "source_file": "src/services/teams_service.py",
+      "source_location": "L52",
+      "id": "services_teams_service_format_teams_connection_test_message",
+      "community": 57,
+      "norm_label": "format_teams_connection_test_message()"
+    },
+    {
+      "label": "send_teams_connection_test()",
+      "file_type": "code",
+      "source_file": "src/services/teams_service.py",
+      "source_location": "L68",
+      "id": "services_teams_service_send_teams_connection_test",
+      "community": 57,
+      "norm_label": "send_teams_connection_test()"
+    },
+    {
+      "label": "send_teams_message()",
+      "file_type": "code",
+      "source_file": "src/services/teams_service.py",
+      "source_location": "L73",
+      "id": "services_teams_service_send_teams_message",
+      "community": 57,
+      "norm_label": "send_teams_message()"
+    },
+    {
+      "label": "Microsoft Teams Incoming Webhook URL.      Teams Incoming Webhooks are \"pre-auth",
+      "file_type": "rationale",
+      "source_file": "src/services/teams_service.py",
+      "source_location": "L18",
+      "id": "services_teams_service_rationale_18",
+      "community": 57,
+      "norm_label": "microsoft teams incoming webhook url.      teams incoming webhooks are \"pre-auth"
+    },
+    {
+      "label": "Sample message for webhook smoke tests (not a real leave event).",
+      "file_type": "rationale",
+      "source_file": "src/services/teams_service.py",
+      "source_location": "L53",
+      "id": "services_teams_service_rationale_53",
+      "community": 57,
+      "norm_label": "sample message for webhook smoke tests (not a real leave event)."
+    },
+    {
+      "label": "Post a meaningful smoke-test message to verify the Incoming Webhook.",
+      "file_type": "rationale",
+      "source_file": "src/services/teams_service.py",
+      "source_location": "L69",
+      "id": "services_teams_service_rationale_69",
+      "community": 57,
+      "norm_label": "post a meaningful smoke-test message to verify the incoming webhook."
+    },
+    {
+      "label": "Send a notification to Microsoft Teams via Incoming Webhook.      This is intent",
+      "file_type": "rationale",
+      "source_file": "src/services/teams_service.py",
+      "source_location": "L74",
+      "id": "services_teams_service_rationale_74",
+      "community": 57,
+      "norm_label": "send a notification to microsoft teams via incoming webhook.      this is intent"
+    },
+    {
+      "label": "__init__.py",
+      "file_type": "code",
+      "source_file": "src/services/__init__.py",
+      "source_location": "L1",
+      "id": "src_services_init_py",
+      "community": 67,
+      "norm_label": "__init__.py"
+    },
+    {
+      "label": "leave_tools.py",
+      "file_type": "code",
+      "source_file": "src/tools/leave_tools.py",
+      "source_location": "L1",
+      "id": "src_tools_leave_tools_py",
+      "community": 62,
+      "norm_label": "leave_tools.py"
+    },
+    {
+      "label": "_leave_type_label()",
+      "file_type": "code",
+      "source_file": "src/tools/leave_tools.py",
+      "source_location": "L19",
+      "id": "tools_leave_tools_leave_type_label",
+      "community": 62,
+      "norm_label": "_leave_type_label()"
+    },
+    {
+      "label": "str",
+      "file_type": "code",
+      "source_file": "src/tools/leave_tools.py",
+      "source_location": "L19",
+      "id": "src_tools_leave_tools_py_str",
+      "community": 62,
+      "norm_label": "str"
+    },
+    {
+      "label": "_days_label()",
+      "file_type": "code",
+      "source_file": "src/tools/leave_tools.py",
+      "source_location": "L28",
+      "id": "tools_leave_tools_days_label",
+      "community": 62,
+      "norm_label": "_days_label()"
+    },
+    {
+      "label": "Any",
+      "file_type": "code",
+      "source_file": "src/tools/leave_tools.py",
+      "source_location": "L28",
+      "id": "src_tools_leave_tools_py_any",
+      "community": 62,
+      "norm_label": "any"
+    },
+    {
+      "label": "_date_range_label()",
+      "file_type": "code",
+      "source_file": "src/tools/leave_tools.py",
+      "source_location": "L40",
+      "id": "tools_leave_tools_date_range_label",
+      "community": 62,
+      "norm_label": "_date_range_label()"
+    },
+    {
+      "label": "_employee_department()",
+      "file_type": "code",
+      "source_file": "src/tools/leave_tools.py",
+      "source_location": "L50",
+      "id": "tools_leave_tools_employee_department",
+      "community": 62,
+      "norm_label": "_employee_department()"
+    },
+    {
+      "label": "_employee_header()",
+      "file_type": "code",
+      "source_file": "src/tools/leave_tools.py",
+      "source_location": "L61",
+      "id": "tools_leave_tools_employee_header",
+      "community": 62,
+      "norm_label": "_employee_header()"
+    },
+    {
+      "label": "format_leave_teams_message()",
+      "file_type": "code",
+      "source_file": "src/tools/leave_tools.py",
+      "source_location": "L69",
+      "id": "tools_leave_tools_format_leave_teams_message",
+      "community": 62,
+      "norm_label": "format_leave_teams_message()"
+    },
+    {
+      "label": "LeaveTeamsEvent",
+      "file_type": "code",
+      "source_file": "src/tools/leave_tools.py",
+      "source_location": "L69",
+      "id": "leaveteamsevent",
+      "community": 62,
+      "norm_label": "leaveteamsevent"
+    },
+    {
+      "label": "TeamsAudience",
+      "file_type": "code",
+      "source_file": "src/tools/leave_tools.py",
+      "source_location": "L69",
+      "id": "teamsaudience",
+      "community": 62,
+      "norm_label": "teamsaudience"
+    },
+    {
+      "label": "format_holiday_teams_message()",
+      "file_type": "code",
+      "source_file": "src/tools/leave_tools.py",
+      "source_location": "L115",
+      "id": "tools_leave_tools_format_holiday_teams_message",
+      "community": 62,
+      "norm_label": "format_holiday_teams_message()"
+    },
+    {
+      "label": "_notify_teams()",
+      "file_type": "code",
+      "source_file": "src/tools/leave_tools.py",
+      "source_location": "L130",
+      "id": "tools_leave_tools_notify_teams",
+      "community": 62,
+      "norm_label": "_notify_teams()"
+    },
+    {
+      "label": "_manager_webhook_for_employee()",
+      "file_type": "code",
+      "source_file": "src/tools/leave_tools.py",
+      "source_location": "L143",
+      "id": "tools_leave_tools_manager_webhook_for_employee",
+      "community": 62,
+      "norm_label": "_manager_webhook_for_employee()"
+    },
+    {
+      "label": "_notify_manager_if_configured()",
+      "file_type": "code",
+      "source_file": "src/tools/leave_tools.py",
+      "source_location": "L174",
+      "id": "tools_leave_tools_notify_manager_if_configured",
+      "community": 62,
+      "norm_label": "_notify_manager_if_configured()"
+    },
+    {
+      "label": "apply_leave()",
+      "file_type": "code",
+      "source_file": "src/tools/leave_tools.py",
+      "source_location": "L182",
+      "id": "tools_leave_tools_apply_leave",
+      "community": 62,
+      "norm_label": "apply_leave()"
+    },
+    {
+      "label": "ToolResponse",
+      "file_type": "code",
+      "source_file": "src/tools/leave_tools.py",
+      "source_location": "L182",
+      "id": "src_tools_leave_tools_py_toolresponse",
+      "community": 62,
+      "norm_label": "toolresponse"
+    },
+    {
+      "label": "approve_leave()",
+      "file_type": "code",
+      "source_file": "src/tools/leave_tools.py",
+      "source_location": "L209",
+      "id": "tools_leave_tools_approve_leave",
+      "community": 62,
+      "norm_label": "approve_leave()"
+    },
+    {
+      "label": "int",
+      "file_type": "code",
+      "source_file": "src/tools/leave_tools.py",
+      "source_location": "L209",
+      "id": "src_tools_leave_tools_py_int",
+      "community": 62,
+      "norm_label": "int"
+    },
+    {
+      "label": "reject_leave()",
+      "file_type": "code",
+      "source_file": "src/tools/leave_tools.py",
+      "source_location": "L223",
+      "id": "tools_leave_tools_reject_leave",
+      "community": 62,
+      "norm_label": "reject_leave()"
+    },
+    {
+      "label": "announce_holiday()",
+      "file_type": "code",
+      "source_file": "src/tools/leave_tools.py",
+      "source_location": "L237",
+      "id": "tools_leave_tools_announce_holiday",
+      "community": 62,
+      "norm_label": "announce_holiday()"
+    },
+    {
+      "label": "Human-readable Teams text for leave lifecycle events.",
+      "file_type": "rationale",
+      "source_file": "src/tools/leave_tools.py",
+      "source_location": "L75",
+      "id": "tools_leave_tools_rationale_75",
+      "community": 62,
+      "norm_label": "human-readable teams text for leave lifecycle events."
+    },
+    {
+      "label": "Fire-and-forget style notification with safe error handling.      We run `reques",
+      "file_type": "rationale",
+      "source_file": "src/tools/leave_tools.py",
+      "source_location": "L131",
+      "id": "tools_leave_tools_rationale_131",
+      "community": 62,
+      "norm_label": "fire-and-forget style notification with safe error handling.      we run `reques"
+    },
+    {
+      "label": "Optional \"notify manager separately\" using department-based webhook mapping.",
+      "file_type": "rationale",
+      "source_file": "src/tools/leave_tools.py",
+      "source_location": "L144",
+      "id": "tools_leave_tools_rationale_144",
+      "community": 62,
+      "norm_label": "optional \"notify manager separately\" using department-based webhook mapping."
+    },
+    {
+      "label": "__init__.py",
+      "file_type": "code",
+      "source_file": "src/tools/__init__.py",
+      "source_location": "L1",
+      "id": "src_tools_init_py",
+      "community": 68,
+      "norm_label": "__init__.py"
     },
     {
       "label": "auth.py",
@@ -2532,7 +3054,7 @@
       "source_file": "tests/test_whatsapp_commands.py",
       "source_location": "L21",
       "id": "tests_test_whatsapp_commands_temp_db",
-      "community": 6,
+      "community": 2,
       "norm_label": "temp_db()"
     },
     {
@@ -2757,7 +3279,7 @@
       "source_file": "tests/test_grok_enrichment.py",
       "source_location": "L1",
       "id": "tests_test_grok_enrichment_py",
-      "community": 52,
+      "community": 47,
       "norm_label": "test_grok_enrichment.py"
     },
     {
@@ -2766,7 +3288,7 @@
       "source_file": "tests/test_grok_enrichment.py",
       "source_location": "L33",
       "id": "tests_test_grok_enrichment_temp_db",
-      "community": 6,
+      "community": 2,
       "norm_label": "temp_db()"
     },
     {
@@ -2775,7 +3297,7 @@
       "source_file": "tests/test_grok_enrichment.py",
       "source_location": "L41",
       "id": "tests_test_grok_enrichment_test_grok_enrich_always_enabled",
-      "community": 52,
+      "community": 47,
       "norm_label": "test_grok_enrich_always_enabled()"
     },
     {
@@ -2784,7 +3306,7 @@
       "source_file": "tests/test_grok_enrichment.py",
       "source_location": "L46",
       "id": "tests_test_grok_enrichment_test_fallback_unknown_employee",
-      "community": 52,
+      "community": 47,
       "norm_label": "test_fallback_unknown_employee()"
     },
     {
@@ -2793,7 +3315,7 @@
       "source_file": "tests/test_grok_enrichment.py",
       "source_location": "L59",
       "id": "tests_test_grok_enrichment_test_enriched_apply_leave_fallback",
-      "community": 52,
+      "community": 47,
       "norm_label": "test_enriched_apply_leave_fallback()"
     },
     {
@@ -2802,7 +3324,7 @@
       "source_file": "tests/test_grok_enrichment.py",
       "source_location": "L92",
       "id": "tests_test_grok_enrichment_test_puter_model_prefix",
-      "community": 52,
+      "community": 47,
       "norm_label": "test_puter_model_prefix()"
     },
     {
@@ -2811,7 +3333,7 @@
       "source_file": "tests/test_grok_enrichment.py",
       "source_location": "L100",
       "id": "tests_test_grok_enrichment_test_enriched_apply_leave_with_mock_grok",
-      "community": 52,
+      "community": 47,
       "norm_label": "test_enriched_apply_leave_with_mock_grok()"
     },
     {
@@ -2820,7 +3342,7 @@
       "source_file": "tests/test_grok_enrichment.py",
       "source_location": "L134",
       "id": "tests_test_grok_enrichment_test_resource_wrapper_includes_grok",
-      "community": 52,
+      "community": 47,
       "norm_label": "test_resource_wrapper_includes_grok()"
     },
     {
@@ -2829,7 +3351,7 @@
       "source_file": "tests/test_grok_enrichment.py",
       "source_location": "L154",
       "id": "tests_test_grok_enrichment_test_enriched_apply_leave_with_mock_puter",
-      "community": 52,
+      "community": 47,
       "norm_label": "test_enriched_apply_leave_with_mock_puter()"
     },
     {
@@ -2838,7 +3360,7 @@
       "source_file": "tests/test_grok_enrichment.py",
       "source_location": "L184",
       "id": "tests_test_grok_enrichment_test_advise_on_leave_single_grok_block",
-      "community": 52,
+      "community": 47,
       "norm_label": "test_advise_on_leave_single_grok_block()"
     },
     {
@@ -2847,7 +3369,7 @@
       "source_file": "tests/test_grok_enrichment.py",
       "source_location": "L212",
       "id": "tests_test_grok_enrichment_test_every_tool_response_has_grok_header_footer",
-      "community": 52,
+      "community": 47,
       "norm_label": "test_every_tool_response_has_grok_header_footer()"
     },
     {
@@ -2856,7 +3378,7 @@
       "source_file": "tests/test_grok_enrichment.py",
       "source_location": "L258",
       "id": "tests_test_grok_enrichment_test_middleware_enriches_plain_json",
-      "community": 52,
+      "community": 47,
       "norm_label": "test_middleware_enriches_plain_json()"
     },
     {
@@ -2865,7 +3387,7 @@
       "source_file": "tests/test_grok_enrichment.py",
       "source_location": "L273",
       "id": "tests_test_grok_enrichment_test_enrichment_always_includes_grok_block",
-      "community": 52,
+      "community": 47,
       "norm_label": "test_enrichment_always_includes_grok_block()"
     },
     {
@@ -2981,7 +3503,7 @@
       "source_file": "scripts/init_db.py",
       "source_location": "L1",
       "id": "scripts_init_db_py",
-      "community": 6,
+      "community": 2,
       "norm_label": "init_db.py"
     },
     {
@@ -3079,7 +3601,7 @@
       "source_file": "scripts/bootstrap_mcp.py",
       "source_location": "L30",
       "id": "scripts_bootstrap_mcp_run",
-      "community": 52,
+      "community": 47,
       "norm_label": "run()"
     },
     {
@@ -3329,7 +3851,7 @@
       "source_file": "scripts/mcp_install_lib.py",
       "source_location": "L1",
       "id": "scripts_mcp_install_lib_py",
-      "community": 47,
+      "community": 48,
       "norm_label": "mcp_install_lib.py"
     },
     {
@@ -3338,7 +3860,7 @@
       "source_file": "scripts/mcp_install_lib.py",
       "source_location": "L62",
       "id": "scripts_mcp_install_lib_merge_mcp_json",
-      "community": 47,
+      "community": 48,
       "norm_label": "merge_mcp_json()"
     },
     {
@@ -3347,7 +3869,7 @@
       "source_file": "scripts/mcp_install_lib.py",
       "source_location": "L62",
       "id": "scripts_mcp_install_lib_py_path",
-      "community": 47,
+      "community": 48,
       "norm_label": "path"
     },
     {
@@ -3356,7 +3878,7 @@
       "source_file": "scripts/mcp_install_lib.py",
       "source_location": "L62",
       "id": "scripts_mcp_install_lib_py_str",
-      "community": 47,
+      "community": 48,
       "norm_label": "str"
     },
     {
@@ -3365,7 +3887,7 @@
       "source_file": "scripts/mcp_install_lib.py",
       "source_location": "L226",
       "id": "scripts_mcp_install_lib_write_launcher",
-      "community": 47,
+      "community": 48,
       "norm_label": "write_launcher()"
     },
     {
@@ -3374,7 +3896,7 @@
       "source_file": "scripts/mcp_install_lib.py",
       "source_location": "L242",
       "id": "scripts_mcp_install_lib_venv_python",
-      "community": 47,
+      "community": 48,
       "norm_label": "_venv_python()"
     },
     {
@@ -3383,7 +3905,7 @@
       "source_file": "scripts/mcp_install_lib.py",
       "source_location": "L250",
       "id": "scripts_mcp_install_lib_install_office_leave_into_venv",
-      "community": 47,
+      "community": 48,
       "norm_label": "_install_office_leave_into_venv()"
     },
     {
@@ -3392,7 +3914,7 @@
       "source_file": "scripts/mcp_install_lib.py",
       "source_location": "L261",
       "id": "scripts_mcp_install_lib_create_venv_python",
-      "community": 47,
+      "community": 48,
       "norm_label": "_create_venv_python()"
     },
     {
@@ -3401,7 +3923,7 @@
       "source_file": "scripts/mcp_install_lib.py",
       "source_location": "L271",
       "id": "scripts_mcp_install_lib_install_office_leave",
-      "community": 47,
+      "community": 48,
       "norm_label": "install_office_leave()"
     },
     {
@@ -3410,7 +3932,7 @@
       "source_file": "scripts/mcp_install_lib.py",
       "source_location": "L307",
       "id": "scripts_mcp_install_lib_install_graphify",
-      "community": 47,
+      "community": 48,
       "norm_label": "install_graphify()"
     },
     {
@@ -3419,7 +3941,7 @@
       "source_file": "scripts/mcp_install_lib.py",
       "source_location": "L338",
       "id": "scripts_mcp_install_lib_main",
-      "community": 47,
+      "community": 48,
       "norm_label": "main()"
     },
     {
@@ -3428,7 +3950,7 @@
       "source_file": "scripts/mcp_install_lib.py",
       "source_location": "L338",
       "id": "scripts_mcp_install_lib_py_int",
-      "community": 47,
+      "community": 48,
       "norm_label": "int"
     },
     {
@@ -4991,6 +5513,567 @@
       "id": "cursor_mcp_env_office_leave_workspace"
     },
     {
+      "label": "graphify",
+      "file_type": "code",
+      "source_file": ".cursor/mcp.json",
+      "source_location": "L12",
+      "community": 5,
+      "norm_label": "graphify",
+      "id": "cursor_mcp_mcpservers_graphify"
+    },
+    {
+      "label": "command",
+      "file_type": "code",
+      "source_file": ".cursor/mcp.json",
+      "source_location": "L13",
+      "community": 5,
+      "norm_label": "command",
+      "id": "cursor_mcp_graphify_command"
+    },
+    {
+      "label": "args",
+      "file_type": "code",
+      "source_file": ".cursor/mcp.json",
+      "source_location": "L14",
+      "community": 5,
+      "norm_label": "args",
+      "id": "cursor_mcp_graphify_args"
+    },
+    {
+      "label": "cwd",
+      "file_type": "code",
+      "source_file": ".cursor/mcp.json",
+      "source_location": "L19",
+      "community": 5,
+      "norm_label": "cwd",
+      "id": "cursor_mcp_graphify_cwd"
+    },
+    {
+      "label": "build-graph.sh",
+      "file_type": "code",
+      "source_file": ".cursor/bin/graphify-mcp/build-graph.sh",
+      "source_location": "L1",
+      "metadata": {
+        "language": "bash",
+        "kind": "file"
+      },
+      "community": 18,
+      "norm_label": "build-graph.sh",
+      "id": "cursor_bin_graphify_mcp_build_graph_sh"
+    },
+    {
+      "label": "build-graph.sh script",
+      "file_type": "code",
+      "source_file": ".cursor/bin/graphify-mcp/build-graph.sh",
+      "source_location": "L1",
+      "metadata": {
+        "language": "bash",
+        "kind": "bash_entrypoint"
+      },
+      "community": 18,
+      "norm_label": "build-graph.sh script",
+      "id": "d_mcp_talentserv_ai_hackathon_group_11_backend_db_cursor_bin_graphify_mcp_build_graph_sh__entry"
+    },
+    {
+      "label": "init-db.sh",
+      "file_type": "code",
+      "source_file": ".cursor/bin/office-leave-mcp/init-db.sh",
+      "source_location": "L1",
+      "metadata": {
+        "language": "bash",
+        "kind": "file"
+      },
+      "community": 13,
+      "norm_label": "init-db.sh",
+      "id": "cursor_bin_office_leave_mcp_init_db_sh"
+    },
+    {
+      "label": "init-db.sh script",
+      "file_type": "code",
+      "source_file": ".cursor/bin/office-leave-mcp/init-db.sh",
+      "source_location": "L1",
+      "metadata": {
+        "language": "bash",
+        "kind": "bash_entrypoint"
+      },
+      "community": 13,
+      "norm_label": "init-db.sh script",
+      "id": "d_mcp_talentserv_ai_hackathon_group_11_backend_db_cursor_bin_office_leave_mcp_init_db_sh__entry"
+    },
+    {
+      "label": "OFFICE_LEAVE_WORKSPACE",
+      "file_type": "code",
+      "source_file": ".cursor/bin/office-leave-mcp/init-db.sh",
+      "source_location": "L4",
+      "metadata": {
+        "language": "bash",
+        "kind": "code"
+      },
+      "community": 13,
+      "norm_label": "office_leave_workspace",
+      "id": "office_leave_mcp_init_db_office_leave_workspace"
+    },
+    {
+      "label": "DATABASE_PATH",
+      "file_type": "code",
+      "source_file": ".cursor/bin/office-leave-mcp/init-db.sh",
+      "source_location": "L5",
+      "metadata": {
+        "language": "bash",
+        "kind": "code"
+      },
+      "community": 13,
+      "norm_label": "database_path",
+      "id": "office_leave_mcp_init_db_database_path"
+    },
+    {
+      "label": "lib.sh script",
+      "file_type": "code",
+      "source_file": ".cursor/hooks/lib.sh",
+      "source_location": "L1",
+      "metadata": {
+        "language": "bash",
+        "kind": "bash_entrypoint"
+      },
+      "community": 38,
+      "norm_label": "lib.sh script",
+      "id": "d_mcp_talentserv_ai_hackathon_group_11_backend_db_cursor_hooks_lib_sh__entry"
+    },
+    {
+      "label": "post-file-cache.sh script",
+      "file_type": "code",
+      "source_file": ".cursor/hooks/post-file-cache.sh",
+      "source_location": "L1",
+      "metadata": {
+        "language": "bash",
+        "kind": "bash_entrypoint"
+      },
+      "community": 41,
+      "norm_label": "post-file-cache.sh script",
+      "id": "d_mcp_talentserv_ai_hackathon_group_11_backend_db_cursor_hooks_post_file_cache_sh__entry"
+    },
+    {
+      "label": "pre-compact.sh script",
+      "file_type": "code",
+      "source_file": ".cursor/hooks/pre-compact.sh",
+      "source_location": "L1",
+      "metadata": {
+        "language": "bash",
+        "kind": "bash_entrypoint"
+      },
+      "community": 42,
+      "norm_label": "pre-compact.sh script",
+      "id": "d_mcp_talentserv_ai_hackathon_group_11_backend_db_cursor_hooks_pre_compact_sh__entry"
+    },
+    {
+      "label": "pre-read.sh script",
+      "file_type": "code",
+      "source_file": ".cursor/hooks/pre-read.sh",
+      "source_location": "L1",
+      "metadata": {
+        "language": "bash",
+        "kind": "bash_entrypoint"
+      },
+      "community": 43,
+      "norm_label": "pre-read.sh script",
+      "id": "d_mcp_talentserv_ai_hackathon_group_11_backend_db_cursor_hooks_pre_read_sh__entry"
+    },
+    {
+      "label": "pre-shell.helper.filter.sh script",
+      "file_type": "code",
+      "source_file": ".cursor/hooks/pre-shell.helper.filter.sh",
+      "source_location": "L1",
+      "metadata": {
+        "language": "bash",
+        "kind": "bash_entrypoint"
+      },
+      "community": 44,
+      "norm_label": "pre-shell.helper.filter.sh script",
+      "id": "d_mcp_talentserv_ai_hackathon_group_11_backend_db_cursor_hooks_pre_shell_helper_filter_sh__entry"
+    },
+    {
+      "label": "pre-shell.sh script",
+      "file_type": "code",
+      "source_file": ".cursor/hooks/pre-shell.sh",
+      "source_location": "L1",
+      "metadata": {
+        "language": "bash",
+        "kind": "bash_entrypoint"
+      },
+      "community": 45,
+      "norm_label": "pre-shell.sh script",
+      "id": "d_mcp_talentserv_ai_hackathon_group_11_backend_db_cursor_hooks_pre_shell_sh__entry"
+    },
+    {
+      "label": "session-start.sh script",
+      "file_type": "code",
+      "source_file": ".cursor/hooks/session-start.sh",
+      "source_location": "L1",
+      "metadata": {
+        "language": "bash",
+        "kind": "bash_entrypoint"
+      },
+      "community": 46,
+      "norm_label": "session-start.sh script",
+      "id": "d_mcp_talentserv_ai_hackathon_group_11_backend_db_cursor_hooks_session_start_sh__entry"
+    },
+    {
+      "label": "husky.sh",
+      "file_type": "code",
+      "source_file": "C:/Users/Admin/Documents/talentserv-ai-hackathon-group-11-backend-db/.husky/_/husky.sh",
+      "source_location": "L1",
+      "community": 65,
+      "norm_label": "husky.sh",
+      "id": "c_users_admin_documents_talentserv_ai_hackathon_group_11_backend_db_husky_husky_sh"
+    },
+    {
+      "label": "bootstrap-graphify-mcp.sh script",
+      "file_type": "code",
+      "source_file": "scripts/bootstrap-graphify-mcp.sh",
+      "source_location": "L1",
+      "metadata": {
+        "language": "bash",
+        "kind": "bash_entrypoint"
+      },
+      "community": 21,
+      "norm_label": "bootstrap-graphify-mcp.sh script",
+      "id": "d_mcp_talentserv_ai_hackathon_group_11_backend_db_scripts_bootstrap_graphify_mcp_sh__entry"
+    },
+    {
+      "label": "bootstrap-mcp.sh script",
+      "file_type": "code",
+      "source_file": "scripts/bootstrap-mcp.sh",
+      "source_location": "L1",
+      "metadata": {
+        "language": "bash",
+        "kind": "bash_entrypoint"
+      },
+      "community": 23,
+      "norm_label": "bootstrap-mcp.sh script",
+      "id": "d_mcp_talentserv_ai_hackathon_group_11_backend_db_scripts_bootstrap_mcp_sh__entry"
+    },
+    {
+      "label": "bootstrap-office-leave-mcp.sh script",
+      "file_type": "code",
+      "source_file": "scripts/bootstrap-office-leave-mcp.sh",
+      "source_location": "L1",
+      "metadata": {
+        "language": "bash",
+        "kind": "bash_entrypoint"
+      },
+      "community": 25,
+      "norm_label": "bootstrap-office-leave-mcp.sh script",
+      "id": "d_mcp_talentserv_ai_hackathon_group_11_backend_db_scripts_bootstrap_office_leave_mcp_sh__entry"
+    },
+    {
+      "label": "install-graphify-mcp.sh script",
+      "file_type": "code",
+      "source_file": "scripts/install-graphify-mcp.sh",
+      "source_location": "L1",
+      "metadata": {
+        "language": "bash",
+        "kind": "bash_entrypoint"
+      },
+      "community": 28,
+      "norm_label": "install-graphify-mcp.sh script",
+      "id": "d_mcp_talentserv_ai_hackathon_group_11_backend_db_scripts_install_graphify_mcp_sh__entry"
+    },
+    {
+      "label": "install-office-leave-mcp.sh script",
+      "file_type": "code",
+      "source_file": "scripts/install-office-leave-mcp.sh",
+      "source_location": "L1",
+      "metadata": {
+        "language": "bash",
+        "kind": "bash_entrypoint"
+      },
+      "community": 30,
+      "norm_label": "install-office-leave-mcp.sh script",
+      "id": "d_mcp_talentserv_ai_hackathon_group_11_backend_db_scripts_install_office_leave_mcp_sh__entry"
+    },
+    {
+      "label": "mcp_launcher.py",
+      "file_type": "code",
+      "source_file": "scripts/mcp_launcher.py",
+      "source_location": "L1",
+      "community": 14,
+      "norm_label": "mcp_launcher.py",
+      "id": "scripts_mcp_launcher_py"
+    },
+    {
+      "label": "Path",
+      "file_type": "code",
+      "source_file": "scripts/mcp_launcher.py",
+      "source_location": "L17",
+      "community": 14,
+      "norm_label": "path",
+      "id": "scripts_mcp_launcher_py_path"
+    },
+    {
+      "label": "int",
+      "file_type": "code",
+      "source_file": "scripts/mcp_launcher.py",
+      "source_location": "L25",
+      "community": 14,
+      "norm_label": "int",
+      "id": "scripts_mcp_launcher_py_int"
+    },
+    {
+      "label": "sync_graphify_out.ps1",
+      "file_type": "code",
+      "source_file": "scripts/sync_graphify_out.ps1",
+      "source_location": "L1",
+      "community": 16,
+      "norm_label": "sync_graphify_out.ps1",
+      "id": "scripts_sync_graphify_out_ps1"
+    },
+    {
+      "label": "sync_graphify_out.sh",
+      "file_type": "code",
+      "source_file": "scripts/sync_graphify_out.sh",
+      "source_location": "L1",
+      "metadata": {
+        "language": "bash",
+        "kind": "file"
+      },
+      "community": 17,
+      "norm_label": "sync_graphify_out.sh",
+      "id": "scripts_sync_graphify_out_sh"
+    },
+    {
+      "label": "sync_graphify_out.sh script",
+      "file_type": "code",
+      "source_file": "scripts/sync_graphify_out.sh",
+      "source_location": "L1",
+      "metadata": {
+        "language": "bash",
+        "kind": "bash_entrypoint"
+      },
+      "community": 17,
+      "norm_label": "sync_graphify_out.sh script",
+      "id": "d_mcp_talentserv_ai_hackathon_group_11_backend_db_scripts_sync_graphify_out_sh__entry"
+    },
+    {
+      "label": "mcp_install_fetch.sh script",
+      "file_type": "code",
+      "source_file": "scripts/lib/mcp_install_fetch.sh",
+      "source_location": "L1",
+      "metadata": {
+        "language": "bash",
+        "kind": "bash_entrypoint"
+      },
+      "community": 15,
+      "norm_label": "mcp_install_fetch.sh script",
+      "id": "d_mcp_talentserv_ai_hackathon_group_11_backend_db_scripts_lib_mcp_install_fetch_sh__entry"
+    },
+    {
+      "label": "__init__.py",
+      "file_type": "code",
+      "source_file": "C:/Users/Admin/Documents/talentserv-ai-hackathon-group-11-backend-db/src/__init__.py",
+      "source_location": "L1",
+      "community": 66,
+      "norm_label": "__init__.py",
+      "id": "c_users_admin_documents_talentserv_ai_hackathon_group_11_backend_db_src_init_py"
+    },
+    {
+      "label": "bool",
+      "file_type": "code",
+      "source_file": "src/tools/leave_tools.py",
+      "source_location": "L138",
+      "community": 62,
+      "norm_label": "bool",
+      "id": "src_tools_leave_tools_py_bool"
+    },
+    {
+      "label": "_attach_teams_status()",
+      "file_type": "code",
+      "source_file": "src/tools/leave_tools.py",
+      "source_location": "L147",
+      "community": 62,
+      "norm_label": "_attach_teams_status()",
+      "id": "tools_leave_tools_attach_teams_status"
+    },
+    {
+      "label": "Post to Teams; returns True on success. Never raises.",
+      "file_type": "rationale",
+      "source_file": "src/tools/leave_tools.py",
+      "source_location": "L139",
+      "community": 62,
+      "norm_label": "post to teams; returns true on success. never raises.",
+      "id": "tools_leave_tools_rationale_139"
+    },
+    {
+      "label": "Optional \"notify manager separately\" using department-based webhook mapping.",
+      "file_type": "rationale",
+      "source_file": "src/tools/leave_tools.py",
+      "source_location": "L153",
+      "community": 62,
+      "norm_label": "optional \"notify manager separately\" using department-based webhook mapping.",
+      "id": "tools_leave_tools_rationale_153"
+    },
+    {
+      "label": "Microsoft Teams Incoming Webhook URL.      Teams Incoming Webhooks are \"pre-au",
+      "file_type": "rationale",
+      "source_file": "src/services/teams_service.py",
+      "source_location": "L17",
+      "community": 57,
+      "norm_label": "microsoft teams incoming webhook url.      teams incoming webhooks are \"pre-au",
+      "id": "services_teams_service_rationale_17"
+    },
+    {
+      "label": "Sample message for webhook smoke tests (not a real leave event).",
+      "file_type": "rationale",
+      "source_file": "src/services/teams_service.py",
+      "source_location": "L52",
+      "community": 57,
+      "norm_label": "sample message for webhook smoke tests (not a real leave event).",
+      "id": "services_teams_service_rationale_52"
+    },
+    {
+      "label": "Post a meaningful smoke-test message to verify the Incoming Webhook.",
+      "file_type": "rationale",
+      "source_file": "src/services/teams_service.py",
+      "source_location": "L68",
+      "community": 57,
+      "norm_label": "post a meaningful smoke-test message to verify the incoming webhook.",
+      "id": "services_teams_service_rationale_68"
+    },
+    {
+      "label": "Send a notification to Microsoft Teams via Incoming Webhook.      This is inte",
+      "file_type": "rationale",
+      "source_file": "src/services/teams_service.py",
+      "source_location": "L73",
+      "community": 57,
+      "norm_label": "send a notification to microsoft teams via incoming webhook.      this is inte",
+      "id": "services_teams_service_rationale_73"
+    },
+    {
+      "label": "Optional \"notify manager separately\" using department-based webhook mapping.",
+      "file_type": "rationale",
+      "source_file": "src/tools/leave_tools.py",
+      "source_location": "L146",
+      "community": 62,
+      "norm_label": "optional \"notify manager separately\" using department-based webhook mapping.",
+      "id": "tools_leave_tools_rationale_146"
+    },
+    {
+      "label": "Fire-and-forget style notification with safe error handling.      We run `requ",
+      "file_type": "rationale",
+      "source_file": "src/tools/leave_tools.py",
+      "source_location": "L17",
+      "community": 62,
+      "norm_label": "fire-and-forget style notification with safe error handling.      we run `requ",
+      "id": "tools_leave_tools_rationale_17"
+    },
+    {
+      "label": "Optional \"notify manager separately\" using department-based webhook mapping.",
+      "file_type": "rationale",
+      "source_file": "src/tools/leave_tools.py",
+      "source_location": "L32",
+      "community": 62,
+      "norm_label": "optional \"notify manager separately\" using department-based webhook mapping.",
+      "id": "tools_leave_tools_rationale_32"
+    },
+    {
+      "label": "List all office employees with leave balances.",
+      "file_type": "rationale",
+      "source_file": "src/server.py",
+      "source_location": "L157",
+      "community": 61,
+      "norm_label": "list all office employees with leave balances.",
+      "id": "src_server_rationale_157"
+    },
+    {
+      "label": "Get employee profile and leave balances. employee: slug or name (devin, nisha, g",
+      "file_type": "rationale",
+      "source_file": "src/server.py",
+      "source_location": "L173",
+      "community": 26,
+      "norm_label": "get employee profile and leave balances. employee: slug or name (devin, nisha, g",
+      "id": "src_server_rationale_173"
+    },
+    {
+      "label": "Get remaining annual and sick leave for an employee.",
+      "file_type": "rationale",
+      "source_file": "src/server.py",
+      "source_location": "L193",
+      "community": 26,
+      "norm_label": "get remaining annual and sick leave for an employee.",
+      "id": "src_server_rationale_193"
+    },
+    {
+      "label": "Submit a pending leave request. Dates: YYYY-MM-DD. leave_type: annual or sick.",
+      "file_type": "rationale",
+      "source_file": "src/server.py",
+      "source_location": "L225",
+      "community": 50,
+      "norm_label": "submit a pending leave request. dates: yyyy-mm-dd. leave_type: annual or sick.",
+      "id": "src_server_rationale_225"
+    },
+    {
+      "label": "Check leave request status by request_id or latest request for employee.",
+      "file_type": "rationale",
+      "source_file": "src/server.py",
+      "source_location": "L265",
+      "community": 54,
+      "norm_label": "check leave request status by request_id or latest request for employee.",
+      "id": "src_server_rationale_265"
+    },
+    {
+      "label": "List leave requests, optionally filtered by employee slug and status.",
+      "file_type": "rationale",
+      "source_file": "src/server.py",
+      "source_location": "L301",
+      "community": 69,
+      "norm_label": "list leave requests, optionally filtered by employee slug and status.",
+      "id": "src_server_rationale_301"
+    },
+    {
+      "label": "Get AI leave guidance using Grok from employee data and balances.",
+      "file_type": "rationale",
+      "source_file": "src/server.py",
+      "source_location": "L331",
+      "community": 52,
+      "norm_label": "get ai leave guidance using grok from employee data and balances.",
+      "id": "src_server_rationale_331"
+    },
+    {
+      "label": "Directory of employees and departments.",
+      "file_type": "rationale",
+      "source_file": "src/server.py",
+      "source_location": "L395",
+      "community": 51,
+      "norm_label": "directory of employees and departments.",
+      "id": "src_server_rationale_395"
+    },
+    {
+      "label": "Office leave policy rules.",
+      "file_type": "rationale",
+      "source_file": "src/server.py",
+      "source_location": "L413",
+      "community": 50,
+      "norm_label": "office leave policy rules.",
+      "id": "src_server_rationale_413"
+    },
+    {
+      "label": "Template prompt for leave questions using employee context.",
+      "file_type": "rationale",
+      "source_file": "src/server.py",
+      "source_location": "L431",
+      "community": 64,
+      "norm_label": "template prompt for leave questions using employee context.",
+      "id": "src_server_rationale_431"
+    },
+    {
+      "label": "float",
+      "file_type": "code",
+      "source_file": "src/db.py",
+      "source_location": "L91",
+      "community": 2,
+      "norm_label": "float",
+      "id": "float"
+    },
+    {
       "label": "GROK_PROVIDER",
       "file_type": "code",
       "source_file": ".cursor/mcp.json",
@@ -5025,78 +6108,6 @@
       "community": 5,
       "norm_label": "grok_enrich_outputs",
       "id": "cursor_mcp_env_grok_enrich_outputs"
-    },
-    {
-      "label": "graphify",
-      "file_type": "code",
-      "source_file": ".cursor/mcp.json",
-      "source_location": "L16",
-      "community": 5,
-      "norm_label": "graphify",
-      "id": "cursor_mcp_mcpservers_graphify"
-    },
-    {
-      "label": "command",
-      "file_type": "code",
-      "source_file": ".cursor/mcp.json",
-      "source_location": "L17",
-      "community": 5,
-      "norm_label": "command",
-      "id": "cursor_mcp_graphify_command"
-    },
-    {
-      "label": "args",
-      "file_type": "code",
-      "source_file": ".cursor/mcp.json",
-      "source_location": "L18",
-      "community": 5,
-      "norm_label": "args",
-      "id": "cursor_mcp_graphify_args"
-    },
-    {
-      "label": "cwd",
-      "file_type": "code",
-      "source_file": ".cursor/mcp.json",
-      "source_location": "L19",
-      "community": 5,
-      "norm_label": "cwd",
-      "id": "cursor_mcp_graphify_cwd"
-    },
-    {
-      "label": "build-graph.sh",
-      "file_type": "code",
-      "source_file": ".cursor/bin/graphify-mcp/build-graph.sh",
-      "source_location": "L1",
-      "community": 18,
-      "norm_label": "build-graph.sh",
-      "id": "cursor_bin_graphify_mcp_build_graph_sh"
-    },
-    {
-      "label": "init-db.sh",
-      "file_type": "code",
-      "source_file": ".cursor/bin/office-leave-mcp/init-db.sh",
-      "source_location": "L1",
-      "community": 13,
-      "norm_label": "init-db.sh",
-      "id": "cursor_bin_office_leave_mcp_init_db_sh"
-    },
-    {
-      "label": "OFFICE_LEAVE_WORKSPACE",
-      "file_type": "code",
-      "source_file": ".cursor/bin/office-leave-mcp/init-db.sh",
-      "source_location": "L4",
-      "community": 13,
-      "norm_label": "office_leave_workspace",
-      "id": "office_leave_mcp_init_db_office_leave_workspace"
-    },
-    {
-      "label": "DATABASE_PATH",
-      "file_type": "code",
-      "source_file": ".cursor/bin/office-leave-mcp/init-db.sh",
-      "source_location": "L5",
-      "community": 13,
-      "norm_label": "database_path",
-      "id": "office_leave_mcp_init_db_database_path"
     },
     {
       "label": "Activate.ps1",
@@ -5414,33 +6425,6 @@
       "id": "husky_husky_sh"
     },
     {
-      "label": "mcp_launcher.py",
-      "file_type": "code",
-      "source_file": "scripts/mcp_launcher.py",
-      "source_location": "L1",
-      "community": 14,
-      "norm_label": "mcp_launcher.py",
-      "id": "scripts_mcp_launcher_py"
-    },
-    {
-      "label": "sync_graphify_out.ps1",
-      "file_type": "code",
-      "source_file": "scripts/sync_graphify_out.ps1",
-      "source_location": "L1",
-      "community": 16,
-      "norm_label": "sync_graphify_out.ps1",
-      "id": "scripts_sync_graphify_out_ps1"
-    },
-    {
-      "label": "sync_graphify_out.sh",
-      "file_type": "code",
-      "source_file": "scripts/sync_graphify_out.sh",
-      "source_location": "L1",
-      "community": 17,
-      "norm_label": "sync_graphify_out.sh",
-      "id": "scripts_sync_graphify_out_sh"
-    },
-    {
       "label": "LeaveAdvice",
       "file_type": "code",
       "source_file": "src/grok_client.py",
@@ -5571,7 +6555,7 @@
       "file_type": "rationale",
       "source_file": "src/server.py",
       "source_location": "L209",
-      "community": 48,
+      "community": 54,
       "norm_label": "check leave request status by request_id or latest request for employee.",
       "id": "src_server_rationale_209"
     },
@@ -5580,7 +6564,7 @@
       "file_type": "rationale",
       "source_file": "src/server.py",
       "source_location": "L227",
-      "community": 48,
+      "community": 69,
       "norm_label": "list leave requests, optionally filtered by employee slug and status.",
       "id": "src_server_rationale_227"
     },
@@ -5598,7 +6582,7 @@
       "file_type": "rationale",
       "source_file": "src/server.py",
       "source_location": "L274",
-      "community": 48,
+      "community": 51,
       "norm_label": "directory of employees and departments.",
       "id": "src_server_rationale_274"
     },
@@ -5607,7 +6591,7 @@
       "file_type": "rationale",
       "source_file": "src/server.py",
       "source_location": "L283",
-      "community": 0,
+      "community": 50,
       "norm_label": "office leave policy rules.",
       "id": "src_server_rationale_283"
     },
@@ -5616,7 +6600,7 @@
       "file_type": "rationale",
       "source_file": "src/server.py",
       "source_location": "L292",
-      "community": 51,
+      "community": 64,
       "norm_label": "template prompt for leave questions using employee context.",
       "id": "src_server_rationale_292"
     },
@@ -5661,7 +6645,7 @@
       "file_type": "rationale",
       "source_file": "src/server.py",
       "source_location": "L152",
-      "community": 48,
+      "community": 54,
       "norm_label": "check leave request status by request_id or latest request for employee.",
       "id": "src_server_rationale_152"
     },
@@ -5670,7 +6654,7 @@
       "file_type": "rationale",
       "source_file": "src/server.py",
       "source_location": "L170",
-      "community": 48,
+      "community": 69,
       "norm_label": "list leave requests, optionally filtered by employee slug and status.",
       "id": "src_server_rationale_170"
     },
@@ -5688,25 +6672,16 @@
       "file_type": "rationale",
       "source_file": "src/server.py",
       "source_location": "L217",
-      "community": 48,
+      "community": 51,
       "norm_label": "directory of employees and departments.",
       "id": "src_server_rationale_217"
-    },
-    {
-      "label": "Office leave policy rules.",
-      "file_type": "rationale",
-      "source_file": "src/server.py",
-      "source_location": "L226",
-      "community": 0,
-      "norm_label": "office leave policy rules.",
-      "id": "src_server_rationale_226"
     },
     {
       "label": "Template prompt for leave questions using employee context.",
       "file_type": "rationale",
       "source_file": "src/server.py",
       "source_location": "L235",
-      "community": 51,
+      "community": 64,
       "norm_label": "template prompt for leave questions using employee context.",
       "id": "src_server_rationale_235"
     },
@@ -5751,7 +6726,7 @@
       "file_type": "rationale",
       "source_file": "src/server.py",
       "source_location": "L154",
-      "community": 48,
+      "community": 54,
       "norm_label": "check leave request status by request_id or latest request for employee.",
       "id": "src_server_rationale_154"
     },
@@ -5760,7 +6735,7 @@
       "file_type": "rationale",
       "source_file": "src/server.py",
       "source_location": "L172",
-      "community": 48,
+      "community": 69,
       "norm_label": "list leave requests, optionally filtered by employee slug and status.",
       "id": "src_server_rationale_172"
     },
@@ -5778,7 +6753,7 @@
       "file_type": "rationale",
       "source_file": "src/server.py",
       "source_location": "L219",
-      "community": 48,
+      "community": 51,
       "norm_label": "directory of employees and departments.",
       "id": "src_server_rationale_219"
     },
@@ -5787,7 +6762,7 @@
       "file_type": "rationale",
       "source_file": "src/server.py",
       "source_location": "L228",
-      "community": 0,
+      "community": 50,
       "norm_label": "office leave policy rules.",
       "id": "src_server_rationale_228"
     },
@@ -5796,7 +6771,7 @@
       "file_type": "rationale",
       "source_file": "src/server.py",
       "source_location": "L237",
-      "community": 51,
+      "community": 64,
       "norm_label": "template prompt for leave questions using employee context.",
       "id": "src_server_rationale_237"
     },
@@ -5805,7 +6780,7 @@
       "file_type": "code",
       "source_file": "tests/test_grok_enrichment.py",
       "source_location": "L34",
-      "community": 52,
+      "community": 47,
       "norm_label": "test_grok_enrich_enabled_default()",
       "id": "tests_test_grok_enrichment_test_grok_enrich_enabled_default"
     },
@@ -5814,7 +6789,7 @@
       "file_type": "code",
       "source_file": "tests/test_grok_enrichment.py",
       "source_location": "L199",
-      "community": 52,
+      "community": 47,
       "norm_label": "test_enrichment_disabled_skips_grok_block()",
       "id": "tests_test_grok_enrichment_test_enrichment_disabled_skips_grok_block"
     },
@@ -6271,6 +7246,39 @@
     {
       "relation": "calls",
       "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "src/db.py",
+      "source_location": "L362",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "src_db_approve_leave",
+      "target": "src_models_utc_now_iso"
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "src/db.py",
+      "source_location": "L442",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "src_db_reject_leave",
+      "target": "src_models_utc_now_iso"
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "src/db.py",
+      "source_location": "L502",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "src_db_announce_holiday",
+      "target": "src_models_utc_now_iso"
+    },
+    {
+      "relation": "calls",
+      "context": "call",
       "confidence": "INFERRED",
       "source_file": "src/db.py",
       "source_location": "L373",
@@ -6370,6 +7378,17 @@
       "relation": "imports",
       "context": "import",
       "confidence": "EXTRACTED",
+      "source_file": "src/tools/leave_tools.py",
+      "source_location": "L10",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "src_tools_leave_tools_py",
+      "target": "src_models_toolresponse"
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
       "source_file": "src/whatsapp/formatters.py",
       "source_location": "L5",
       "weight": 1.0,
@@ -6430,6 +7449,39 @@
       "weight": 1.0,
       "confidence_score": 0.8,
       "source": "src_db_apply_leave",
+      "target": "src_models_toolresponse"
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "src/db.py",
+      "source_location": "L362",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "src_db_approve_leave",
+      "target": "src_models_toolresponse"
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "src/db.py",
+      "source_location": "L442",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "src_db_reject_leave",
+      "target": "src_models_toolresponse"
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "src/db.py",
+      "source_location": "L502",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "src_db_announce_holiday",
       "target": "src_models_toolresponse"
     },
     {
@@ -6531,7 +7583,7 @@
       "source_location": "L8",
       "weight": 0.8,
       "confidence_score": 0.5,
-      "source": "float",
+      "source": "src_db_py_float",
       "target": "src_models_toolresponse"
     },
     {
@@ -6587,6 +7639,66 @@
     {
       "relation": "uses",
       "confidence": "INFERRED",
+      "source_file": "src/tools/leave_tools.py",
+      "source_location": "L10",
+      "weight": 0.8,
+      "confidence_score": 0.5,
+      "source": "src_tools_leave_tools_py_str",
+      "target": "src_models_toolresponse"
+    },
+    {
+      "relation": "uses",
+      "confidence": "INFERRED",
+      "source_file": "src/tools/leave_tools.py",
+      "source_location": "L10",
+      "weight": 0.8,
+      "confidence_score": 0.5,
+      "source": "src_tools_leave_tools_py_any",
+      "target": "src_models_toolresponse"
+    },
+    {
+      "relation": "uses",
+      "confidence": "INFERRED",
+      "source_file": "src/tools/leave_tools.py",
+      "source_location": "L10",
+      "weight": 0.8,
+      "confidence_score": 0.5,
+      "source": "leaveteamsevent",
+      "target": "src_models_toolresponse"
+    },
+    {
+      "relation": "uses",
+      "confidence": "INFERRED",
+      "source_file": "src/tools/leave_tools.py",
+      "source_location": "L10",
+      "weight": 0.8,
+      "confidence_score": 0.5,
+      "source": "teamsaudience",
+      "target": "src_models_toolresponse"
+    },
+    {
+      "relation": "uses",
+      "confidence": "INFERRED",
+      "source_file": "src/tools/leave_tools.py",
+      "source_location": "L10",
+      "weight": 0.8,
+      "confidence_score": 0.5,
+      "source": "src_tools_leave_tools_py_toolresponse",
+      "target": "src_models_toolresponse"
+    },
+    {
+      "relation": "uses",
+      "confidence": "INFERRED",
+      "source_file": "src/tools/leave_tools.py",
+      "source_location": "L10",
+      "weight": 0.8,
+      "confidence_score": 0.5,
+      "source": "src_tools_leave_tools_py_int",
+      "target": "src_models_toolresponse"
+    },
+    {
+      "relation": "uses",
+      "confidence": "INFERRED",
       "source_file": "src/whatsapp/formatters.py",
       "source_location": "L5",
       "weight": 0.8,
@@ -6612,6 +7724,26 @@
       "weight": 0.8,
       "confidence_score": 0.5,
       "source": "src_whatsapp_formatters_py_leaveadvice",
+      "target": "src_models_toolresponse"
+    },
+    {
+      "relation": "uses",
+      "confidence": "INFERRED",
+      "source_file": "src/tools/leave_tools.py",
+      "source_location": "L10",
+      "weight": 0.8,
+      "confidence_score": 0.5,
+      "source": "src_tools_leave_tools_py_bool",
+      "target": "src_models_toolresponse"
+    },
+    {
+      "relation": "uses",
+      "confidence": "INFERRED",
+      "source_file": "src/db.py",
+      "source_location": "L8",
+      "weight": 0.8,
+      "confidence_score": 0.5,
+      "source": "float",
       "target": "src_models_toolresponse"
     },
     {
@@ -6737,7 +7869,7 @@
       "source_location": "L8",
       "weight": 0.8,
       "confidence_score": 0.5,
-      "source": "float",
+      "source": "src_db_py_float",
       "target": "src_models_employee"
     },
     {
@@ -6788,6 +7920,16 @@
       "weight": 0.8,
       "confidence_score": 0.5,
       "source": "src_db_py_int",
+      "target": "src_models_employee"
+    },
+    {
+      "relation": "uses",
+      "confidence": "INFERRED",
+      "source_file": "src/db.py",
+      "source_location": "L8",
+      "weight": 0.8,
+      "confidence_score": 0.5,
+      "source": "float",
       "target": "src_models_employee"
     },
     {
@@ -6869,7 +8011,7 @@
       "source_location": "L8",
       "weight": 0.8,
       "confidence_score": 0.5,
-      "source": "float",
+      "source": "src_db_py_float",
       "target": "src_models_leaverequest"
     },
     {
@@ -6920,6 +8062,16 @@
       "weight": 0.8,
       "confidence_score": 0.5,
       "source": "src_db_py_int",
+      "target": "src_models_leaverequest"
+    },
+    {
+      "relation": "uses",
+      "confidence": "INFERRED",
+      "source_file": "src/db.py",
+      "source_location": "L8",
+      "weight": 0.8,
+      "confidence_score": 0.5,
+      "source": "float",
       "target": "src_models_leaverequest"
     },
     {
@@ -7566,6 +8718,36 @@
       "relation": "contains",
       "confidence": "EXTRACTED",
       "source_file": "src/server.py",
+      "source_location": "L324",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "src_server_py",
+      "target": "src_server_approve_leave"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/server.py",
+      "source_location": "L332",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "src_server_py",
+      "target": "src_server_reject_leave"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/server.py",
+      "source_location": "L340",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "src_server_py",
+      "target": "src_server_announce_holiday"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/server.py",
       "source_location": "L186",
       "weight": 1.0,
       "confidence_score": 1.0,
@@ -7927,6 +9109,39 @@
       "context": "return_type",
       "confidence": "EXTRACTED",
       "source_file": "src/server.py",
+      "source_location": "L324",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "src_server_approve_leave",
+      "target": "src_server_py_str"
+    },
+    {
+      "relation": "references",
+      "context": "return_type",
+      "confidence": "EXTRACTED",
+      "source_file": "src/server.py",
+      "source_location": "L332",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "src_server_reject_leave",
+      "target": "src_server_py_str"
+    },
+    {
+      "relation": "references",
+      "context": "return_type",
+      "confidence": "EXTRACTED",
+      "source_file": "src/server.py",
+      "source_location": "L340",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "src_server_announce_holiday",
+      "target": "src_server_py_str"
+    },
+    {
+      "relation": "references",
+      "context": "return_type",
+      "confidence": "EXTRACTED",
+      "source_file": "src/server.py",
       "source_location": "L329",
       "weight": 1.0,
       "confidence_score": 1.0,
@@ -8040,6 +9255,39 @@
       "weight": 1.0,
       "confidence_score": 1.0,
       "source": "src_server_list_leave_requests",
+      "target": "src_server_json_response_enriched"
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "src/server.py",
+      "source_location": "L328",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "src_server_approve_leave",
+      "target": "src_server_json_response_enriched"
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "src/server.py",
+      "source_location": "L336",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "src_server_reject_leave",
+      "target": "src_server_json_response_enriched"
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "src/server.py",
+      "source_location": "L344",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "src_server_announce_holiday",
       "target": "src_server_json_response_enriched"
     },
     {
@@ -8321,6 +9569,16 @@
       "relation": "rationale_for",
       "confidence": "EXTRACTED",
       "source_file": "src/server.py",
+      "source_location": "L158",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "src_server_rationale_158",
+      "target": "src_server_list_employees"
+    },
+    {
+      "relation": "rationale_for",
+      "confidence": "EXTRACTED",
+      "source_file": "src/server.py",
       "source_location": "L157",
       "weight": 1.0,
       "confidence_score": 1.0,
@@ -8356,6 +9614,16 @@
       "confidence_score": 1.0,
       "source": "src_server_rationale_100",
       "target": "src_server_list_employees"
+    },
+    {
+      "relation": "rationale_for",
+      "confidence": "EXTRACTED",
+      "source_file": "src/server.py",
+      "source_location": "L174",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "src_server_rationale_174",
+      "target": "src_server_get_employee"
     },
     {
       "relation": "rationale_for",
@@ -8401,6 +9669,16 @@
       "relation": "rationale_for",
       "confidence": "EXTRACTED",
       "source_file": "src/server.py",
+      "source_location": "L194",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "src_server_rationale_194",
+      "target": "src_server_get_leave_balance"
+    },
+    {
+      "relation": "rationale_for",
+      "confidence": "EXTRACTED",
+      "source_file": "src/server.py",
       "source_location": "L193",
       "weight": 1.0,
       "confidence_score": 1.0,
@@ -8436,6 +9714,16 @@
       "confidence_score": 1.0,
       "source": "src_server_rationale_118",
       "target": "src_server_get_leave_balance"
+    },
+    {
+      "relation": "rationale_for",
+      "confidence": "EXTRACTED",
+      "source_file": "src/server.py",
+      "source_location": "L226",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "src_server_rationale_226",
+      "target": "src_server_apply_leave"
     },
     {
       "relation": "rationale_for",
@@ -8492,6 +9780,16 @@
       "relation": "rationale_for",
       "confidence": "EXTRACTED",
       "source_file": "src/server.py",
+      "source_location": "L261",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "src_server_rationale_261",
+      "target": "src_server_check_leave_status"
+    },
+    {
+      "relation": "rationale_for",
+      "confidence": "EXTRACTED",
+      "source_file": "src/server.py",
       "source_location": "L265",
       "weight": 1.0,
       "confidence_score": 1.0,
@@ -8529,6 +9827,28 @@
       "target": "src_server_check_leave_status"
     },
     {
+      "relation": "references",
+      "context": "parameter_type",
+      "confidence": "EXTRACTED",
+      "source_file": "src/server.py",
+      "source_location": "L324",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "src_server_approve_leave",
+      "target": "src_server_py_int"
+    },
+    {
+      "relation": "references",
+      "context": "parameter_type",
+      "confidence": "EXTRACTED",
+      "source_file": "src/server.py",
+      "source_location": "L332",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "src_server_reject_leave",
+      "target": "src_server_py_int"
+    },
+    {
       "relation": "uses",
       "confidence": "INFERRED",
       "source_file": "src/server.py",
@@ -8537,6 +9857,16 @@
       "confidence_score": 0.5,
       "source": "src_server_py_int",
       "target": "src_mcp_enrichment_grokenrichmentmiddleware"
+    },
+    {
+      "relation": "rationale_for",
+      "confidence": "EXTRACTED",
+      "source_file": "src/server.py",
+      "source_location": "L297",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "src_server_rationale_297",
+      "target": "src_server_list_leave_requests"
     },
     {
       "relation": "rationale_for",
@@ -8582,10 +9912,40 @@
       "relation": "rationale_for",
       "confidence": "EXTRACTED",
       "source_file": "src/server.py",
-      "source_location": "L331",
+      "source_location": "L325",
       "weight": 1.0,
       "confidence_score": 1.0,
-      "source": "src_server_rationale_331",
+      "source": "src_server_rationale_325",
+      "target": "src_server_approve_leave"
+    },
+    {
+      "relation": "rationale_for",
+      "confidence": "EXTRACTED",
+      "source_file": "src/server.py",
+      "source_location": "L333",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "src_server_rationale_333",
+      "target": "src_server_reject_leave"
+    },
+    {
+      "relation": "rationale_for",
+      "confidence": "EXTRACTED",
+      "source_file": "src/server.py",
+      "source_location": "L341",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "src_server_rationale_341",
+      "target": "src_server_announce_holiday"
+    },
+    {
+      "relation": "rationale_for",
+      "confidence": "EXTRACTED",
+      "source_file": "src/server.py",
+      "source_location": "L351",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "src_server_rationale_351",
       "target": "src_server_advise_on_leave"
     },
     {
@@ -8625,6 +9985,16 @@
       "relation": "rationale_for",
       "confidence": "EXTRACTED",
       "source_file": "src/server.py",
+      "source_location": "L331",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "src_server_rationale_331",
+      "target": "src_server_advise_on_leave"
+    },
+    {
+      "relation": "rationale_for",
+      "confidence": "EXTRACTED",
+      "source_file": "src/server.py",
       "source_location": "L242",
       "weight": 1.0,
       "confidence_score": 1.0,
@@ -8650,6 +10020,16 @@
       "confidence_score": 1.0,
       "source": "src_server_rationale_187",
       "target": "src_server_advise_on_leave"
+    },
+    {
+      "relation": "rationale_for",
+      "confidence": "EXTRACTED",
+      "source_file": "src/server.py",
+      "source_location": "L415",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "src_server_rationale_415",
+      "target": "src_server_employees_resource"
     },
     {
       "relation": "rationale_for",
@@ -8695,6 +10075,16 @@
       "relation": "rationale_for",
       "confidence": "EXTRACTED",
       "source_file": "src/server.py",
+      "source_location": "L433",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "src_server_rationale_433",
+      "target": "src_server_policy_resource"
+    },
+    {
+      "relation": "rationale_for",
+      "confidence": "EXTRACTED",
+      "source_file": "src/server.py",
       "source_location": "L413",
       "weight": 1.0,
       "confidence_score": 1.0,
@@ -8735,10 +10125,10 @@
       "relation": "rationale_for",
       "confidence": "EXTRACTED",
       "source_file": "src/server.py",
-      "source_location": "L431",
+      "source_location": "L451",
       "weight": 1.0,
       "confidence_score": 1.0,
-      "source": "src_server_rationale_431",
+      "source": "src_server_rationale_451",
       "target": "src_server_leave_assistant"
     },
     {
@@ -8751,6 +10141,16 @@
       "weight": 1.0,
       "source": "src_server_leave_assistant",
       "target": "src_mcp_enrichment_ensure_enriched_text"
+    },
+    {
+      "relation": "rationale_for",
+      "confidence": "EXTRACTED",
+      "source_file": "src/server.py",
+      "source_location": "L431",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "src_server_rationale_431",
+      "target": "src_server_leave_assistant"
     },
     {
       "relation": "rationale_for",
@@ -10757,11 +12157,33 @@
       "relation": "imports",
       "context": "import",
       "confidence": "EXTRACTED",
+      "source_file": "src/services/teams_service.py",
+      "source_location": "L7",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "src_services_teams_service_py",
+      "target": "src_env_load_workspace_env"
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
       "source_file": "src/whatsapp/twilio_webhook.py",
       "source_location": "L10",
       "weight": 1.0,
       "confidence_score": 1.0,
       "source": "src_whatsapp_twilio_webhook_py",
+      "target": "src_env_load_workspace_env"
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "src/services/teams_service.py",
+      "source_location": "L80",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "services_teams_service_send_teams_message",
       "target": "src_env_load_workspace_env"
     },
     {
@@ -10913,6 +12335,36 @@
       "confidence_score": 1.0,
       "source": "src_db_py",
       "target": "src_db_apply_leave"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/db.py",
+      "source_location": "L352",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "src_db_py",
+      "target": "src_db_approve_leave"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/db.py",
+      "source_location": "L436",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "src_db_py",
+      "target": "src_db_reject_leave"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/db.py",
+      "source_location": "L497",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "src_db_py",
+      "target": "src_db_announce_holiday"
     },
     {
       "relation": "contains",
@@ -11102,6 +12554,17 @@
       "context": "parameter_type",
       "confidence": "EXTRACTED",
       "source_file": "src/db.py",
+      "source_location": "L497",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "src_db_announce_holiday",
+      "target": "src_db_py_str"
+    },
+    {
+      "relation": "references",
+      "context": "parameter_type",
+      "confidence": "EXTRACTED",
+      "source_file": "src/db.py",
       "source_location": "L352",
       "weight": 1.0,
       "confidence_score": 1.0,
@@ -11223,6 +12686,39 @@
       "context": "call",
       "confidence": "EXTRACTED",
       "source_file": "src/db.py",
+      "source_location": "L364",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "src_db_approve_leave",
+      "target": "src_db_connect"
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "src/db.py",
+      "source_location": "L444",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "src_db_reject_leave",
+      "target": "src_db_connect"
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "src/db.py",
+      "source_location": "L508",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "src_db_announce_holiday",
+      "target": "src_db_connect"
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "src/db.py",
       "source_location": "L357",
       "weight": 1.0,
       "confidence_score": 1.0,
@@ -11329,6 +12825,17 @@
       "target": "src_db_parse_iso_date"
     },
     {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "src/db.py",
+      "source_location": "L500",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "src_db_announce_holiday",
+      "target": "src_db_parse_iso_date"
+    },
+    {
       "relation": "references",
       "context": "parameter_type",
       "confidence": "EXTRACTED",
@@ -11348,7 +12855,7 @@
       "weight": 1.0,
       "confidence_score": 1.0,
       "source": "src_db_calendar_days_inclusive",
-      "target": "float"
+      "target": "src_db_py_float"
     },
     {
       "relation": "calls",
@@ -11366,11 +12873,22 @@
       "context": "call",
       "confidence": "EXTRACTED",
       "source_file": "src/db.py",
+      "source_location": "L92",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "src_db_calendar_days_inclusive",
+      "target": "float"
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "src/db.py",
       "source_location": "L102",
       "weight": 1.0,
       "confidence_score": 1.0,
       "source": "src_db_row_to_employee",
-      "target": "float"
+      "target": "src_db_py_float"
     },
     {
       "relation": "calls",
@@ -11381,7 +12899,7 @@
       "weight": 1.0,
       "confidence_score": 1.0,
       "source": "src_db_row_to_leave_request",
-      "target": "float"
+      "target": "src_db_py_float"
     },
     {
       "relation": "calls",
@@ -11392,7 +12910,18 @@
       "weight": 1.0,
       "confidence_score": 1.0,
       "source": "src_db_apply_leave",
-      "target": "float"
+      "target": "src_db_py_float"
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "src/db.py",
+      "source_location": "L391",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "src_db_approve_leave",
+      "target": "src_db_py_float"
     },
     {
       "relation": "references",
@@ -11426,6 +12955,17 @@
       "confidence_score": 1.0,
       "source": "src_db_get_employee",
       "target": "src_db_row_to_employee"
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "src/db.py",
+      "source_location": "L102",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "src_db_row_to_employee",
+      "target": "float"
     },
     {
       "relation": "references",
@@ -11476,11 +13016,44 @@
       "context": "call",
       "confidence": "EXTRACTED",
       "source_file": "src/db.py",
+      "source_location": "L428",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "src_db_approve_leave",
+      "target": "src_db_row_to_leave_request"
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "src/db.py",
+      "source_location": "L489",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "src_db_reject_leave",
+      "target": "src_db_row_to_leave_request"
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "src/db.py",
       "source_location": "L377",
       "weight": 1.0,
       "confidence_score": 1.0,
       "source": "src_db_check_leave_status",
       "target": "src_db_row_to_leave_request"
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "src/db.py",
+      "source_location": "L115",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "src_db_row_to_leave_request",
+      "target": "float"
     },
     {
       "relation": "references",
@@ -11568,6 +13141,39 @@
       "weight": 1.0,
       "confidence_score": 1.0,
       "source": "src_db_apply_leave",
+      "target": "src_db_py_toolresponse"
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "src/db.py",
+      "source_location": "L362",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "src_db_approve_leave",
+      "target": "src_db_py_toolresponse"
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "src/db.py",
+      "source_location": "L442",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "src_db_reject_leave",
+      "target": "src_db_py_toolresponse"
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "src/db.py",
+      "source_location": "L502",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "src_db_announce_holiday",
       "target": "src_db_py_toolresponse"
     },
     {
@@ -11681,6 +13287,28 @@
       "target": "src_db_fetch_requests"
     },
     {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "src/db.py",
+      "source_location": "L360",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "src_db_approve_leave",
+      "target": "src_db_py_int"
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "src/db.py",
+      "source_location": "L440",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "src_db_reject_leave",
+      "target": "src_db_py_int"
+    },
+    {
       "relation": "references",
       "context": "parameter_type",
       "confidence": "EXTRACTED",
@@ -11707,11 +13335,52 @@
       "context": "call",
       "confidence": "EXTRACTED",
       "source_file": "src/db.py",
+      "source_location": "L310",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "src_db_apply_leave",
+      "target": "float"
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "src/db.py",
       "source_location": "L255",
       "weight": 1.0,
       "confidence_score": 1.0,
       "source": "src_db_apply_leave",
       "target": "toolresponse"
+    },
+    {
+      "relation": "rationale_for",
+      "confidence": "EXTRACTED",
+      "source_file": "src/db.py",
+      "source_location": "L353",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "src_db_rationale_353",
+      "target": "src_db_approve_leave"
+    },
+    {
+      "relation": "rationale_for",
+      "confidence": "EXTRACTED",
+      "source_file": "src/db.py",
+      "source_location": "L437",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "src_db_rationale_437",
+      "target": "src_db_reject_leave"
+    },
+    {
+      "relation": "rationale_for",
+      "confidence": "EXTRACTED",
+      "source_file": "src/db.py",
+      "source_location": "L498",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "src_db_rationale_498",
+      "target": "src_db_announce_holiday"
     },
     {
       "relation": "calls",
@@ -11734,6 +13403,1187 @@
       "confidence_score": 1.0,
       "source": "src_db_get_employee_context_for_advice",
       "target": "toolresponse"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/services/api_client.py",
+      "source_location": "L13",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "src_services_api_client_py",
+      "target": "services_api_client_post_json"
+    },
+    {
+      "relation": "references",
+      "context": "generic_arg",
+      "confidence": "EXTRACTED",
+      "source_file": "src/services/api_client.py",
+      "source_location": "L13",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "services_api_client_post_json",
+      "target": "src_services_api_client_py_str"
+    },
+    {
+      "relation": "references",
+      "context": "return_type",
+      "confidence": "EXTRACTED",
+      "source_file": "src/services/api_client.py",
+      "source_location": "L13",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "services_api_client_post_json",
+      "target": "src_services_api_client_py_any"
+    },
+    {
+      "relation": "references",
+      "context": "parameter_type",
+      "confidence": "EXTRACTED",
+      "source_file": "src/services/api_client.py",
+      "source_location": "L13",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "services_api_client_post_json",
+      "target": "src_services_api_client_py_float"
+    },
+    {
+      "relation": "rationale_for",
+      "confidence": "EXTRACTED",
+      "source_file": "src/services/api_client.py",
+      "source_location": "L14",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "services_api_client_rationale_14",
+      "target": "services_api_client_post_json"
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/services/teams_service.py",
+      "source_location": "L7",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "src_services_teams_service_py",
+      "target": "services_api_client_post_json"
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "src/services/teams_service.py",
+      "source_location": "L89",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "services_teams_service_send_teams_message",
+      "target": "services_api_client_post_json"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/services/teams_service.py",
+      "source_location": "L12",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "src_services_teams_service_py",
+      "target": "services_teams_service_is_truthy"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/services/teams_service.py",
+      "source_location": "L16",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "src_services_teams_service_py",
+      "target": "services_teams_service_teams_webhook_url"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/services/teams_service.py",
+      "source_location": "L29",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "src_services_teams_service_py",
+      "target": "services_teams_service_teams_timeout_seconds"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/services/teams_service.py",
+      "source_location": "L51",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "src_services_teams_service_py",
+      "target": "services_teams_service_format_teams_connection_test_message"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/services/teams_service.py",
+      "source_location": "L67",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "src_services_teams_service_py",
+      "target": "services_teams_service_send_teams_connection_test"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/services/teams_service.py",
+      "source_location": "L51",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "src_services_teams_service_py",
+      "target": "services_teams_service_send_teams_message"
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "src/services/teams_service.py",
+      "source_location": "L13",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "services_teams_service_is_truthy",
+      "target": "src_services_teams_service_py_str"
+    },
+    {
+      "relation": "references",
+      "context": "return_type",
+      "confidence": "EXTRACTED",
+      "source_file": "src/services/teams_service.py",
+      "source_location": "L12",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "services_teams_service_is_truthy",
+      "target": "src_services_teams_service_py_bool"
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "src/services/teams_service.py",
+      "source_location": "L68",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "services_teams_service_send_teams_message",
+      "target": "services_teams_service_is_truthy"
+    },
+    {
+      "relation": "references",
+      "context": "return_type",
+      "confidence": "EXTRACTED",
+      "source_file": "src/services/teams_service.py",
+      "source_location": "L16",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "services_teams_service_teams_webhook_url",
+      "target": "src_services_teams_service_py_str"
+    },
+    {
+      "relation": "references",
+      "context": "return_type",
+      "confidence": "EXTRACTED",
+      "source_file": "src/services/teams_service.py",
+      "source_location": "L51",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "services_teams_service_format_teams_connection_test_message",
+      "target": "src_services_teams_service_py_str"
+    },
+    {
+      "relation": "references",
+      "context": "parameter_type",
+      "confidence": "EXTRACTED",
+      "source_file": "src/services/teams_service.py",
+      "source_location": "L67",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "services_teams_service_send_teams_connection_test",
+      "target": "src_services_teams_service_py_str"
+    },
+    {
+      "relation": "references",
+      "context": "parameter_type",
+      "confidence": "EXTRACTED",
+      "source_file": "src/services/teams_service.py",
+      "source_location": "L51",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "services_teams_service_send_teams_message",
+      "target": "src_services_teams_service_py_str"
+    },
+    {
+      "relation": "references",
+      "context": "return_type",
+      "confidence": "EXTRACTED",
+      "source_file": "src/services/teams_service.py",
+      "source_location": "L68",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "services_teams_service_send_teams_connection_test",
+      "target": "src_services_teams_service_py_bool"
+    },
+    {
+      "relation": "references",
+      "context": "return_type",
+      "confidence": "EXTRACTED",
+      "source_file": "src/services/teams_service.py",
+      "source_location": "L73",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "services_teams_service_send_teams_message",
+      "target": "src_services_teams_service_py_bool"
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "src/services/teams_service.py",
+      "source_location": "L59",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "services_teams_service_send_teams_message",
+      "target": "services_teams_service_teams_webhook_url"
+    },
+    {
+      "relation": "rationale_for",
+      "confidence": "EXTRACTED",
+      "source_file": "src/services/teams_service.py",
+      "source_location": "L18",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "services_teams_service_rationale_18",
+      "target": "services_teams_service_teams_webhook_url"
+    },
+    {
+      "relation": "rationale_for",
+      "confidence": "EXTRACTED",
+      "source_file": "src/services/teams_service.py",
+      "source_location": "L17",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "services_teams_service_rationale_17",
+      "target": "services_teams_service_teams_webhook_url"
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "src/services/teams_service.py",
+      "source_location": "L32",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "services_teams_service_teams_timeout_seconds",
+      "target": "src_services_teams_service_py_float"
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "src/services/teams_service.py",
+      "source_location": "L64",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "services_teams_service_send_teams_message",
+      "target": "services_teams_service_teams_timeout_seconds"
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "src/services/teams_service.py",
+      "source_location": "L69",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "services_teams_service_send_teams_connection_test",
+      "target": "services_teams_service_format_teams_connection_test_message"
+    },
+    {
+      "relation": "rationale_for",
+      "confidence": "EXTRACTED",
+      "source_file": "src/services/teams_service.py",
+      "source_location": "L53",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "services_teams_service_rationale_53",
+      "target": "services_teams_service_format_teams_connection_test_message"
+    },
+    {
+      "relation": "rationale_for",
+      "confidence": "EXTRACTED",
+      "source_file": "src/services/teams_service.py",
+      "source_location": "L52",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "services_teams_service_rationale_52",
+      "target": "services_teams_service_format_teams_connection_test_message"
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "src/services/teams_service.py",
+      "source_location": "L69",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "services_teams_service_send_teams_connection_test",
+      "target": "services_teams_service_send_teams_message"
+    },
+    {
+      "relation": "rationale_for",
+      "confidence": "EXTRACTED",
+      "source_file": "src/services/teams_service.py",
+      "source_location": "L69",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "services_teams_service_rationale_69",
+      "target": "services_teams_service_send_teams_connection_test"
+    },
+    {
+      "relation": "rationale_for",
+      "confidence": "EXTRACTED",
+      "source_file": "src/services/teams_service.py",
+      "source_location": "L68",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "services_teams_service_rationale_68",
+      "target": "services_teams_service_send_teams_connection_test"
+    },
+    {
+      "relation": "rationale_for",
+      "confidence": "EXTRACTED",
+      "source_file": "src/services/teams_service.py",
+      "source_location": "L74",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "services_teams_service_rationale_74",
+      "target": "services_teams_service_send_teams_message"
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/tools/leave_tools.py",
+      "source_location": "L11",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "src_tools_leave_tools_py",
+      "target": "services_teams_service_send_teams_message"
+    },
+    {
+      "relation": "rationale_for",
+      "confidence": "EXTRACTED",
+      "source_file": "src/services/teams_service.py",
+      "source_location": "L73",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "services_teams_service_rationale_73",
+      "target": "services_teams_service_send_teams_message"
+    },
+    {
+      "relation": "rationale_for",
+      "confidence": "EXTRACTED",
+      "source_file": "src/services/teams_service.py",
+      "source_location": "L52",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "services_teams_service_rationale_52",
+      "target": "services_teams_service_send_teams_message"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/tools/leave_tools.py",
+      "source_location": "L19",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "src_tools_leave_tools_py",
+      "target": "tools_leave_tools_leave_type_label"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/tools/leave_tools.py",
+      "source_location": "L28",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "src_tools_leave_tools_py",
+      "target": "tools_leave_tools_days_label"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/tools/leave_tools.py",
+      "source_location": "L40",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "src_tools_leave_tools_py",
+      "target": "tools_leave_tools_date_range_label"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/tools/leave_tools.py",
+      "source_location": "L50",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "src_tools_leave_tools_py",
+      "target": "tools_leave_tools_employee_department"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/tools/leave_tools.py",
+      "source_location": "L61",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "src_tools_leave_tools_py",
+      "target": "tools_leave_tools_employee_header"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/tools/leave_tools.py",
+      "source_location": "L69",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "src_tools_leave_tools_py",
+      "target": "tools_leave_tools_format_leave_teams_message"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/tools/leave_tools.py",
+      "source_location": "L115",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "src_tools_leave_tools_py",
+      "target": "tools_leave_tools_format_holiday_teams_message"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/tools/leave_tools.py",
+      "source_location": "L16",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "src_tools_leave_tools_py",
+      "target": "tools_leave_tools_notify_teams"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/tools/leave_tools.py",
+      "source_location": "L31",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "src_tools_leave_tools_py",
+      "target": "tools_leave_tools_manager_webhook_for_employee"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/tools/leave_tools.py",
+      "source_location": "L62",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "src_tools_leave_tools_py",
+      "target": "tools_leave_tools_notify_manager_if_configured"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/tools/leave_tools.py",
+      "source_location": "L75",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "src_tools_leave_tools_py",
+      "target": "tools_leave_tools_apply_leave"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/tools/leave_tools.py",
+      "source_location": "L102",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "src_tools_leave_tools_py",
+      "target": "tools_leave_tools_approve_leave"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/tools/leave_tools.py",
+      "source_location": "L117",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "src_tools_leave_tools_py",
+      "target": "tools_leave_tools_reject_leave"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/tools/leave_tools.py",
+      "source_location": "L132",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "src_tools_leave_tools_py",
+      "target": "tools_leave_tools_announce_holiday"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/tools/leave_tools.py",
+      "source_location": "L147",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "src_tools_leave_tools_py",
+      "target": "tools_leave_tools_attach_teams_status"
+    },
+    {
+      "relation": "references",
+      "context": "return_type",
+      "confidence": "EXTRACTED",
+      "source_file": "src/tools/leave_tools.py",
+      "source_location": "L19",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "tools_leave_tools_leave_type_label",
+      "target": "src_tools_leave_tools_py_str"
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "src/tools/leave_tools.py",
+      "source_location": "L79",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "tools_leave_tools_format_leave_teams_message",
+      "target": "tools_leave_tools_leave_type_label"
+    },
+    {
+      "relation": "references",
+      "context": "return_type",
+      "confidence": "EXTRACTED",
+      "source_file": "src/tools/leave_tools.py",
+      "source_location": "L28",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "tools_leave_tools_days_label",
+      "target": "src_tools_leave_tools_py_str"
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "src/tools/leave_tools.py",
+      "source_location": "L44",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "tools_leave_tools_date_range_label",
+      "target": "src_tools_leave_tools_py_str"
+    },
+    {
+      "relation": "references",
+      "context": "return_type",
+      "confidence": "EXTRACTED",
+      "source_file": "src/tools/leave_tools.py",
+      "source_location": "L50",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "tools_leave_tools_employee_department",
+      "target": "src_tools_leave_tools_py_str"
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "src/tools/leave_tools.py",
+      "source_location": "L66",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "tools_leave_tools_employee_header",
+      "target": "src_tools_leave_tools_py_str"
+    },
+    {
+      "relation": "references",
+      "context": "return_type",
+      "confidence": "EXTRACTED",
+      "source_file": "src/tools/leave_tools.py",
+      "source_location": "L69",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "tools_leave_tools_format_leave_teams_message",
+      "target": "src_tools_leave_tools_py_str"
+    },
+    {
+      "relation": "references",
+      "context": "return_type",
+      "confidence": "EXTRACTED",
+      "source_file": "src/tools/leave_tools.py",
+      "source_location": "L115",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "tools_leave_tools_format_holiday_teams_message",
+      "target": "src_tools_leave_tools_py_str"
+    },
+    {
+      "relation": "references",
+      "context": "parameter_type",
+      "confidence": "EXTRACTED",
+      "source_file": "src/tools/leave_tools.py",
+      "source_location": "L16",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "tools_leave_tools_notify_teams",
+      "target": "src_tools_leave_tools_py_str"
+    },
+    {
+      "relation": "references",
+      "context": "return_type",
+      "confidence": "EXTRACTED",
+      "source_file": "src/tools/leave_tools.py",
+      "source_location": "L31",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "tools_leave_tools_manager_webhook_for_employee",
+      "target": "src_tools_leave_tools_py_str"
+    },
+    {
+      "relation": "references",
+      "context": "parameter_type",
+      "confidence": "EXTRACTED",
+      "source_file": "src/tools/leave_tools.py",
+      "source_location": "L62",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "tools_leave_tools_notify_manager_if_configured",
+      "target": "src_tools_leave_tools_py_str"
+    },
+    {
+      "relation": "references",
+      "context": "parameter_type",
+      "confidence": "EXTRACTED",
+      "source_file": "src/tools/leave_tools.py",
+      "source_location": "L75",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "tools_leave_tools_apply_leave",
+      "target": "src_tools_leave_tools_py_str"
+    },
+    {
+      "relation": "references",
+      "context": "parameter_type",
+      "confidence": "EXTRACTED",
+      "source_file": "src/tools/leave_tools.py",
+      "source_location": "L132",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "tools_leave_tools_announce_holiday",
+      "target": "src_tools_leave_tools_py_str"
+    },
+    {
+      "relation": "references",
+      "context": "parameter_type",
+      "confidence": "EXTRACTED",
+      "source_file": "src/tools/leave_tools.py",
+      "source_location": "L28",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "tools_leave_tools_days_label",
+      "target": "src_tools_leave_tools_py_any"
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "src/tools/leave_tools.py",
+      "source_location": "L35",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "tools_leave_tools_days_label",
+      "target": "src_tools_leave_tools_py_int"
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "src/tools/leave_tools.py",
+      "source_location": "L80",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "tools_leave_tools_format_leave_teams_message",
+      "target": "tools_leave_tools_days_label"
+    },
+    {
+      "relation": "references",
+      "context": "generic_arg",
+      "confidence": "EXTRACTED",
+      "source_file": "src/tools/leave_tools.py",
+      "source_location": "L40",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "tools_leave_tools_date_range_label",
+      "target": "src_tools_leave_tools_py_any"
+    },
+    {
+      "relation": "references",
+      "context": "generic_arg",
+      "confidence": "EXTRACTED",
+      "source_file": "src/tools/leave_tools.py",
+      "source_location": "L61",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "tools_leave_tools_employee_header",
+      "target": "src_tools_leave_tools_py_any"
+    },
+    {
+      "relation": "references",
+      "context": "generic_arg",
+      "confidence": "EXTRACTED",
+      "source_file": "src/tools/leave_tools.py",
+      "source_location": "L69",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "tools_leave_tools_format_leave_teams_message",
+      "target": "src_tools_leave_tools_py_any"
+    },
+    {
+      "relation": "references",
+      "context": "generic_arg",
+      "confidence": "EXTRACTED",
+      "source_file": "src/tools/leave_tools.py",
+      "source_location": "L115",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "tools_leave_tools_format_holiday_teams_message",
+      "target": "src_tools_leave_tools_py_any"
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "src/tools/leave_tools.py",
+      "source_location": "L83",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "tools_leave_tools_format_leave_teams_message",
+      "target": "tools_leave_tools_date_range_label"
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "src/tools/leave_tools.py",
+      "source_location": "L63",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "tools_leave_tools_employee_header",
+      "target": "tools_leave_tools_employee_department"
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "src/tools/leave_tools.py",
+      "source_location": "L78",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "tools_leave_tools_format_leave_teams_message",
+      "target": "tools_leave_tools_employee_header"
+    },
+    {
+      "relation": "references",
+      "context": "parameter_type",
+      "confidence": "EXTRACTED",
+      "source_file": "src/tools/leave_tools.py",
+      "source_location": "L69",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "tools_leave_tools_format_leave_teams_message",
+      "target": "leaveteamsevent"
+    },
+    {
+      "relation": "references",
+      "context": "parameter_type",
+      "confidence": "EXTRACTED",
+      "source_file": "src/tools/leave_tools.py",
+      "source_location": "L69",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "tools_leave_tools_format_leave_teams_message",
+      "target": "teamsaudience"
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "src/tools/leave_tools.py",
+      "source_location": "L196",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "tools_leave_tools_apply_leave",
+      "target": "tools_leave_tools_format_leave_teams_message"
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "src/tools/leave_tools.py",
+      "source_location": "L216",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "tools_leave_tools_approve_leave",
+      "target": "tools_leave_tools_format_leave_teams_message"
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "src/tools/leave_tools.py",
+      "source_location": "L227",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "tools_leave_tools_reject_leave",
+      "target": "tools_leave_tools_format_leave_teams_message"
+    },
+    {
+      "relation": "rationale_for",
+      "confidence": "EXTRACTED",
+      "source_file": "src/tools/leave_tools.py",
+      "source_location": "L75",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "tools_leave_tools_rationale_75",
+      "target": "tools_leave_tools_format_leave_teams_message"
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "src/tools/leave_tools.py",
+      "source_location": "L237",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "tools_leave_tools_announce_holiday",
+      "target": "tools_leave_tools_format_holiday_teams_message"
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "src/tools/leave_tools.py",
+      "source_location": "L90",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "tools_leave_tools_apply_leave",
+      "target": "tools_leave_tools_notify_teams"
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "src/tools/leave_tools.py",
+      "source_location": "L112",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "tools_leave_tools_approve_leave",
+      "target": "tools_leave_tools_notify_teams"
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "src/tools/leave_tools.py",
+      "source_location": "L127",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "tools_leave_tools_reject_leave",
+      "target": "tools_leave_tools_notify_teams"
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "src/tools/leave_tools.py",
+      "source_location": "L137",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "tools_leave_tools_announce_holiday",
+      "target": "tools_leave_tools_notify_teams"
+    },
+    {
+      "relation": "rationale_for",
+      "confidence": "EXTRACTED",
+      "source_file": "src/tools/leave_tools.py",
+      "source_location": "L131",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "tools_leave_tools_rationale_131",
+      "target": "tools_leave_tools_notify_teams"
+    },
+    {
+      "relation": "references",
+      "context": "return_type",
+      "confidence": "EXTRACTED",
+      "source_file": "src/tools/leave_tools.py",
+      "source_location": "L138",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "tools_leave_tools_notify_teams",
+      "target": "src_tools_leave_tools_py_bool"
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "src/tools/leave_tools.py",
+      "source_location": "L189",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "tools_leave_tools_notify_manager_if_configured",
+      "target": "tools_leave_tools_notify_teams"
+    },
+    {
+      "relation": "rationale_for",
+      "confidence": "EXTRACTED",
+      "source_file": "src/tools/leave_tools.py",
+      "source_location": "L139",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "tools_leave_tools_rationale_139",
+      "target": "tools_leave_tools_notify_teams"
+    },
+    {
+      "relation": "rationale_for",
+      "confidence": "EXTRACTED",
+      "source_file": "src/tools/leave_tools.py",
+      "source_location": "L17",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "tools_leave_tools_rationale_17",
+      "target": "tools_leave_tools_notify_teams"
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "src/tools/leave_tools.py",
+      "source_location": "L65",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "tools_leave_tools_notify_manager_if_configured",
+      "target": "tools_leave_tools_manager_webhook_for_employee"
+    },
+    {
+      "relation": "rationale_for",
+      "confidence": "EXTRACTED",
+      "source_file": "src/tools/leave_tools.py",
+      "source_location": "L144",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "tools_leave_tools_rationale_144",
+      "target": "tools_leave_tools_manager_webhook_for_employee"
+    },
+    {
+      "relation": "rationale_for",
+      "confidence": "EXTRACTED",
+      "source_file": "src/tools/leave_tools.py",
+      "source_location": "L153",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "tools_leave_tools_rationale_153",
+      "target": "tools_leave_tools_manager_webhook_for_employee"
+    },
+    {
+      "relation": "rationale_for",
+      "confidence": "EXTRACTED",
+      "source_file": "src/tools/leave_tools.py",
+      "source_location": "L146",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "tools_leave_tools_rationale_146",
+      "target": "tools_leave_tools_manager_webhook_for_employee"
+    },
+    {
+      "relation": "rationale_for",
+      "confidence": "EXTRACTED",
+      "source_file": "src/tools/leave_tools.py",
+      "source_location": "L32",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "tools_leave_tools_rationale_32",
+      "target": "tools_leave_tools_manager_webhook_for_employee"
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "src/tools/leave_tools.py",
+      "source_location": "L91",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "tools_leave_tools_apply_leave",
+      "target": "tools_leave_tools_notify_manager_if_configured"
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "src/tools/leave_tools.py",
+      "source_location": "L113",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "tools_leave_tools_approve_leave",
+      "target": "tools_leave_tools_notify_manager_if_configured"
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "src/tools/leave_tools.py",
+      "source_location": "L128",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "tools_leave_tools_reject_leave",
+      "target": "tools_leave_tools_notify_manager_if_configured"
+    },
+    {
+      "relation": "references",
+      "context": "return_type",
+      "confidence": "EXTRACTED",
+      "source_file": "src/tools/leave_tools.py",
+      "source_location": "L183",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "tools_leave_tools_notify_manager_if_configured",
+      "target": "src_tools_leave_tools_py_bool"
+    },
+    {
+      "relation": "references",
+      "context": "return_type",
+      "confidence": "EXTRACTED",
+      "source_file": "src/tools/leave_tools.py",
+      "source_location": "L75",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "tools_leave_tools_apply_leave",
+      "target": "src_tools_leave_tools_py_toolresponse"
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "src/tools/leave_tools.py",
+      "source_location": "L211",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "tools_leave_tools_apply_leave",
+      "target": "tools_leave_tools_attach_teams_status"
+    },
+    {
+      "relation": "references",
+      "context": "return_type",
+      "confidence": "EXTRACTED",
+      "source_file": "src/tools/leave_tools.py",
+      "source_location": "L102",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "tools_leave_tools_approve_leave",
+      "target": "src_tools_leave_tools_py_toolresponse"
+    },
+    {
+      "relation": "references",
+      "context": "return_type",
+      "confidence": "EXTRACTED",
+      "source_file": "src/tools/leave_tools.py",
+      "source_location": "L117",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "tools_leave_tools_reject_leave",
+      "target": "src_tools_leave_tools_py_toolresponse"
+    },
+    {
+      "relation": "references",
+      "context": "return_type",
+      "confidence": "EXTRACTED",
+      "source_file": "src/tools/leave_tools.py",
+      "source_location": "L132",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "tools_leave_tools_announce_holiday",
+      "target": "src_tools_leave_tools_py_toolresponse"
+    },
+    {
+      "relation": "references",
+      "context": "parameter_type",
+      "confidence": "EXTRACTED",
+      "source_file": "src/tools/leave_tools.py",
+      "source_location": "L147",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "tools_leave_tools_attach_teams_status",
+      "target": "src_tools_leave_tools_py_toolresponse"
+    },
+    {
+      "relation": "references",
+      "context": "parameter_type",
+      "confidence": "EXTRACTED",
+      "source_file": "src/tools/leave_tools.py",
+      "source_location": "L102",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "tools_leave_tools_approve_leave",
+      "target": "src_tools_leave_tools_py_int"
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "src/tools/leave_tools.py",
+      "source_location": "L234",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "tools_leave_tools_approve_leave",
+      "target": "tools_leave_tools_attach_teams_status"
+    },
+    {
+      "relation": "references",
+      "context": "parameter_type",
+      "confidence": "EXTRACTED",
+      "source_file": "src/tools/leave_tools.py",
+      "source_location": "L117",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "tools_leave_tools_reject_leave",
+      "target": "src_tools_leave_tools_py_int"
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "src/tools/leave_tools.py",
+      "source_location": "L250",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "tools_leave_tools_reject_leave",
+      "target": "tools_leave_tools_attach_teams_status"
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "src/tools/leave_tools.py",
+      "source_location": "L259",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "tools_leave_tools_announce_holiday",
+      "target": "tools_leave_tools_attach_teams_status"
     },
     {
       "relation": "contains",
@@ -12974,6 +15824,16 @@
     {
       "relation": "contains",
       "confidence": "EXTRACTED",
+      "source_file": ".cursor/hooks/pre-compact.sh",
+      "source_location": "L1",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "cursor_hooks_pre_compact_sh",
+      "target": "d_mcp_talentserv_ai_hackathon_group_11_backend_db_cursor_hooks_pre_compact_sh__entry"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
       "source_file": ".cursor/hooks/pre-shell.helper.filter.sh",
       "source_location": "L1",
       "weight": 1.0,
@@ -12984,12 +15844,32 @@
     {
       "relation": "contains",
       "confidence": "EXTRACTED",
+      "source_file": ".cursor/hooks/pre-shell.helper.filter.sh",
+      "source_location": "L1",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "cursor_hooks_pre_shell_helper_filter_sh",
+      "target": "d_mcp_talentserv_ai_hackathon_group_11_backend_db_cursor_hooks_pre_shell_helper_filter_sh__entry"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
       "source_file": ".cursor/hooks/session-start.sh",
       "source_location": "L1",
       "weight": 1.0,
       "confidence_score": 1.0,
       "source": "cursor_hooks_session_start_sh",
       "target": "home_runner_work_talentserv_ai_hackathon_group_11_backend_db_talentserv_ai_hackathon_group_11_backend_db_cursor_hooks_session_start_sh__entry"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": ".cursor/hooks/session-start.sh",
+      "source_location": "L1",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "cursor_hooks_session_start_sh",
+      "target": "d_mcp_talentserv_ai_hackathon_group_11_backend_db_cursor_hooks_session_start_sh__entry"
     },
     {
       "relation": "contains",
@@ -13130,6 +16010,16 @@
       "confidence_score": 1.0,
       "source": "cursor_hooks_lib_sh",
       "target": "hooks_lib_emit_allow_updated_shell"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": ".cursor/hooks/lib.sh",
+      "source_location": "L1",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "cursor_hooks_lib_sh",
+      "target": "d_mcp_talentserv_ai_hackathon_group_11_backend_db_cursor_hooks_lib_sh__entry"
     },
     {
       "relation": "contains",
@@ -13959,6 +16849,16 @@
     {
       "relation": "contains",
       "confidence": "EXTRACTED",
+      "source_file": ".cursor/hooks/pre-shell.sh",
+      "source_location": "L1",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "cursor_hooks_pre_shell_sh",
+      "target": "d_mcp_talentserv_ai_hackathon_group_11_backend_db_cursor_hooks_pre_shell_sh__entry"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
       "source_file": ".cursor/hooks/pre_read.py",
       "source_location": "L26",
       "weight": 1.0,
@@ -13985,6 +16885,16 @@
       "confidence_score": 1.0,
       "source": "cursor_hooks_pre_read_sh",
       "target": "home_runner_work_talentserv_ai_hackathon_group_11_backend_db_talentserv_ai_hackathon_group_11_backend_db_cursor_hooks_pre_read_sh__entry"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": ".cursor/hooks/pre-read.sh",
+      "source_location": "L1",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "cursor_hooks_pre_read_sh",
+      "target": "d_mcp_talentserv_ai_hackathon_group_11_backend_db_cursor_hooks_pre_read_sh__entry"
     },
     {
       "relation": "contains",
@@ -14027,6 +16937,16 @@
       "target": "hooks_post_file_cache_merge_ranges"
     },
     {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": ".cursor/hooks/post-file-cache.sh",
+      "source_location": "L1",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "cursor_hooks_post_file_cache_sh",
+      "target": "d_mcp_talentserv_ai_hackathon_group_11_backend_db_cursor_hooks_post_file_cache_sh__entry"
+    },
+    {
       "relation": "calls",
       "confidence": "EXTRACTED",
       "source_file": ".cursor/hooks/post-file-cache.sh",
@@ -14035,6 +16955,17 @@
       "context": "call",
       "confidence_score": 1.0,
       "source": "home_runner_work_talentserv_ai_hackathon_group_11_backend_db_talentserv_ai_hackathon_group_11_backend_db_cursor_hooks_post_file_cache_sh__entry",
+      "target": "hooks_post_file_cache_merge_ranges"
+    },
+    {
+      "relation": "calls",
+      "confidence": "EXTRACTED",
+      "source_file": ".cursor/hooks/post-file-cache.sh",
+      "source_location": "L70",
+      "weight": 1.0,
+      "context": "call",
+      "confidence_score": 1.0,
+      "source": "d_mcp_talentserv_ai_hackathon_group_11_backend_db_cursor_hooks_post_file_cache_sh__entry",
       "target": "hooks_post_file_cache_merge_ranges"
     },
     {
@@ -14612,6 +17543,16 @@
     {
       "relation": "contains",
       "confidence": "EXTRACTED",
+      "source_file": "scripts/bootstrap-mcp.sh",
+      "source_location": "L1",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "scripts_bootstrap_mcp_sh",
+      "target": "d_mcp_talentserv_ai_hackathon_group_11_backend_db_scripts_bootstrap_mcp_sh__entry"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
       "source_file": "scripts/demo.ps1",
       "source_location": "L18",
       "weight": 1.0,
@@ -14658,6 +17599,16 @@
       "confidence_score": 1.0,
       "source": "scripts_install_office_leave_mcp_sh",
       "target": "home_runner_work_talentserv_ai_hackathon_group_11_backend_db_talentserv_ai_hackathon_group_11_backend_db_scripts_install_office_leave_mcp_sh__entry"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "scripts/install-office-leave-mcp.sh",
+      "source_location": "L1",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "scripts_install_office_leave_mcp_sh",
+      "target": "d_mcp_talentserv_ai_hackathon_group_11_backend_db_scripts_install_office_leave_mcp_sh__entry"
     },
     {
       "relation": "contains",
@@ -15110,6 +18061,17 @@
       "target": "scripts_mcp_launcher_venv_python"
     },
     {
+      "relation": "references",
+      "context": "return_type",
+      "confidence": "EXTRACTED",
+      "source_file": "scripts/mcp_launcher.py",
+      "source_location": "L17",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "scripts_mcp_launcher_venv_python",
+      "target": "scripts_mcp_launcher_py_path"
+    },
+    {
       "relation": "contains",
       "confidence": "EXTRACTED",
       "source_file": "scripts/mcp_launcher.py",
@@ -15118,6 +18080,17 @@
       "confidence_score": 1.0,
       "source": "scripts_mcp_launcher_py",
       "target": "scripts_mcp_launcher_main"
+    },
+    {
+      "relation": "references",
+      "context": "return_type",
+      "confidence": "EXTRACTED",
+      "source_file": "scripts/mcp_launcher.py",
+      "source_location": "L25",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "scripts_mcp_launcher_main",
+      "target": "scripts_mcp_launcher_py_int"
     },
     {
       "relation": "contains",
@@ -15153,12 +18126,32 @@
     {
       "relation": "contains",
       "confidence": "EXTRACTED",
+      "source_file": "scripts/bootstrap-office-leave-mcp.sh",
+      "source_location": "L1",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "scripts_bootstrap_office_leave_mcp_sh",
+      "target": "d_mcp_talentserv_ai_hackathon_group_11_backend_db_scripts_bootstrap_office_leave_mcp_sh__entry"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
       "source_file": "scripts/bootstrap-graphify-mcp.sh",
       "source_location": "L1",
       "weight": 1.0,
       "confidence_score": 1.0,
       "source": "scripts_bootstrap_graphify_mcp_sh",
       "target": "home_runner_work_talentserv_ai_hackathon_group_11_backend_db_talentserv_ai_hackathon_group_11_backend_db_scripts_bootstrap_graphify_mcp_sh__entry"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "scripts/bootstrap-graphify-mcp.sh",
+      "source_location": "L1",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "scripts_bootstrap_graphify_mcp_sh",
+      "target": "d_mcp_talentserv_ai_hackathon_group_11_backend_db_scripts_bootstrap_graphify_mcp_sh__entry"
     },
     {
       "relation": "contains",
@@ -15547,6 +18540,17 @@
       "target": "scripts_sync_graphify_out_run_graphify"
     },
     {
+      "relation": "calls",
+      "confidence": "EXTRACTED",
+      "source_file": "scripts/sync_graphify_out.sh",
+      "source_location": "L32",
+      "weight": 1.0,
+      "context": "call",
+      "confidence_score": 1.0,
+      "source": "d_mcp_talentserv_ai_hackathon_group_11_backend_db_scripts_sync_graphify_out_sh__entry",
+      "target": "scripts_sync_graphify_out_run_graphify"
+    },
+    {
       "relation": "contains",
       "confidence": "EXTRACTED",
       "source_file": "scripts/install-graphify-mcp.sh",
@@ -15555,6 +18559,16 @@
       "confidence_score": 1.0,
       "source": "scripts_install_graphify_mcp_sh",
       "target": "home_runner_work_talentserv_ai_hackathon_group_11_backend_db_talentserv_ai_hackathon_group_11_backend_db_scripts_install_graphify_mcp_sh__entry"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "scripts/install-graphify-mcp.sh",
+      "source_location": "L1",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "scripts_install_graphify_mcp_sh",
+      "target": "d_mcp_talentserv_ai_hackathon_group_11_backend_db_scripts_install_graphify_mcp_sh__entry"
     },
     {
       "relation": "contains",
@@ -15575,6 +18589,16 @@
       "confidence_score": 1.0,
       "source": "scripts_lib_mcp_install_fetch_sh",
       "target": "lib_mcp_install_fetch_mcp_install_run_python"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "scripts/lib/mcp_install_fetch.sh",
+      "source_location": "L1",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "scripts_lib_mcp_install_fetch_sh",
+      "target": "d_mcp_talentserv_ai_hackathon_group_11_backend_db_scripts_lib_mcp_install_fetch_sh__entry"
     },
     {
       "relation": "contains",
@@ -17207,6 +20231,26 @@
       "target": "cursor_mcp_graphify_cwd"
     },
     {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": ".cursor/bin/graphify-mcp/build-graph.sh",
+      "source_location": "L1",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "cursor_bin_graphify_mcp_build_graph_sh",
+      "target": "d_mcp_talentserv_ai_hackathon_group_11_backend_db_cursor_bin_graphify_mcp_build_graph_sh__entry"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": ".cursor/bin/office-leave-mcp/init-db.sh",
+      "source_location": "L1",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "cursor_bin_office_leave_mcp_init_db_sh",
+      "target": "d_mcp_talentserv_ai_hackathon_group_11_backend_db_cursor_bin_office_leave_mcp_init_db_sh__entry"
+    },
+    {
       "relation": "defines",
       "confidence": "EXTRACTED",
       "source_file": ".cursor/bin/office-leave-mcp/init-db.sh",
@@ -17225,6 +20269,27 @@
       "confidence_score": 1.0,
       "source": "cursor_bin_office_leave_mcp_init_db_sh",
       "target": "office_leave_mcp_init_db_database_path"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "scripts/sync_graphify_out.sh",
+      "source_location": "L1",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "scripts_sync_graphify_out_sh",
+      "target": "d_mcp_talentserv_ai_hackathon_group_11_backend_db_scripts_sync_graphify_out_sh__entry"
+    },
+    {
+      "relation": "references",
+      "context": "parameter_type",
+      "confidence": "EXTRACTED",
+      "source_file": "src/tools/leave_tools.py",
+      "source_location": "L147",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "tools_leave_tools_attach_teams_status",
+      "target": "src_tools_leave_tools_py_bool"
     },
     {
       "relation": "contains",
@@ -17994,5 +21059,5 @@
       "source_file": "docs/MCP_SETUP.md"
     }
   ],
-  "built_at_commit": "24a95928a5281c71801a0031a553821bbb6e9660"
+  "built_at_commit": "5d4e75f0e85c1a71ffac66f7db7fe4254032102a"
 }

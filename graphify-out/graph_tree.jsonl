@@ -1,13 +1,15 @@
-{"path": ["talentserv-ai-hackathon-group-11-backend-db"], "name": "talentserv-ai-hackathon-group-11-backend-db", "depth": 0, "total_count": 583, "kind": "dir"}
-{"path": ["talentserv-ai-hackathon-group-11-backend-db", ".cursor"], "name": ".cursor", "depth": 1, "total_count": 106, "kind": "dir"}
-{"path": ["talentserv-ai-hackathon-group-11-backend-db", ".cursor", "bin"], "name": "bin", "depth": 2, "total_count": 3, "kind": "dir"}
+{"path": ["talentserv-ai-hackathon-group-11-backend-db"], "name": "talentserv-ai-hackathon-group-11-backend-db", "depth": 0, "total_count": 676, "kind": "dir"}
+{"path": ["talentserv-ai-hackathon-group-11-backend-db", ".cursor"], "name": ".cursor", "depth": 1, "total_count": 114, "kind": "dir"}
+{"path": ["talentserv-ai-hackathon-group-11-backend-db", ".cursor", "bin"], "name": "bin", "depth": 2, "total_count": 4, "kind": "dir"}
 {"path": ["talentserv-ai-hackathon-group-11-backend-db", ".cursor", "bin", "graphify-mcp"], "name": "graphify-mcp", "depth": 3, "total_count": 1, "kind": "dir"}
-{"path": ["talentserv-ai-hackathon-group-11-backend-db", ".cursor", "bin", "graphify-mcp", "build-graph.sh"], "name": "build-graph.sh", "depth": 4, "total_count": 1, "kind": "symbol"}
-{"path": ["talentserv-ai-hackathon-group-11-backend-db", ".cursor", "bin", "office-leave-mcp"], "name": "office-leave-mcp", "depth": 3, "total_count": 2, "kind": "dir"}
-{"path": ["talentserv-ai-hackathon-group-11-backend-db", ".cursor", "bin", "office-leave-mcp", "init-db.sh"], "name": "init-db.sh", "depth": 4, "total_count": 2, "kind": "dir"}
+{"path": ["talentserv-ai-hackathon-group-11-backend-db", ".cursor", "bin", "graphify-mcp", "build-graph.sh"], "name": "build-graph.sh", "depth": 4, "total_count": 1, "kind": "dir"}
+{"path": ["talentserv-ai-hackathon-group-11-backend-db", ".cursor", "bin", "graphify-mcp", "build-graph.sh", "build-graph.sh script"], "name": "build-graph.sh script", "depth": 5, "total_count": 1, "kind": "symbol"}
+{"path": ["talentserv-ai-hackathon-group-11-backend-db", ".cursor", "bin", "office-leave-mcp"], "name": "office-leave-mcp", "depth": 3, "total_count": 3, "kind": "dir"}
+{"path": ["talentserv-ai-hackathon-group-11-backend-db", ".cursor", "bin", "office-leave-mcp", "init-db.sh"], "name": "init-db.sh", "depth": 4, "total_count": 3, "kind": "dir"}
 {"path": ["talentserv-ai-hackathon-group-11-backend-db", ".cursor", "bin", "office-leave-mcp", "init-db.sh", "DATABASE_PATH"], "name": "DATABASE_PATH", "depth": 5, "total_count": 1, "kind": "leaf"}
+{"path": ["talentserv-ai-hackathon-group-11-backend-db", ".cursor", "bin", "office-leave-mcp", "init-db.sh", "init-db.sh script"], "name": "init-db.sh script", "depth": 5, "total_count": 1, "kind": "symbol"}
 {"path": ["talentserv-ai-hackathon-group-11-backend-db", ".cursor", "bin", "office-leave-mcp", "init-db.sh", "OFFICE_LEAVE_WORKSPACE"], "name": "OFFICE_LEAVE_WORKSPACE", "depth": 5, "total_count": 1, "kind": "leaf"}
-{"path": ["talentserv-ai-hackathon-group-11-backend-db", ".cursor", "hooks"], "name": "hooks", "depth": 2, "total_count": 50, "kind": "dir"}
+{"path": ["talentserv-ai-hackathon-group-11-backend-db", ".cursor", "hooks"], "name": "hooks", "depth": 2, "total_count": 57, "kind": "dir"}
 {"path": ["talentserv-ai-hackathon-group-11-backend-db", ".cursor", "hooks", "cache_cow_lib.py"], "name": "cache_cow_lib.py", "depth": 3, "total_count": 24, "kind": "dir"}
 {"path": ["talentserv-ai-hackathon-group-11-backend-db", ".cursor", "hooks", "cache_cow_lib.py", "allow()"], "name": "allow()", "depth": 4, "total_count": 1, "kind": "leaf"}
 {"path": ["talentserv-ai-hackathon-group-11-backend-db", ".cursor", "hooks", "cache_cow_lib.py", "allow_note()"], "name": "allow_note()", "depth": 4, "total_count": 1, "kind": "leaf"}
@@ -33,7 +35,7 @@
 {"path": ["talentserv-ai-hackathon-group-11-backend-db", ".cursor", "hooks", "cache_cow_lib.py", "should_skip()"], "name": "should_skip()", "depth": 4, "total_count": 1, "kind": "leaf"}
 {"path": ["talentserv-ai-hackathon-group-11-backend-db", ".cursor", "hooks", "cache_cow_lib.py", "str"], "name": "str", "depth": 4, "total_count": 1, "kind": "leaf"}
 {"path": ["talentserv-ai-hackathon-group-11-backend-db", ".cursor", "hooks", "cache_cow_lib.py", "unified_diff()"], "name": "unified_diff()", "depth": 4, "total_count": 1, "kind": "leaf"}
-{"path": ["talentserv-ai-hackathon-group-11-backend-db", ".cursor", "hooks", "lib.sh"], "name": "lib.sh", "depth": 3, "total_count": 14, "kind": "dir"}
+{"path": ["talentserv-ai-hackathon-group-11-backend-db", ".cursor", "hooks", "lib.sh"], "name": "lib.sh", "depth": 3, "total_count": 15, "kind": "dir"}
 {"path": ["talentserv-ai-hackathon-group-11-backend-db", ".cursor", "hooks", "lib.sh", "cache_key_for()"], "name": "cache_key_for()", "depth": 4, "total_count": 1, "kind": "leaf"}
 {"path": ["talentserv-ai-hackathon-group-11-backend-db", ".cursor", "hooks", "lib.sh", "conversation_id_from()"], "name": "conversation_id_from()", "depth": 4, "total_count": 1, "kind": "leaf"}
 {"path": ["talentserv-ai-hackathon-group-11-backend-db", ".cursor", "hooks", "lib.sh", "emit_allow()"], "name": "emit_allow()", "depth": 4, "total_count": 1, "kind": "leaf"}
@@ -43,23 +45,29 @@
 {"path": ["talentserv-ai-hackathon-group-11-backend-db", ".cursor", "hooks", "lib.sh", "file_path_from()"], "name": "file_path_from()", "depth": 4, "total_count": 1, "kind": "leaf"}
 {"path": ["talentserv-ai-hackathon-group-11-backend-db", ".cursor", "hooks", "lib.sh", "is_write_from()"], "name": "is_write_from()", "depth": 4, "total_count": 1, "kind": "leaf"}
 {"path": ["talentserv-ai-hackathon-group-11-backend-db", ".cursor", "hooks", "lib.sh", "lib.sh script"], "name": "lib.sh script", "depth": 4, "total_count": 1, "kind": "symbol"}
+{"path": ["talentserv-ai-hackathon-group-11-backend-db", ".cursor", "hooks", "lib.sh", "lib.sh script"], "name": "lib.sh script", "depth": 4, "total_count": 1, "kind": "symbol"}
 {"path": ["talentserv-ai-hackathon-group-11-backend-db", ".cursor", "hooks", "lib.sh", "limit_from()"], "name": "limit_from()", "depth": 4, "total_count": 1, "kind": "leaf"}
 {"path": ["talentserv-ai-hackathon-group-11-backend-db", ".cursor", "hooks", "lib.sh", "log_hook()"], "name": "log_hook()", "depth": 4, "total_count": 1, "kind": "leaf"}
 {"path": ["talentserv-ai-hackathon-group-11-backend-db", ".cursor", "hooks", "lib.sh", "offset_from()"], "name": "offset_from()", "depth": 4, "total_count": 1, "kind": "leaf"}
 {"path": ["talentserv-ai-hackathon-group-11-backend-db", ".cursor", "hooks", "lib.sh", "shell_command_from()"], "name": "shell_command_from()", "depth": 4, "total_count": 1, "kind": "leaf"}
 {"path": ["talentserv-ai-hackathon-group-11-backend-db", ".cursor", "hooks", "lib.sh", "should_skip_file()"], "name": "should_skip_file()", "depth": 4, "total_count": 1, "kind": "leaf"}
-{"path": ["talentserv-ai-hackathon-group-11-backend-db", ".cursor", "hooks", "post-file-cache.sh"], "name": "post-file-cache.sh", "depth": 3, "total_count": 2, "kind": "dir"}
+{"path": ["talentserv-ai-hackathon-group-11-backend-db", ".cursor", "hooks", "post-file-cache.sh"], "name": "post-file-cache.sh", "depth": 3, "total_count": 3, "kind": "dir"}
 {"path": ["talentserv-ai-hackathon-group-11-backend-db", ".cursor", "hooks", "post-file-cache.sh", "_merge_ranges()"], "name": "_merge_ranges()", "depth": 4, "total_count": 1, "kind": "leaf"}
+{"path": ["talentserv-ai-hackathon-group-11-backend-db", ".cursor", "hooks", "post-file-cache.sh", "post-file-cache.sh script"], "name": "post-file-cache.sh script", "depth": 4, "total_count": 1, "kind": "symbol"}
 {"path": ["talentserv-ai-hackathon-group-11-backend-db", ".cursor", "hooks", "post-file-cache.sh", "post-file-cache.sh script"], "name": "post-file-cache.sh script", "depth": 4, "total_count": 1, "kind": "symbol"}
 {"path": ["talentserv-ai-hackathon-group-11-backend-db", ".cursor", "hooks", "post_file_cache.py"], "name": "post_file_cache.py", "depth": 3, "total_count": 1, "kind": "dir"}
 {"path": ["talentserv-ai-hackathon-group-11-backend-db", ".cursor", "hooks", "post_file_cache.py", "main()"], "name": "main()", "depth": 4, "total_count": 1, "kind": "leaf"}
-{"path": ["talentserv-ai-hackathon-group-11-backend-db", ".cursor", "hooks", "pre-compact.sh"], "name": "pre-compact.sh", "depth": 3, "total_count": 1, "kind": "dir"}
+{"path": ["talentserv-ai-hackathon-group-11-backend-db", ".cursor", "hooks", "pre-compact.sh"], "name": "pre-compact.sh", "depth": 3, "total_count": 2, "kind": "dir"}
 {"path": ["talentserv-ai-hackathon-group-11-backend-db", ".cursor", "hooks", "pre-compact.sh", "pre-compact.sh script"], "name": "pre-compact.sh script", "depth": 4, "total_count": 1, "kind": "symbol"}
-{"path": ["talentserv-ai-hackathon-group-11-backend-db", ".cursor", "hooks", "pre-read.sh"], "name": "pre-read.sh", "depth": 3, "total_count": 1, "kind": "dir"}
+{"path": ["talentserv-ai-hackathon-group-11-backend-db", ".cursor", "hooks", "pre-compact.sh", "pre-compact.sh script"], "name": "pre-compact.sh script", "depth": 4, "total_count": 1, "kind": "symbol"}
+{"path": ["talentserv-ai-hackathon-group-11-backend-db", ".cursor", "hooks", "pre-read.sh"], "name": "pre-read.sh", "depth": 3, "total_count": 2, "kind": "dir"}
 {"path": ["talentserv-ai-hackathon-group-11-backend-db", ".cursor", "hooks", "pre-read.sh", "pre-read.sh script"], "name": "pre-read.sh script", "depth": 4, "total_count": 1, "kind": "symbol"}
-{"path": ["talentserv-ai-hackathon-group-11-backend-db", ".cursor", "hooks", "pre-shell.helper.filter.sh"], "name": "pre-shell.helper.filter.sh", "depth": 3, "total_count": 1, "kind": "dir"}
+{"path": ["talentserv-ai-hackathon-group-11-backend-db", ".cursor", "hooks", "pre-read.sh", "pre-read.sh script"], "name": "pre-read.sh script", "depth": 4, "total_count": 1, "kind": "symbol"}
+{"path": ["talentserv-ai-hackathon-group-11-backend-db", ".cursor", "hooks", "pre-shell.helper.filter.sh"], "name": "pre-shell.helper.filter.sh", "depth": 3, "total_count": 2, "kind": "dir"}
 {"path": ["talentserv-ai-hackathon-group-11-backend-db", ".cursor", "hooks", "pre-shell.helper.filter.sh", "pre-shell.helper.filter.sh script"], "name": "pre-shell.helper.filter.sh script", "depth": 4, "total_count": 1, "kind": "symbol"}
-{"path": ["talentserv-ai-hackathon-group-11-backend-db", ".cursor", "hooks", "pre-shell.sh"], "name": "pre-shell.sh", "depth": 3, "total_count": 1, "kind": "dir"}
+{"path": ["talentserv-ai-hackathon-group-11-backend-db", ".cursor", "hooks", "pre-shell.helper.filter.sh", "pre-shell.helper.filter.sh script"], "name": "pre-shell.helper.filter.sh script", "depth": 4, "total_count": 1, "kind": "symbol"}
+{"path": ["talentserv-ai-hackathon-group-11-backend-db", ".cursor", "hooks", "pre-shell.sh"], "name": "pre-shell.sh", "depth": 3, "total_count": 2, "kind": "dir"}
+{"path": ["talentserv-ai-hackathon-group-11-backend-db", ".cursor", "hooks", "pre-shell.sh", "pre-shell.sh script"], "name": "pre-shell.sh script", "depth": 4, "total_count": 1, "kind": "symbol"}
 {"path": ["talentserv-ai-hackathon-group-11-backend-db", ".cursor", "hooks", "pre-shell.sh", "pre-shell.sh script"], "name": "pre-shell.sh script", "depth": 4, "total_count": 1, "kind": "symbol"}
 {"path": ["talentserv-ai-hackathon-group-11-backend-db", ".cursor", "hooks", "pre_compact.py"], "name": "pre_compact.py", "depth": 3, "total_count": 1, "kind": "dir"}
 {"path": ["talentserv-ai-hackathon-group-11-backend-db", ".cursor", "hooks", "pre_compact.py", "main()"], "name": "main()", "depth": 4, "total_count": 1, "kind": "leaf"}
@@ -67,7 +75,8 @@
 {"path": ["talentserv-ai-hackathon-group-11-backend-db", ".cursor", "hooks", "pre_read.py", "main()"], "name": "main()", "depth": 4, "total_count": 1, "kind": "leaf"}
 {"path": ["talentserv-ai-hackathon-group-11-backend-db", ".cursor", "hooks", "pre_shell.py"], "name": "pre_shell.py", "depth": 3, "total_count": 1, "kind": "dir"}
 {"path": ["talentserv-ai-hackathon-group-11-backend-db", ".cursor", "hooks", "pre_shell.py", "main()"], "name": "main()", "depth": 4, "total_count": 1, "kind": "leaf"}
-{"path": ["talentserv-ai-hackathon-group-11-backend-db", ".cursor", "hooks", "session-start.sh"], "name": "session-start.sh", "depth": 3, "total_count": 1, "kind": "dir"}
+{"path": ["talentserv-ai-hackathon-group-11-backend-db", ".cursor", "hooks", "session-start.sh"], "name": "session-start.sh", "depth": 3, "total_count": 2, "kind": "dir"}
+{"path": ["talentserv-ai-hackathon-group-11-backend-db", ".cursor", "hooks", "session-start.sh", "session-start.sh script"], "name": "session-start.sh script", "depth": 4, "total_count": 1, "kind": "symbol"}
 {"path": ["talentserv-ai-hackathon-group-11-backend-db", ".cursor", "hooks", "session-start.sh", "session-start.sh script"], "name": "session-start.sh script", "depth": 4, "total_count": 1, "kind": "symbol"}
 {"path": ["talentserv-ai-hackathon-group-11-backend-db", ".cursor", "hooks", "session_start.py"], "name": "session_start.py", "depth": 3, "total_count": 1, "kind": "dir"}
 {"path": ["talentserv-ai-hackathon-group-11-backend-db", ".cursor", "hooks", "session_start.py", "main()"], "name": "main()", "depth": 4, "total_count": 1, "kind": "leaf"}
@@ -138,11 +147,14 @@
 {"path": ["talentserv-ai-hackathon-group-11-backend-db", ".husky"], "name": ".husky", "depth": 1, "total_count": 1, "kind": "dir"}
 {"path": ["talentserv-ai-hackathon-group-11-backend-db", ".husky", "_"], "name": "_", "depth": 2, "total_count": 1, "kind": "dir"}
 {"path": ["talentserv-ai-hackathon-group-11-backend-db", ".husky", "_", "husky.sh"], "name": "husky.sh", "depth": 3, "total_count": 1, "kind": "symbol"}
-{"path": ["talentserv-ai-hackathon-group-11-backend-db", "C:"], "name": "C:", "depth": 1, "total_count": 12, "kind": "dir"}
-{"path": ["talentserv-ai-hackathon-group-11-backend-db", "C:", "Users"], "name": "Users", "depth": 2, "total_count": 12, "kind": "dir"}
-{"path": ["talentserv-ai-hackathon-group-11-backend-db", "C:", "Users", "Admin"], "name": "Admin", "depth": 3, "total_count": 12, "kind": "dir"}
-{"path": ["talentserv-ai-hackathon-group-11-backend-db", "C:", "Users", "Admin", "Documents"], "name": "Documents", "depth": 4, "total_count": 12, "kind": "dir"}
-{"path": ["talentserv-ai-hackathon-group-11-backend-db", "C:", "Users", "Admin", "Documents", "talentserv-ai-hackathon-group-11-backend-db"], "name": "talentserv-ai-hackathon-group-11-backend-db", "depth": 5, "total_count": 12, "kind": "dir"}
+{"path": ["talentserv-ai-hackathon-group-11-backend-db", "C:"], "name": "C:", "depth": 1, "total_count": 14, "kind": "dir"}
+{"path": ["talentserv-ai-hackathon-group-11-backend-db", "C:", "Users"], "name": "Users", "depth": 2, "total_count": 14, "kind": "dir"}
+{"path": ["talentserv-ai-hackathon-group-11-backend-db", "C:", "Users", "Admin"], "name": "Admin", "depth": 3, "total_count": 14, "kind": "dir"}
+{"path": ["talentserv-ai-hackathon-group-11-backend-db", "C:", "Users", "Admin", "Documents"], "name": "Documents", "depth": 4, "total_count": 14, "kind": "dir"}
+{"path": ["talentserv-ai-hackathon-group-11-backend-db", "C:", "Users", "Admin", "Documents", "talentserv-ai-hackathon-group-11-backend-db"], "name": "talentserv-ai-hackathon-group-11-backend-db", "depth": 5, "total_count": 14, "kind": "dir"}
+{"path": ["talentserv-ai-hackathon-group-11-backend-db", "C:", "Users", "Admin", "Documents", "talentserv-ai-hackathon-group-11-backend-db", ".husky"], "name": ".husky", "depth": 6, "total_count": 1, "kind": "dir"}
+{"path": ["talentserv-ai-hackathon-group-11-backend-db", "C:", "Users", "Admin", "Documents", "talentserv-ai-hackathon-group-11-backend-db", ".husky", "_"], "name": "_", "depth": 7, "total_count": 1, "kind": "dir"}
+{"path": ["talentserv-ai-hackathon-group-11-backend-db", "C:", "Users", "Admin", "Documents", "talentserv-ai-hackathon-group-11-backend-db", ".husky", "_", "husky.sh"], "name": "husky.sh", "depth": 8, "total_count": 1, "kind": "symbol"}
 {"path": ["talentserv-ai-hackathon-group-11-backend-db", "C:", "Users", "Admin", "Documents", "talentserv-ai-hackathon-group-11-backend-db", "package.json"], "name": "package.json", "depth": 6, "total_count": 8, "kind": "dir"}
 {"path": ["talentserv-ai-hackathon-group-11-backend-db", "C:", "Users", "Admin", "Documents", "talentserv-ai-hackathon-group-11-backend-db", "package.json", "devDependencies"], "name": "devDependencies", "depth": 7, "total_count": 1, "kind": "leaf"}
 {"path": ["talentserv-ai-hackathon-group-11-backend-db", "C:", "Users", "Admin", "Documents", "talentserv-ai-hackathon-group-11-backend-db", "package.json", "graphify:sync"], "name": "graphify:sync", "depth": 7, "total_count": 1, "kind": "leaf"}
@@ -160,6 +172,8 @@
 {"path": ["talentserv-ai-hackathon-group-11-backend-db", "C:", "Users", "Admin", "Documents", "talentserv-ai-hackathon-group-11-backend-db", "scripts", "sync_graphify_out.ps1", "Invoke-Graphify()"], "name": "Invoke-Graphify()", "depth": 8, "total_count": 1, "kind": "leaf"}
 {"path": ["talentserv-ai-hackathon-group-11-backend-db", "C:", "Users", "Admin", "Documents", "talentserv-ai-hackathon-group-11-backend-db", "scripts", "sync_graphify_out.sh"], "name": "sync_graphify_out.sh", "depth": 7, "total_count": 1, "kind": "dir"}
 {"path": ["talentserv-ai-hackathon-group-11-backend-db", "C:", "Users", "Admin", "Documents", "talentserv-ai-hackathon-group-11-backend-db", "scripts", "sync_graphify_out.sh", "run_graphify()"], "name": "run_graphify()", "depth": 8, "total_count": 1, "kind": "leaf"}
+{"path": ["talentserv-ai-hackathon-group-11-backend-db", "C:", "Users", "Admin", "Documents", "talentserv-ai-hackathon-group-11-backend-db", "src"], "name": "src", "depth": 6, "total_count": 1, "kind": "dir"}
+{"path": ["talentserv-ai-hackathon-group-11-backend-db", "C:", "Users", "Admin", "Documents", "talentserv-ai-hackathon-group-11-backend-db", "src", "__init__.py"], "name": "__init__.py", "depth": 7, "total_count": 1, "kind": "symbol"}
 {"path": ["talentserv-ai-hackathon-group-11-backend-db", "docs"], "name": "docs", "depth": 1, "total_count": 118, "kind": "dir"}
 {"path": ["talentserv-ai-hackathon-group-11-backend-db", "docs", "CACHE_COW.md"], "name": "CACHE_COW.md", "depth": 2, "total_count": 11, "kind": "dir"}
 {"path": ["talentserv-ai-hackathon-group-11-backend-db", "docs", "CACHE_COW.md", "cache-cow hooks (Cursor)"], "name": "cache-cow hooks (Cursor)", "depth": 3, "total_count": 1, "kind": "leaf"}
@@ -332,12 +346,15 @@
 {"path": ["talentserv-ai-hackathon-group-11-backend-db", "README.md", "SQLite employees database"], "name": "SQLite employees database", "depth": 2, "total_count": 1, "kind": "leaf"}
 {"path": ["talentserv-ai-hackathon-group-11-backend-db", "README.md", "Token-saving hooks ([cache-cow](https://github.com/soonswan-study/cache-cow))"], "name": "Token-saving hooks ([cache-cow](https://github.com/soonswan-study/cache-cow))", "depth": 2, "total_count": 1, "kind": "leaf"}
 {"path": ["talentserv-ai-hackathon-group-11-backend-db", "README.md", "WhatsApp demo (Twilio Sandbox)"], "name": "WhatsApp demo (Twilio Sandbox)", "depth": 2, "total_count": 1, "kind": "leaf"}
-{"path": ["talentserv-ai-hackathon-group-11-backend-db", "scripts"], "name": "scripts", "depth": 1, "total_count": 51, "kind": "dir"}
-{"path": ["talentserv-ai-hackathon-group-11-backend-db", "scripts", "bootstrap-graphify-mcp.sh"], "name": "bootstrap-graphify-mcp.sh", "depth": 2, "total_count": 1, "kind": "dir"}
+{"path": ["talentserv-ai-hackathon-group-11-backend-db", "scripts"], "name": "scripts", "depth": 1, "total_count": 58, "kind": "dir"}
+{"path": ["talentserv-ai-hackathon-group-11-backend-db", "scripts", "bootstrap-graphify-mcp.sh"], "name": "bootstrap-graphify-mcp.sh", "depth": 2, "total_count": 2, "kind": "dir"}
 {"path": ["talentserv-ai-hackathon-group-11-backend-db", "scripts", "bootstrap-graphify-mcp.sh", "bootstrap-graphify-mcp.sh script"], "name": "bootstrap-graphify-mcp.sh script", "depth": 3, "total_count": 1, "kind": "symbol"}
-{"path": ["talentserv-ai-hackathon-group-11-backend-db", "scripts", "bootstrap-mcp.sh"], "name": "bootstrap-mcp.sh", "depth": 2, "total_count": 1, "kind": "dir"}
+{"path": ["talentserv-ai-hackathon-group-11-backend-db", "scripts", "bootstrap-graphify-mcp.sh", "bootstrap-graphify-mcp.sh script"], "name": "bootstrap-graphify-mcp.sh script", "depth": 3, "total_count": 1, "kind": "symbol"}
+{"path": ["talentserv-ai-hackathon-group-11-backend-db", "scripts", "bootstrap-mcp.sh"], "name": "bootstrap-mcp.sh", "depth": 2, "total_count": 2, "kind": "dir"}
 {"path": ["talentserv-ai-hackathon-group-11-backend-db", "scripts", "bootstrap-mcp.sh", "bootstrap-mcp.sh script"], "name": "bootstrap-mcp.sh script", "depth": 3, "total_count": 1, "kind": "symbol"}
-{"path": ["talentserv-ai-hackathon-group-11-backend-db", "scripts", "bootstrap-office-leave-mcp.sh"], "name": "bootstrap-office-leave-mcp.sh", "depth": 2, "total_count": 1, "kind": "dir"}
+{"path": ["talentserv-ai-hackathon-group-11-backend-db", "scripts", "bootstrap-mcp.sh", "bootstrap-mcp.sh script"], "name": "bootstrap-mcp.sh script", "depth": 3, "total_count": 1, "kind": "symbol"}
+{"path": ["talentserv-ai-hackathon-group-11-backend-db", "scripts", "bootstrap-office-leave-mcp.sh"], "name": "bootstrap-office-leave-mcp.sh", "depth": 2, "total_count": 2, "kind": "dir"}
+{"path": ["talentserv-ai-hackathon-group-11-backend-db", "scripts", "bootstrap-office-leave-mcp.sh", "bootstrap-office-leave-mcp.sh script"], "name": "bootstrap-office-leave-mcp.sh script", "depth": 3, "total_count": 1, "kind": "symbol"}
 {"path": ["talentserv-ai-hackathon-group-11-backend-db", "scripts", "bootstrap-office-leave-mcp.sh", "bootstrap-office-leave-mcp.sh script"], "name": "bootstrap-office-leave-mcp.sh script", "depth": 3, "total_count": 1, "kind": "symbol"}
 {"path": ["talentserv-ai-hackathon-group-11-backend-db", "scripts", "bootstrap_mcp.py"], "name": "bootstrap_mcp.py", "depth": 2, "total_count": 13, "kind": "dir"}
 {"path": ["talentserv-ai-hackathon-group-11-backend-db", "scripts", "bootstrap_mcp.py", "bool"], "name": "bool", "depth": 3, "total_count": 1, "kind": "leaf"}
@@ -364,12 +381,15 @@
 {"path": ["talentserv-ai-hackathon-group-11-backend-db", "scripts", "export_graph_tree_jsonl.py", "int"], "name": "int", "depth": 3, "total_count": 1, "kind": "leaf"}
 {"path": ["talentserv-ai-hackathon-group-11-backend-db", "scripts", "export_graph_tree_jsonl.py", "main()"], "name": "main()", "depth": 3, "total_count": 1, "kind": "leaf"}
 {"path": ["talentserv-ai-hackathon-group-11-backend-db", "scripts", "export_graph_tree_jsonl.py", "str"], "name": "str", "depth": 3, "total_count": 1, "kind": "leaf"}
-{"path": ["talentserv-ai-hackathon-group-11-backend-db", "scripts", "install-graphify-mcp.sh"], "name": "install-graphify-mcp.sh", "depth": 2, "total_count": 1, "kind": "dir"}
+{"path": ["talentserv-ai-hackathon-group-11-backend-db", "scripts", "install-graphify-mcp.sh"], "name": "install-graphify-mcp.sh", "depth": 2, "total_count": 2, "kind": "dir"}
 {"path": ["talentserv-ai-hackathon-group-11-backend-db", "scripts", "install-graphify-mcp.sh", "install-graphify-mcp.sh script"], "name": "install-graphify-mcp.sh script", "depth": 3, "total_count": 1, "kind": "symbol"}
-{"path": ["talentserv-ai-hackathon-group-11-backend-db", "scripts", "install-office-leave-mcp.sh"], "name": "install-office-leave-mcp.sh", "depth": 2, "total_count": 1, "kind": "dir"}
+{"path": ["talentserv-ai-hackathon-group-11-backend-db", "scripts", "install-graphify-mcp.sh", "install-graphify-mcp.sh script"], "name": "install-graphify-mcp.sh script", "depth": 3, "total_count": 1, "kind": "symbol"}
+{"path": ["talentserv-ai-hackathon-group-11-backend-db", "scripts", "install-office-leave-mcp.sh"], "name": "install-office-leave-mcp.sh", "depth": 2, "total_count": 2, "kind": "dir"}
 {"path": ["talentserv-ai-hackathon-group-11-backend-db", "scripts", "install-office-leave-mcp.sh", "install-office-leave-mcp.sh script"], "name": "install-office-leave-mcp.sh script", "depth": 3, "total_count": 1, "kind": "symbol"}
-{"path": ["talentserv-ai-hackathon-group-11-backend-db", "scripts", "lib"], "name": "lib", "depth": 2, "total_count": 2, "kind": "dir"}
-{"path": ["talentserv-ai-hackathon-group-11-backend-db", "scripts", "lib", "mcp_install_fetch.sh"], "name": "mcp_install_fetch.sh", "depth": 3, "total_count": 2, "kind": "dir"}
+{"path": ["talentserv-ai-hackathon-group-11-backend-db", "scripts", "install-office-leave-mcp.sh", "install-office-leave-mcp.sh script"], "name": "install-office-leave-mcp.sh script", "depth": 3, "total_count": 1, "kind": "symbol"}
+{"path": ["talentserv-ai-hackathon-group-11-backend-db", "scripts", "lib"], "name": "lib", "depth": 2, "total_count": 3, "kind": "dir"}
+{"path": ["talentserv-ai-hackathon-group-11-backend-db", "scripts", "lib", "mcp_install_fetch.sh"], "name": "mcp_install_fetch.sh", "depth": 3, "total_count": 3, "kind": "dir"}
+{"path": ["talentserv-ai-hackathon-group-11-backend-db", "scripts", "lib", "mcp_install_fetch.sh", "mcp_install_fetch.sh script"], "name": "mcp_install_fetch.sh script", "depth": 4, "total_count": 1, "kind": "symbol"}
 {"path": ["talentserv-ai-hackathon-group-11-backend-db", "scripts", "lib", "mcp_install_fetch.sh", "mcp_install_fetch.sh script"], "name": "mcp_install_fetch.sh script", "depth": 4, "total_count": 1, "kind": "symbol"}
 {"path": ["talentserv-ai-hackathon-group-11-backend-db", "scripts", "lib", "mcp_install_fetch.sh", "mcp_install_run_python()"], "name": "mcp_install_run_python()", "depth": 4, "total_count": 1, "kind": "leaf"}
 {"path": ["talentserv-ai-hackathon-group-11-backend-db", "scripts", "mcp_install_lib.py"], "name": "mcp_install_lib.py", "depth": 2, "total_count": 11, "kind": "dir"}
@@ -384,28 +404,36 @@
 {"path": ["talentserv-ai-hackathon-group-11-backend-db", "scripts", "mcp_install_lib.py", "Path"], "name": "Path", "depth": 3, "total_count": 1, "kind": "leaf"}
 {"path": ["talentserv-ai-hackathon-group-11-backend-db", "scripts", "mcp_install_lib.py", "str"], "name": "str", "depth": 3, "total_count": 1, "kind": "leaf"}
 {"path": ["talentserv-ai-hackathon-group-11-backend-db", "scripts", "mcp_install_lib.py", "write_launcher()"], "name": "write_launcher()", "depth": 3, "total_count": 1, "kind": "leaf"}
+{"path": ["talentserv-ai-hackathon-group-11-backend-db", "scripts", "mcp_launcher.py"], "name": "mcp_launcher.py", "depth": 2, "total_count": 2, "kind": "dir"}
+{"path": ["talentserv-ai-hackathon-group-11-backend-db", "scripts", "mcp_launcher.py", "int"], "name": "int", "depth": 3, "total_count": 1, "kind": "leaf"}
+{"path": ["talentserv-ai-hackathon-group-11-backend-db", "scripts", "mcp_launcher.py", "Path"], "name": "Path", "depth": 3, "total_count": 1, "kind": "leaf"}
 {"path": ["talentserv-ai-hackathon-group-11-backend-db", "scripts", "md_to_pdf.py"], "name": "md_to_pdf.py", "depth": 2, "total_count": 2, "kind": "dir"}
 {"path": ["talentserv-ai-hackathon-group-11-backend-db", "scripts", "md_to_pdf.py", "int"], "name": "int", "depth": 3, "total_count": 1, "kind": "leaf"}
 {"path": ["talentserv-ai-hackathon-group-11-backend-db", "scripts", "md_to_pdf.py", "main()"], "name": "main()", "depth": 3, "total_count": 1, "kind": "leaf"}
+{"path": ["talentserv-ai-hackathon-group-11-backend-db", "scripts", "sync_graphify_out.sh"], "name": "sync_graphify_out.sh", "depth": 2, "total_count": 1, "kind": "dir"}
+{"path": ["talentserv-ai-hackathon-group-11-backend-db", "scripts", "sync_graphify_out.sh", "sync_graphify_out.sh script"], "name": "sync_graphify_out.sh script", "depth": 3, "total_count": 1, "kind": "symbol"}
 {"path": ["talentserv-ai-hackathon-group-11-backend-db", "scripts", "bootstrap-graphify-mcp.ps1"], "name": "bootstrap-graphify-mcp.ps1", "depth": 2, "total_count": 1, "kind": "symbol"}
 {"path": ["talentserv-ai-hackathon-group-11-backend-db", "scripts", "bootstrap-mcp.ps1"], "name": "bootstrap-mcp.ps1", "depth": 2, "total_count": 1, "kind": "symbol"}
 {"path": ["talentserv-ai-hackathon-group-11-backend-db", "scripts", "bootstrap-office-leave-mcp.ps1"], "name": "bootstrap-office-leave-mcp.ps1", "depth": 2, "total_count": 1, "kind": "symbol"}
 {"path": ["talentserv-ai-hackathon-group-11-backend-db", "scripts", "init_db.py"], "name": "init_db.py", "depth": 2, "total_count": 1, "kind": "symbol"}
 {"path": ["talentserv-ai-hackathon-group-11-backend-db", "scripts", "install-graphify-mcp.ps1"], "name": "install-graphify-mcp.ps1", "depth": 2, "total_count": 1, "kind": "symbol"}
 {"path": ["talentserv-ai-hackathon-group-11-backend-db", "scripts", "install-office-leave-mcp.ps1"], "name": "install-office-leave-mcp.ps1", "depth": 2, "total_count": 1, "kind": "symbol"}
-{"path": ["talentserv-ai-hackathon-group-11-backend-db", "scripts", "mcp_launcher.py"], "name": "mcp_launcher.py", "depth": 2, "total_count": 1, "kind": "symbol"}
 {"path": ["talentserv-ai-hackathon-group-11-backend-db", "scripts", "sync_graphify_out.ps1"], "name": "sync_graphify_out.ps1", "depth": 2, "total_count": 1, "kind": "symbol"}
-{"path": ["talentserv-ai-hackathon-group-11-backend-db", "scripts", "sync_graphify_out.sh"], "name": "sync_graphify_out.sh", "depth": 2, "total_count": 1, "kind": "symbol"}
-{"path": ["talentserv-ai-hackathon-group-11-backend-db", "src"], "name": "src", "depth": 1, "total_count": 212, "kind": "dir"}
-{"path": ["talentserv-ai-hackathon-group-11-backend-db", "src", "db.py"], "name": "db.py", "depth": 2, "total_count": 30, "kind": "dir"}
+{"path": ["talentserv-ai-hackathon-group-11-backend-db", "src"], "name": "src", "depth": 1, "total_count": 288, "kind": "dir"}
+{"path": ["talentserv-ai-hackathon-group-11-backend-db", "src", "db.py"], "name": "db.py", "depth": 2, "total_count": 37, "kind": "dir"}
 {"path": ["talentserv-ai-hackathon-group-11-backend-db", "src", "db.py", "_fetch_requests()"], "name": "_fetch_requests()", "depth": 3, "total_count": 1, "kind": "leaf"}
+{"path": ["talentserv-ai-hackathon-group-11-backend-db", "src", "db.py", "announce_holiday()"], "name": "announce_holiday()", "depth": 3, "total_count": 1, "kind": "leaf"}
 {"path": ["talentserv-ai-hackathon-group-11-backend-db", "src", "db.py", "apply_leave()"], "name": "apply_leave()", "depth": 3, "total_count": 1, "kind": "leaf"}
+{"path": ["talentserv-ai-hackathon-group-11-backend-db", "src", "db.py", "Approve a pending leave request and apply it to balances.      Pending requests"], "name": "Approve a pending leave request and apply it to balances.      Pending requests", "depth": 3, "total_count": 1, "kind": "symbol"}
+{"path": ["talentserv-ai-hackathon-group-11-backend-db", "src", "db.py", "approve_leave()"], "name": "approve_leave()", "depth": 3, "total_count": 1, "kind": "leaf"}
 {"path": ["talentserv-ai-hackathon-group-11-backend-db", "src", "db.py", "calendar_days_inclusive()"], "name": "calendar_days_inclusive()", "depth": 3, "total_count": 1, "kind": "leaf"}
 {"path": ["talentserv-ai-hackathon-group-11-backend-db", "src", "db.py", "check_leave_status()"], "name": "check_leave_status()", "depth": 3, "total_count": 1, "kind": "leaf"}
 {"path": ["talentserv-ai-hackathon-group-11-backend-db", "src", "db.py", "connect()"], "name": "connect()", "depth": 3, "total_count": 1, "kind": "leaf"}
 {"path": ["talentserv-ai-hackathon-group-11-backend-db", "src", "db.py", "Connection"], "name": "Connection", "depth": 3, "total_count": 1, "kind": "leaf"}
+{"path": ["talentserv-ai-hackathon-group-11-backend-db", "src", "db.py", "Create a holiday announcement and return it (demo/local persistence)."], "name": "Create a holiday announcement and return it (demo/local persistence).", "depth": 3, "total_count": 1, "kind": "leaf"}
 {"path": ["talentserv-ai-hackathon-group-11-backend-db", "src", "db.py", "date"], "name": "date", "depth": 3, "total_count": 1, "kind": "leaf"}
 {"path": ["talentserv-ai-hackathon-group-11-backend-db", "src", "db.py", "Employee"], "name": "Employee", "depth": 3, "total_count": 1, "kind": "leaf"}
+{"path": ["talentserv-ai-hackathon-group-11-backend-db", "src", "db.py", "float"], "name": "float", "depth": 3, "total_count": 1, "kind": "leaf"}
 {"path": ["talentserv-ai-hackathon-group-11-backend-db", "src", "db.py", "float"], "name": "float", "depth": 3, "total_count": 1, "kind": "leaf"}
 {"path": ["talentserv-ai-hackathon-group-11-backend-db", "src", "db.py", "get_db_path()"], "name": "get_db_path()", "depth": 3, "total_count": 1, "kind": "leaf"}
 {"path": ["talentserv-ai-hackathon-group-11-backend-db", "src", "db.py", "get_employee()"], "name": "get_employee()", "depth": 3, "total_count": 1, "kind": "leaf"}
@@ -420,6 +448,8 @@
 {"path": ["talentserv-ai-hackathon-group-11-backend-db", "src", "db.py", "list_leave_requests()"], "name": "list_leave_requests()", "depth": 3, "total_count": 1, "kind": "leaf"}
 {"path": ["talentserv-ai-hackathon-group-11-backend-db", "src", "db.py", "parse_iso_date()"], "name": "parse_iso_date()", "depth": 3, "total_count": 1, "kind": "leaf"}
 {"path": ["talentserv-ai-hackathon-group-11-backend-db", "src", "db.py", "Path"], "name": "Path", "depth": 3, "total_count": 1, "kind": "leaf"}
+{"path": ["talentserv-ai-hackathon-group-11-backend-db", "src", "db.py", "Reject a pending leave request (does not change balances)."], "name": "Reject a pending leave request (does not change balances).", "depth": 3, "total_count": 1, "kind": "symbol"}
+{"path": ["talentserv-ai-hackathon-group-11-backend-db", "src", "db.py", "reject_leave()"], "name": "reject_leave()", "depth": 3, "total_count": 1, "kind": "leaf"}
 {"path": ["talentserv-ai-hackathon-group-11-backend-db", "src", "db.py", "resolve_db_path()"], "name": "resolve_db_path()", "depth": 3, "total_count": 1, "kind": "leaf"}
 {"path": ["talentserv-ai-hackathon-group-11-backend-db", "src", "db.py", "resolve_slug()"], "name": "resolve_slug()", "depth": 3, "total_count": 1, "kind": "leaf"}
 {"path": ["talentserv-ai-hackathon-group-11-backend-db", "src", "db.py", "Row"], "name": "Row", "depth": 3, "total_count": 1, "kind": "leaf"}
@@ -510,7 +540,7 @@
 {"path": ["talentserv-ai-hackathon-group-11-backend-db", "src", "models.py", "str"], "name": "str", "depth": 3, "total_count": 1, "kind": "leaf"}
 {"path": ["talentserv-ai-hackathon-group-11-backend-db", "src", "models.py", "ToolResponse"], "name": "ToolResponse", "depth": 3, "total_count": 1, "kind": "leaf"}
 {"path": ["talentserv-ai-hackathon-group-11-backend-db", "src", "models.py", "utc_now_iso()"], "name": "utc_now_iso()", "depth": 3, "total_count": 1, "kind": "leaf"}
-{"path": ["talentserv-ai-hackathon-group-11-backend-db", "src", "server.py"], "name": "server.py", "depth": 2, "total_count": 65, "kind": "dir"}
+{"path": ["talentserv-ai-hackathon-group-11-backend-db", "src", "server.py"], "name": "server.py", "depth": 2, "total_count": 80, "kind": "dir"}
 {"path": ["talentserv-ai-hackathon-group-11-backend-db", "src", "server.py", "_employee_context_for_args()"], "name": "_employee_context_for_args()", "depth": 3, "total_count": 1, "kind": "leaf"}
 {"path": ["talentserv-ai-hackathon-group-11-backend-db", "src", "server.py", "_employee_slug_from_args()"], "name": "_employee_slug_from_args()", "depth": 3, "total_count": 1, "kind": "leaf"}
 {"path": ["talentserv-ai-hackathon-group-11-backend-db", "src", "server.py", "_format_enriched_response()"], "name": "_format_enriched_response()", "depth": 3, "total_count": 1, "kind": "leaf"}
@@ -522,13 +552,19 @@
 {"path": ["talentserv-ai-hackathon-group-11-backend-db", "src", "server.py", "_resolve_grok_block()"], "name": "_resolve_grok_block()", "depth": 3, "total_count": 1, "kind": "leaf"}
 {"path": ["talentserv-ai-hackathon-group-11-backend-db", "src", "server.py", "_resource_response_enriched()"], "name": "_resource_response_enriched()", "depth": 3, "total_count": 1, "kind": "leaf"}
 {"path": ["talentserv-ai-hackathon-group-11-backend-db", "src", "server.py", "advise_on_leave()"], "name": "advise_on_leave()", "depth": 3, "total_count": 1, "kind": "leaf"}
+{"path": ["talentserv-ai-hackathon-group-11-backend-db", "src", "server.py", "announce_holiday()"], "name": "announce_holiday()", "depth": 3, "total_count": 1, "kind": "leaf"}
 {"path": ["talentserv-ai-hackathon-group-11-backend-db", "src", "server.py", "Any"], "name": "Any", "depth": 3, "total_count": 1, "kind": "leaf"}
 {"path": ["talentserv-ai-hackathon-group-11-backend-db", "src", "server.py", "apply_leave()"], "name": "apply_leave()", "depth": 3, "total_count": 1, "kind": "leaf"}
+{"path": ["talentserv-ai-hackathon-group-11-backend-db", "src", "server.py", "Approve a pending leave request by id."], "name": "Approve a pending leave request by id.", "depth": 3, "total_count": 1, "kind": "symbol"}
+{"path": ["talentserv-ai-hackathon-group-11-backend-db", "src", "server.py", "approve_leave()"], "name": "approve_leave()", "depth": 3, "total_count": 1, "kind": "leaf"}
+{"path": ["talentserv-ai-hackathon-group-11-backend-db", "src", "server.py", "Check leave request status by request_id or latest request for employee."], "name": "Check leave request status by request_id or latest request for employee.", "depth": 3, "total_count": 1, "kind": "symbol"}
 {"path": ["talentserv-ai-hackathon-group-11-backend-db", "src", "server.py", "Check leave request status by request_id or latest request for employee."], "name": "Check leave request status by request_id or latest request for employee.", "depth": 3, "total_count": 1, "kind": "symbol"}
 {"path": ["talentserv-ai-hackathon-group-11-backend-db", "src", "server.py", "Check leave request status by request_id or latest request for employee."], "name": "Check leave request status by request_id or latest request for employee.", "depth": 3, "total_count": 1, "kind": "symbol"}
 {"path": ["talentserv-ai-hackathon-group-11-backend-db", "src", "server.py", "Check leave request status by request_id or latest request for employee."], "name": "Check leave request status by request_id or latest request for employee.", "depth": 3, "total_count": 1, "kind": "symbol"}
 {"path": ["talentserv-ai-hackathon-group-11-backend-db", "src", "server.py", "Check leave request status by request_id or latest request for employee."], "name": "Check leave request status by request_id or latest request for employee.", "depth": 3, "total_count": 1, "kind": "symbol"}
 {"path": ["talentserv-ai-hackathon-group-11-backend-db", "src", "server.py", "check_leave_status()"], "name": "check_leave_status()", "depth": 3, "total_count": 1, "kind": "leaf"}
+{"path": ["talentserv-ai-hackathon-group-11-backend-db", "src", "server.py", "Create a holiday announcement (YYYY-MM-DD) and notify Teams."], "name": "Create a holiday announcement (YYYY-MM-DD) and notify Teams.", "depth": 3, "total_count": 1, "kind": "symbol"}
+{"path": ["talentserv-ai-hackathon-group-11-backend-db", "src", "server.py", "Directory of employees and departments."], "name": "Directory of employees and departments.", "depth": 3, "total_count": 1, "kind": "symbol"}
 {"path": ["talentserv-ai-hackathon-group-11-backend-db", "src", "server.py", "Directory of employees and departments."], "name": "Directory of employees and departments.", "depth": 3, "total_count": 1, "kind": "symbol"}
 {"path": ["talentserv-ai-hackathon-group-11-backend-db", "src", "server.py", "Directory of employees and departments."], "name": "Directory of employees and departments.", "depth": 3, "total_count": 1, "kind": "symbol"}
 {"path": ["talentserv-ai-hackathon-group-11-backend-db", "src", "server.py", "Directory of employees and departments."], "name": "Directory of employees and departments.", "depth": 3, "total_count": 1, "kind": "symbol"}
@@ -539,10 +575,13 @@
 {"path": ["talentserv-ai-hackathon-group-11-backend-db", "src", "server.py", "Get AI leave guidance using Grok from employee data and balances."], "name": "Get AI leave guidance using Grok from employee data and balances.", "depth": 3, "total_count": 1, "kind": "symbol"}
 {"path": ["talentserv-ai-hackathon-group-11-backend-db", "src", "server.py", "Get AI leave guidance using Grok from employee data and balances."], "name": "Get AI leave guidance using Grok from employee data and balances.", "depth": 3, "total_count": 1, "kind": "symbol"}
 {"path": ["talentserv-ai-hackathon-group-11-backend-db", "src", "server.py", "Get AI leave guidance using Grok from employee data and balances."], "name": "Get AI leave guidance using Grok from employee data and balances.", "depth": 3, "total_count": 1, "kind": "symbol"}
+{"path": ["talentserv-ai-hackathon-group-11-backend-db", "src", "server.py", "Get AI leave guidance using Grok from employee data and balances."], "name": "Get AI leave guidance using Grok from employee data and balances.", "depth": 3, "total_count": 1, "kind": "symbol"}
 {"path": ["talentserv-ai-hackathon-group-11-backend-db", "src", "server.py", "Get employee profile and leave balances. employee: slug or name (devin, nisha, g"], "name": "Get employee profile and leave balances. employee: slug or name (devin, nisha, g", "depth": 3, "total_count": 1, "kind": "symbol"}
 {"path": ["talentserv-ai-hackathon-group-11-backend-db", "src", "server.py", "Get employee profile and leave balances. employee: slug or name (devin, nisha, g"], "name": "Get employee profile and leave balances. employee: slug or name (devin, nisha, g", "depth": 3, "total_count": 1, "kind": "symbol"}
 {"path": ["talentserv-ai-hackathon-group-11-backend-db", "src", "server.py", "Get employee profile and leave balances. employee: slug or name (devin, nisha, g"], "name": "Get employee profile and leave balances. employee: slug or name (devin, nisha, g", "depth": 3, "total_count": 1, "kind": "symbol"}
 {"path": ["talentserv-ai-hackathon-group-11-backend-db", "src", "server.py", "Get employee profile and leave balances. employee: slug or name (devin, nisha, g"], "name": "Get employee profile and leave balances. employee: slug or name (devin, nisha, g", "depth": 3, "total_count": 1, "kind": "symbol"}
+{"path": ["talentserv-ai-hackathon-group-11-backend-db", "src", "server.py", "Get employee profile and leave balances. employee: slug or name (devin, nisha, g"], "name": "Get employee profile and leave balances. employee: slug or name (devin, nisha, g", "depth": 3, "total_count": 1, "kind": "symbol"}
+{"path": ["talentserv-ai-hackathon-group-11-backend-db", "src", "server.py", "Get remaining annual and sick leave for an employee."], "name": "Get remaining annual and sick leave for an employee.", "depth": 3, "total_count": 1, "kind": "symbol"}
 {"path": ["talentserv-ai-hackathon-group-11-backend-db", "src", "server.py", "Get remaining annual and sick leave for an employee."], "name": "Get remaining annual and sick leave for an employee.", "depth": 3, "total_count": 1, "kind": "symbol"}
 {"path": ["talentserv-ai-hackathon-group-11-backend-db", "src", "server.py", "Get remaining annual and sick leave for an employee."], "name": "Get remaining annual and sick leave for an employee.", "depth": 3, "total_count": 1, "kind": "symbol"}
 {"path": ["talentserv-ai-hackathon-group-11-backend-db", "src", "server.py", "Get remaining annual and sick leave for an employee."], "name": "Get remaining annual and sick leave for an employee.", "depth": 3, "total_count": 1, "kind": "symbol"}
@@ -554,6 +593,8 @@
 {"path": ["talentserv-ai-hackathon-group-11-backend-db", "src", "server.py", "List all office employees with leave balances."], "name": "List all office employees with leave balances.", "depth": 3, "total_count": 1, "kind": "symbol"}
 {"path": ["talentserv-ai-hackathon-group-11-backend-db", "src", "server.py", "List all office employees with leave balances."], "name": "List all office employees with leave balances.", "depth": 3, "total_count": 1, "kind": "symbol"}
 {"path": ["talentserv-ai-hackathon-group-11-backend-db", "src", "server.py", "List all office employees with leave balances."], "name": "List all office employees with leave balances.", "depth": 3, "total_count": 1, "kind": "symbol"}
+{"path": ["talentserv-ai-hackathon-group-11-backend-db", "src", "server.py", "List all office employees with leave balances."], "name": "List all office employees with leave balances.", "depth": 3, "total_count": 1, "kind": "symbol"}
+{"path": ["talentserv-ai-hackathon-group-11-backend-db", "src", "server.py", "List leave requests, optionally filtered by employee slug and status."], "name": "List leave requests, optionally filtered by employee slug and status.", "depth": 3, "total_count": 1, "kind": "symbol"}
 {"path": ["talentserv-ai-hackathon-group-11-backend-db", "src", "server.py", "List leave requests, optionally filtered by employee slug and status."], "name": "List leave requests, optionally filtered by employee slug and status.", "depth": 3, "total_count": 1, "kind": "symbol"}
 {"path": ["talentserv-ai-hackathon-group-11-backend-db", "src", "server.py", "List leave requests, optionally filtered by employee slug and status."], "name": "List leave requests, optionally filtered by employee slug and status.", "depth": 3, "total_count": 1, "kind": "symbol"}
 {"path": ["talentserv-ai-hackathon-group-11-backend-db", "src", "server.py", "List leave requests, optionally filtered by employee slug and status."], "name": "List leave requests, optionally filtered by employee slug and status.", "depth": 3, "total_count": 1, "kind": "symbol"}
@@ -567,15 +608,78 @@
 {"path": ["talentserv-ai-hackathon-group-11-backend-db", "src", "server.py", "Office leave policy rules."], "name": "Office leave policy rules.", "depth": 3, "total_count": 1, "kind": "symbol"}
 {"path": ["talentserv-ai-hackathon-group-11-backend-db", "src", "server.py", "parse_enriched_mcp_response()"], "name": "parse_enriched_mcp_response()", "depth": 3, "total_count": 1, "kind": "leaf"}
 {"path": ["talentserv-ai-hackathon-group-11-backend-db", "src", "server.py", "policy_resource()"], "name": "policy_resource()", "depth": 3, "total_count": 1, "kind": "leaf"}
+{"path": ["talentserv-ai-hackathon-group-11-backend-db", "src", "server.py", "Reject a pending leave request by id."], "name": "Reject a pending leave request by id.", "depth": 3, "total_count": 1, "kind": "symbol"}
+{"path": ["talentserv-ai-hackathon-group-11-backend-db", "src", "server.py", "reject_leave()"], "name": "reject_leave()", "depth": 3, "total_count": 1, "kind": "leaf"}
 {"path": ["talentserv-ai-hackathon-group-11-backend-db", "src", "server.py", "str"], "name": "str", "depth": 3, "total_count": 1, "kind": "leaf"}
 {"path": ["talentserv-ai-hackathon-group-11-backend-db", "src", "server.py", "Submit a pending leave request. Dates: YYYY-MM-DD. leave_type: annual or sick."], "name": "Submit a pending leave request. Dates: YYYY-MM-DD. leave_type: annual or sick.", "depth": 3, "total_count": 1, "kind": "symbol"}
 {"path": ["talentserv-ai-hackathon-group-11-backend-db", "src", "server.py", "Submit a pending leave request. Dates: YYYY-MM-DD. leave_type: annual or sick."], "name": "Submit a pending leave request. Dates: YYYY-MM-DD. leave_type: annual or sick.", "depth": 3, "total_count": 1, "kind": "symbol"}
 {"path": ["talentserv-ai-hackathon-group-11-backend-db", "src", "server.py", "Submit a pending leave request. Dates: YYYY-MM-DD. leave_type: annual or sick."], "name": "Submit a pending leave request. Dates: YYYY-MM-DD. leave_type: annual or sick.", "depth": 3, "total_count": 1, "kind": "symbol"}
 {"path": ["talentserv-ai-hackathon-group-11-backend-db", "src", "server.py", "Submit a pending leave request. Dates: YYYY-MM-DD. leave_type: annual or sick."], "name": "Submit a pending leave request. Dates: YYYY-MM-DD. leave_type: annual or sick.", "depth": 3, "total_count": 1, "kind": "symbol"}
+{"path": ["talentserv-ai-hackathon-group-11-backend-db", "src", "server.py", "Submit a pending leave request. Dates: YYYY-MM-DD. leave_type: annual or sick."], "name": "Submit a pending leave request. Dates: YYYY-MM-DD. leave_type: annual or sick.", "depth": 3, "total_count": 1, "kind": "symbol"}
 {"path": ["talentserv-ai-hackathon-group-11-backend-db", "src", "server.py", "Template prompt for leave questions using employee context."], "name": "Template prompt for leave questions using employee context.", "depth": 3, "total_count": 1, "kind": "symbol"}
 {"path": ["talentserv-ai-hackathon-group-11-backend-db", "src", "server.py", "Template prompt for leave questions using employee context."], "name": "Template prompt for leave questions using employee context.", "depth": 3, "total_count": 1, "kind": "symbol"}
 {"path": ["talentserv-ai-hackathon-group-11-backend-db", "src", "server.py", "Template prompt for leave questions using employee context."], "name": "Template prompt for leave questions using employee context.", "depth": 3, "total_count": 1, "kind": "symbol"}
 {"path": ["talentserv-ai-hackathon-group-11-backend-db", "src", "server.py", "Template prompt for leave questions using employee context."], "name": "Template prompt for leave questions using employee context.", "depth": 3, "total_count": 1, "kind": "symbol"}
+{"path": ["talentserv-ai-hackathon-group-11-backend-db", "src", "server.py", "Template prompt for leave questions using employee context."], "name": "Template prompt for leave questions using employee context.", "depth": 3, "total_count": 1, "kind": "symbol"}
+{"path": ["talentserv-ai-hackathon-group-11-backend-db", "src", "services"], "name": "services", "depth": 2, "total_count": 23, "kind": "dir"}
+{"path": ["talentserv-ai-hackathon-group-11-backend-db", "src", "services", "api_client.py"], "name": "api_client.py", "depth": 3, "total_count": 5, "kind": "dir"}
+{"path": ["talentserv-ai-hackathon-group-11-backend-db", "src", "services", "api_client.py", "Any"], "name": "Any", "depth": 4, "total_count": 1, "kind": "leaf"}
+{"path": ["talentserv-ai-hackathon-group-11-backend-db", "src", "services", "api_client.py", "float"], "name": "float", "depth": 4, "total_count": 1, "kind": "leaf"}
+{"path": ["talentserv-ai-hackathon-group-11-backend-db", "src", "services", "api_client.py", "post_json()"], "name": "post_json()", "depth": 4, "total_count": 1, "kind": "leaf"}
+{"path": ["talentserv-ai-hackathon-group-11-backend-db", "src", "services", "api_client.py", "str"], "name": "str", "depth": 4, "total_count": 1, "kind": "leaf"}
+{"path": ["talentserv-ai-hackathon-group-11-backend-db", "src", "services", "api_client.py", "Thin wrapper around `requests.post` so we can centralize:     - timeouts     - b"], "name": "Thin wrapper around `requests.post` so we can centralize:     - timeouts     - b", "depth": 4, "total_count": 1, "kind": "symbol"}
+{"path": ["talentserv-ai-hackathon-group-11-backend-db", "src", "services", "teams_service.py"], "name": "teams_service.py", "depth": 3, "total_count": 17, "kind": "dir"}
+{"path": ["talentserv-ai-hackathon-group-11-backend-db", "src", "services", "teams_service.py", "_is_truthy()"], "name": "_is_truthy()", "depth": 4, "total_count": 1, "kind": "leaf"}
+{"path": ["talentserv-ai-hackathon-group-11-backend-db", "src", "services", "teams_service.py", "_teams_timeout_seconds()"], "name": "_teams_timeout_seconds()", "depth": 4, "total_count": 1, "kind": "leaf"}
+{"path": ["talentserv-ai-hackathon-group-11-backend-db", "src", "services", "teams_service.py", "_teams_webhook_url()"], "name": "_teams_webhook_url()", "depth": 4, "total_count": 1, "kind": "leaf"}
+{"path": ["talentserv-ai-hackathon-group-11-backend-db", "src", "services", "teams_service.py", "bool"], "name": "bool", "depth": 4, "total_count": 1, "kind": "leaf"}
+{"path": ["talentserv-ai-hackathon-group-11-backend-db", "src", "services", "teams_service.py", "float"], "name": "float", "depth": 4, "total_count": 1, "kind": "leaf"}
+{"path": ["talentserv-ai-hackathon-group-11-backend-db", "src", "services", "teams_service.py", "format_teams_connection_test_message()"], "name": "format_teams_connection_test_message()", "depth": 4, "total_count": 1, "kind": "leaf"}
+{"path": ["talentserv-ai-hackathon-group-11-backend-db", "src", "services", "teams_service.py", "Microsoft Teams Incoming Webhook URL.      Teams Incoming Webhooks are \"pre-au"], "name": "Microsoft Teams Incoming Webhook URL.      Teams Incoming Webhooks are \"pre-au", "depth": 4, "total_count": 1, "kind": "symbol"}
+{"path": ["talentserv-ai-hackathon-group-11-backend-db", "src", "services", "teams_service.py", "Microsoft Teams Incoming Webhook URL.      Teams Incoming Webhooks are \"pre-auth"], "name": "Microsoft Teams Incoming Webhook URL.      Teams Incoming Webhooks are \"pre-auth", "depth": 4, "total_count": 1, "kind": "symbol"}
+{"path": ["talentserv-ai-hackathon-group-11-backend-db", "src", "services", "teams_service.py", "Post a meaningful smoke-test message to verify the Incoming Webhook."], "name": "Post a meaningful smoke-test message to verify the Incoming Webhook.", "depth": 4, "total_count": 1, "kind": "symbol"}
+{"path": ["talentserv-ai-hackathon-group-11-backend-db", "src", "services", "teams_service.py", "Post a meaningful smoke-test message to verify the Incoming Webhook."], "name": "Post a meaningful smoke-test message to verify the Incoming Webhook.", "depth": 4, "total_count": 1, "kind": "symbol"}
+{"path": ["talentserv-ai-hackathon-group-11-backend-db", "src", "services", "teams_service.py", "Sample message for webhook smoke tests (not a real leave event)."], "name": "Sample message for webhook smoke tests (not a real leave event).", "depth": 4, "total_count": 1, "kind": "symbol"}
+{"path": ["talentserv-ai-hackathon-group-11-backend-db", "src", "services", "teams_service.py", "Sample message for webhook smoke tests (not a real leave event)."], "name": "Sample message for webhook smoke tests (not a real leave event).", "depth": 4, "total_count": 1, "kind": "symbol"}
+{"path": ["talentserv-ai-hackathon-group-11-backend-db", "src", "services", "teams_service.py", "Send a notification to Microsoft Teams via Incoming Webhook.      This is inte"], "name": "Send a notification to Microsoft Teams via Incoming Webhook.      This is inte", "depth": 4, "total_count": 1, "kind": "symbol"}
+{"path": ["talentserv-ai-hackathon-group-11-backend-db", "src", "services", "teams_service.py", "Send a notification to Microsoft Teams via Incoming Webhook.      This is intent"], "name": "Send a notification to Microsoft Teams via Incoming Webhook.      This is intent", "depth": 4, "total_count": 1, "kind": "symbol"}
+{"path": ["talentserv-ai-hackathon-group-11-backend-db", "src", "services", "teams_service.py", "send_teams_connection_test()"], "name": "send_teams_connection_test()", "depth": 4, "total_count": 1, "kind": "leaf"}
+{"path": ["talentserv-ai-hackathon-group-11-backend-db", "src", "services", "teams_service.py", "send_teams_message()"], "name": "send_teams_message()", "depth": 4, "total_count": 1, "kind": "leaf"}
+{"path": ["talentserv-ai-hackathon-group-11-backend-db", "src", "services", "teams_service.py", "str"], "name": "str", "depth": 4, "total_count": 1, "kind": "leaf"}
+{"path": ["talentserv-ai-hackathon-group-11-backend-db", "src", "services", "__init__.py"], "name": "__init__.py", "depth": 3, "total_count": 1, "kind": "symbol"}
+{"path": ["talentserv-ai-hackathon-group-11-backend-db", "src", "tools"], "name": "tools", "depth": 2, "total_count": 31, "kind": "dir"}
+{"path": ["talentserv-ai-hackathon-group-11-backend-db", "src", "tools", "leave_tools.py"], "name": "leave_tools.py", "depth": 3, "total_count": 30, "kind": "dir"}
+{"path": ["talentserv-ai-hackathon-group-11-backend-db", "src", "tools", "leave_tools.py", "_attach_teams_status()"], "name": "_attach_teams_status()", "depth": 4, "total_count": 1, "kind": "leaf"}
+{"path": ["talentserv-ai-hackathon-group-11-backend-db", "src", "tools", "leave_tools.py", "_date_range_label()"], "name": "_date_range_label()", "depth": 4, "total_count": 1, "kind": "leaf"}
+{"path": ["talentserv-ai-hackathon-group-11-backend-db", "src", "tools", "leave_tools.py", "_days_label()"], "name": "_days_label()", "depth": 4, "total_count": 1, "kind": "leaf"}
+{"path": ["talentserv-ai-hackathon-group-11-backend-db", "src", "tools", "leave_tools.py", "_employee_department()"], "name": "_employee_department()", "depth": 4, "total_count": 1, "kind": "leaf"}
+{"path": ["talentserv-ai-hackathon-group-11-backend-db", "src", "tools", "leave_tools.py", "_employee_header()"], "name": "_employee_header()", "depth": 4, "total_count": 1, "kind": "leaf"}
+{"path": ["talentserv-ai-hackathon-group-11-backend-db", "src", "tools", "leave_tools.py", "_leave_type_label()"], "name": "_leave_type_label()", "depth": 4, "total_count": 1, "kind": "leaf"}
+{"path": ["talentserv-ai-hackathon-group-11-backend-db", "src", "tools", "leave_tools.py", "_manager_webhook_for_employee()"], "name": "_manager_webhook_for_employee()", "depth": 4, "total_count": 1, "kind": "leaf"}
+{"path": ["talentserv-ai-hackathon-group-11-backend-db", "src", "tools", "leave_tools.py", "_notify_manager_if_configured()"], "name": "_notify_manager_if_configured()", "depth": 4, "total_count": 1, "kind": "leaf"}
+{"path": ["talentserv-ai-hackathon-group-11-backend-db", "src", "tools", "leave_tools.py", "_notify_teams()"], "name": "_notify_teams()", "depth": 4, "total_count": 1, "kind": "leaf"}
+{"path": ["talentserv-ai-hackathon-group-11-backend-db", "src", "tools", "leave_tools.py", "announce_holiday()"], "name": "announce_holiday()", "depth": 4, "total_count": 1, "kind": "leaf"}
+{"path": ["talentserv-ai-hackathon-group-11-backend-db", "src", "tools", "leave_tools.py", "Any"], "name": "Any", "depth": 4, "total_count": 1, "kind": "leaf"}
+{"path": ["talentserv-ai-hackathon-group-11-backend-db", "src", "tools", "leave_tools.py", "apply_leave()"], "name": "apply_leave()", "depth": 4, "total_count": 1, "kind": "leaf"}
+{"path": ["talentserv-ai-hackathon-group-11-backend-db", "src", "tools", "leave_tools.py", "approve_leave()"], "name": "approve_leave()", "depth": 4, "total_count": 1, "kind": "leaf"}
+{"path": ["talentserv-ai-hackathon-group-11-backend-db", "src", "tools", "leave_tools.py", "bool"], "name": "bool", "depth": 4, "total_count": 1, "kind": "leaf"}
+{"path": ["talentserv-ai-hackathon-group-11-backend-db", "src", "tools", "leave_tools.py", "Fire-and-forget style notification with safe error handling.      We run `requ"], "name": "Fire-and-forget style notification with safe error handling.      We run `requ", "depth": 4, "total_count": 1, "kind": "symbol"}
+{"path": ["talentserv-ai-hackathon-group-11-backend-db", "src", "tools", "leave_tools.py", "Fire-and-forget style notification with safe error handling.      We run `reques"], "name": "Fire-and-forget style notification with safe error handling.      We run `reques", "depth": 4, "total_count": 1, "kind": "symbol"}
+{"path": ["talentserv-ai-hackathon-group-11-backend-db", "src", "tools", "leave_tools.py", "format_holiday_teams_message()"], "name": "format_holiday_teams_message()", "depth": 4, "total_count": 1, "kind": "leaf"}
+{"path": ["talentserv-ai-hackathon-group-11-backend-db", "src", "tools", "leave_tools.py", "format_leave_teams_message()"], "name": "format_leave_teams_message()", "depth": 4, "total_count": 1, "kind": "leaf"}
+{"path": ["talentserv-ai-hackathon-group-11-backend-db", "src", "tools", "leave_tools.py", "Human-readable Teams text for leave lifecycle events."], "name": "Human-readable Teams text for leave lifecycle events.", "depth": 4, "total_count": 1, "kind": "symbol"}
+{"path": ["talentserv-ai-hackathon-group-11-backend-db", "src", "tools", "leave_tools.py", "int"], "name": "int", "depth": 4, "total_count": 1, "kind": "leaf"}
+{"path": ["talentserv-ai-hackathon-group-11-backend-db", "src", "tools", "leave_tools.py", "LeaveTeamsEvent"], "name": "LeaveTeamsEvent", "depth": 4, "total_count": 1, "kind": "leaf"}
+{"path": ["talentserv-ai-hackathon-group-11-backend-db", "src", "tools", "leave_tools.py", "Optional \"notify manager separately\" using department-based webhook mapping."], "name": "Optional \"notify manager separately\" using department-based webhook mapping.", "depth": 4, "total_count": 1, "kind": "symbol"}
+{"path": ["talentserv-ai-hackathon-group-11-backend-db", "src", "tools", "leave_tools.py", "Optional \"notify manager separately\" using department-based webhook mapping."], "name": "Optional \"notify manager separately\" using department-based webhook mapping.", "depth": 4, "total_count": 1, "kind": "symbol"}
+{"path": ["talentserv-ai-hackathon-group-11-backend-db", "src", "tools", "leave_tools.py", "Optional \"notify manager separately\" using department-based webhook mapping."], "name": "Optional \"notify manager separately\" using department-based webhook mapping.", "depth": 4, "total_count": 1, "kind": "symbol"}
+{"path": ["talentserv-ai-hackathon-group-11-backend-db", "src", "tools", "leave_tools.py", "Optional \"notify manager separately\" using department-based webhook mapping."], "name": "Optional \"notify manager separately\" using department-based webhook mapping.", "depth": 4, "total_count": 1, "kind": "symbol"}
+{"path": ["talentserv-ai-hackathon-group-11-backend-db", "src", "tools", "leave_tools.py", "Post to Teams; returns True on success. Never raises."], "name": "Post to Teams; returns True on success. Never raises.", "depth": 4, "total_count": 1, "kind": "symbol"}
+{"path": ["talentserv-ai-hackathon-group-11-backend-db", "src", "tools", "leave_tools.py", "reject_leave()"], "name": "reject_leave()", "depth": 4, "total_count": 1, "kind": "leaf"}
+{"path": ["talentserv-ai-hackathon-group-11-backend-db", "src", "tools", "leave_tools.py", "str"], "name": "str", "depth": 4, "total_count": 1, "kind": "leaf"}
+{"path": ["talentserv-ai-hackathon-group-11-backend-db", "src", "tools", "leave_tools.py", "TeamsAudience"], "name": "TeamsAudience", "depth": 4, "total_count": 1, "kind": "leaf"}
+{"path": ["talentserv-ai-hackathon-group-11-backend-db", "src", "tools", "leave_tools.py", "ToolResponse"], "name": "ToolResponse", "depth": 4, "total_count": 1, "kind": "leaf"}
+{"path": ["talentserv-ai-hackathon-group-11-backend-db", "src", "tools", "__init__.py"], "name": "__init__.py", "depth": 3, "total_count": 1, "kind": "symbol"}
 {"path": ["talentserv-ai-hackathon-group-11-backend-db", "src", "whatsapp"], "name": "whatsapp", "depth": 2, "total_count": 39, "kind": "dir"}
 {"path": ["talentserv-ai-hackathon-group-11-backend-db", "src", "whatsapp", "__init__.py"], "name": "__init__.py", "depth": 3, "total_count": 1, "kind": "dir"}
 {"path": ["talentserv-ai-hackathon-group-11-backend-db", "src", "whatsapp", "__init__.py", "Twilio WhatsApp sandbox integration for office leave demo."], "name": "Twilio WhatsApp sandbox integration for office leave demo.", "depth": 4, "total_count": 1, "kind": "symbol"}
