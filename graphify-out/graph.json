@@ -1367,7 +1367,7 @@
       "source_file": "scripts/init_db.py",
       "source_location": "L1",
       "id": "scripts_init_db_py",
-      "community": 6,
+      "community": 2,
       "norm_label": "init_db.py"
     },
     {
@@ -2042,7 +2042,7 @@
       "source_file": "src/init_db.py",
       "source_location": "L13",
       "id": "src_init_db_run_sql_file",
-      "community": 6,
+      "community": 2,
       "norm_label": "run_sql_file()"
     },
     {
@@ -2051,7 +2051,7 @@
       "source_file": "src/init_db.py",
       "source_location": "L17",
       "id": "src_init_db_init_db",
-      "community": 6,
+      "community": 2,
       "norm_label": "init_db()"
     },
     {
@@ -2060,7 +2060,7 @@
       "source_file": "src/init_db.py",
       "source_location": "L44",
       "id": "src_init_db_main",
-      "community": 6,
+      "community": 2,
       "norm_label": "main()"
     },
     {
@@ -2195,7 +2195,7 @@
       "source_file": "src/mcp_enrichment.py",
       "source_location": "L170",
       "id": "src_mcp_enrichment_grokenrichmentmiddleware",
-      "community": 63,
+      "community": 52,
       "norm_label": "grokenrichmentmiddleware"
     },
     {
@@ -2204,7 +2204,7 @@
       "source_file": "",
       "source_location": "",
       "id": "middleware",
-      "community": 63,
+      "community": 52,
       "norm_label": "middleware"
     },
     {
@@ -2213,7 +2213,7 @@
       "source_file": "src/mcp_enrichment.py",
       "source_location": "L173",
       "id": "src_mcp_enrichment_grokenrichmentmiddleware_on_call_tool",
-      "community": 34,
+      "community": 52,
       "norm_label": ".on_call_tool()"
     },
     {
@@ -2231,7 +2231,7 @@
       "source_file": "src/mcp_enrichment.py",
       "source_location": "L210",
       "id": "src_mcp_enrichment_grokenrichmentmiddleware_on_get_prompt",
-      "community": 34,
+      "community": 52,
       "norm_label": ".on_get_prompt()"
     },
     {
@@ -2267,7 +2267,7 @@
       "source_file": "src/mcp_enrichment.py",
       "source_location": "L171",
       "id": "src_mcp_enrichment_rationale_171",
-      "community": 63,
+      "community": 52,
       "norm_label": "guarantee grok header/footer on every tool call, resource read, and prompt."
     },
     {
@@ -2447,7 +2447,7 @@
       "source_file": "src/server.py",
       "source_location": "L253",
       "id": "src_server_check_leave_status",
-      "community": 54,
+      "community": 63,
       "norm_label": "check_leave_status()"
     },
     {
@@ -2492,7 +2492,7 @@
       "source_file": "src/server.py",
       "source_location": "L349",
       "id": "src_server_advise_on_leave",
-      "community": 52,
+      "community": 47,
       "norm_label": "advise_on_leave()"
     },
     {
@@ -2573,7 +2573,7 @@
       "source_file": "src/server.py",
       "source_location": "L261",
       "id": "src_server_rationale_261",
-      "community": 54,
+      "community": 63,
       "norm_label": "check leave request status by request_id or latest request for employee."
     },
     {
@@ -2618,7 +2618,7 @@
       "source_file": "src/server.py",
       "source_location": "L351",
       "id": "src_server_rationale_351",
-      "community": 52,
+      "community": 47,
       "norm_label": "get ai leave guidance using grok from employee data and balances."
     },
     {
@@ -3275,7 +3275,7 @@
       "source_file": "tests/test_grok_enrichment.py",
       "source_location": "L33",
       "id": "tests_test_grok_enrichment_temp_db",
-      "community": 6,
+      "community": 2,
       "norm_label": "temp_db()"
     },
     {
@@ -3482,7 +3482,7 @@
       "source_file": "tests/test_whatsapp_commands.py",
       "source_location": "L21",
       "id": "tests_test_whatsapp_commands_temp_db",
-      "community": 6,
+      "community": 2,
       "norm_label": "temp_db()"
     },
     {
@@ -3648,10 +3648,19 @@
       "norm_label": "code:bash (curl -fssl https://raw.githubusercontent.com/devinraina258/t)"
     },
     {
-      "label": "Token-saving hooks ([cache-cow](https://github.com/soonswan-study/cache-cow))",
+      "label": "Demo and Recordings",
       "file_type": "document",
       "source_file": "README.md",
       "source_location": "L21",
+      "id": "talentserv_ai_hackathon_group_11_backend_db_readme_demo_and_recordings",
+      "community": 32,
+      "norm_label": "demo and recordings"
+    },
+    {
+      "label": "Token-saving hooks ([cache-cow](https://github.com/soonswan-study/cache-cow))",
+      "file_type": "document",
+      "source_file": "README.md",
+      "source_location": "L25",
       "id": "talentserv_ai_hackathon_group_11_backend_db_readme_token_saving_hooks_cache_cow_https_github_com_soonswan_study_cache_cow",
       "community": 32,
       "norm_label": "token-saving hooks ([cache-cow](https://github.com/soonswan-study/cache-cow))"
@@ -3660,7 +3669,7 @@
       "label": "Prerequisites",
       "file_type": "document",
       "source_file": "README.md",
-      "source_location": "L27",
+      "source_location": "L31",
       "id": "talentserv_ai_hackathon_group_11_backend_db_readme_prerequisites",
       "community": 32,
       "norm_label": "prerequisites"
@@ -3669,7 +3678,7 @@
       "label": "Quick start",
       "file_type": "document",
       "source_file": "README.md",
-      "source_location": "L33",
+      "source_location": "L37",
       "id": "talentserv_ai_hackathon_group_11_backend_db_readme_quick_start",
       "community": 32,
       "norm_label": "quick start"
@@ -3678,7 +3687,7 @@
       "label": "code:bash (git clone https://github.com/devinraina258/talentserv-ai-hac)",
       "file_type": "document",
       "source_file": "README.md",
-      "source_location": "L35",
+      "source_location": "L39",
       "id": "talentserv_ai_hackathon_group_11_backend_db_readme_codeblock_3",
       "community": 32,
       "norm_label": "code:bash (git clone https://github.com/devinraina258/talentserv-ai-hac)"
@@ -3687,7 +3696,7 @@
       "label": "1. Create the database",
       "file_type": "document",
       "source_file": "README.md",
-      "source_location": "L43",
+      "source_location": "L47",
       "id": "talentserv_ai_hackathon_group_11_backend_db_readme_1_create_the_database",
       "community": 32,
       "norm_label": "1. create the database"
@@ -3696,7 +3705,7 @@
       "label": "code:bash (office-leave-init-db)",
       "file_type": "document",
       "source_file": "README.md",
-      "source_location": "L45",
+      "source_location": "L49",
       "id": "talentserv_ai_hackathon_group_11_backend_db_readme_codeblock_4",
       "community": 32,
       "norm_label": "code:bash (office-leave-init-db)"
@@ -3705,7 +3714,7 @@
       "label": "2. Environment",
       "file_type": "document",
       "source_file": "README.md",
-      "source_location": "L52",
+      "source_location": "L56",
       "id": "talentserv_ai_hackathon_group_11_backend_db_readme_2_environment",
       "community": 32,
       "norm_label": "2. environment"
@@ -3714,7 +3723,7 @@
       "label": "code:bash (copy .env.example .env)",
       "file_type": "document",
       "source_file": "README.md",
-      "source_location": "L54",
+      "source_location": "L58",
       "id": "talentserv_ai_hackathon_group_11_backend_db_readme_codeblock_5",
       "community": 32,
       "norm_label": "code:bash (copy .env.example .env)"
@@ -3723,7 +3732,7 @@
       "label": "3. Run tests",
       "file_type": "document",
       "source_file": "README.md",
-      "source_location": "L60",
+      "source_location": "L64",
       "id": "talentserv_ai_hackathon_group_11_backend_db_readme_3_run_tests",
       "community": 32,
       "norm_label": "3. run tests"
@@ -3732,7 +3741,7 @@
       "label": "code:bash (pytest)",
       "file_type": "document",
       "source_file": "README.md",
-      "source_location": "L62",
+      "source_location": "L66",
       "id": "talentserv_ai_hackathon_group_11_backend_db_readme_codeblock_6",
       "community": 32,
       "norm_label": "code:bash (pytest)"
@@ -3741,7 +3750,7 @@
       "label": "4. Run the MCP server (stdio)",
       "file_type": "document",
       "source_file": "README.md",
-      "source_location": "L66",
+      "source_location": "L70",
       "id": "talentserv_ai_hackathon_group_11_backend_db_readme_4_run_the_mcp_server_stdio",
       "community": 32,
       "norm_label": "4. run the mcp server (stdio)"
@@ -3750,7 +3759,7 @@
       "label": "code:bash (python -m src.server)",
       "file_type": "document",
       "source_file": "README.md",
-      "source_location": "L68",
+      "source_location": "L72",
       "id": "talentserv_ai_hackathon_group_11_backend_db_readme_codeblock_7",
       "community": 32,
       "norm_label": "code:bash (python -m src.server)"
@@ -3759,7 +3768,7 @@
       "label": "code:bash (fastmcp run src/server.py)",
       "file_type": "document",
       "source_file": "README.md",
-      "source_location": "L74",
+      "source_location": "L78",
       "id": "talentserv_ai_hackathon_group_11_backend_db_readme_codeblock_8",
       "community": 32,
       "norm_label": "code:bash (fastmcp run src/server.py)"
@@ -3768,7 +3777,7 @@
       "label": "Knowledge graph ([graphify](https://github.com/safishamsi/graphify))",
       "file_type": "document",
       "source_file": "README.md",
-      "source_location": "L78",
+      "source_location": "L82",
       "id": "talentserv_ai_hackathon_group_11_backend_db_readme_knowledge_graph_graphify_https_github_com_safishamsi_graphify",
       "community": 32,
       "norm_label": "knowledge graph ([graphify](https://github.com/safishamsi/graphify))"
@@ -3777,7 +3786,7 @@
       "label": "code:bash (pip install \"graphifyy[mcp]>=0.8.14\")",
       "file_type": "document",
       "source_file": "README.md",
-      "source_location": "L92",
+      "source_location": "L96",
       "id": "talentserv_ai_hackathon_group_11_backend_db_readme_codeblock_9",
       "community": 32,
       "norm_label": "code:bash (pip install \"graphifyy[mcp]>=0.8.14\")"
@@ -3786,7 +3795,7 @@
       "label": "code:bash (npm run graphify:sync)",
       "file_type": "document",
       "source_file": "README.md",
-      "source_location": "L110",
+      "source_location": "L114",
       "id": "talentserv_ai_hackathon_group_11_backend_db_readme_codeblock_10",
       "community": 32,
       "norm_label": "code:bash (npm run graphify:sync)"
@@ -3795,7 +3804,7 @@
       "label": "code:bash (graphify query \"how does apply_leave connect to the database)",
       "file_type": "document",
       "source_file": "README.md",
-      "source_location": "L116",
+      "source_location": "L120",
       "id": "talentserv_ai_hackathon_group_11_backend_db_readme_codeblock_11",
       "community": 32,
       "norm_label": "code:bash (graphify query \"how does apply_leave connect to the database)"
@@ -3804,7 +3813,7 @@
       "label": "Add to Cursor",
       "file_type": "document",
       "source_file": "README.md",
-      "source_location": "L122",
+      "source_location": "L126",
       "id": "talentserv_ai_hackathon_group_11_backend_db_readme_add_to_cursor",
       "community": 32,
       "norm_label": "add to cursor"
@@ -3813,7 +3822,7 @@
       "label": "WhatsApp demo (Twilio Sandbox)",
       "file_type": "document",
       "source_file": "README.md",
-      "source_location": "L132",
+      "source_location": "L136",
       "id": "talentserv_ai_hackathon_group_11_backend_db_readme_whatsapp_demo_twilio_sandbox",
       "community": 32,
       "norm_label": "whatsapp demo (twilio sandbox)"
@@ -3822,7 +3831,7 @@
       "label": "code:bash (pip install -e \".[whatsapp]\")",
       "file_type": "document",
       "source_file": "README.md",
-      "source_location": "L136",
+      "source_location": "L140",
       "id": "talentserv_ai_hackathon_group_11_backend_db_readme_codeblock_12",
       "community": 32,
       "norm_label": "code:bash (pip install -e \".[whatsapp]\")"
@@ -3831,7 +3840,7 @@
       "label": "Microsoft Teams notifications",
       "file_type": "document",
       "source_file": "README.md",
-      "source_location": "L143",
+      "source_location": "L147",
       "id": "talentserv_ai_hackathon_group_11_backend_db_readme_microsoft_teams_notifications",
       "community": 32,
       "norm_label": "microsoft teams notifications"
@@ -3840,7 +3849,7 @@
       "label": "code:bash (copy .env.example .env   # set TEAMS_WEBHOOK_URL)",
       "file_type": "document",
       "source_file": "README.md",
-      "source_location": "L147",
+      "source_location": "L151",
       "id": "talentserv_ai_hackathon_group_11_backend_db_readme_codeblock_13",
       "community": 32,
       "norm_label": "code:bash (copy .env.example .env   # set teams_webhook_url)"
@@ -3849,7 +3858,7 @@
       "label": "MCP tools",
       "file_type": "document",
       "source_file": "README.md",
-      "source_location": "L154",
+      "source_location": "L158",
       "id": "talentserv_ai_hackathon_group_11_backend_db_readme_mcp_tools",
       "community": 32,
       "norm_label": "mcp tools"
@@ -3858,7 +3867,7 @@
       "label": "MCP resources",
       "file_type": "document",
       "source_file": "README.md",
-      "source_location": "L171",
+      "source_location": "L175",
       "id": "talentserv_ai_hackathon_group_11_backend_db_readme_mcp_resources",
       "community": 32,
       "norm_label": "mcp resources"
@@ -3867,7 +3876,7 @@
       "label": "Example prompts in Cursor",
       "file_type": "document",
       "source_file": "README.md",
-      "source_location": "L176",
+      "source_location": "L180",
       "id": "talentserv_ai_hackathon_group_11_backend_db_readme_example_prompts_in_cursor",
       "community": 32,
       "norm_label": "example prompts in cursor"
@@ -3876,7 +3885,7 @@
       "label": "Employees (seed data)",
       "file_type": "document",
       "source_file": "README.md",
-      "source_location": "L185",
+      "source_location": "L189",
       "id": "talentserv_ai_hackathon_group_11_backend_db_readme_employees_seed_data",
       "community": 32,
       "norm_label": "employees (seed data)"
@@ -3885,7 +3894,7 @@
       "label": "Publish to GitHub",
       "file_type": "document",
       "source_file": "README.md",
-      "source_location": "L195",
+      "source_location": "L199",
       "id": "talentserv_ai_hackathon_group_11_backend_db_readme_publish_to_github",
       "community": 32,
       "norm_label": "publish to github"
@@ -3894,7 +3903,7 @@
       "label": "code:bash (gh auth login)",
       "file_type": "document",
       "source_file": "README.md",
-      "source_location": "L197",
+      "source_location": "L201",
       "id": "talentserv_ai_hackathon_group_11_backend_db_readme_codeblock_14",
       "community": 32,
       "norm_label": "code:bash (gh auth login)"
@@ -3903,7 +3912,7 @@
       "label": "License",
       "file_type": "document",
       "source_file": "README.md",
-      "source_location": "L202",
+      "source_location": "L206",
       "id": "talentserv_ai_hackathon_group_11_backend_db_readme_license",
       "community": 32,
       "norm_label": "license"
@@ -4218,7 +4227,7 @@
       "label": "Executive Summary: ~$20 Budget, Multi-Channel AI Platform",
       "file_type": "document",
       "source_file": "docs/HACKATHON_SUBMISSION.md",
-      "source_location": "L9",
+      "source_location": "L10",
       "id": "docs_hackathon_submission_executive_summary_20_budget_multi_channel_ai_platform",
       "community": 1,
       "norm_label": "executive summary: ~$20 budget, multi-channel ai platform"
@@ -4227,7 +4236,7 @@
       "label": "1. Groomed Requirements Document",
       "file_type": "document",
       "source_file": "docs/HACKATHON_SUBMISSION.md",
-      "source_location": "L31",
+      "source_location": "L32",
       "id": "docs_hackathon_submission_1_groomed_requirements_document",
       "community": 1,
       "norm_label": "1. groomed requirements document"
@@ -4236,7 +4245,7 @@
       "label": "Problem",
       "file_type": "document",
       "source_file": "docs/HACKATHON_SUBMISSION.md",
-      "source_location": "L33",
+      "source_location": "L34",
       "id": "docs_hackathon_submission_problem",
       "community": 1,
       "norm_label": "problem"
@@ -4245,7 +4254,7 @@
       "label": "Assumptions",
       "file_type": "document",
       "source_file": "docs/HACKATHON_SUBMISSION.md",
-      "source_location": "L36",
+      "source_location": "L37",
       "id": "docs_hackathon_submission_assumptions",
       "community": 1,
       "norm_label": "assumptions"
@@ -4254,7 +4263,7 @@
       "label": "In scope",
       "file_type": "document",
       "source_file": "docs/HACKATHON_SUBMISSION.md",
-      "source_location": "L43",
+      "source_location": "L44",
       "id": "docs_hackathon_submission_in_scope",
       "community": 1,
       "norm_label": "in scope"
@@ -4263,7 +4272,7 @@
       "label": "Out of scope (v1)",
       "file_type": "document",
       "source_file": "docs/HACKATHON_SUBMISSION.md",
-      "source_location": "L54",
+      "source_location": "L55",
       "id": "docs_hackathon_submission_out_of_scope_v1",
       "community": 1,
       "norm_label": "out of scope (v1)"
@@ -4272,7 +4281,7 @@
       "label": "User stories",
       "file_type": "document",
       "source_file": "docs/HACKATHON_SUBMISSION.md",
-      "source_location": "L60",
+      "source_location": "L61",
       "id": "docs_hackathon_submission_user_stories",
       "community": 1,
       "norm_label": "user stories"
@@ -4281,7 +4290,7 @@
       "label": "Acceptance criteria",
       "file_type": "document",
       "source_file": "docs/HACKATHON_SUBMISSION.md",
-      "source_location": "L69",
+      "source_location": "L70",
       "id": "docs_hackathon_submission_acceptance_criteria",
       "community": 1,
       "norm_label": "acceptance criteria"
@@ -4290,7 +4299,7 @@
       "label": "2. Solution Plan / Implementation Plan",
       "file_type": "document",
       "source_file": "docs/HACKATHON_SUBMISSION.md",
-      "source_location": "L80",
+      "source_location": "L81",
       "id": "docs_hackathon_submission_2_solution_plan_implementation_plan",
       "community": 1,
       "norm_label": "2. solution plan / implementation plan"
@@ -4299,7 +4308,7 @@
       "label": "Approach",
       "file_type": "document",
       "source_file": "docs/HACKATHON_SUBMISSION.md",
-      "source_location": "L82",
+      "source_location": "L83",
       "id": "docs_hackathon_submission_approach",
       "community": 1,
       "norm_label": "approach"
@@ -4308,7 +4317,7 @@
       "label": "Implementation sequence",
       "file_type": "document",
       "source_file": "docs/HACKATHON_SUBMISSION.md",
-      "source_location": "L85",
+      "source_location": "L86",
       "id": "docs_hackathon_submission_implementation_sequence",
       "community": 1,
       "norm_label": "implementation sequence"
@@ -4317,7 +4326,7 @@
       "label": "Responsibilities (fill team names)",
       "file_type": "document",
       "source_file": "docs/HACKATHON_SUBMISSION.md",
-      "source_location": "L100",
+      "source_location": "L101",
       "id": "docs_hackathon_submission_responsibilities_fill_team_names",
       "community": 1,
       "norm_label": "responsibilities (fill team names)"
@@ -4326,7 +4335,7 @@
       "label": "3. Product / Technical Architecture",
       "file_type": "document",
       "source_file": "docs/HACKATHON_SUBMISSION.md",
-      "source_location": "L112",
+      "source_location": "L113",
       "id": "docs_hackathon_submission_3_product_technical_architecture",
       "community": 1,
       "norm_label": "3. product / technical architecture"
@@ -4335,7 +4344,7 @@
       "label": "Clients",
       "file_type": "document",
       "source_file": "docs/HACKATHON_SUBMISSION.md",
-      "source_location": "L114",
+      "source_location": "L115",
       "id": "docs_hackathon_submission_clients",
       "community": 1,
       "norm_label": "clients"
@@ -4344,7 +4353,7 @@
       "label": "Backend",
       "file_type": "document",
       "source_file": "docs/HACKATHON_SUBMISSION.md",
-      "source_location": "L120",
+      "source_location": "L121",
       "id": "docs_hackathon_submission_backend",
       "community": 1,
       "norm_label": "backend"
@@ -4353,7 +4362,7 @@
       "label": "Database",
       "file_type": "document",
       "source_file": "docs/HACKATHON_SUBMISSION.md",
-      "source_location": "L126",
+      "source_location": "L127",
       "id": "docs_hackathon_submission_database",
       "community": 1,
       "norm_label": "database"
@@ -4362,7 +4371,7 @@
       "label": "Authentication",
       "file_type": "document",
       "source_file": "docs/HACKATHON_SUBMISSION.md",
-      "source_location": "L130",
+      "source_location": "L131",
       "id": "docs_hackathon_submission_authentication",
       "community": 1,
       "norm_label": "authentication"
@@ -4371,7 +4380,7 @@
       "label": "Integrations",
       "file_type": "document",
       "source_file": "docs/HACKATHON_SUBMISSION.md",
-      "source_location": "L138",
+      "source_location": "L139",
       "id": "docs_hackathon_submission_integrations",
       "community": 1,
       "norm_label": "integrations"
@@ -4380,7 +4389,7 @@
       "label": "AI usage",
       "file_type": "document",
       "source_file": "docs/HACKATHON_SUBMISSION.md",
-      "source_location": "L146",
+      "source_location": "L147",
       "id": "docs_hackathon_submission_ai_usage",
       "community": 1,
       "norm_label": "ai usage"
@@ -4389,7 +4398,7 @@
       "label": "Key design decisions",
       "file_type": "document",
       "source_file": "docs/HACKATHON_SUBMISSION.md",
-      "source_location": "L151",
+      "source_location": "L152",
       "id": "docs_hackathon_submission_key_design_decisions",
       "community": 1,
       "norm_label": "key design decisions"
@@ -4398,7 +4407,7 @@
       "label": "4. Test Plan and Test Cases",
       "file_type": "document",
       "source_file": "docs/HACKATHON_SUBMISSION.md",
-      "source_location": "L160",
+      "source_location": "L161",
       "id": "docs_hackathon_submission_4_test_plan_and_test_cases",
       "community": 1,
       "norm_label": "4. test plan and test cases"
@@ -4407,7 +4416,7 @@
       "label": "Strategy",
       "file_type": "document",
       "source_file": "docs/HACKATHON_SUBMISSION.md",
-      "source_location": "L162",
+      "source_location": "L163",
       "id": "docs_hackathon_submission_strategy",
       "community": 1,
       "norm_label": "strategy"
@@ -4416,7 +4425,7 @@
       "label": "Test suites (~37 cases)",
       "file_type": "document",
       "source_file": "docs/HACKATHON_SUBMISSION.md",
-      "source_location": "L167",
+      "source_location": "L168",
       "id": "docs_hackathon_submission_test_suites_37_cases",
       "community": 1,
       "norm_label": "test suites (~37 cases)"
@@ -4425,7 +4434,7 @@
       "label": "Sample cases",
       "file_type": "document",
       "source_file": "docs/HACKATHON_SUBMISSION.md",
-      "source_location": "L174",
+      "source_location": "L175",
       "id": "docs_hackathon_submission_sample_cases",
       "community": 1,
       "norm_label": "sample cases"
@@ -4434,7 +4443,7 @@
       "label": "Run tests",
       "file_type": "document",
       "source_file": "docs/HACKATHON_SUBMISSION.md",
-      "source_location": "L188",
+      "source_location": "L189",
       "id": "docs_hackathon_submission_run_tests",
       "community": 1,
       "norm_label": "run tests"
@@ -4443,7 +4452,7 @@
       "label": "code:bash (pytest tests/ -q)",
       "file_type": "document",
       "source_file": "docs/HACKATHON_SUBMISSION.md",
-      "source_location": "L189",
+      "source_location": "L190",
       "id": "docs_hackathon_submission_codeblock_1",
       "community": 1,
       "norm_label": "code:bash (pytest tests/ -q)"
@@ -4452,7 +4461,7 @@
       "label": "5. Detailed Critical Review",
       "file_type": "document",
       "source_file": "docs/HACKATHON_SUBMISSION.md",
-      "source_location": "L195",
+      "source_location": "L196",
       "id": "docs_hackathon_submission_5_detailed_critical_review",
       "community": 1,
       "norm_label": "5. detailed critical review"
@@ -4461,7 +4470,7 @@
       "label": "Strengths",
       "file_type": "document",
       "source_file": "docs/HACKATHON_SUBMISSION.md",
-      "source_location": "L197",
+      "source_location": "L198",
       "id": "docs_hackathon_submission_strengths",
       "community": 1,
       "norm_label": "strengths"
@@ -4470,7 +4479,7 @@
       "label": "Security",
       "file_type": "document",
       "source_file": "docs/HACKATHON_SUBMISSION.md",
-      "source_location": "L204",
+      "source_location": "L205",
       "id": "docs_hackathon_submission_security",
       "community": 1,
       "norm_label": "security"
@@ -4479,7 +4488,7 @@
       "label": "Limitations",
       "file_type": "document",
       "source_file": "docs/HACKATHON_SUBMISSION.md",
-      "source_location": "L210",
+      "source_location": "L211",
       "id": "docs_hackathon_submission_limitations",
       "community": 1,
       "norm_label": "limitations"
@@ -4488,7 +4497,7 @@
       "label": "Technical debt",
       "file_type": "document",
       "source_file": "docs/HACKATHON_SUBMISSION.md",
-      "source_location": "L215",
+      "source_location": "L216",
       "id": "docs_hackathon_submission_technical_debt",
       "community": 1,
       "norm_label": "technical debt"
@@ -4497,7 +4506,7 @@
       "label": "6. Agentic Coding Evidence",
       "file_type": "document",
       "source_file": "docs/HACKATHON_SUBMISSION.md",
-      "source_location": "L221",
+      "source_location": "L222",
       "id": "docs_hackathon_submission_6_agentic_coding_evidence",
       "community": 1,
       "norm_label": "6. agentic coding evidence"
@@ -4506,7 +4515,7 @@
       "label": "7. Source Code and Deployment",
       "file_type": "document",
       "source_file": "docs/HACKATHON_SUBMISSION.md",
-      "source_location": "L236",
+      "source_location": "L237",
       "id": "docs_hackathon_submission_7_source_code_and_deployment",
       "community": 1,
       "norm_label": "7. source code and deployment"
@@ -4515,7 +4524,7 @@
       "label": "Clone and MCP",
       "file_type": "document",
       "source_file": "docs/HACKATHON_SUBMISSION.md",
-      "source_location": "L238",
+      "source_location": "L239",
       "id": "docs_hackathon_submission_clone_and_mcp",
       "community": 1,
       "norm_label": "clone and mcp"
@@ -4524,7 +4533,7 @@
       "label": "code:bash (git clone https://github.com/devinraina258/talentserv-ai-hac)",
       "file_type": "document",
       "source_file": "docs/HACKATHON_SUBMISSION.md",
-      "source_location": "L239",
+      "source_location": "L240",
       "id": "docs_hackathon_submission_codeblock_2",
       "community": 1,
       "norm_label": "code:bash (git clone https://github.com/devinraina258/talentserv-ai-hac)"
@@ -4533,7 +4542,7 @@
       "label": "WhatsApp",
       "file_type": "document",
       "source_file": "docs/HACKATHON_SUBMISSION.md",
-      "source_location": "L249",
+      "source_location": "L250",
       "id": "docs_hackathon_submission_whatsapp",
       "community": 1,
       "norm_label": "whatsapp"
@@ -4542,7 +4551,7 @@
       "label": "code:bash (pip install -e \".[whatsapp]\")",
       "file_type": "document",
       "source_file": "docs/HACKATHON_SUBMISSION.md",
-      "source_location": "L250",
+      "source_location": "L251",
       "id": "docs_hackathon_submission_codeblock_3",
       "community": 1,
       "norm_label": "code:bash (pip install -e \".[whatsapp]\")"
@@ -4551,7 +4560,7 @@
       "label": "Environment variables",
       "file_type": "document",
       "source_file": "docs/HACKATHON_SUBMISSION.md",
-      "source_location": "L257",
+      "source_location": "L258",
       "id": "docs_hackathon_submission_environment_variables",
       "community": 1,
       "norm_label": "environment variables"
@@ -4560,7 +4569,7 @@
       "label": "Documentation",
       "file_type": "document",
       "source_file": "docs/HACKATHON_SUBMISSION.md",
-      "source_location": "L263",
+      "source_location": "L264",
       "id": "docs_hackathon_submission_documentation",
       "community": 1,
       "norm_label": "documentation"
@@ -4569,7 +4578,7 @@
       "label": "MCP tools",
       "file_type": "document",
       "source_file": "docs/HACKATHON_SUBMISSION.md",
-      "source_location": "L266",
+      "source_location": "L267",
       "id": "docs_hackathon_submission_mcp_tools",
       "community": 1,
       "norm_label": "mcp tools"
@@ -4578,7 +4587,7 @@
       "label": "License",
       "file_type": "document",
       "source_file": "docs/HACKATHON_SUBMISSION.md",
-      "source_location": "L269",
+      "source_location": "L270",
       "id": "docs_hackathon_submission_license",
       "community": 1,
       "norm_label": "license"
@@ -5227,7 +5236,7 @@
       "file_type": "code",
       "source_file": "src/init_db.py",
       "source_location": "L13",
-      "community": 6,
+      "community": 2,
       "norm_label": "connection",
       "id": "src_init_db_py_connection"
     },
@@ -5236,7 +5245,7 @@
       "file_type": "code",
       "source_file": "src/init_db.py",
       "source_location": "L13",
-      "community": 6,
+      "community": 2,
       "norm_label": "path",
       "id": "src_init_db_py_path"
     },
@@ -5245,7 +5254,7 @@
       "file_type": "code",
       "source_file": "src/init_db.py",
       "source_location": "L17",
-      "community": 6,
+      "community": 2,
       "norm_label": "str",
       "id": "src_init_db_py_str"
     },
@@ -5308,7 +5317,7 @@
       "file_type": "code",
       "source_file": "src/mcp_enrichment.py",
       "source_location": "L166",
-      "community": 34,
+      "community": 52,
       "norm_label": "textcontent",
       "id": "textcontent"
     },
@@ -5317,7 +5326,7 @@
       "file_type": "code",
       "source_file": "src/mcp_enrichment.py",
       "source_location": "L173",
-      "community": 34,
+      "community": 52,
       "norm_label": "middlewarecontext",
       "id": "middlewarecontext"
     },
@@ -5326,7 +5335,7 @@
       "file_type": "code",
       "source_file": "src/mcp_enrichment.py",
       "source_location": "L173",
-      "community": 34,
+      "community": 52,
       "norm_label": "calltoolrequestparams",
       "id": "calltoolrequestparams"
     },
@@ -5335,7 +5344,7 @@
       "file_type": "code",
       "source_file": "src/mcp_enrichment.py",
       "source_location": "L173",
-      "community": 34,
+      "community": 52,
       "norm_label": "toolresult",
       "id": "toolresult"
     },
@@ -5362,7 +5371,7 @@
       "file_type": "code",
       "source_file": "src/mcp_enrichment.py",
       "source_location": "L210",
-      "community": 34,
+      "community": 52,
       "norm_label": "getpromptrequestparams",
       "id": "getpromptrequestparams"
     },
@@ -5371,7 +5380,7 @@
       "file_type": "code",
       "source_file": "src/mcp_enrichment.py",
       "source_location": "L210",
-      "community": 34,
+      "community": 52,
       "norm_label": "promptresult",
       "id": "promptresult"
     },
@@ -6432,7 +6441,7 @@
       "file_type": "rationale",
       "source_file": "src/server.py",
       "source_location": "L265",
-      "community": 54,
+      "community": 63,
       "norm_label": "check leave request status by request_id or latest request for employee.",
       "id": "src_server_rationale_265"
     },
@@ -6450,7 +6459,7 @@
       "file_type": "rationale",
       "source_file": "src/server.py",
       "source_location": "L331",
-      "community": 52,
+      "community": 47,
       "norm_label": "get ai leave guidance using grok from employee data and balances.",
       "id": "src_server_rationale_331"
     },
@@ -6621,7 +6630,7 @@
       "file_type": "rationale",
       "source_file": "src/server.py",
       "source_location": "L209",
-      "community": 54,
+      "community": 63,
       "norm_label": "check leave request status by request_id or latest request for employee.",
       "id": "src_server_rationale_209"
     },
@@ -6639,7 +6648,7 @@
       "file_type": "rationale",
       "source_file": "src/server.py",
       "source_location": "L242",
-      "community": 52,
+      "community": 47,
       "norm_label": "get ai leave guidance using grok from employee data and balances.",
       "id": "src_server_rationale_242"
     },
@@ -6711,7 +6720,7 @@
       "file_type": "rationale",
       "source_file": "src/server.py",
       "source_location": "L152",
-      "community": 54,
+      "community": 63,
       "norm_label": "check leave request status by request_id or latest request for employee.",
       "id": "src_server_rationale_152"
     },
@@ -6729,7 +6738,7 @@
       "file_type": "rationale",
       "source_file": "src/server.py",
       "source_location": "L185",
-      "community": 52,
+      "community": 47,
       "norm_label": "get ai leave guidance using grok from employee data and balances.",
       "id": "src_server_rationale_185"
     },
@@ -6792,7 +6801,7 @@
       "file_type": "rationale",
       "source_file": "src/server.py",
       "source_location": "L154",
-      "community": 54,
+      "community": 63,
       "norm_label": "check leave request status by request_id or latest request for employee.",
       "id": "src_server_rationale_154"
     },
@@ -6810,7 +6819,7 @@
       "file_type": "rationale",
       "source_file": "src/server.py",
       "source_location": "L187",
-      "community": 52,
+      "community": 47,
       "norm_label": "get ai leave guidance using grok from employee data and balances.",
       "id": "src_server_rationale_187"
     },
@@ -19508,6 +19517,16 @@
       "source_file": "README.md",
       "source_location": "L21",
       "weight": 1.0,
+      "source": "talentserv_ai_hackathon_group_11_backend_db_readme_office_leave_mcp",
+      "target": "talentserv_ai_hackathon_group_11_backend_db_readme_demo_and_recordings",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "README.md",
+      "source_location": "L21",
+      "weight": 1.0,
       "confidence_score": 1.0,
       "source": "talentserv_ai_hackathon_group_11_backend_db_readme_office_leave_mcp",
       "target": "talentserv_ai_hackathon_group_11_backend_db_readme_token_saving_hooks_cache_cow_https_github_com_soonswan_study_cache_cow"
@@ -19568,9 +19587,9 @@
       "source_file": "README.md",
       "source_location": "L143",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "talentserv_ai_hackathon_group_11_backend_db_readme_office_leave_mcp",
-      "target": "talentserv_ai_hackathon_group_11_backend_db_readme_microsoft_teams_notifications",
-      "confidence_score": 1.0
+      "target": "talentserv_ai_hackathon_group_11_backend_db_readme_microsoft_teams_notifications"
     },
     {
       "relation": "contains",
@@ -19788,9 +19807,9 @@
       "source_file": "README.md",
       "source_location": "L147",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "talentserv_ai_hackathon_group_11_backend_db_readme_microsoft_teams_notifications",
-      "target": "talentserv_ai_hackathon_group_11_backend_db_readme_codeblock_13",
-      "confidence_score": 1.0
+      "target": "talentserv_ai_hackathon_group_11_backend_db_readme_codeblock_13"
     },
     {
       "relation": "contains",
@@ -19808,9 +19827,9 @@
       "source_file": "README.md",
       "source_location": "L197",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "talentserv_ai_hackathon_group_11_backend_db_readme_publish_to_github",
-      "target": "talentserv_ai_hackathon_group_11_backend_db_readme_codeblock_14",
-      "confidence_score": 1.0
+      "target": "talentserv_ai_hackathon_group_11_backend_db_readme_codeblock_14"
     },
     {
       "relation": "contains",
@@ -19988,9 +20007,9 @@
       "source_file": "docs/DEMO_QUICKSTART.md",
       "source_location": "L89",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "docs_demo_quickstart_demo_quickstart_5_min",
-      "target": "docs_demo_quickstart_microsoft_teams_optional",
-      "confidence_score": 1.0
+      "target": "docs_demo_quickstart_microsoft_teams_optional"
     },
     {
       "relation": "contains",
@@ -20088,9 +20107,9 @@
       "source_file": "docs/DEMO_QUICKSTART.md",
       "source_location": "L95",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "docs_demo_quickstart_microsoft_teams_optional",
-      "target": "docs_demo_quickstart_codeblock_8",
-      "confidence_score": 1.0
+      "target": "docs_demo_quickstart_codeblock_8"
     },
     {
       "relation": "contains",
@@ -20108,9 +20127,9 @@
       "source_file": "docs/DEMO_QUICKSTART.md",
       "source_location": "L125",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "docs_demo_quickstart_command_not_recognized_fix",
-      "target": "docs_demo_quickstart_codeblock_9",
-      "confidence_score": 1.0
+      "target": "docs_demo_quickstart_codeblock_9"
     },
     {
       "relation": "contains",
@@ -20788,9 +20807,9 @@
       "source_file": "docs/TEAMS_INTEGRATION.md",
       "source_location": "L1",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "docs_teams_integration_md",
-      "target": "docs_teams_integration_microsoft_teams_integration_incoming_webhook",
-      "confidence_score": 1.0
+      "target": "docs_teams_integration_microsoft_teams_integration_incoming_webhook"
     },
     {
       "relation": "contains",
@@ -20798,9 +20817,9 @@
       "source_file": "docs/TEAMS_INTEGRATION.md",
       "source_location": "L5",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "docs_teams_integration_microsoft_teams_integration_incoming_webhook",
-      "target": "docs_teams_integration_what_gets_notified",
-      "confidence_score": 1.0
+      "target": "docs_teams_integration_what_gets_notified"
     },
     {
       "relation": "contains",
@@ -20808,9 +20827,9 @@
       "source_file": "docs/TEAMS_INTEGRATION.md",
       "source_location": "L16",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "docs_teams_integration_microsoft_teams_integration_incoming_webhook",
-      "target": "docs_teams_integration_architecture",
-      "confidence_score": 1.0
+      "target": "docs_teams_integration_architecture"
     },
     {
       "relation": "contains",
@@ -20818,9 +20837,9 @@
       "source_file": "docs/TEAMS_INTEGRATION.md",
       "source_location": "L28",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "docs_teams_integration_microsoft_teams_integration_incoming_webhook",
-      "target": "docs_teams_integration_prerequisites",
-      "confidence_score": 1.0
+      "target": "docs_teams_integration_prerequisites"
     },
     {
       "relation": "contains",
@@ -20828,9 +20847,9 @@
       "source_file": "docs/TEAMS_INTEGRATION.md",
       "source_location": "L34",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "docs_teams_integration_microsoft_teams_integration_incoming_webhook",
-      "target": "docs_teams_integration_1_create_a_teams_incoming_webhook",
-      "confidence_score": 1.0
+      "target": "docs_teams_integration_1_create_a_teams_incoming_webhook"
     },
     {
       "relation": "contains",
@@ -20838,9 +20857,9 @@
       "source_file": "docs/TEAMS_INTEGRATION.md",
       "source_location": "L43",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "docs_teams_integration_microsoft_teams_integration_incoming_webhook",
-      "target": "docs_teams_integration_2_configure_environment",
-      "confidence_score": 1.0
+      "target": "docs_teams_integration_2_configure_environment"
     },
     {
       "relation": "contains",
@@ -20848,9 +20867,9 @@
       "source_file": "docs/TEAMS_INTEGRATION.md",
       "source_location": "L67",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "docs_teams_integration_microsoft_teams_integration_incoming_webhook",
-      "target": "docs_teams_integration_3_smoke_test_connection",
-      "confidence_score": 1.0
+      "target": "docs_teams_integration_3_smoke_test_connection"
     },
     {
       "relation": "contains",
@@ -20858,9 +20877,9 @@
       "source_file": "docs/TEAMS_INTEGRATION.md",
       "source_location": "L77",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "docs_teams_integration_microsoft_teams_integration_incoming_webhook",
-      "target": "docs_teams_integration_4_demo_flow_in_cursor",
-      "confidence_score": 1.0
+      "target": "docs_teams_integration_4_demo_flow_in_cursor"
     },
     {
       "relation": "contains",
@@ -20868,9 +20887,9 @@
       "source_file": "docs/TEAMS_INTEGRATION.md",
       "source_location": "L93",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "docs_teams_integration_microsoft_teams_integration_incoming_webhook",
-      "target": "docs_teams_integration_message_format",
-      "confidence_score": 1.0
+      "target": "docs_teams_integration_message_format"
     },
     {
       "relation": "contains",
@@ -20878,9 +20897,9 @@
       "source_file": "docs/TEAMS_INTEGRATION.md",
       "source_location": "L99",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "docs_teams_integration_microsoft_teams_integration_incoming_webhook",
-      "target": "docs_teams_integration_manager_notifications",
-      "confidence_score": 1.0
+      "target": "docs_teams_integration_manager_notifications"
     },
     {
       "relation": "contains",
@@ -20888,9 +20907,9 @@
       "source_file": "docs/TEAMS_INTEGRATION.md",
       "source_location": "L108",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "docs_teams_integration_microsoft_teams_integration_incoming_webhook",
-      "target": "docs_teams_integration_mcp_tools_reference",
-      "confidence_score": 1.0
+      "target": "docs_teams_integration_mcp_tools_reference"
     },
     {
       "relation": "contains",
@@ -20898,9 +20917,9 @@
       "source_file": "docs/TEAMS_INTEGRATION.md",
       "source_location": "L119",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "docs_teams_integration_microsoft_teams_integration_incoming_webhook",
-      "target": "docs_teams_integration_troubleshooting",
-      "confidence_score": 1.0
+      "target": "docs_teams_integration_troubleshooting"
     },
     {
       "relation": "contains",
@@ -20908,9 +20927,9 @@
       "source_file": "docs/TEAMS_INTEGRATION.md",
       "source_location": "L128",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "docs_teams_integration_microsoft_teams_integration_incoming_webhook",
-      "target": "docs_teams_integration_related_docs",
-      "confidence_score": 1.0
+      "target": "docs_teams_integration_related_docs"
     },
     {
       "relation": "contains",
@@ -20918,9 +20937,9 @@
       "source_file": "docs/TEAMS_INTEGRATION.md",
       "source_location": "L18",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "docs_teams_integration_architecture",
-      "target": "docs_teams_integration_codeblock_1",
-      "confidence_score": 1.0
+      "target": "docs_teams_integration_codeblock_1"
     },
     {
       "relation": "contains",
@@ -20928,9 +20947,9 @@
       "source_file": "docs/TEAMS_INTEGRATION.md",
       "source_location": "L45",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "docs_teams_integration_2_configure_environment",
-      "target": "docs_teams_integration_codeblock_2",
-      "confidence_score": 1.0
+      "target": "docs_teams_integration_codeblock_2"
     },
     {
       "relation": "contains",
@@ -20938,9 +20957,9 @@
       "source_file": "docs/TEAMS_INTEGRATION.md",
       "source_location": "L51",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "docs_teams_integration_2_configure_environment",
-      "target": "docs_teams_integration_codeblock_3",
-      "confidence_score": 1.0
+      "target": "docs_teams_integration_codeblock_3"
     },
     {
       "relation": "contains",
@@ -20948,9 +20967,9 @@
       "source_file": "docs/TEAMS_INTEGRATION.md",
       "source_location": "L71",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "docs_teams_integration_3_smoke_test_connection",
-      "target": "docs_teams_integration_codeblock_4",
-      "confidence_score": 1.0
+      "target": "docs_teams_integration_codeblock_4"
     },
     {
       "relation": "contains",
@@ -21355,5 +21374,5 @@
       "source_file": "docs/MCP_SETUP.md"
     }
   ],
-  "built_at_commit": "ef5016028b1bdea31de6d20aed7abc57d2bfcdcf"
+  "built_at_commit": "df927edf29bf93f2e1899df36220959e19fa05d0"
 }

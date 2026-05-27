@@ -18,6 +18,10 @@ curl -fsSL https://raw.githubusercontent.com/devinraina258/talentserv-ai-hackath
 
 Windows: `irm .../install-office-leave-mcp.ps1 | iex` and `irm .../install-graphify-mcp.ps1 | iex` — [docs/MCP_SETUP.md](docs/MCP_SETUP.md).
 
+## Demo and Recordings
+
+- SharePoint folder: [Demo and recordings](https://talentservemail-my.sharepoint.com/:f:/g/personal/devin_raina_talentserv_co_in/IgCFI_zdnAlWS7gdujPHbBzWAQJQQynDpVv3RTm607m3FJk?e=pyOyXO)
+
 ## Token-saving hooks ([cache-cow](https://github.com/soonswan-study/cache-cow))
 
 This repo ships **cache-cow**-style Cursor hooks in `.cursor/hooks.json` (Python, Windows-friendly). They block redundant file reads, cap large full reads, filter verbose test output, and clear caches on session start / compaction.

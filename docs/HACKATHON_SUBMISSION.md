@@ -2,6 +2,7 @@
 # Office Leave Agent Platform — Submission Pack
 
 **Repository:** https://github.com/devinraina258/talentserv-ai-hackathon-group-11-backend-db  
+**Demo and recordings:** https://talentservemail-my.sharepoint.com/:f:/g/personal/devin_raina_talentserv_co_in/IgCFI_zdnAlWS7gdujPHbBzWAQJQQynDpVv3RTm607m3FJk?e=pyOyXO  
 **Date:** May 2026
 
 ---
