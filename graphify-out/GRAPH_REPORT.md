@@ -1,16 +1,16 @@
 # Graph Report - talentserv-ai-hackathon-group-11-backend-db  (2026-05-27)
 
 ## Corpus Check
-- 95 files · ~27,525 words
+- 71 files · ~22,538 words
 - Verdict: corpus is large enough that graph structure adds value.
 
 ## Summary
-- 756 nodes · 1370 edges · 70 communities (52 shown, 18 thin omitted)
-- Extraction: 86% EXTRACTED · 14% INFERRED · 0% AMBIGUOUS · INFERRED: 189 edges (avg confidence: 0.69)
+- 697 nodes · 1292 edges · 63 communities (47 shown, 16 thin omitted)
+- Extraction: 85% EXTRACTED · 15% INFERRED · 0% AMBIGUOUS · INFERRED: 189 edges (avg confidence: 0.69)
 - Token cost: 0 input · 0 output
 
 ## Graph Freshness
-- Built from commit: `df927edf`
+- Built from commit: `d68f0c1c`
 - Run `git rev-parse HEAD` and compare to check if the graph is stale.
 - Run `graphify update .` after code changes (no API cost).
 
@@ -24,15 +24,12 @@
 - [[_COMMUNITY_Community 6|Community 6]]
 - [[_COMMUNITY_Community 7|Community 7]]
 - [[_COMMUNITY_Community 8|Community 8]]
-- [[_COMMUNITY_Community 10|Community 10]]
 - [[_COMMUNITY_Community 11|Community 11]]
 - [[_COMMUNITY_Community 12|Community 12]]
-- [[_COMMUNITY_Community 13|Community 13]]
 - [[_COMMUNITY_Community 14|Community 14]]
 - [[_COMMUNITY_Community 15|Community 15]]
 - [[_COMMUNITY_Community 16|Community 16]]
 - [[_COMMUNITY_Community 17|Community 17]]
-- [[_COMMUNITY_Community 18|Community 18]]
 - [[_COMMUNITY_Community 21|Community 21]]
 - [[_COMMUNITY_Community 23|Community 23]]
 - [[_COMMUNITY_Community 25|Community 25]]
@@ -59,7 +56,6 @@
 - [[_COMMUNITY_Community 49|Community 49]]
 - [[_COMMUNITY_Community 50|Community 50]]
 - [[_COMMUNITY_Community 51|Community 51]]
-- [[_COMMUNITY_Community 52|Community 52]]
 - [[_COMMUNITY_Community 53|Community 53]]
 - [[_COMMUNITY_Community 55|Community 55]]
 - [[_COMMUNITY_Community 56|Community 56]]
@@ -77,12 +73,12 @@
 1. `ToolResponse` - 42 edges
 2. `_json_response_enriched()` - 26 edges
 3. `utc_now_iso()` - 21 edges
-4. `generate_output_recommendations()` - 18 edges
-5. `generate_leave_advice_with_grok()` - 18 edges
-6. `str` - 18 edges
+4. `str` - 18 edges
+5. `generate_output_recommendations()` - 18 edges
+6. `generate_leave_advice_with_grok()` - 18 edges
 7. `ensure_enriched_text()` - 17 edges
-8. `Office Leave MCP` - 17 edges
-9. `str` - 17 edges
+8. `str` - 17 edges
+9. `Office Leave MCP` - 17 edges
 10. `str` - 16 edges
 
 ## Surprising Connections (you probably didn't know these)
@@ -90,17 +86,17 @@
   tests/test_grok_enrichment.py → src/grok_client.py
 - `test_fallback_unknown_employee()` --calls--> `generate_fallback_output_recommendations()`  [INFERRED]
   tests/test_grok_enrichment.py → src/grok_client.py
-- `temp_db()` --calls--> `init_db()`  [INFERRED]
-  tests/test_tools.py → src/init_db.py
 - `office-leave MCP launcher` --semantically_similar_to--> `Office Leave MCP`  [INFERRED] [semantically similar]
   docs/MCP_SETUP.md → README.md
 - `graphify MCP launcher` --semantically_similar_to--> `graphify knowledge graph`  [INFERRED] [semantically similar]
   docs/MCP_SETUP.md → README.md
+- `temp_db()` --calls--> `init_db()`  [INFERRED]
+  tests/test_grok_enrichment.py → src/init_db.py
 
 ## Hyperedges (group relationships)
 - **Dual MCP hackathon stack** — readme_office_leave_mcp, readme_graphify_knowledge_graph, mcp_setup_office_leave_launcher, mcp_setup_graphify_launcher [INFERRED 0.85]
 
-## Communities (70 total, 18 thin omitted)
+## Communities (63 total, 16 thin omitted)
 
 ### Community 0 - "Community 0"
 Cohesion: 0.27
@@ -111,20 +107,24 @@ Cohesion: 0.05
 Nodes (43): 1. Groomed Requirements Document, 2. Solution Plan / Implementation Plan, 3. Product / Technical Architecture, 4. Test Plan and Test Cases, 5. Detailed Critical Review, 6. Agentic Coding Evidence, 7. Source Code and Deployment, Acceptance criteria (+35 more)
 
 ### Community 2 - "Community 2"
-Cohesion: 0.14
-Nodes (50): date, Employee, float, LeaveRequest, Row, announce_holiday(), apply_leave(), approve_leave() (+42 more)
+Cohesion: 0.18
+Nodes (42): date, Employee, float, LeaveRequest, Row, announce_holiday(), apply_leave(), approve_leave() (+34 more)
 
 ### Community 3 - "Community 3"
-Cohesion: 0.17
-Nodes (19): CopyTo(), create_shortcut(), fixup_dbi(), get_root_hkey(), get_shortcuts_folder(), get_special_folder_path(), get_system_dir(), install() (+11 more)
+Cohesion: 0.33
+Nodes (6): advise_on_leave(), Get AI leave guidance using Grok from employee data and balances., Get AI leave guidance using Grok from employee data and balances., Get AI leave guidance using Grok from employee data and balances., Get AI leave guidance using Grok from employee data and balances., Get AI leave guidance using Grok from employee data and balances.
 
 ### Community 4 - "Community 4"
 Cohesion: 0.23
 Nodes (28): GrokSuggestions, LeaveAdvice, _api_key_configured(), _call_grok(), _chat_completions_url(), default_next_steps(), _effective_model(), generate_fallback_advice() (+20 more)
 
 ### Community 5 - "Community 5"
+Cohesion: 0.33
+Nodes (6): check_leave_status(), Check leave request status by request_id or latest request for employee., Check leave request status by request_id or latest request for employee., Check leave request status by request_id or latest request for employee., Check leave request status by request_id or latest request for employee., Check leave request status by request_id or latest request for employee.
+
+### Community 6 - "Community 6"
 Cohesion: 0.12
-Nodes (16): DATABASE_PATH, GROK_API_URL, GROK_ENRICH_OUTPUTS, GROK_MODEL, GROK_PROVIDER, OFFICE_LEAVE_WORKSPACE, args, command (+8 more)
+Nodes (9): init_db(), main(), Connection, Path, str, run_sql_file(), temp_db(), temp_db() (+1 more)
 
 ### Community 7 - "Community 7"
 Cohesion: 0.27
@@ -134,21 +134,13 @@ Nodes (8): devDependencies, husky, name, private, scripts, graphify:sync, graphi
 Cohesion: 0.32
 Nodes (8): clone-free MCP install via curl, graphify MCP launcher, office-leave MCP launcher, graphify knowledge graph, Grok tool response enrichment, Office Leave MCP, SQLite employees database, CI graphify-out sync workflow
 
-### Community 10 - "Community 10"
-Cohesion: 0.60
-Nodes (4): find_and_run(), main(), A test runner for pywin32, run_test()
-
 ### Community 11 - "Community 11"
 Cohesion: 0.47
-Nodes (5): main(), int, str, Export graphify-out/graph.json as a compact JSONL tree for LLM context.  Each, _walk_tree()
+Nodes (5): main(), int, str, Export graphify-out/graph.json as a compact JSONL tree for LLM context.  Each li, _walk_tree()
 
 ### Community 12 - "Community 12"
 Cohesion: 0.32
 Nodes (10): Request, Response, bool, str, health(), _twilio_auth_token(), _twiml_message(), _validate_twilio_request() (+2 more)
-
-### Community 13 - "Community 13"
-Cohesion: 0.50
-Nodes (3): init-db.sh script, DATABASE_PATH, OFFICE_LEAVE_WORKSPACE
 
 ### Community 14 - "Community 14"
 Cohesion: 0.47
@@ -167,8 +159,8 @@ Cohesion: 0.08
 Nodes (24): After install, Both servers, code:bash (curl -fsSL https://raw.githubusercontent.com/devinraina258/t), code:powershell (irm https://raw.githubusercontent.com/devinraina258/talentse), code:bash (python scripts/mcp_install_lib.py office-leave), code:bash (curl -fsSL https://raw.githubusercontent.com/devinraina258/t), code:powershell (irm https://raw.githubusercontent.com/devinraina258/talentse), code:bash (python scripts/mcp_install_lib.py graphify) (+16 more)
 
 ### Community 34 - "Community 34"
-Cohesion: 0.26
-Nodes (18): ReadResourceRequestParams, ResourceResult, _employee_context_for_args(), ensure_enriched_text(), format_enriched_response(), _grok_text_footer(), _grok_text_header(), is_enriched_response() (+10 more)
+Cohesion: 0.17
+Nodes (24): CallToolRequestParams, GetPromptRequestParams, MiddlewareContext, PromptResult, ReadResourceRequestParams, ResourceResult, _employee_context_for_args(), ensure_enriched_text() (+16 more)
 
 ### Community 35 - "Community 35"
 Cohesion: 0.50
@@ -195,8 +187,8 @@ Cohesion: 0.83
 Nodes (3): post-file-cache.sh script, post-file-cache.sh script, _merge_ranges()
 
 ### Community 47 - "Community 47"
-Cohesion: 0.10
-Nodes (36): ensure_venv(), main(), merge_mcp_server(), print_done(), bool, int, Path, str (+28 more)
+Cohesion: 0.13
+Nodes (30): ensure_venv(), main(), merge_mcp_server(), print_done(), bool, int, Path, str (+22 more)
 
 ### Community 48 - "Community 48"
 Cohesion: 0.52
@@ -214,10 +206,6 @@ Nodes (11): apply_leave(), policy_resource(), Submit a pending leave request. Da
 Cohesion: 0.33
 Nodes (6): employees_resource(), Directory of employees and departments., Directory of employees and departments., Directory of employees and departments., Directory of employees and departments., Directory of employees and departments.
 
-### Community 52 - "Community 52"
-Cohesion: 0.20
-Nodes (9): CallToolRequestParams, GetPromptRequestParams, Middleware, MiddlewareContext, PromptResult, GrokEnrichmentMiddleware, Guarantee Grok header/footer on every tool call, resource read, and prompt., TextContent (+1 more)
-
 ### Community 53 - "Community 53"
 Cohesion: 0.11
 Nodes (19): Before demo (once), code:powershell (powershell -ExecutionPolicy Bypass -File .\scripts\demo.ps1), code:powershell (cd C:\Users\Admin\Documents\talentserv-ai-hackathon-group-11), code:powershell (& $py -m pip install -e ".[whatsapp]"), code:powershell (cd C:\Users\Admin\Documents\talentserv-ai-hackathon-group-11), code:powershell (& "C:\Program Files (x86)\cloudflared\cloudflared.exe" tunne), code:powershell (cd C:\Users\Admin\Documents\talentserv-ai-hackathon-group-11), code:text (https://YOUR-NEW-URL.trycloudflare.com/whatsapp/webhook) (+11 more)
@@ -232,7 +220,7 @@ Nodes (11): LeaveAdvice, str, ToolResponse, format_advice(), format_apply(), for
 
 ### Community 57 - "Community 57"
 Cohesion: 0.11
-Nodes (25): post_json(), Thin wrapper around `requests.post` so we can centralize:     - timeouts     -, format_teams_connection_test_message(), _is_truthy(), Microsoft Teams Incoming Webhook URL.      Teams Incoming Webhooks are "pre-au, Microsoft Teams Incoming Webhook URL.      Teams Incoming Webhooks are "pre-au, Sample message for webhook smoke tests (not a real leave event)., Sample message for webhook smoke tests (not a real leave event). (+17 more)
+Nodes (25): post_json(), Thin wrapper around `requests.post` so we can centralize:     - timeouts     - b, format_teams_connection_test_message(), _is_truthy(), Microsoft Teams Incoming Webhook URL.      Teams Incoming Webhooks are "pre-au, Microsoft Teams Incoming Webhook URL.      Teams Incoming Webhooks are "pre-auth, Sample message for webhook smoke tests (not a real leave event)., Sample message for webhook smoke tests (not a real leave event). (+17 more)
 
 ### Community 61 - "Community 61"
 Cohesion: 0.33
@@ -243,8 +231,8 @@ Cohesion: 0.16
 Nodes (30): LeaveTeamsEvent, Any, bool, int, str, ToolResponse, TeamsAudience, announce_holiday() (+22 more)
 
 ### Community 63 - "Community 63"
-Cohesion: 0.18
-Nodes (17): announce_holiday(), approve_leave(), check_leave_status(), _json_response_enriched(), _payload_from_result(), Any, int, str (+9 more)
+Cohesion: 0.23
+Nodes (14): Middleware, GrokEnrichmentMiddleware, Guarantee Grok header/footer on every tool call, resource read, and prompt., announce_holiday(), approve_leave(), _json_response_enriched(), _payload_from_result(), Any (+6 more)
 
 ### Community 64 - "Community 64"
 Cohesion: 0.33
@@ -259,24 +247,24 @@ Cohesion: 0.11
 Nodes (17): 1. Create a Teams Incoming Webhook, 2. Configure environment, 3. Smoke test (connection), 4. Demo flow in Cursor, Architecture, code:text (Cursor MCP (stdio)), code:bash (copy .env.example .env), code:env (TEAMS_WEBHOOK_URL=https://your-tenant.webhook.office.com/web) (+9 more)
 
 ## Knowledge Gaps
-- **183 isolated node(s):** `prepare`, `graphify:sync`, `graphify:sync:unix`, `husky`, `version` (+178 more)
+- **167 isolated node(s):** `prepare`, `graphify:sync`, `graphify:sync:unix`, `husky`, `Connection` (+162 more)
   These have ≤1 connection - possible missing edges or undocumented components.
-- **18 thin communities (<3 nodes) omitted from report** — run `graphify query` to explore isolated nodes.
+- **16 thin communities (<3 nodes) omitted from report** — run `graphify query` to explore isolated nodes.
 
 ## Suggested Questions
 _Questions this graph is uniquely positioned to answer:_
 
-- **Why does `ToolResponse` connect `Community 2` to `Community 0`, `Community 4`, `Community 47`, `Community 56`, `Community 62`, `Community 63`?**
-  _High betweenness centrality (0.069) - this node is a cross-community bridge._
-- **Why does `init_db()` connect `Community 2` to `Community 49`, `Community 6`, `Community 47`?**
-  _High betweenness centrality (0.040) - this node is a cross-community bridge._
+- **Why does `ToolResponse` connect `Community 2` to `Community 0`, `Community 3`, `Community 4`, `Community 56`, `Community 62`, `Community 63`?**
+  _High betweenness centrality (0.081) - this node is a cross-community bridge._
+- **Why does `init_db()` connect `Community 6` to `Community 49`, `Community 2`, `Community 47`?**
+  _High betweenness centrality (0.047) - this node is a cross-community bridge._
 - **Why does `load_workspace_env()` connect `Community 57` to `Community 0`, `Community 12`?**
-  _High betweenness centrality (0.034) - this node is a cross-community bridge._
-- **Are the 33 inferred relationships involving `ToolResponse` (e.g. with `list_employees()` and `get_employee()`) actually correct?**
+  _High betweenness centrality (0.040) - this node is a cross-community bridge._
+- **Are the 33 inferred relationships involving `ToolResponse` (e.g. with `date` and `Employee`) actually correct?**
   _`ToolResponse` has 33 INFERRED edges - model-reasoned connections that need verification._
-- **Are the 5 inferred relationships involving `_json_response_enriched()` (e.g. with `resolve_grok_block()` and `format_enriched_response()`) actually correct?**
+- **Are the 5 inferred relationships involving `_json_response_enriched()` (e.g. with `generate_output_recommendations()` and `grok_enrich_enabled()`) actually correct?**
   _`_json_response_enriched()` has 5 INFERRED edges - model-reasoned connections that need verification._
-- **Are the 12 inferred relationships involving `utc_now_iso()` (e.g. with `list_employees()` and `get_employee()`) actually correct?**
+- **Are the 12 inferred relationships involving `utc_now_iso()` (e.g. with `apply_leave()` and `check_leave_status()`) actually correct?**
   _`utc_now_iso()` has 12 INFERRED edges - model-reasoned connections that need verification._
-- **Are the 4 inferred relationships involving `generate_output_recommendations()` (e.g. with `resolve_grok_block()` and `_json_response_enriched()`) actually correct?**
-  _`generate_output_recommendations()` has 4 INFERRED edges - model-reasoned connections that need verification._
+- **Are the 2 inferred relationships involving `str` (e.g. with `GrokEnrichmentMiddleware` and `ToolResponse`) actually correct?**
+  _`str` has 2 INFERRED edges - model-reasoned connections that need verification._
