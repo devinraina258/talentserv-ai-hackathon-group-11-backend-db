@@ -2,6 +2,8 @@
 
 Message the office-leave backend from WhatsApp using **Twilio WhatsApp Sandbox** + **ngrok** (local) or **Render** (optional public URL). Reuses the same SQLite DB and [`src/db.py`](../src/db.py) as the MCP server—short text replies, no MCP JSON.
 
+For **manager channel alerts** on apply/approve/reject, see [TEAMS_INTEGRATION.md](TEAMS_INTEGRATION.md) (Microsoft Teams Incoming Webhook).
+
 ## Prerequisites
 
 - Python 3.10+

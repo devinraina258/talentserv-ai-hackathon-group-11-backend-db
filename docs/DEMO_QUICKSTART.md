@@ -86,6 +86,22 @@ Browser check: open that URL → `{"status":"ok",...}`
 
 ---
 
+## Microsoft Teams (optional)
+
+Requires `TEAMS_WEBHOOK_URL` in `.env` (Incoming Webhook from your Teams channel). See [TEAMS_INTEGRATION.md](TEAMS_INTEGRATION.md).
+
+**Smoke test** (repo root, venv python):
+
+```powershell
+& $py -c "from src.services.teams_service import send_teams_connection_test; send_teams_connection_test()"
+```
+
+**Cursor MCP demo** (Terminal 3 or chat): apply leave → watch Teams channel → `approve leave request <id>`.
+
+Example prompts: *apply sick leave for devin 2026-06-03 to 2026-06-03 reason demo* → *approve leave request 5*.
+
+---
+
 ## Update Twilio every time?
 
 | Tunnel | Update Twilio? |

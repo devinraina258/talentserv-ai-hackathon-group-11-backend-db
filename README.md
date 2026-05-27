@@ -1,6 +1,6 @@
 # Office Leave MCP
 
-TalentServ hackathon — FastMCP server for office leave (apply, status, balances) with a local SQLite database, Grok-powered advice, and an optional **graphify** code graph for Cursor.
+TalentServ hackathon — FastMCP server for office leave (apply, approve/reject, status, balances) with a local SQLite database, **Microsoft Teams** channel notifications, Grok-powered advice, optional **WhatsApp** (Twilio), and an optional **graphify** code graph for Cursor.
 
 **One curl per MCP** — run from **any folder** (no `git clone` first). Writes `.cursor/mcp.json` + launchers only for that directory (like Jira/Figma MCP):
 
@@ -55,7 +55,7 @@ Creates `data/employees.db` with three employees: **devin**, **nisha**, **gautam
 copy .env.example .env
 ```
 
-Edit `.env` and set `PUTER_AUTH_TOKEN` (from [puter.com/dashboard](https://puter.com/dashboard)) for live Grok via Puter on every tool and resource response. MCP loads `.env` from the workspace via `OFFICE_LEAVE_WORKSPACE` (see `src/env.py`). After changing `.env`, reload Cursor (Developer → Reload Window).
+Edit `.env` and set `PUTER_AUTH_TOKEN` (from [puter.com/dashboard](https://puter.com/dashboard)) for live Grok via Puter on every tool and resource response. Optional: `TEAMS_WEBHOOK_URL` for Teams channel notifications ([docs/TEAMS_INTEGRATION.md](docs/TEAMS_INTEGRATION.md)). MCP loads `.env` from the workspace via `OFFICE_LEAVE_WORKSPACE` (see `src/env.py`). After changing `.env`, reload Cursor (Developer → Reload Window).
 
 ### 3. Run tests
 
@@ -140,18 +140,32 @@ office-leave-whatsapp
 
 Setup: [docs/WHATSAPP_DEMO.md](docs/WHATSAPP_DEMO.md). **One-command demo:** `powershell -ExecutionPolicy Bypass -File .\scripts\demo.ps1` ([docs/DEMO_QUICKSTART.md](docs/DEMO_QUICKSTART.md)).
 
+## Microsoft Teams notifications
+
+When `TEAMS_WEBHOOK_URL` is set in `.env`, MCP actions post to a Teams channel via **Incoming Webhook**: new leave requests, approvals/rejections, and holiday announcements. Optional manager webhooks per department. Best-effort (MCP still succeeds if Teams is down).
+
+```bash
+copy .env.example .env   # set TEAMS_WEBHOOK_URL
+python -c "from src.services.teams_service import send_teams_connection_test; send_teams_connection_test()"
+```
+
+Full setup: [docs/TEAMS_INTEGRATION.md](docs/TEAMS_INTEGRATION.md).
+
 ## MCP tools
 
-Every **tool** (all 7), **resource** (`leave://employees`, `leave://policy`), and **`leave_assistant` prompt** include Grok in three places: a **text header** (recommendation + suggestions), JSON with **`grok`** first and **`grok_footer`** last (same fields), and a **text footer** (next steps + explanation). `GrokEnrichmentMiddleware` re-wraps any handler that returns plain JSON so nothing is missed. Live AI uses Puter (`GROK_PROVIDER=puter`, `source: puter-api`) or x.ai (`GROK_PROVIDER=xai`) when `PUTER_AUTH_TOKEN` or `GROK_API_KEY` is set; otherwise `source: fallback-rules`.
+Every **tool** (all 10), **resource** (`leave://employees`, `leave://policy`), and **`leave_assistant` prompt** include Grok in three places: a **text header** (recommendation + suggestions), JSON with **`grok`** first and **`grok_footer`** last (same fields), and a **text footer** (next steps + explanation). `GrokEnrichmentMiddleware` re-wraps any handler that returns plain JSON so nothing is missed. Live AI uses Puter (`GROK_PROVIDER=puter`, `source: puter-api`) or x.ai (`GROK_PROVIDER=xai`) when `PUTER_AUTH_TOKEN` or `GROK_API_KEY` is set; otherwise `source: fallback-rules`.
 
 | Tool | Description |
 |------|-------------|
 | `list_employees` | All employees with balances |
 | `get_employee` | Profile + balances |
 | `get_leave_balance` | Annual/sick remaining |
-| `apply_leave` | Submit pending leave (ISO dates `YYYY-MM-DD`) |
+| `apply_leave` | Submit pending leave (ISO dates `YYYY-MM-DD`); notifies Teams |
+| `approve_leave` | Approve pending request by `request_id`; notifies Teams |
+| `reject_leave` | Reject pending request by `request_id`; notifies Teams |
 | `check_leave_status` | By `request_id` or latest for `employee` |
 | `list_leave_requests` | History with optional filters |
+| `announce_holiday` | Create holiday announcement (`YYYY-MM-DD`); notifies Teams |
 | `advise_on_leave` | Grok guidance from DB context |
 
 ## MCP resources
@@ -164,6 +178,8 @@ Every **tool** (all 7), **resource** (`leave://employees`, `leave://policy`), an
 - "What is Nisha's leave balance?"
 - "Apply 2 days annual leave for Gautam from 2026-06-10 to 2026-06-11, reason: family event"
 - "Check the latest leave status for Devin"
+- "Approve leave request 5"
+- "Announce holiday 2026-12-25 — office closed"
 - "Should Devin take leave next week given his balance?"
 
 ## Employees (seed data)

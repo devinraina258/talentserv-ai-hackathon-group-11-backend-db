@@ -12,6 +12,8 @@ Sets up `.cursor/mcp.json`, `.cursor/bin/office-leave-mcp/run`, and `data/employ
 
 For live Grok suggestions, copy `.env.example` → `.env` and set `PUTER_AUTH_TOKEN` from [puter.com/dashboard](https://puter.com/dashboard) (default provider: Puter — [free Grok tutorial](https://developer.puter.com/tutorials/free-unlimited-grok-api/)). Or set `GROK_PROVIDER=xai` and `GROK_API_KEY` for direct x.ai. The launcher loads `.env` from the workspace (never commit `.env`). Reload Cursor after changing tokens.
 
+Optional **Teams** channel notifications: set `TEAMS_WEBHOOK_URL` in `.env` ([docs/TEAMS_INTEGRATION.md](TEAMS_INTEGRATION.md)).
+
 ### curl (bash — any directory)
 
 ```bash
