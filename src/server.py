@@ -27,6 +27,7 @@ load_workspace_env()
 
 
 from src import db
+from src.tools import leave_tools
 
 from src.grok_client import (
 
@@ -238,15 +239,10 @@ async def apply_leave(
 
     }
 
-    return await _json_response_enriched(
-
-        db.apply_leave(employee, leave_type, start_date, end_date, reason),
-
-        source="apply_leave",
-
-        args=args,
-
+    result = await leave_tools.apply_leave(
+        employee, leave_type, start_date, end_date, reason
     )
+    return await _json_response_enriched(result, source="apply_leave", args=args)
 
 
 
@@ -322,6 +318,30 @@ async def list_leave_requests(
 
 
 
+
+
+@mcp.tool
+async def approve_leave(request_id: int) -> str:
+    """Approve a pending leave request by id."""
+    args = {"request_id": request_id}
+    result = await leave_tools.approve_leave(request_id)
+    return await _json_response_enriched(result, source="approve_leave", args=args)
+
+
+@mcp.tool
+async def reject_leave(request_id: int) -> str:
+    """Reject a pending leave request by id."""
+    args = {"request_id": request_id}
+    result = await leave_tools.reject_leave(request_id)
+    return await _json_response_enriched(result, source="reject_leave", args=args)
+
+
+@mcp.tool
+async def announce_holiday(holiday_date: str, description: str) -> str:
+    """Create a holiday announcement (YYYY-MM-DD) and notify Teams."""
+    args = {"holiday_date": holiday_date, "description": description}
+    result = await leave_tools.announce_holiday(holiday_date, description)
+    return await _json_response_enriched(result, source="announce_holiday", args=args)
 
 
 @mcp.tool
@@ -448,7 +468,7 @@ User question: {user_question}
 
 
 
-Use MCP tools (apply_leave, check_leave_status, get_leave_balance) when the user wants actions.
+Use MCP tools (apply_leave, approve_leave, reject_leave, check_leave_status, get_leave_balance, announce_holiday) when the user wants actions.
 
 Be concise and actionable."""
 

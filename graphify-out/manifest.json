@@ -1,337 +1,467 @@
 {
-  "/home/runner/work/talentserv-ai-hackathon-group-11-backend-db/talentserv-ai-hackathon-group-11-backend-db/package.json": {
-    "mtime": 1779807906.3583925,
-    "ast_hash": "64f8f48e7585b0aaa36799c657428ac6",
+  "D:\\MCP\\talentserv-ai-hackathon-group-11-backend-db\\package.json": {
+    "mtime": 1779694725.17745,
+    "ast_hash": "f92c14089983d2a7515dbedeac0a1c78",
     "semantic_hash": ""
   },
-  "/home/runner/work/talentserv-ai-hackathon-group-11-backend-db/talentserv-ai-hackathon-group-11-backend-db/src/models.py": {
-    "mtime": 1779807906.3596632,
-    "ast_hash": "44dde010b1462cdb4038fc7ebdd70814",
+  "D:\\MCP\\talentserv-ai-hackathon-group-11-backend-db\\.cursor\\hooks.json": {
+    "mtime": 1779859519.8699162,
+    "ast_hash": "36de706726a9c6330095bace20098875",
     "semantic_hash": ""
   },
-  "/home/runner/work/talentserv-ai-hackathon-group-11-backend-db/talentserv-ai-hackathon-group-11-backend-db/src/init_db.py": {
-    "mtime": 1779807906.3596632,
-    "ast_hash": "be5b0100d2ef131d391b956ad08958d4",
+  "D:\\MCP\\talentserv-ai-hackathon-group-11-backend-db\\.cursor\\mcp.json": {
+    "mtime": 1779877355.5482473,
+    "ast_hash": "bf2e3cead99d7ac3841f84a3c88b3ffd",
     "semantic_hash": ""
   },
-  "/home/runner/work/talentserv-ai-hackathon-group-11-backend-db/talentserv-ai-hackathon-group-11-backend-db/src/server.py": {
-    "mtime": 1779807906.3596632,
-    "ast_hash": "6ea87c5124f9c53c8b8c0dec05ba0779",
+  "D:\\MCP\\talentserv-ai-hackathon-group-11-backend-db\\.cursor\\bin\\graphify-mcp\\build-graph.sh": {
+    "mtime": 1779702355.527299,
+    "ast_hash": "bc013d8ee58b3ea8608f84dc3024e308",
     "semantic_hash": ""
   },
-  "/home/runner/work/talentserv-ai-hackathon-group-11-backend-db/talentserv-ai-hackathon-group-11-backend-db/src/mcp_enrichment.py": {
-    "mtime": 1779807906.3596632,
-    "ast_hash": "1be39d20625244ad094906ac2e31d72f",
+  "D:\\MCP\\talentserv-ai-hackathon-group-11-backend-db\\.cursor\\bin\\graphify-mcp\\run": {
+    "mtime": 1779702355.525911,
+    "ast_hash": "f8945ed73d186052ab7ea4c739d8ee19",
     "semantic_hash": ""
   },
-  "/home/runner/work/talentserv-ai-hackathon-group-11-backend-db/talentserv-ai-hackathon-group-11-backend-db/src/__init__.py": {
-    "mtime": 1779807906.359571,
-    "ast_hash": "68b329da9893e34099c7d8ad5cb9c940",
+  "D:\\MCP\\talentserv-ai-hackathon-group-11-backend-db\\.cursor\\bin\\office-leave-mcp\\init-db.sh": {
+    "mtime": 1779702355.5205984,
+    "ast_hash": "270f90b8b13166966b50eedc21522d49",
     "semantic_hash": ""
   },
-  "/home/runner/work/talentserv-ai-hackathon-group-11-backend-db/talentserv-ai-hackathon-group-11-backend-db/src/grok_client.py": {
-    "mtime": 1779807906.3596632,
-    "ast_hash": "571e2213c6e2a9a9a53e86a496ee7113",
+  "D:\\MCP\\talentserv-ai-hackathon-group-11-backend-db\\.cursor\\bin\\office-leave-mcp\\run": {
+    "mtime": 1779702355.42775,
+    "ast_hash": "1fa1be59644fc73399ed251fa32b1a54",
     "semantic_hash": ""
   },
-  "/home/runner/work/talentserv-ai-hackathon-group-11-backend-db/talentserv-ai-hackathon-group-11-backend-db/src/env.py": {
-    "mtime": 1779807906.3596632,
-    "ast_hash": "918dec4e31426cff6b6983003272f463",
+  "D:\\MCP\\talentserv-ai-hackathon-group-11-backend-db\\.cursor\\hooks\\cache_cow_lib.py": {
+    "mtime": 1779859519.8719246,
+    "ast_hash": "15998bd4cf15e80ad9afbc9c3fb1fa5f",
     "semantic_hash": ""
   },
-  "/home/runner/work/talentserv-ai-hackathon-group-11-backend-db/talentserv-ai-hackathon-group-11-backend-db/src/db.py": {
-    "mtime": 1779807906.3596632,
-    "ast_hash": "9894fecf88f4b06314df3a4c63719813",
+  "D:\\MCP\\talentserv-ai-hackathon-group-11-backend-db\\.cursor\\hooks\\lib.sh": {
+    "mtime": 1779859519.8719246,
+    "ast_hash": "5ee238cf7d425c31319f387147cdd0d2",
     "semantic_hash": ""
   },
-  "/home/runner/work/talentserv-ai-hackathon-group-11-backend-db/talentserv-ai-hackathon-group-11-backend-db/src/sql/seed.sql": {
-    "mtime": 1779807906.3601952,
-    "ast_hash": "aaaa9cc2bc8a7992edb86f262aa75182",
+  "D:\\MCP\\talentserv-ai-hackathon-group-11-backend-db\\.cursor\\hooks\\post-file-cache.sh": {
+    "mtime": 1779859519.8719246,
+    "ast_hash": "62d3d47ad3479349f7c58101e9a12c4c",
     "semantic_hash": ""
   },
-  "/home/runner/work/talentserv-ai-hackathon-group-11-backend-db/talentserv-ai-hackathon-group-11-backend-db/src/sql/schema.sql": {
-    "mtime": 1779807906.3597124,
-    "ast_hash": "bc9e796b7f5a7a13c928c9a5d638434b",
+  "D:\\MCP\\talentserv-ai-hackathon-group-11-backend-db\\.cursor\\hooks\\post_file_cache.py": {
+    "mtime": 1779859519.8719246,
+    "ast_hash": "24780d94d5b4d9f76448f9f78f1da9bb",
     "semantic_hash": ""
   },
-  "/home/runner/work/talentserv-ai-hackathon-group-11-backend-db/talentserv-ai-hackathon-group-11-backend-db/src/whatsapp/auth.py": {
-    "mtime": 1779807906.3602948,
-    "ast_hash": "bcf0fac3b271234d726c9992f6519936",
+  "D:\\MCP\\talentserv-ai-hackathon-group-11-backend-db\\.cursor\\hooks\\pre-compact.sh": {
+    "mtime": 1779859519.8738935,
+    "ast_hash": "e7bb66d297091b6618bcba1ae448a3b1",
     "semantic_hash": ""
   },
-  "/home/runner/work/talentserv-ai-hackathon-group-11-backend-db/talentserv-ai-hackathon-group-11-backend-db/src/whatsapp/formatters.py": {
-    "mtime": 1779807906.3602948,
-    "ast_hash": "a1b3423b8acc495a9a8ad684d9ff4925",
+  "D:\\MCP\\talentserv-ai-hackathon-group-11-backend-db\\.cursor\\hooks\\pre-read.sh": {
+    "mtime": 1779859519.8738935,
+    "ast_hash": "dc430603065e41ca88e46247175b9314",
     "semantic_hash": ""
   },
-  "/home/runner/work/talentserv-ai-hackathon-group-11-backend-db/talentserv-ai-hackathon-group-11-backend-db/src/whatsapp/commands.py": {
-    "mtime": 1779807906.3602948,
-    "ast_hash": "d23ced6e03797768947a7582da78d847",
+  "D:\\MCP\\talentserv-ai-hackathon-group-11-backend-db\\.cursor\\hooks\\pre-shell.helper.filter.sh": {
+    "mtime": 1779859519.8738935,
+    "ast_hash": "9f4ec0fb57eadef4b237279843abadcd",
     "semantic_hash": ""
   },
-  "/home/runner/work/talentserv-ai-hackathon-group-11-backend-db/talentserv-ai-hackathon-group-11-backend-db/src/whatsapp/twilio_webhook.py": {
-    "mtime": 1779807906.3602948,
-    "ast_hash": "00adcf118a750fa08d3955ecc8e21cb3",
+  "D:\\MCP\\talentserv-ai-hackathon-group-11-backend-db\\.cursor\\hooks\\pre-shell.sh": {
+    "mtime": 1779859519.8738935,
+    "ast_hash": "f0a429db1de60245cf08d94057162b43",
     "semantic_hash": ""
   },
-  "/home/runner/work/talentserv-ai-hackathon-group-11-backend-db/talentserv-ai-hackathon-group-11-backend-db/src/whatsapp/__init__.py": {
-    "mtime": 1779807906.3601952,
-    "ast_hash": "8dad02ee0e401cfe1909903cdc490035",
+  "D:\\MCP\\talentserv-ai-hackathon-group-11-backend-db\\.cursor\\hooks\\pre_compact.py": {
+    "mtime": 1779859519.8750882,
+    "ast_hash": "cb39b01717ea240b827e7dbff6c2b4ac",
     "semantic_hash": ""
   },
-  "/home/runner/work/talentserv-ai-hackathon-group-11-backend-db/talentserv-ai-hackathon-group-11-backend-db/src/whatsapp/handlers.py": {
-    "mtime": 1779807906.3602948,
-    "ast_hash": "af41969f19706f5adaf8b83bc4a6fa4c",
+  "D:\\MCP\\talentserv-ai-hackathon-group-11-backend-db\\.cursor\\hooks\\pre_read.py": {
+    "mtime": 1779859519.8750882,
+    "ast_hash": "7cccd0238e016ef4654bd909df48b98c",
     "semantic_hash": ""
   },
-  "/home/runner/work/talentserv-ai-hackathon-group-11-backend-db/talentserv-ai-hackathon-group-11-backend-db/.cursor/hooks.json": {
-    "mtime": 1779807906.3477123,
-    "ast_hash": "a325b59e3bc079592e4fcd063ee3e92f",
+  "D:\\MCP\\talentserv-ai-hackathon-group-11-backend-db\\.cursor\\hooks\\pre_shell.py": {
+    "mtime": 1779859519.8750882,
+    "ast_hash": "d9ff06d19736e8de59b42f9b3c9858bc",
     "semantic_hash": ""
   },
-  "/home/runner/work/talentserv-ai-hackathon-group-11-backend-db/talentserv-ai-hackathon-group-11-backend-db/.cursor/hooks/pre-compact.sh": {
-    "mtime": 1779807906.3488588,
-    "ast_hash": "69381bf7764f6890af0a3e7d1a5817bf",
+  "D:\\MCP\\talentserv-ai-hackathon-group-11-backend-db\\.cursor\\hooks\\session-start.sh": {
+    "mtime": 1779859519.8750882,
+    "ast_hash": "6f928e7660610ea5435e5fce315ecbb1",
     "semantic_hash": ""
   },
-  "/home/runner/work/talentserv-ai-hackathon-group-11-backend-db/talentserv-ai-hackathon-group-11-backend-db/.cursor/hooks/pre-shell.helper.filter.sh": {
-    "mtime": 1779807906.3488588,
-    "ast_hash": "bdf69f83bef45ba5ac1d1cc4fe39f497",
+  "D:\\MCP\\talentserv-ai-hackathon-group-11-backend-db\\.cursor\\hooks\\session_start.py": {
+    "mtime": 1779859519.8750882,
+    "ast_hash": "2de3d65aec7cb0d8816f4c88e0f6c066",
     "semantic_hash": ""
   },
-  "/home/runner/work/talentserv-ai-hackathon-group-11-backend-db/talentserv-ai-hackathon-group-11-backend-db/.cursor/hooks/session-start.sh": {
-    "mtime": 1779807906.3488588,
-    "ast_hash": "8ed43280678566906705b10d6534614e",
+  "D:\\MCP\\talentserv-ai-hackathon-group-11-backend-db\\.husky\\pre-commit": {
+    "mtime": 1779694725.166219,
+    "ast_hash": "927d11aa72c183a8a0c2a52917028b49",
     "semantic_hash": ""
   },
-  "/home/runner/work/talentserv-ai-hackathon-group-11-backend-db/talentserv-ai-hackathon-group-11-backend-db/.cursor/hooks/lib.sh": {
-    "mtime": 1779807906.3488588,
-    "ast_hash": "a03f6a46fe3ce17c15df433cf029043a",
+  "D:\\MCP\\talentserv-ai-hackathon-group-11-backend-db\\.husky\\_\\applypatch-msg": {
+    "mtime": 1779706776.284917,
+    "ast_hash": "0b71c2e7d39daa010985d529f1320b37",
     "semantic_hash": ""
   },
-  "/home/runner/work/talentserv-ai-hackathon-group-11-backend-db/talentserv-ai-hackathon-group-11-backend-db/.cursor/hooks/pre_shell.py": {
-    "mtime": 1779807906.3488588,
-    "ast_hash": "eb046a64ef371e75e1ee92b06f79aca9",
+  "D:\\MCP\\talentserv-ai-hackathon-group-11-backend-db\\.husky\\_\\commit-msg": {
+    "mtime": 1779706776.284917,
+    "ast_hash": "0b71c2e7d39daa010985d529f1320b37",
     "semantic_hash": ""
   },
-  "/home/runner/work/talentserv-ai-hackathon-group-11-backend-db/talentserv-ai-hackathon-group-11-backend-db/.cursor/hooks/cache_cow_lib.py": {
-    "mtime": 1779807906.3487842,
-    "ast_hash": "3dbdd3d6b9797ecd35168c5e77921b7a",
+  "D:\\MCP\\talentserv-ai-hackathon-group-11-backend-db\\.husky\\_\\h": {
+    "mtime": 1779701383.58952,
+    "ast_hash": "ce6c9b78d20eb0b8f445ab473f3f3bf3",
     "semantic_hash": ""
   },
-  "/home/runner/work/talentserv-ai-hackathon-group-11-backend-db/talentserv-ai-hackathon-group-11-backend-db/.cursor/hooks/pre-shell.sh": {
-    "mtime": 1779807906.3488588,
-    "ast_hash": "52891acfcfc78cd13b623d5c5580844d",
+  "D:\\MCP\\talentserv-ai-hackathon-group-11-backend-db\\.husky\\_\\husky.sh": {
+    "mtime": 1779706776.2881343,
+    "ast_hash": "13871d2ab13e8423790ecb2c01c78c18",
     "semantic_hash": ""
   },
-  "/home/runner/work/talentserv-ai-hackathon-group-11-backend-db/talentserv-ai-hackathon-group-11-backend-db/.cursor/hooks/pre_read.py": {
-    "mtime": 1779807906.3488588,
-    "ast_hash": "f719ef161fa21cd6b9417d019a401d4c",
+  "D:\\MCP\\talentserv-ai-hackathon-group-11-backend-db\\.husky\\_\\post-applypatch": {
+    "mtime": 1779706776.2861247,
+    "ast_hash": "0b71c2e7d39daa010985d529f1320b37",
     "semantic_hash": ""
   },
-  "/home/runner/work/talentserv-ai-hackathon-group-11-backend-db/talentserv-ai-hackathon-group-11-backend-db/.cursor/hooks/pre_compact.py": {
-    "mtime": 1779807906.3488588,
-    "ast_hash": "24459760fa6d15c3c398f346c418d670",
+  "D:\\MCP\\talentserv-ai-hackathon-group-11-backend-db\\.husky\\_\\post-checkout": {
+    "mtime": 1779706776.2861247,
+    "ast_hash": "0b71c2e7d39daa010985d529f1320b37",
     "semantic_hash": ""
   },
-  "/home/runner/work/talentserv-ai-hackathon-group-11-backend-db/talentserv-ai-hackathon-group-11-backend-db/.cursor/hooks/pre-read.sh": {
-    "mtime": 1779807906.3488588,
-    "ast_hash": "f4756f683d97df700df0038a5a5befd5",
+  "D:\\MCP\\talentserv-ai-hackathon-group-11-backend-db\\.husky\\_\\post-commit": {
+    "mtime": 1779706776.284917,
+    "ast_hash": "0b71c2e7d39daa010985d529f1320b37",
     "semantic_hash": ""
   },
-  "/home/runner/work/talentserv-ai-hackathon-group-11-backend-db/talentserv-ai-hackathon-group-11-backend-db/.cursor/hooks/post_file_cache.py": {
-    "mtime": 1779807906.3488588,
-    "ast_hash": "351f343207ac9a4f4c8c9fdc0b6beec6",
+  "D:\\MCP\\talentserv-ai-hackathon-group-11-backend-db\\.husky\\_\\post-merge": {
+    "mtime": 1779706776.2861247,
+    "ast_hash": "0b71c2e7d39daa010985d529f1320b37",
     "semantic_hash": ""
   },
-  "/home/runner/work/talentserv-ai-hackathon-group-11-backend-db/talentserv-ai-hackathon-group-11-backend-db/.cursor/hooks/session_start.py": {
-    "mtime": 1779807906.3488588,
-    "ast_hash": "1f3d4c0ab214422ec2ebc821faa71ee8",
+  "D:\\MCP\\talentserv-ai-hackathon-group-11-backend-db\\.husky\\_\\post-rewrite": {
+    "mtime": 1779706776.2861247,
+    "ast_hash": "0b71c2e7d39daa010985d529f1320b37",
     "semantic_hash": ""
   },
-  "/home/runner/work/talentserv-ai-hackathon-group-11-backend-db/talentserv-ai-hackathon-group-11-backend-db/.cursor/hooks/post-file-cache.sh": {
-    "mtime": 1779807906.3488588,
-    "ast_hash": "9fa9c7de483e6afad245937e5eb54d03",
+  "D:\\MCP\\talentserv-ai-hackathon-group-11-backend-db\\.husky\\_\\pre-applypatch": {
+    "mtime": 1779706776.2861247,
+    "ast_hash": "0b71c2e7d39daa010985d529f1320b37",
     "semantic_hash": ""
   },
-  "/home/runner/work/talentserv-ai-hackathon-group-11-backend-db/talentserv-ai-hackathon-group-11-backend-db/sql/seed.sql": {
-    "mtime": 1779807906.359571,
-    "ast_hash": "aaaa9cc2bc8a7992edb86f262aa75182",
+  "D:\\MCP\\talentserv-ai-hackathon-group-11-backend-db\\.husky\\_\\pre-auto-gc": {
+    "mtime": 1779706776.2881343,
+    "ast_hash": "0b71c2e7d39daa010985d529f1320b37",
     "semantic_hash": ""
   },
-  "/home/runner/work/talentserv-ai-hackathon-group-11-backend-db/talentserv-ai-hackathon-group-11-backend-db/sql/schema.sql": {
-    "mtime": 1779807906.3587263,
-    "ast_hash": "bc9e796b7f5a7a13c928c9a5d638434b",
+  "D:\\MCP\\talentserv-ai-hackathon-group-11-backend-db\\.husky\\_\\pre-commit": {
+    "mtime": 1779706776.277667,
+    "ast_hash": "0b71c2e7d39daa010985d529f1320b37",
     "semantic_hash": ""
   },
-  "/home/runner/work/talentserv-ai-hackathon-group-11-backend-db/talentserv-ai-hackathon-group-11-backend-db/tests/test_whatsapp_commands.py": {
-    "mtime": 1779807906.3605797,
-    "ast_hash": "a38582119619ea10c71a61a3b1b05e93",
+  "D:\\MCP\\talentserv-ai-hackathon-group-11-backend-db\\.husky\\_\\pre-merge-commit": {
+    "mtime": 1779706776.277667,
+    "ast_hash": "0b71c2e7d39daa010985d529f1320b37",
     "semantic_hash": ""
   },
-  "/home/runner/work/talentserv-ai-hackathon-group-11-backend-db/talentserv-ai-hackathon-group-11-backend-db/tests/test_tools.py": {
-    "mtime": 1779807906.3605797,
-    "ast_hash": "c42649e174ff9f4d8bb643cf7524abb6",
+  "D:\\MCP\\talentserv-ai-hackathon-group-11-backend-db\\.husky\\_\\pre-push": {
+    "mtime": 1779706776.2881343,
+    "ast_hash": "0b71c2e7d39daa010985d529f1320b37",
     "semantic_hash": ""
   },
-  "/home/runner/work/talentserv-ai-hackathon-group-11-backend-db/talentserv-ai-hackathon-group-11-backend-db/tests/test_grok_enrichment.py": {
-    "mtime": 1779807906.3602948,
-    "ast_hash": "ecc1fd04c6a7934322f57cf06500ced9",
+  "D:\\MCP\\talentserv-ai-hackathon-group-11-backend-db\\.husky\\_\\pre-rebase": {
+    "mtime": 1779706776.2861247,
+    "ast_hash": "0b71c2e7d39daa010985d529f1320b37",
     "semantic_hash": ""
   },
-  "/home/runner/work/talentserv-ai-hackathon-group-11-backend-db/talentserv-ai-hackathon-group-11-backend-db/.husky/pre-commit": {
-    "mtime": 1779807906.3495996,
-    "ast_hash": "401e46050393a6a71aa7a12238299a9b",
+  "D:\\MCP\\talentserv-ai-hackathon-group-11-backend-db\\.husky\\_\\prepare-commit-msg": {
+    "mtime": 1779706776.277667,
+    "ast_hash": "0b71c2e7d39daa010985d529f1320b37",
     "semantic_hash": ""
   },
-  "/home/runner/work/talentserv-ai-hackathon-group-11-backend-db/talentserv-ai-hackathon-group-11-backend-db/scripts/export_graph_tree_jsonl.py": {
-    "mtime": 1779807906.3587263,
-    "ast_hash": "b69f2b94887c1131c3d28e04202fbfde",
+  "D:\\MCP\\talentserv-ai-hackathon-group-11-backend-db\\scripts\\bootstrap-graphify-mcp.ps1": {
+    "mtime": 1779701383.5915143,
+    "ast_hash": "58a8d06b7c698e5183c6f2ff91d249c1",
     "semantic_hash": ""
   },
-  "/home/runner/work/talentserv-ai-hackathon-group-11-backend-db/talentserv-ai-hackathon-group-11-backend-db/scripts/sync_graphify_out.ps1": {
-    "mtime": 1779807906.3587263,
-    "ast_hash": "85b51ee624df154f042ea9a642b6118c",
+  "D:\\MCP\\talentserv-ai-hackathon-group-11-backend-db\\scripts\\bootstrap-graphify-mcp.sh": {
+    "mtime": 1779701383.5923133,
+    "ast_hash": "c1f3cb58440fbc7dba2c893066239e34",
     "semantic_hash": ""
   },
-  "/home/runner/work/talentserv-ai-hackathon-group-11-backend-db/talentserv-ai-hackathon-group-11-backend-db/scripts/bootstrap-graphify-mcp.ps1": {
-    "mtime": 1779807906.3583925,
-    "ast_hash": "c3f1601c5f823ff26d6897ed626c03a2",
+  "D:\\MCP\\talentserv-ai-hackathon-group-11-backend-db\\scripts\\bootstrap-mcp.ps1": {
+    "mtime": 1779701383.5923133,
+    "ast_hash": "7118c889f092f90f7dc99bea16ac3b14",
     "semantic_hash": ""
   },
-  "/home/runner/work/talentserv-ai-hackathon-group-11-backend-db/talentserv-ai-hackathon-group-11-backend-db/scripts/bootstrap-mcp.sh": {
-    "mtime": 1779807906.3587263,
-    "ast_hash": "fdfd37608f3bacf5dcabe7502206e269",
+  "D:\\MCP\\talentserv-ai-hackathon-group-11-backend-db\\scripts\\bootstrap-mcp.sh": {
+    "mtime": 1779701383.5923133,
+    "ast_hash": "c489f04f8c63a2aaab7a4954eae2ea5c",
     "semantic_hash": ""
   },
-  "/home/runner/work/talentserv-ai-hackathon-group-11-backend-db/talentserv-ai-hackathon-group-11-backend-db/scripts/init_db.py": {
-    "mtime": 1779807906.3587263,
-    "ast_hash": "45b3da53f207b13e8976e34da6020530",
+  "D:\\MCP\\talentserv-ai-hackathon-group-11-backend-db\\scripts\\bootstrap-office-leave-mcp.ps1": {
+    "mtime": 1779701383.5923133,
+    "ast_hash": "b84097692a0398f3f53bdacac3fe7195",
     "semantic_hash": ""
   },
-  "/home/runner/work/talentserv-ai-hackathon-group-11-backend-db/talentserv-ai-hackathon-group-11-backend-db/scripts/bootstrap-office-leave-mcp.ps1": {
-    "mtime": 1779807906.3587263,
-    "ast_hash": "00c7af99d17e991b1a188b5c042a119f",
+  "D:\\MCP\\talentserv-ai-hackathon-group-11-backend-db\\scripts\\bootstrap-office-leave-mcp.sh": {
+    "mtime": 1779701383.5923133,
+    "ast_hash": "1c0edb1885516ce5e2ce0abd299d4bc3",
     "semantic_hash": ""
   },
-  "/home/runner/work/talentserv-ai-hackathon-group-11-backend-db/talentserv-ai-hackathon-group-11-backend-db/scripts/demo.ps1": {
-    "mtime": 1779807906.3587263,
-    "ast_hash": "14ee9d979756f3bce07475dffdb308e8",
+  "D:\\MCP\\talentserv-ai-hackathon-group-11-backend-db\\scripts\\bootstrap_mcp.py": {
+    "mtime": 1779701383.5923133,
+    "ast_hash": "2dc67fe913d4b49a38ef3cd23439fa00",
     "semantic_hash": ""
   },
-  "/home/runner/work/talentserv-ai-hackathon-group-11-backend-db/talentserv-ai-hackathon-group-11-backend-db/scripts/install-office-leave-mcp.sh": {
-    "mtime": 1779807906.3587263,
-    "ast_hash": "0627f4745f18b0549f1a93c713cc4c21",
+  "D:\\MCP\\talentserv-ai-hackathon-group-11-backend-db\\scripts\\demo.ps1": {
+    "mtime": 1779859519.9005995,
+    "ast_hash": "b3eae3a96064f0f711d14af251897666",
     "semantic_hash": ""
   },
-  "/home/runner/work/talentserv-ai-hackathon-group-11-backend-db/talentserv-ai-hackathon-group-11-backend-db/scripts/bootstrap_mcp.py": {
-    "mtime": 1779807906.3587263,
-    "ast_hash": "59b1f0bfb5b6f7a730a49f1ddc597261",
+  "D:\\MCP\\talentserv-ai-hackathon-group-11-backend-db\\scripts\\export_graph_tree_jsonl.py": {
+    "mtime": 1779701383.5923133,
+    "ast_hash": "7a267fb43d615e625ceea213c0fae352",
     "semantic_hash": ""
   },
-  "/home/runner/work/talentserv-ai-hackathon-group-11-backend-db/talentserv-ai-hackathon-group-11-backend-db/scripts/mcp_launcher.py": {
-    "mtime": 1779807906.3587263,
-    "ast_hash": "555e1dd583be4f3c38367d38599729a8",
+  "D:\\MCP\\talentserv-ai-hackathon-group-11-backend-db\\scripts\\init_db.py": {
+    "mtime": 1779701383.5923133,
+    "ast_hash": "f0565475d0b5fc6dfce2c3a3433a6508",
     "semantic_hash": ""
   },
-  "/home/runner/work/talentserv-ai-hackathon-group-11-backend-db/talentserv-ai-hackathon-group-11-backend-db/scripts/md_to_pdf.py": {
-    "mtime": 1779807906.3587263,
-    "ast_hash": "bb01be2c22f6588760e1192b4daa64f5",
+  "D:\\MCP\\talentserv-ai-hackathon-group-11-backend-db\\scripts\\install-graphify-mcp.ps1": {
+    "mtime": 1779701383.5923133,
+    "ast_hash": "bec99eb33f7666126f1d96fc1307a829",
     "semantic_hash": ""
   },
-  "/home/runner/work/talentserv-ai-hackathon-group-11-backend-db/talentserv-ai-hackathon-group-11-backend-db/scripts/install-graphify-mcp.ps1": {
-    "mtime": 1779807906.3587263,
-    "ast_hash": "cb5f335a4b2b3a381f1a7fc6903cbb3a",
+  "D:\\MCP\\talentserv-ai-hackathon-group-11-backend-db\\scripts\\install-graphify-mcp.sh": {
+    "mtime": 1779701383.5923133,
+    "ast_hash": "eb99d251a3d5a9c150cfa9d65023a344",
     "semantic_hash": ""
   },
-  "/home/runner/work/talentserv-ai-hackathon-group-11-backend-db/talentserv-ai-hackathon-group-11-backend-db/scripts/bootstrap-mcp.ps1": {
-    "mtime": 1779807906.3587263,
-    "ast_hash": "99b0338fa5995ba0e3376b7afac6b31d",
+  "D:\\MCP\\talentserv-ai-hackathon-group-11-backend-db\\scripts\\install-office-leave-mcp.ps1": {
+    "mtime": 1779701383.5923133,
+    "ast_hash": "6be8bd935f6d7f26e1d4c800d7897c53",
     "semantic_hash": ""
   },
-  "/home/runner/work/talentserv-ai-hackathon-group-11-backend-db/talentserv-ai-hackathon-group-11-backend-db/scripts/bootstrap-office-leave-mcp.sh": {
-    "mtime": 1779807906.3587263,
-    "ast_hash": "f50503b184fa7e00a4e499428e8b40b1",
+  "D:\\MCP\\talentserv-ai-hackathon-group-11-backend-db\\scripts\\install-office-leave-mcp.sh": {
+    "mtime": 1779701383.5923133,
+    "ast_hash": "d2ffde808652f074352b120987398b83",
     "semantic_hash": ""
   },
-  "/home/runner/work/talentserv-ai-hackathon-group-11-backend-db/talentserv-ai-hackathon-group-11-backend-db/scripts/bootstrap-graphify-mcp.sh": {
-    "mtime": 1779807906.3587263,
-    "ast_hash": "4c21cf531ca05cb197c5a8f3e5d7a85f",
+  "D:\\MCP\\talentserv-ai-hackathon-group-11-backend-db\\scripts\\mcp_install_lib.py": {
+    "mtime": 1779859519.9005995,
+    "ast_hash": "ef83834d9e0301b715c00039453def9e",
     "semantic_hash": ""
   },
-  "/home/runner/work/talentserv-ai-hackathon-group-11-backend-db/talentserv-ai-hackathon-group-11-backend-db/scripts/install-office-leave-mcp.ps1": {
-    "mtime": 1779807906.3587263,
-    "ast_hash": "fb49a421620ddc78f65af52545903214",
+  "D:\\MCP\\talentserv-ai-hackathon-group-11-backend-db\\scripts\\mcp_launcher.py": {
+    "mtime": 1779701383.596753,
+    "ast_hash": "a92ed17e14e9999c360877528fca2c6f",
     "semantic_hash": ""
   },
-  "/home/runner/work/talentserv-ai-hackathon-group-11-backend-db/talentserv-ai-hackathon-group-11-backend-db/scripts/mcp_install_lib.py": {
-    "mtime": 1779807906.3587263,
-    "ast_hash": "6222584b3336c476afe0b1a997383f38",
+  "D:\\MCP\\talentserv-ai-hackathon-group-11-backend-db\\scripts\\md_to_pdf.py": {
+    "mtime": 1779859519.9015996,
+    "ast_hash": "85f768016eb1dfce681626eeea01191a",
     "semantic_hash": ""
   },
-  "/home/runner/work/talentserv-ai-hackathon-group-11-backend-db/talentserv-ai-hackathon-group-11-backend-db/scripts/sync_graphify_out.sh": {
-    "mtime": 1779807906.3587263,
-    "ast_hash": "d5b432f01cfc9d31b235a54dec777b08",
+  "D:\\MCP\\talentserv-ai-hackathon-group-11-backend-db\\scripts\\sync_graphify_out.ps1": {
+    "mtime": 1779694725.1800172,
+    "ast_hash": "a29257c495aaa078053a076c9b2bdf1e",
     "semantic_hash": ""
   },
-  "/home/runner/work/talentserv-ai-hackathon-group-11-backend-db/talentserv-ai-hackathon-group-11-backend-db/scripts/install-graphify-mcp.sh": {
-    "mtime": 1779807906.3587263,
-    "ast_hash": "31d0b4ede9778c3a9ef4cd4368cda2eb",
+  "D:\\MCP\\talentserv-ai-hackathon-group-11-backend-db\\scripts\\sync_graphify_out.sh": {
+    "mtime": 1779694725.1800172,
+    "ast_hash": "323683f8326195bdd3953aebd15a9f73",
     "semantic_hash": ""
   },
-  "/home/runner/work/talentserv-ai-hackathon-group-11-backend-db/talentserv-ai-hackathon-group-11-backend-db/scripts/lib/mcp_install_fetch.sh": {
-    "mtime": 1779807906.3587263,
-    "ast_hash": "bece01c3dd1bf26cdbb7c820ca5f32eb",
+  "D:\\MCP\\talentserv-ai-hackathon-group-11-backend-db\\scripts\\lib\\mcp_install_fetch.sh": {
+    "mtime": 1779701383.5923133,
+    "ast_hash": "547fbeb0cc808aff4e0832c0679af1ab",
     "semantic_hash": ""
   },
-  "/home/runner/work/talentserv-ai-hackathon-group-11-backend-db/talentserv-ai-hackathon-group-11-backend-db/README.md": {
-    "mtime": 1779807906.3495996,
-    "ast_hash": "fba0e57248ee83834fe1b3ad97933f4c",
+  "D:\\MCP\\talentserv-ai-hackathon-group-11-backend-db\\sql\\schema.sql": {
+    "mtime": 1779692463.864531,
+    "ast_hash": "6f0c61e976ccecff4f4b4621962b3f84",
     "semantic_hash": ""
   },
-  "/home/runner/work/talentserv-ai-hackathon-group-11-backend-db/talentserv-ai-hackathon-group-11-backend-db/docs/HACKATHON_SUBMISSION.md": {
-    "mtime": 1779807906.3500216,
-    "ast_hash": "9ad1b7f95b562f98bb406c33b00b751c",
+  "D:\\MCP\\talentserv-ai-hackathon-group-11-backend-db\\sql\\seed.sql": {
+    "mtime": 1779692463.8704975,
+    "ast_hash": "cb2aa732c4d4968eb36cd509b751f8a6",
     "semantic_hash": ""
   },
-  "/home/runner/work/talentserv-ai-hackathon-group-11-backend-db/talentserv-ai-hackathon-group-11-backend-db/docs/MCP_SETUP.md": {
-    "mtime": 1779807906.3500216,
-    "ast_hash": "5d4f2955b2e3422da69b6b037dbbe014",
+  "D:\\MCP\\talentserv-ai-hackathon-group-11-backend-db\\src\\db.py": {
+    "mtime": 1779862414.7923813,
+    "ast_hash": "b28d82eff51e0b821707ef79380426e0",
     "semantic_hash": ""
   },
-  "/home/runner/work/talentserv-ai-hackathon-group-11-backend-db/talentserv-ai-hackathon-group-11-backend-db/docs/CACHE_COW.md": {
-    "mtime": 1779807906.3495996,
-    "ast_hash": "9f5fd772d5fb385835200efee6122db1",
+  "D:\\MCP\\talentserv-ai-hackathon-group-11-backend-db\\src\\env.py": {
+    "mtime": 1779859519.9015996,
+    "ast_hash": "ac44c6996c60445bf5264a50437d033c",
     "semantic_hash": ""
   },
-  "/home/runner/work/talentserv-ai-hackathon-group-11-backend-db/talentserv-ai-hackathon-group-11-backend-db/docs/WHATSAPP_DEMO.md": {
-    "mtime": 1779807906.3500216,
-    "ast_hash": "181e8443fd907b8f0e61540244d8c1e3",
+  "D:\\MCP\\talentserv-ai-hackathon-group-11-backend-db\\src\\grok_client.py": {
+    "mtime": 1779859519.9025965,
+    "ast_hash": "7f350c1637378c94ad9b534ea666082f",
     "semantic_hash": ""
   },
-  "/home/runner/work/talentserv-ai-hackathon-group-11-backend-db/talentserv-ai-hackathon-group-11-backend-db/docs/DEMO_QUICKSTART.md": {
-    "mtime": 1779807906.3500216,
-    "ast_hash": "d0e61d33f284d0b5b83235b02c32239d",
+  "D:\\MCP\\talentserv-ai-hackathon-group-11-backend-db\\src\\init_db.py": {
+    "mtime": 1779701383.596753,
+    "ast_hash": "e9fae67aed4072d6cec317b1303e267b",
     "semantic_hash": ""
   },
-  "/home/runner/work/talentserv-ai-hackathon-group-11-backend-db/talentserv-ai-hackathon-group-11-backend-db/.github/workflows/graphify.yml": {
-    "mtime": 1779807906.3495996,
-    "ast_hash": "c95e54e9a1b791b466937dfed2b5fe5b",
+  "D:\\MCP\\talentserv-ai-hackathon-group-11-backend-db\\src\\mcp_enrichment.py": {
+    "mtime": 1779859519.9025965,
+    "ast_hash": "e290571499a338a20952ea4b889c7681",
     "semantic_hash": ""
   },
-  "/home/runner/work/talentserv-ai-hackathon-group-11-backend-db/talentserv-ai-hackathon-group-11-backend-db/graphify-out/memory/query_20260525_115335_why_does_init_db_connect_database_initialization_t.md": {
-    "mtime": 1779807906.3567123,
-    "ast_hash": "fa2e64211f9f2dd90447e6d7e6efa7a0",
+  "D:\\MCP\\talentserv-ai-hackathon-group-11-backend-db\\src\\models.py": {
+    "mtime": 1779859519.9035945,
+    "ast_hash": "bd53afa7051334d3fd92c6ab2974858f",
     "semantic_hash": ""
   },
-  "/home/runner/work/talentserv-ai-hackathon-group-11-backend-db/talentserv-ai-hackathon-group-11-backend-db/graphify-out/memory/query_20260525_115519_is_grok_giving_recommendations_for_mcp_office_leav.md": {
-    "mtime": 1779807906.3580856,
-    "ast_hash": "a3988c7caa5996c76d5f7b4b30ede7a8",
+  "D:\\MCP\\talentserv-ai-hackathon-group-11-backend-db\\src\\server.py": {
+    "mtime": 1779876831.493571,
+    "ast_hash": "bb5914c34ad3e6cc8534546d729385d3",
     "semantic_hash": ""
   },
-  "/home/runner/work/talentserv-ai-hackathon-group-11-backend-db/talentserv-ai-hackathon-group-11-backend-db/docs/HACKATHON_SUBMISSION.pdf": {
-    "mtime": 1779807906.3500216,
-    "ast_hash": "a7a55db0172e06ac02792c0d292c822f",
+  "D:\\MCP\\talentserv-ai-hackathon-group-11-backend-db\\src\\__init__.py": {
+    "mtime": 1779692463.8704975,
+    "ast_hash": "81051bcc2cf1bedf378224b0a93e2877",
+    "semantic_hash": ""
+  },
+  "D:\\MCP\\talentserv-ai-hackathon-group-11-backend-db\\src\\services\\api_client.py": {
+    "mtime": 1779862348.0840087,
+    "ast_hash": "fd1f93ae8802bfd1ed6c2e4e8a07dbab",
+    "semantic_hash": ""
+  },
+  "D:\\MCP\\talentserv-ai-hackathon-group-11-backend-db\\src\\services\\teams_service.py": {
+    "mtime": 1779877266.255264,
+    "ast_hash": "f6dc7e94e629362aa9fcac091c4430ea",
+    "semantic_hash": ""
+  },
+  "D:\\MCP\\talentserv-ai-hackathon-group-11-backend-db\\src\\services\\__init__.py": {
+    "mtime": 1779862443.560758,
+    "ast_hash": "17e0f7b5c600cedf99dcd6fc1b98f971",
+    "semantic_hash": ""
+  },
+  "D:\\MCP\\talentserv-ai-hackathon-group-11-backend-db\\src\\sql\\schema.sql": {
+    "mtime": 1779862419.340578,
+    "ast_hash": "269dcf6d25fc8558f4955c34e6e4dc45",
+    "semantic_hash": ""
+  },
+  "D:\\MCP\\talentserv-ai-hackathon-group-11-backend-db\\src\\sql\\seed.sql": {
+    "mtime": 1779701383.596753,
+    "ast_hash": "cb2aa732c4d4968eb36cd509b751f8a6",
+    "semantic_hash": ""
+  },
+  "D:\\MCP\\talentserv-ai-hackathon-group-11-backend-db\\src\\tools\\leave_tools.py": {
+    "mtime": 1779875519.5112479,
+    "ast_hash": "8ce1eee81a10cc1ef43da1a10278c0e0",
+    "semantic_hash": ""
+  },
+  "D:\\MCP\\talentserv-ai-hackathon-group-11-backend-db\\src\\tools\\__init__.py": {
+    "mtime": 1779862441.5514684,
+    "ast_hash": "17e0f7b5c600cedf99dcd6fc1b98f971",
+    "semantic_hash": ""
+  },
+  "D:\\MCP\\talentserv-ai-hackathon-group-11-backend-db\\src\\whatsapp\\auth.py": {
+    "mtime": 1779859519.9071329,
+    "ast_hash": "ce9bca0be318b6540dcd147d3b22a1e7",
+    "semantic_hash": ""
+  },
+  "D:\\MCP\\talentserv-ai-hackathon-group-11-backend-db\\src\\whatsapp\\commands.py": {
+    "mtime": 1779859519.9081767,
+    "ast_hash": "271ed38975b91263553003cb06141abd",
+    "semantic_hash": ""
+  },
+  "D:\\MCP\\talentserv-ai-hackathon-group-11-backend-db\\src\\whatsapp\\formatters.py": {
+    "mtime": 1779859519.9081767,
+    "ast_hash": "705070d97089ea8e5fb44f009a454521",
+    "semantic_hash": ""
+  },
+  "D:\\MCP\\talentserv-ai-hackathon-group-11-backend-db\\src\\whatsapp\\handlers.py": {
+    "mtime": 1779859519.9081767,
+    "ast_hash": "3199a5f03edca3586803303b65fda379",
+    "semantic_hash": ""
+  },
+  "D:\\MCP\\talentserv-ai-hackathon-group-11-backend-db\\src\\whatsapp\\twilio_webhook.py": {
+    "mtime": 1779859519.9081767,
+    "ast_hash": "a1e8bb202f43f3076c263e537964e64d",
+    "semantic_hash": ""
+  },
+  "D:\\MCP\\talentserv-ai-hackathon-group-11-backend-db\\src\\whatsapp\\__init__.py": {
+    "mtime": 1779859519.9071329,
+    "ast_hash": "3cb90cc6b2da22aa0969a01bc4777abe",
+    "semantic_hash": ""
+  },
+  "D:\\MCP\\talentserv-ai-hackathon-group-11-backend-db\\tests\\test_grok_enrichment.py": {
+    "mtime": 1779859519.9081767,
+    "ast_hash": "bf56df308898fe4c4774f34bddb8b6be",
+    "semantic_hash": ""
+  },
+  "D:\\MCP\\talentserv-ai-hackathon-group-11-backend-db\\tests\\test_tools.py": {
+    "mtime": 1779701383.5986001,
+    "ast_hash": "2bf647d89da18ad399e119cd519d1db2",
+    "semantic_hash": ""
+  },
+  "D:\\MCP\\talentserv-ai-hackathon-group-11-backend-db\\tests\\test_whatsapp_commands.py": {
+    "mtime": 1779859519.9081767,
+    "ast_hash": "f2bfcb1cb70695d99dff2664115544e0",
+    "semantic_hash": ""
+  },
+  "D:\\MCP\\talentserv-ai-hackathon-group-11-backend-db\\README.md": {
+    "mtime": 1779876831.493571,
+    "ast_hash": "d24552b74eb1837168fb3f7487b7c13d",
+    "semantic_hash": ""
+  },
+  "D:\\MCP\\talentserv-ai-hackathon-group-11-backend-db\\.github\\workflows\\graphify.yml": {
+    "mtime": 1779694725.1650746,
+    "ast_hash": "f8ea8a20bbcd85ec751967f6c12cfe6d",
+    "semantic_hash": ""
+  },
+  "D:\\MCP\\talentserv-ai-hackathon-group-11-backend-db\\docs\\CACHE_COW.md": {
+    "mtime": 1779859519.8793933,
+    "ast_hash": "ab045e8aa5335fcc00bd4b582fe35d31",
+    "semantic_hash": ""
+  },
+  "D:\\MCP\\talentserv-ai-hackathon-group-11-backend-db\\docs\\DEMO_QUICKSTART.md": {
+    "mtime": 1779859519.8793933,
+    "ast_hash": "1bf397b9c9d9e18b6d94f6e0724a0d37",
+    "semantic_hash": ""
+  },
+  "D:\\MCP\\talentserv-ai-hackathon-group-11-backend-db\\docs\\HACKATHON_SUBMISSION.md": {
+    "mtime": 1779859519.881402,
+    "ast_hash": "396916130236524169fb8fada55bab01",
+    "semantic_hash": ""
+  },
+  "D:\\MCP\\talentserv-ai-hackathon-group-11-backend-db\\docs\\MCP_SETUP.md": {
+    "mtime": 1779859519.881402,
+    "ast_hash": "df641d1f954e38840f4e581bc43e1ffe",
+    "semantic_hash": ""
+  },
+  "D:\\MCP\\talentserv-ai-hackathon-group-11-backend-db\\docs\\WHATSAPP_DEMO.md": {
+    "mtime": 1779859519.881402,
+    "ast_hash": "efc890a9a65d2b4931c28d1bef97eb1f",
+    "semantic_hash": ""
+  },
+  "D:\\MCP\\talentserv-ai-hackathon-group-11-backend-db\\graphify-out\\memory\\query_20260525_115335_why_does_init_db_connect_database_initialization_t.md": {
+    "mtime": 1779859519.8983345,
+    "ast_hash": "46738504f22f02e1a5caea9eff5f70fc",
+    "semantic_hash": ""
+  },
+  "D:\\MCP\\talentserv-ai-hackathon-group-11-backend-db\\graphify-out\\memory\\query_20260525_115519_is_grok_giving_recommendations_for_mcp_office_leav.md": {
+    "mtime": 1779859519.899598,
+    "ast_hash": "10ca0ce4c5492b141083f800098bf3a3",
+    "semantic_hash": ""
+  },
+  "D:\\MCP\\talentserv-ai-hackathon-group-11-backend-db\\docs\\HACKATHON_SUBMISSION.pdf": {
+    "mtime": 1779859519.881402,
+    "ast_hash": "eb94f8a8ac41998848b2c87912502300",
     "semantic_hash": ""
   }
 }

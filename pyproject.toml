@@ -8,6 +8,7 @@ dependencies = [
   "fastmcp>=2.0.0",
   "httpx>=0.27.0",
   "python-dotenv>=1.0.0",
+  "requests>=2.31.0",
 ]
 
 [project.optional-dependencies]
@@ -18,6 +19,10 @@ whatsapp = [
   "uvicorn[standard]>=0.32.0",
   "twilio>=9.0.0",
   "python-multipart>=0.0.9",
+]
+
+teams = [
+  "requests",
 ]
 
 [project.scripts]
